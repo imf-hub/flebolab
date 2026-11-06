@@ -1,4 +1,11 @@
-import { useEffect, useRef, useState, lazy, Suspense } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  useCallback,
+  lazy,
+  Suspense,
+} from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   ArrowLeft,
@@ -44,6 +51,8 @@ export default function GuidedLesson() {
   return <Player key={lesson.id} lesson={lesson} />;
 }
 function Player({ lesson }: { lesson: Lesson }) {
+  const [mediaReady, setMediaReady] = useState(false);
+  const markReady = useCallback(() => setMediaReady(true), []);
   useEffect(() => {
     document.title = `${lesson.title} · Aula visual · FLEBO LAB IMF`;
   }, [lesson.id]);
@@ -246,14 +255,16 @@ function Player({ lesson }: { lesson: Lesson }) {
                   phase={phase}
                   guide={guide}
                   onCameraInput={cameraInput}
+                  onReady={markReady}
                 />
               ) : lesson.group === "vision" ? (
-                <Vision stage={stage} />
+                <Vision stage={stage} onReady={markReady} />
               ) : lesson.group === "cine" || lesson.id === "DP09" ? (
                 <Cine
                   stage={stage}
                   phase={phase}
                   experimental={lesson.id === "DP09"}
+                  onReady={markReady}
                 />
               ) : (
                 <Doppler
@@ -261,6 +272,7 @@ function Player({ lesson }: { lesson: Lesson }) {
                   stage={stage}
                   phase={phase}
                   timeRef={modelTime}
+                  onReady={markReady}
                 />
               )}
             </Suspense>
@@ -294,6 +306,7 @@ function Player({ lesson }: { lesson: Lesson }) {
                     : "Reproducir guía visual"
               }
               onClick={clock.toggle}
+              disabled={!mediaReady}
             >
               {clock.playing ? <Pause size={20} /> : <Play size={20} />}
             </button>
@@ -342,15 +355,17 @@ function Player({ lesson }: { lesson: Lesson }) {
           <div className="guided-status">
             <span>
               {clock.error ||
-                (!original
-                  ? clock.playing
-                    ? "Guía visual en curso · sin voz · tiempos de lectura"
-                    : "Guía visual sin voz · reproducir o elegir una toma"
-                  : clock.waiting
-                    ? "Cargando audio…"
-                    : clock.playing
-                      ? "Narración en curso · 1×"
-                      : "Pausado · puedes girar, observar o elegir otra toma")}
+                (!mediaReady
+                  ? "Preparando el recurso visual…"
+                  : !original
+                    ? clock.playing
+                      ? "Guía visual en curso · sin voz · tiempos de lectura"
+                      : "Guía visual sin voz · reproducir o elegir una toma"
+                    : clock.waiting
+                      ? "Cargando audio…"
+                      : clock.playing
+                        ? "Narración en curso · 1×"
+                        : "Pausado · puedes girar, observar o elegir otra toma")}
             </span>
             <div>
               <button

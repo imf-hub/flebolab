@@ -27,6 +27,8 @@ Un fallo o tiempo de espera de síntesis no permite asumir si el proveedor consu
 
 ## Tres tipos de contenido
 
+Desde 0.12.1, la reproducción inicial espera la disponibilidad del recurso visual: escena y curva de Twin, geometría anatómica, fotografías o primer cuadro decodificado. Los medios muestran carga/error. El video solicita un cuadro pausado también a tiempo cero; una imagen de portada no equivale a un cuadro decodificado. El cine anticipa el siguiente atlas para reducir pausas de red, conservando sus cuadros originales.
+
 | Material | Qué se anima | Qué no se infiere |
 |---|---|---|
 | Twin | Flujos, trazadores, volumen relativo, activación y valvas ilustrativas | mmHg, dosis de compresión, respuesta de un paciente o biomecánica de tejido |

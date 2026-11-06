@@ -77,3 +77,9 @@ Se mantuvo la prioridad UIP/flebología, seguida de sociedades vasculares y fuen
 ## Reproducibilidad
 
 El código editable está en `src/learning`, las mejoras de escena en `src/labs/twin`, los guiones en `scripts/build-guided-lessons.py`, la procedencia de voz en `docs/narration` y los derivados publicados en `public/media`. Se conservaron los originales del proyecto Flebo Animaciones. La guía de mantenimiento está en [GUIA_PRODUCCION_ANIMACIONES.md](GUIA_PRODUCCION_ANIMACIONES.md).
+
+## Corrección 0.12.1: disponibilidad del recurso
+
+La revisión pública detectó intervalos sin indicación durante la primera descarga de fotografías, anatomía y video. Se añadieron estados de carga/error y la reproducción inicial espera al recurso visual. Twin espera escena y curva; la anatomía espera la geometría; Vision espera ambas imágenes; el cine espera el primer cuadro y Waterloo un cuadro decodificado, incluso a tiempo cero. El cine anticipa el siguiente atlas sin inventar fotogramas.
+
+Se comprobaron en navegador las 31 piezas con su botón de reproducción habilitado después de cargar; el video experimental conserva el salto a 3,66 s. La corrección no modifica guiones, parámetros médicos, imágenes originales ni el número de voces. El informe HTTP comprueba 119 recursos y rangos de audio; los informes públicos y capturas finales se conservan con la entrega local.

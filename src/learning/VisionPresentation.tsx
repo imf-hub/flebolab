@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import { ZoomIn } from "lucide-react";
 import {
   classExamples,
@@ -7,10 +8,20 @@ import {
   c4Subclasses,
 } from "../data/ceap";
 import type { Stage } from "./types";
-export default function VisionPresentation({ stage }: { stage: Stage }) {
+export default function VisionPresentation({
+  stage,
+  onReady,
+}: {
+  stage: Stage;
+  onReady?: () => void;
+}) {
+  const [media, setMedia] = useState<Record<string, "ready" | "error">>({});
   const cls = clinicalClass(stage.clinicalClass ?? null),
     examples = classExamples(cls),
     definition = clinicalClasses.find((c) => c.id === cls)!;
+  useEffect(() => {
+    if (examples.every((image) => media[image.id] === "ready")) onReady?.();
+  }, [media, cls, onReady]);
   return (
     <div className="guided-clinical">
       <div className="guided-clinical-heading">
@@ -37,7 +48,17 @@ export default function VisionPresentation({ stage }: { stage: Stage }) {
               alt={`Ejemplo de origen ${cls}, carpeta ${image.sourceCaseId}`}
               width={image.width}
               height={image.height}
+              onLoad={() => setMedia((m) => ({ ...m, [image.id]: "ready" }))}
+              onError={() => setMedia((m) => ({ ...m, [image.id]: "error" }))}
+              data-ready={media[image.id] === "ready"}
             />
+            {media[image.id] !== "ready" && (
+              <span className="guided-resource-loading" role="status">
+                {media[image.id] === "error"
+                  ? "Imagen no disponible. Abre el banco para revisar el recurso."
+                  : "Cargando fotografía original…"}
+              </span>
+            )}
             <div>
               <span>
                 <b>Etiqueta de origen {cls}</b>

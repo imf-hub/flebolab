@@ -573,6 +573,7 @@ export default function VenousScene({
   onCameraInput,
   tissues,
   onTissuesChange,
+  onReady,
 }: {
   mode: string;
   solution: Solution;
@@ -584,6 +585,7 @@ export default function VenousScene({
   onCameraInput?: () => void;
   tissues?: string[];
   onTissuesChange?: (tissues: string[]) => void;
+  onReady?: () => void;
 }) {
   const controls = useRef<any>(null),
     id = useId(),
@@ -627,6 +629,7 @@ export default function VenousScene({
         onCameraInput={onCameraInput}
         guidedTissues={tissues}
         onTissuesChange={onTissuesChange}
+        onReady={onReady}
       />
     );
   return (
@@ -640,6 +643,7 @@ export default function VenousScene({
       }
     >
       <Canvas
+        onCreated={() => onReady?.()}
         fallback={
           <div className="scene-fallback">
             <p>

@@ -1,7 +1,7 @@
 import { assetUrl } from "../../shared/assets";
 import { Suspense, useMemo, useRef, useState, useEffect, useId } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { OrbitControls, useGLTF, Line } from "@react-three/drei";
+import { OrbitControls, useGLTF, Line, Html } from "@react-three/drei";
 import * as THREE from "three";
 import type { Solution } from "./model";
 import { integratedFlow, phaseAt, type FlowKey } from "./transport";
@@ -45,12 +45,14 @@ function Anatomy({
   onSelect,
   cut,
   isolate,
+  onReady,
 }: {
   tissues: string[];
   selected: string;
   onSelect: (s: string) => void;
   cut: boolean;
   isolate: boolean;
+  onReady?: () => void;
 }) {
   const gltf = useGLTF(assetUrl("/media/anatomy/left-leg-reference.glb"));
   const scene = useMemo(() => {
@@ -65,6 +67,9 @@ function Anatomy({
     s.position.set(-0.557983469, -2.688606646, -0.547637842);
     return s;
   }, [gltf]);
+  useEffect(() => {
+    onReady?.();
+  }, [scene, onReady]);
   useEffect(() => {
     scene.traverse((o) => {
       if (o instanceof THREE.Mesh) {
@@ -121,6 +126,7 @@ export default function ReferenceAnatomy({
   onCameraInput,
   guidedTissues,
   onTissuesChange,
+  onReady,
 }: {
   mode: string;
   solution: Solution;
@@ -130,6 +136,7 @@ export default function ReferenceAnatomy({
   onCameraInput?: () => void;
   guidedTissues?: string[];
   onTissuesChange?: (tissues: string[]) => void;
+  onReady?: () => void;
 }) {
   const controls = useRef<any>(null),
     sceneId = useId();
@@ -163,7 +170,15 @@ export default function ReferenceAnatomy({
           intensity={1.8}
           color="#a1c1e6"
         />
-        <Suspense fallback={null}>
+        <Suspense
+          fallback={
+            <Html center>
+              <div className="model-resource-loading" role="status">
+                Cargando anatomía 3D…
+              </div>
+            </Html>
+          }
+        >
           <Anatomy
             tissues={tissues}
             selected={selected}
@@ -173,6 +188,7 @@ export default function ReferenceAnatomy({
             }}
             cut={cut}
             isolate={isolate}
+            onReady={onReady}
           />
         </Suspense>
         <OrbitControls

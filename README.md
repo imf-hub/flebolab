@@ -1,6 +1,6 @@
 # FLEBOLAB · Instituto Mexicano de Flebología
 
-Laboratorio web de educación médica: hemodinámica interactiva, cine ecográfico real y observación clínica. Versión 0.12.0, 6 de noviembre de 2026.
+Laboratorio web de educación médica: hemodinámica interactiva, cine ecográfico real y observación clínica. Versión 0.12.1, 6 de noviembre de 2026.
 
 - Web de revisión: https://imf-hub.github.io/flebolab/
 - Código y versiones: https://github.com/imf-hub/flebolab

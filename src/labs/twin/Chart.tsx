@@ -9,6 +9,7 @@ export default function Chart({
   onTime,
   channel = "deep",
   flowBranch,
+  onReady,
 }: {
   a: Solution;
   b?: Solution;
@@ -17,10 +18,13 @@ export default function Chart({
   onTime?: (n: number) => void;
   channel?: "deep" | "superficial";
   flowBranch?: "perforator" | "collateral";
+  onReady?: () => void;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const click = useRef(onTime);
   click.current = onTime;
+  const ready = useRef(onReady);
+  ready.current = onReady;
   const field =
     metric === "flow" && flowBranch
       ? flowBranch
@@ -92,6 +96,7 @@ export default function Chart({
       );
       Promise.resolve(rendering).then(() => {
         if (!active || !ref.current) return;
+        ready.current?.();
         (ref.current as any).on("plotly_click", (e: any) =>
           click.current?.(e.points[0].x),
         );

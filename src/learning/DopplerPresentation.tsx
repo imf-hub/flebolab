@@ -208,12 +208,18 @@ export default function DopplerPresentation({
   stage,
   phase,
   timeRef,
+  onReady,
 }: {
   id: string;
   stage: Stage;
   phase: number;
   timeRef: React.RefObject<number>;
+  onReady?: () => void;
 }) {
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => onReady?.());
+    return () => cancelAnimationFrame(frame);
+  }, [onReady]);
   const values = stage.values ?? {},
     state = dopplerState(id, values),
     { p } = state,

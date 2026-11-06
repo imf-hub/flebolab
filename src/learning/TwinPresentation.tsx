@@ -1,4 +1,11 @@
-import { lazy, Suspense, useMemo, useState } from "react";
+import {
+  lazy,
+  Suspense,
+  useMemo,
+  useState,
+  useEffect,
+  useCallback,
+} from "react";
 import type { Lesson, Stage, CameraGuide } from "./types";
 import { solve } from "../labs/twin/model";
 import { scenarioParameters, presentations } from "../labs/twin/scenarioConfig";
@@ -13,6 +20,7 @@ export default function TwinPresentation({
   phase,
   guide,
   onCameraInput,
+  onReady,
 }: {
   lesson: Lesson;
   stage: Stage;
@@ -20,10 +28,21 @@ export default function TwinPresentation({
   phase: number;
   guide: React.RefObject<CameraGuide>;
   onCameraInput: () => void;
+  onReady?: () => void;
 }) {
   const id = stage.scenario ?? "TW03",
     solution = useMemo(() => solve(scenarioParameters(id)), [id]);
   const [actualTissues, setActualTissues] = useState(stage.tissues ?? []);
+  const [sceneReady, setSceneReady] = useState(stage.view === "circuit"),
+    [chartReady, setChartReady] = useState(false);
+  const markSceneReady = useCallback(() => setSceneReady(true), []),
+    markChartReady = useCallback(() => setChartReady(true), []);
+  useEffect(() => {
+    if (stage.view === "circuit") setSceneReady(true);
+  }, [stage.view]);
+  useEffect(() => {
+    if (sceneReady && (lesson.group === "anatomy" || chartReady)) onReady?.();
+  }, [sceneReady, chartReady, lesson.group, onReady]);
   const t = phase * solution.period;
   timeRef.current = t;
   const config = presentations[id],
@@ -78,6 +97,7 @@ export default function TwinPresentation({
               onCameraInput={onCameraInput}
               tissues={stage.tissues}
               onTissuesChange={setActualTissues}
+              onReady={markSceneReady}
             />
           </Suspense>
         )}
@@ -153,6 +173,7 @@ export default function TwinPresentation({
               metric={metric}
               channel={metric === "volume" ? "superficial" : "deep"}
               flowBranch={flowBranch}
+              onReady={markChartReady}
             />
           </Suspense>
           <small className="guided-model-time">

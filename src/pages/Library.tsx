@@ -712,7 +712,7 @@ function Release() {
   return (
     <>
       <PageHead
-        eyebrow="VERSIÓN 0.12.0 / 6 DE NOVIEMBRE DE 2026"
+        eyebrow="VERSIÓN 0.12.1 / 6 DE NOVIEMBRE DE 2026"
         title="Un laboratorio abierto, con alcance explícito."
         body="Versión de revisión profesional publicada desde GitHub. Tres laboratorios interactivos con fuentes visibles."
       />

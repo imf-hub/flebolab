@@ -6,12 +6,18 @@ export default function CinePresentation({
   stage,
   phase,
   experimental = false,
+  onReady,
 }: {
   stage: Stage;
   phase: number;
   experimental?: boolean;
+  onReady?: () => void;
 }) {
   const clipKey = useId().replace(/:/g, "");
+  const [videoState, setVideoState] = useState<"loading" | "ready" | "error">(
+      "loading",
+    ),
+    [atlases, setAtlases] = useState<Record<string, "ready" | "error">>({});
   const video = useRef<HTMLVideoElement>(null),
     videoTarget = useRef(0),
     [length, setLength] = useState(0),
@@ -38,6 +44,16 @@ export default function CinePresentation({
     videoTarget.current = Math.max(0, Math.min(length - 0.04, phase * length));
     if (experimental) syncVideo();
   }, [phase, length, experimental]);
+  useEffect(() => {
+    if (experimental || !atlas) return;
+    const next = clip.frameAtlases?.find(
+      (a) => a.startFrame === atlas.startFrame + atlas.count,
+    );
+    if (next) {
+      const image = new Image();
+      image.src = next.src;
+    }
+  }, [atlas?.src, experimental, clip.id]);
   if (experimental)
     return (
       <div className="guided-cine">
@@ -45,16 +61,44 @@ export default function CinePresentation({
           <span>WATERLOO · RENDERIZADO EXPERIMENTAL</span>
           <b>Flujo femoral</b>
         </header>
-        <video
-          ref={video}
-          src={waterloo.videoPath}
-          poster={waterloo.posterPath}
-          preload="metadata"
-          playsInline
-          onLoadedMetadata={(e) => setLength(e.currentTarget.duration)}
-          onSeeked={syncVideo}
-          aria-label="Renderizado experimental Waterloo"
-        />
+        <div className="guided-video-viewport">
+          <video
+            ref={video}
+            src={waterloo.videoPath}
+            poster={waterloo.posterPath}
+            preload="auto"
+            playsInline
+            onLoadedMetadata={(e) => {
+              const duration = e.currentTarget.duration;
+              setLength(duration);
+              videoTarget.current = Math.max(
+                0,
+                Math.min(duration - 0.04, phase * duration),
+              );
+              // Request a decoded paused frame, including at time zero; a poster alone is not readiness.
+              e.currentTarget.currentTime = videoTarget.current;
+            }}
+            onSeeked={() => {
+              setVideoState("ready");
+              onReady?.();
+              syncVideo();
+            }}
+            onLoadedData={() => {
+              setVideoState("ready");
+              onReady?.();
+            }}
+            onError={() => setVideoState("error")}
+            data-ready={videoState === "ready"}
+            aria-label="Renderizado experimental Waterloo"
+          />
+          {videoState !== "ready" && (
+            <span className="guided-resource-loading" role="status">
+              {videoState === "error"
+                ? "Video no disponible. Consulta su origen en Texto y fuentes."
+                : "Cargando renderizado original…"}
+            </span>
+          )}
+        </div>
         <div className="cine-source-time">
           <span>Posición del extracto</span>
           <b>{(phase * 100).toFixed(0)}%</b>
@@ -97,10 +141,25 @@ export default function CinePresentation({
               width={atlas.columns * clip.width}
               height={atlas.rows * clip.height}
               clipPath={`url(#${clipKey})`}
+              onLoad={() => {
+                setAtlases((a) => ({ ...a, [atlas.src]: "ready" }));
+                onReady?.();
+              }}
+              onError={() =>
+                setAtlases((a) => ({ ...a, [atlas.src]: "error" }))
+              }
+              data-ready={atlases[atlas.src] === "ready"}
             />
           </svg>
         ) : (
           <img src={clip.poster} alt="Referencia del cine" />
+        )}
+        {atlas && atlases[atlas.src] !== "ready" && (
+          <span className="guided-resource-loading" aria-live="off">
+            {atlases[atlas.src] === "error"
+              ? "Cuadros no disponibles. Abre el laboratorio para revisar el recurso."
+              : "Cargando cuadros originales…"}
+          </span>
         )}
         <span className="indexed-frame-number">
           CUADRO ORIGINAL {frame + 1} / {clip.frameCount}
