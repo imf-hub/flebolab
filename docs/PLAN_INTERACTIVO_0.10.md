@@ -1,3 +1,5 @@
+> Dirección visual vigente 0.10.1: tema claro/blanco por defecto, rojo IMF, logotipo horizontal y sello originales. Se conserva la distribución interactiva aprobada. Véase [identidad visual](IDENTIDAD_VISUAL_IMF.md).
+
 # Plan ejecutado — FLEBOLAB interactivo 0.10
 
 Fecha: 6 de noviembre de 2026. Corrección de dirección: repositorio y publicación en GitHub Pages. El subdominio de Hostinger se conectará después de la revisión. La carpeta canónica es `FLEBOLAB/app`; el checkout anterior de Sites se conserva como antecedente local y no es el origen de esta publicación.
@@ -11,7 +13,7 @@ Una web de laboratorio en la que el objeto, el cine y la fotografía ocupan el c
 | Fase | Entrega | Estado |
 |---|---|---|
 | 1 · Base | Checkout GitHub independiente, Node 24, lockfile, estructura por laboratorios y catálogos | Ejecutada |
-| 2 · Dirección visual | Referencias de MotionSites consultadas con la sesión de la biblioteca del usuario; composición oscura, objeto central, instrumentos y movimiento breve | Ejecutada |
+| 2 · Dirección visual | Referencias de MotionSites consultadas con la sesión de la biblioteca del usuario; composición clara sobre blanco, rojo institucional, objeto central, instrumentos y movimiento breve | Ejecutada |
 | 3 · Portada | 3D real, selector válvulas/bomba/gravedad, cálculo y acceso directo al perfil elegido | Ejecutada |
 | 4 · Twin | Contrato de vista para cada perfil, válvula semilunar dentro de su pared, red con seis flujos, cuatro compartimentos, circuito y comparación | Ejecutada |
 | 5 · Medios | Se conserva lote verificado de 72 cines/96 fotos/12 parejas térmicas; controles, anotaciones y rutas corregidos | Ejecutada |

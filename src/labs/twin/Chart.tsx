@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import type { Solution } from "./model";
+import { theme } from "../../shared/theme";
 export default function Chart({
   a,
   b,
@@ -37,7 +38,7 @@ export default function Chart({
           name: "Escenario A",
           type: "scatter",
           mode: "lines",
-          line: { color: "#8ee7ff", width: 2.5 },
+          line: { color: theme.brand, width: 2.5 },
         },
         ...(b
           ? [
@@ -47,7 +48,7 @@ export default function Chart({
                 name: "Escenario B",
                 type: "scatter",
                 mode: "lines",
-                line: { color: "#e0a3ff", width: 2, dash: "dot" },
+                line: { color: theme.deep, width: 2, dash: "dot" },
               },
             ]
           : []),
@@ -59,19 +60,24 @@ export default function Chart({
           margin: { l: 48, r: 12, t: 15, b: 45 },
           paper_bgcolor: "transparent",
           plot_bgcolor: "transparent",
-          font: { family: "system-ui", color: "#8598aa", size: 11 },
+          font: { family: "system-ui", color: theme.muted, size: 11 },
+          hoverlabel: {
+            bgcolor: theme.paper,
+            bordercolor: theme.line,
+            font: { color: theme.ink },
+          },
           showlegend: !!b,
           legend: { orientation: "h", x: 0, y: 1.18 },
           xaxis: {
             title: { text: "Tiempo del modelo (s)" },
             range: [0, a.period * 2],
-            gridcolor: "#ffffff0c",
-            zerolinecolor: "#ffffff20",
+            gridcolor: theme.line,
+            zerolinecolor: "#a5b0b8",
           },
           yaxis: {
             title: { text: "Unidades relativas" },
-            gridcolor: "#ffffff0c",
-            zerolinecolor: "#ffffff20",
+            gridcolor: theme.line,
+            zerolinecolor: "#a5b0b8",
           },
           hovermode: "x unified",
         },

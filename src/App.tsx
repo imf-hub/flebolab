@@ -1,6 +1,7 @@
 import { useState, lazy, Suspense } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { MotionConfig, motion, AnimatePresence } from "motion/react";
+import { assetUrl } from "./shared/assets";
 import {
   Activity,
   ScanLine,
@@ -15,12 +16,16 @@ const Home = lazy(() => import("./pages/LaboratoryHome"));
 export function Brand() {
   return (
     <Link to="/" className="brand" aria-label="FLEBO LAB inicio">
-      <span className="brand-mark">
-        <Activity size={23} />
-      </span>
-      <span>
+      <img
+        className="imf-horizontal"
+        src={assetUrl("/brand/imf-horizontal.png")}
+        alt="Instituto Mexicano de Flebología"
+        width="501"
+        height="128"
+      />
+      <span className="product-brand">
         FLEBO<span className="brand-light">LAB</span>
-        <small>INSTITUTO MEXICANO DE FLEBOLOGÍA</small>
+        <small>LABORATORIOS INTERACTIVOS</small>
       </span>
     </Link>
   );
@@ -121,9 +126,18 @@ export default function App() {
       </main>
       <footer className="site-footer">
         <div className="container lab-footer">
-          <span>
-            FLEBO LAB <b>/</b> IMF <span className="footer-version">0.10</span>
-          </span>
+          <div className="footer-institution">
+            <img
+              src={assetUrl("/brand/imf-sello.jpg")}
+              alt="Sello del Instituto Mexicano de Flebología"
+              width="1080"
+              height="1080"
+            />
+            <span>
+              <b>FLEBOLAB</b>
+              <small>Instituto Mexicano de Flebología</small>
+            </span>
+          </div>
           <div>
             <Link to="/recorridos">Recorridos</Link>
             <Link to="/glosario">Glosario</Link>

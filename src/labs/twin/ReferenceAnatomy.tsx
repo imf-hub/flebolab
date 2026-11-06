@@ -75,11 +75,11 @@ function Anatomy({
         m.depthWrite = tissue === "vein";
         m.color.set(
           o.userData.bodypartsId === selected
-            ? "#ffcf7a"
+            ? "#bd292e"
             : tissue === "vein"
-              ? "#86b6dc"
+              ? "#46779c"
               : tissue === "bone"
-                ? "#e4d7bf"
+                ? "#b8aa8e"
                 : "#9c6c79",
         );
         m.clippingPlanes = cut
@@ -134,7 +134,7 @@ export default function ReferenceAnatomy({
         key={reset}
         camera={{ position: [0, 0.3, 9], fov: 43 }}
         gl={{ antialias: true, localClippingEnabled: true, alpha: false }}
-        onCreated={({ gl }) => gl.setClearColor("#0c1420")}
+        onCreated={({ gl }) => gl.setClearColor("#f7f9fb")}
       >
         <ambientLight intensity={1.6} />
         <directionalLight position={[4, 5, 7]} intensity={3} />

@@ -1,0 +1,23 @@
+{
+  "version": "0.10.1",
+  "date": "2026-11-06",
+  "method": "Browser screenshots, visible controls and read-only computed styles",
+  "defaultColorScheme": "light",
+  "bodyBackground": "rgb(255, 255, 255)",
+  "desktop": { "viewportWidth": 1280, "contentWidth": 1265 },
+  "mobile": { "viewportWidth": 390, "viewportHeight": 844, "contentWidth": 375 },
+  "logosLoaded": ["imf-horizontal.png", "imf-sello.jpg"],
+  "sealMobileSize": { "width": 68, "height": 68 },
+  "sampledContrastRatios": {
+    "primaryButton": 5.97,
+    "homeParagraph": 5.57,
+    "redHeadline": 5.97
+  },
+  "reviewedViews": ["home", "flow", "valve", "anatomy", "circuit", "Plotly curves", "Doppler", "photo viewer", "mobile navigation", "institutional footer"],
+  "runtimeErrorsObserved": [],
+  "automatedTestsPassed": 59,
+  "contentCheck": "passed",
+  "productionBuildBase": "/flebolab/",
+  "productionBuild": "passed",
+  "clinicalSourceMediaModified": false
+}

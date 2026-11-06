@@ -1,10 +1,11 @@
 # FLEBOLAB · Instituto Mexicano de Flebología
 
-Laboratorio web de educación médica: hemodinámica interactiva, cine ecográfico real y observación clínica. Versión 0.10.0, 6 de noviembre de 2026.
+Laboratorio web de educación médica: hemodinámica interactiva, cine ecográfico real y observación clínica. Versión 0.10.1, 6 de noviembre de 2026.
 
 - Web de revisión: https://imf-hub.github.io/flebolab/
 - Código y versiones: https://github.com/imf-hub/flebolab
 - Plan ejecutado: [PLAN_INTERACTIVO_0.10.md](docs/PLAN_INTERACTIVO_0.10.md)
+- Identidad visual: [IDENTIDAD_VISUAL_IMF.md](docs/IDENTIDAD_VISUAL_IMF.md)
 - Pruebas y límites: [AUDITORIA_INTERACTIVA_0.10.md](docs/AUDITORIA_INTERACTIVA_0.10.md)
 
 ## Ejecutar
@@ -34,7 +35,7 @@ npm run build
 - `scripts`: preparación de medios, validación, generadores y avisos de licencias.
 - `docs`: plan, arquitectura, evidencia y límites de revisión médica.
 
-React 19, TypeScript 5.9, Vite 7, Three.js, React Three Fiber 9, Drei 10, postprocessing, Motion, Plotly.js básico y OpenSeadragon. Manrope e IBM Plex Mono se sirven localmente. Las versiones exactas están fijadas en package-lock.json. La app estática no necesita cuentas, servicios de pago, secretos ni base de datos remota. Favoritos, anotaciones y progreso residen en el navegador.
+React 19, TypeScript 5.9, Vite 7, Three.js, React Three Fiber 9, Drei 10, postprocessing, Motion, Plotly.js básico y OpenSeadragon. El tema predeterminado es claro/blanco, con rojo institucional y los logotipos originales del IMF. Manrope e IBM Plex Mono se sirven localmente. Las versiones exactas están fijadas en package-lock.json. La app estática no necesita cuentas, servicios de pago, secretos ni base de datos remota. Favoritos, anotaciones y progreso residen en el navegador.
 
 ## Cobertura
 

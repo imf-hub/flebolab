@@ -9,7 +9,7 @@ import {
 } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { EffectComposer, Bloom } from "@react-three/postprocessing";
+import { theme } from "../../shared/theme";
 import * as THREE from "three";
 import type { Solution } from "./model";
 import { integratedFlow, phaseAt, sampleAt, type FlowKey } from "./transport";
@@ -21,10 +21,10 @@ export type CameraPose = {
   target: [number, number, number];
 };
 const colors = {
-  deep: "#80dcff",
-  superficial: "#e69bff",
-  perforator: "#7effc4",
-  collateral: "#ffd69b",
+  deep: theme.deep,
+  superficial: theme.superficial,
+  perforator: theme.perforator,
+  collateral: theme.collateral,
 };
 const curve = (points: number[][]) =>
   new THREE.CatmullRomCurve3(
@@ -138,9 +138,7 @@ function Transport({
       mesh.current.setMatrixAt(i, helper.matrix);
     }
     mesh.current.instanceMatrix.needsUpdate = true;
-    material.current?.color
-      .set(q < -0.00001 ? "#ffab7d" : color)
-      .multiplyScalar(1.65);
+    material.current?.color.set(q < -0.00001 ? theme.reverse : color);
   });
   return (
     <instancedMesh
@@ -269,7 +267,7 @@ function Leaflet({
   return (
     <mesh ref={mesh} geometry={geometry}>
       <meshPhysicalMaterial
-        color="#eac3d9"
+        color="#cb8a95"
         roughness={0.48}
         metalness={0.07}
         clearcoat={0.16}
@@ -303,11 +301,11 @@ function Valve({
           args={[0.27, 0.27, 1.25, 48, 1, true, Math.PI / 4, Math.PI * 1.5]}
         />
         <meshPhysicalMaterial
-          color="#83dcf8"
+          color="#497891"
           metalness={0.2}
           roughness={0.28}
           transparent
-          opacity={0.14}
+          opacity={0.22}
           side={THREE.DoubleSide}
           depthWrite={false}
         />
@@ -315,7 +313,7 @@ function Valve({
       {[-0.445, 0.805].map((y) => (
         <mesh key={y} position={[0, y, 0]} rotation={[Math.PI / 2, 0, 0]}>
           <torusGeometry args={[0.27, 0.006, 8, 48, Math.PI * 1.5]} />
-          <meshBasicMaterial color="#71d6ee" />
+          <meshBasicMaterial color="#497086" />
         </mesh>
       ))}
       <Leaflet
@@ -351,8 +349,8 @@ function Muscle({
         <cylinderGeometry args={[0.34, 0.39, 1.65, 12, 4, true]} />
         <meshStandardMaterial
           ref={material}
-          color="#b49bff"
-          emissive="#a673e3"
+          color="#956984"
+          emissive="#a7798d"
           wireframe
           transparent
           opacity={focus === "pump" ? 0.35 : 0.12}
@@ -462,7 +460,9 @@ function Network({
         >
           <torusGeometry args={[0.17, 0.012, 8, 32]} />
           <meshBasicMaterial
-            color={solution.parameters.obstruction > 1 ? "#ffb38a" : "#365468"}
+            color={
+              solution.parameters.obstruction > 1 ? theme.reverse : "#9aa8b0"
+            }
             transparent
             opacity={0.2 + solution.parameters.obstruction / 10}
           />
@@ -484,7 +484,7 @@ function Network({
               ]}
             />
             <meshBasicMaterial
-              color="#d6b1ff"
+              color={theme.superficial}
               transparent
               opacity={0.45 + solution.parameters.compression * 0.25}
             />
@@ -574,11 +574,15 @@ export default function VenousScene({
         }}
       >
         <ambientLight intensity={1.2} />
-        <directionalLight position={[3, 4, 5]} intensity={3} color="#b5eeff" />
+        <directionalLight
+          position={[3, 4, 5]}
+          intensity={2.2}
+          color="#ffffff"
+        />
         <directionalLight
           position={[-4, -1, 2]}
-          intensity={2.5}
-          color="#d99aff"
+          intensity={1.1}
+          color="#f8e7e9"
         />
         <Suspense fallback={null}>
           {mode === "valve" ? (
@@ -611,9 +615,6 @@ export default function VenousScene({
         {cameraPose && (
           <CameraSync pose={cameraPose} id={id} controls={controls} />
         )}
-        <EffectComposer multisampling={0}>
-          <Bloom intensity={0.65} luminanceThreshold={1.2} mipmapBlur />
-        </EffectComposer>
       </Canvas>
       <div className="scene-top">
         <span className="nature-badge">

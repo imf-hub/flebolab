@@ -1,3 +1,4 @@
+import { theme } from "../../shared/theme";
 import type { Solution } from "./model";
 import { sampleAt } from "./transport";
 export default function Circuit({
@@ -15,7 +16,7 @@ export default function Circuit({
       p: s.pressure,
       v: s.volume,
       label: "Profundo distal",
-      color: "#80dcff",
+      color: theme.deep,
     },
     {
       x: 200,
@@ -23,7 +24,7 @@ export default function Circuit({
       p: s.proximalDeepPressure,
       v: s.proximalDeepVolume,
       label: "Profundo proximal",
-      color: "#80dcff",
+      color: theme.deep,
     },
     {
       x: 570,
@@ -31,7 +32,7 @@ export default function Circuit({
       p: s.superficialPressure,
       v: s.superficialVolume,
       label: "Superficial distal",
-      color: "#e69bff",
+      color: theme.superficial,
     },
     {
       x: 570,
@@ -39,7 +40,7 @@ export default function Circuit({
       p: s.proximalSuperficialPressure,
       v: s.proximalSuperficialVolume,
       label: "Superficial proximal",
-      color: "#e69bff",
+      color: theme.superficial,
     },
   ];
   const edge = (
@@ -57,7 +58,7 @@ export default function Circuit({
         y1={q < 0 ? y2 : y1}
         x2={q < 0 ? x1 : x2}
         y2={q < 0 ? y1 : y2}
-        stroke={q < 0 ? "#ffab7d" : color}
+        stroke={q < 0 ? theme.reverse : color}
         strokeWidth={2 + Math.min(6, Math.abs(q) * 2)}
         markerEnd={Math.abs(q) > 1e-6 ? "url(#circuit-arrow)" : undefined}
       />
@@ -96,13 +97,31 @@ export default function Circuit({
             <path d="M0 0L10 5L0 10z" fill="context-stroke" />
           </marker>
         </defs>
-        {edge(200, 265, 200, 140, s.flow, "Qd", "#80dcff")}
-        {edge(570, 265, 570, 140, s.superficialFlow, "Qs", "#e69bff")}
-        {edge(530, 300, 240, 300, s.perforator, "Qp", "#7effc4")}
-        {edge(200, 60, 330, 30, s.deepOut, "Salida d", "#80dcff")}
-        {edge(570, 60, 450, 30, s.superficialOut, "Salida s", "#e69bff")}
+        {edge(200, 265, 200, 140, s.flow, "Qd", theme.deep)}
+        {edge(570, 265, 570, 140, s.superficialFlow, "Qs", theme.superficial)}
+        {edge(530, 300, 240, 300, s.perforator, "Qp", theme.perforator)}
+        {edge(200, 60, 330, 30, s.deepOut, "Salida d", theme.deep)}
+        {edge(
+          570,
+          60,
+          450,
+          30,
+          s.superficialOut,
+          "Salida s",
+          theme.superficial,
+        )}
         {solution.parameters.collateral && (
-          <g>{edge(240, 340, 450, 55, s.collateral, "Colateral", "#ffd69b")}</g>
+          <g>
+            {edge(
+              240,
+              340,
+              450,
+              55,
+              s.collateral,
+              "Colateral",
+              theme.collateral,
+            )}
+          </g>
         )}
         {nodes.map((n) => (
           <g key={n.label}>
@@ -110,7 +129,7 @@ export default function Circuit({
               cx={n.x}
               cy={n.y}
               r={32 + Math.sqrt(Math.max(0, n.v)) * 2}
-              fill="#111d2a"
+              fill={theme.paper}
               stroke={n.color}
               strokeWidth="1.5"
             />
@@ -118,7 +137,7 @@ export default function Circuit({
               x={n.x}
               y={n.y - 5}
               textAnchor="middle"
-              fill="#eff5ff"
+              fill={theme.ink}
               fontSize="14"
             >
               P {n.p.toFixed(2)}
@@ -136,14 +155,20 @@ export default function Circuit({
               x={n.x}
               y={n.y + 72}
               textAnchor="middle"
-              fill="#a1afc0"
+              fill={theme.muted}
               fontSize="13"
             >
               {n.label}
             </text>
           </g>
         ))}
-        <text x="390" y="430" textAnchor="middle" fill="#71869d" fontSize="12">
+        <text
+          x="390"
+          y="430"
+          textAnchor="middle"
+          fill={theme.muted}
+          fontSize="12"
+        >
           Unidades relativas · Entradas constantes 0,48 + 0,22 · dV/dt =
           entradas − salidas
         </text>

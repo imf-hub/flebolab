@@ -146,7 +146,7 @@ export default function LaboratoryHome() {
               <polyline
                 points={signal}
                 fill="none"
-                stroke="#91e7ff"
+                stroke="var(--red)"
                 strokeWidth="1.5"
               />
             </svg>

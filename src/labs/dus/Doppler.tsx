@@ -79,12 +79,12 @@ export default function Doppler({
     wrapped = wrapDoppler(original, prf);
   const curveColor =
     lesson.demo === "color" && velocity === 0
-      ? "#aeb7b6"
+      ? "#66727a"
       : lesson.demo === "color"
         ? velocity >= 0 !== Boolean(val("invert", 0))
-          ? "#e46f67"
-          : "#69a7e5"
-        : "#f6d998";
+          ? "#bd332d"
+          : "#286fa0"
+        : "#bd292e";
   const duration = val("duration", 0.7),
     event = lesson.demo === "reflux" ? 1.5 : val("eventTime", 2);
   const pts = Array.from({ length: 400 }, (_, i) => {
@@ -163,7 +163,7 @@ export default function Doppler({
                     height="35"
                     patternUnits="userSpaceOnUse"
                   >
-                    <path d="M60 0H0V35" fill="none" stroke="#ffffff10" />
+                    <path d="M60 0H0V35" fill="none" stroke="#dce3e8" />
                   </pattern>
                 </defs>
                 <rect
@@ -175,7 +175,7 @@ export default function Doppler({
                 />
                 <path
                   d={`M60 35V335H660M60 ${baseline}H660`}
-                  stroke="#bdc7bd"
+                  stroke="#65727b"
                   fill="none"
                 />
                 <polyline
@@ -195,14 +195,14 @@ export default function Doppler({
                     />
                     <path
                       d={`M${60 + (event / 6) * 600} 50v260M${60 + ((event + duration) / 6) * 600} 50v260`}
-                      stroke="#f39a9c"
+                      stroke="#bd292e"
                       strokeDasharray="4 4"
                     />
                     <text
                       x={60 + ((event + duration / 2) / 6) * 600}
                       y="75"
                       textAnchor="middle"
-                      fill="#f8b4ac"
+                      fill="#a3212b"
                       fontSize="14"
                     >
                       {duration.toFixed(2)} s
@@ -216,7 +216,7 @@ export default function Doppler({
                     y="357"
                     textAnchor="middle"
                     fontSize="12"
-                    fill="#bdc7bd"
+                    fill="#65727b"
                   >
                     {i}s
                   </text>
@@ -225,16 +225,16 @@ export default function Doppler({
                   x="47"
                   y={baseline + 4}
                   textAnchor="end"
-                  fill="#bdc7bd"
+                  fill="#65727b"
                   fontSize="12"
                 >
                   0
                 </text>
                 <text
-                  x="40"
-                  y="50"
-                  textAnchor="end"
-                  fill="#bdc7bd"
+                  x="60"
+                  y="22"
+                  textAnchor="start"
+                  fill="#65727b"
                   fontSize="12"
                 >
                   {alias
@@ -251,13 +251,13 @@ export default function Doppler({
                         x2="660"
                         y1={baseline - sign * 135}
                         y2={baseline - sign * 135}
-                        stroke="#bdc7bd"
+                        stroke="#65727b"
                         strokeDasharray="5 5"
                       />
                       <text
                         x="65"
                         y={baseline - sign * 135 - 5}
-                        fill="#bdc7bd"
+                        fill="#65727b"
                         fontSize="12"
                       >
                         {(sign * prf) / 2} Hz · Nyquist
@@ -268,7 +268,7 @@ export default function Doppler({
                   x="360"
                   y="384"
                   textAnchor="middle"
-                  fill="#bdc7bd"
+                  fill="#65727b"
                   fontSize="11"
                 >
                   Tiempo sintético (s) · 0 a 6

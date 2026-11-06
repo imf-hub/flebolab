@@ -42,4 +42,4 @@ El modelo1.1 aplica estabilización periódica adaptativa, mínimo12ciclos y tre
 
 ## Revisión interactiva 0.10
 
-Ver [plan](PLAN_INTERACTIVO_0.10.md) y [auditoría](AUDITORIA_INTERACTIVA_0.10.md). Motion añade transiciones breves con movimiento reducido, postprocessing realza trazadores, y las fuentes se sirven localmente. El estado URL es autoritativo en Twin; los otros laboratorios aceptan enlaces de caso/lección sin conservar una selección anterior.
+Ver [plan](PLAN_INTERACTIVO_0.10.md) y [auditoría](AUDITORIA_INTERACTIVA_0.10.md). Motion añade transiciones breves con movimiento reducido y las fuentes se sirven localmente. La versión 0.10.1 usa tema claro fijo, paleta roja institucional y colores de gráficos/escenas adecuados a fondos claros. Los trazadores usan luz y materiales sin bloom. El estado URL es autoritativo en Twin; los otros laboratorios aceptan enlaces de caso/lección sin conservar una selección anterior.
