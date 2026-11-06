@@ -20,6 +20,25 @@ export default function VisionPresentation({
     examples = classExamples(cls),
     definition = clinicalClasses.find((c) => c.id === cls)!;
   useEffect(() => {
+    const loaders = examples.map((source) => {
+      const image = new Image();
+      const ready = () =>
+        setMedia((m) =>
+          m[source.id] === "ready" ? m : { ...m, [source.id]: "ready" },
+        );
+      image.onload = ready;
+      image.onerror = () => setMedia((m) => ({ ...m, [source.id]: "error" }));
+      image.src = source.image;
+      if (image.complete && image.naturalWidth > 0) ready();
+      return image;
+    });
+    return () =>
+      loaders.forEach((image) => {
+        image.onload = null;
+        image.onerror = null;
+      });
+  }, [cls]);
+  useEffect(() => {
     if (examples.every((image) => media[image.id] === "ready")) onReady?.();
   }, [media, cls, onReady]);
   return (

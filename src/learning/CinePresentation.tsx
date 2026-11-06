@@ -46,6 +46,18 @@ export default function CinePresentation({
   }, [phase, length, experimental]);
   useEffect(() => {
     if (experimental || !atlas) return;
+    // SVG image load events are inconsistent for cached resources. Observe a native image request too.
+    const current = new Image();
+    const ready = () => {
+      setAtlases((a) =>
+        a[atlas.src] === "ready" ? a : { ...a, [atlas.src]: "ready" },
+      );
+      onReady?.();
+    };
+    current.onload = ready;
+    current.onerror = () => setAtlases((a) => ({ ...a, [atlas.src]: "error" }));
+    current.src = atlas.src;
+    if (current.complete && current.naturalWidth > 0) ready();
     const next = clip.frameAtlases?.find(
       (a) => a.startFrame === atlas.startFrame + atlas.count,
     );
@@ -53,7 +65,11 @@ export default function CinePresentation({
       const image = new Image();
       image.src = next.src;
     }
-  }, [atlas?.src, experimental, clip.id]);
+    return () => {
+      current.onload = null;
+      current.onerror = null;
+    };
+  }, [atlas?.src, experimental, clip.id, onReady]);
   if (experimental)
     return (
       <div className="guided-cine">
