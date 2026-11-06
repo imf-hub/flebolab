@@ -1,7 +1,9 @@
+import { References } from "../../shared/References";
 import { useEffect, useRef, useState } from "react";
-import { dopplerLessons, sources } from "../../data/educational";
+import { dopplerLessons } from "../../data/educational";
 import { Note, Range, SourceLink } from "../../shared/UI";
 import { RotateCcw } from "lucide-react";
+import { wrapDoppler, projectedVelocity } from "./physics";
 import waterloo from "../../data/waterloo.json";
 function Experimental() {
   const asset = waterloo;
@@ -74,13 +76,15 @@ export default function Doppler({
   const alias = lesson.demo === "aliasing",
     prf = val("prf", 1000),
     original = val("shift", 800),
-    wrapped = ((((original + prf / 2) % prf) + prf) % prf) - prf / 2;
+    wrapped = wrapDoppler(original, prf);
   const curveColor =
-    lesson.demo === "color"
-      ? velocity >= 0 !== Boolean(val("invert", 0))
-        ? "#e46f67"
-        : "#69a7e5"
-      : "#f6d998";
+    lesson.demo === "color" && velocity === 0
+      ? "#aeb7b6"
+      : lesson.demo === "color"
+        ? velocity >= 0 !== Boolean(val("invert", 0))
+          ? "#e46f67"
+          : "#69a7e5"
+        : "#f6d998";
   const duration = val("duration", 0.7),
     event = lesson.demo === "reflux" ? 1.5 : val("eventTime", 2);
   const pts = Array.from({ length: 400 }, (_, i) => {
@@ -88,8 +92,8 @@ export default function Doppler({
     let y =
       velocity * (0.7 + 0.3 * Math.sin((t / val("period", 4)) * Math.PI * 2));
     if (lesson.demo === "direction" || lesson.demo === "angle")
-      y *= Math.cos((angle * Math.PI) / 180);
-    if (alias) y = (wrapped / (prf / 2)) * scale * 0.8;
+      y = projectedVelocity(y, angle);
+    if (alias) y = wrapped;
     if (lesson.demo === "timing" || lesson.demo === "reflux")
       y = t < event ? 12 : t < event + duration ? -14 : 6;
     if (lesson.demo === "phasicity")
@@ -98,7 +102,7 @@ export default function Doppler({
         (1 -
           (val("modulation", 60) / 100) *
             Math.cos((t / val("period", 4)) * Math.PI * 2));
-    return `${60 + (t / 6) * 600},${Math.max(35, Math.min(335, baseline - (y / scale) * 135))}`;
+    return `${60 + (t / 6) * 600},${Math.max(35, Math.min(335, baseline - (y / (alias ? prf / 2 : scale)) * 135))}`;
   }).join(" ");
   return (
     <div className="doppler-layout">
@@ -233,8 +237,33 @@ export default function Doppler({
                   fill="#bdc7bd"
                   fontSize="12"
                 >
-                  {alias ? "Hz" : "cm/s"}
+                  {alias
+                    ? "Hz"
+                    : lesson.demo === "direction" || lesson.demo === "angle"
+                      ? "v·cos θ (cm/s)"
+                      : "cm/s"}
                 </text>
+                {alias &&
+                  [-1, 1].map((sign) => (
+                    <g key={sign}>
+                      <line
+                        x1="60"
+                        x2="660"
+                        y1={baseline - sign * 135}
+                        y2={baseline - sign * 135}
+                        stroke="#bdc7bd"
+                        strokeDasharray="5 5"
+                      />
+                      <text
+                        x="65"
+                        y={baseline - sign * 135 - 5}
+                        fill="#bdc7bd"
+                        fontSize="12"
+                      >
+                        {(sign * prf) / 2} Hz · Nyquist
+                      </text>
+                    </g>
+                  ))}
                 <text
                   x="360"
                   y="384"
@@ -242,7 +271,7 @@ export default function Doppler({
                   fill="#bdc7bd"
                   fontSize="11"
                 >
-                  Tiempo ilustrativo calibrado del esquema
+                  Tiempo sintético (s) · 0 a 6
                 </text>
               </svg>
               {(lesson.demo === "direction" || lesson.demo === "angle") && (
@@ -251,6 +280,7 @@ export default function Doppler({
                     cos θ ={" "}
                     <b>{Math.cos((angle * Math.PI) / 180).toFixed(3)}</b>
                   </span>
+                  <span>f₀ = {frequency} MHz · c = 1540 m/s</span>
                   <span>
                     Desplazamiento ideal <b>{shift.toFixed(0)} Hz</b>
                   </span>
@@ -295,7 +325,13 @@ export default function Doppler({
                   min={c.min}
                   max={c.max}
                   step={c.step}
-                  display={`${val(c.id, c.defaultValue)}${c.unit}`}
+                  display={
+                    c.id === "deep"
+                      ? val("deep", 0)
+                        ? ">1 s: femoral común/femoral/poplítea"
+                        : ">0,5 s: segmentos enumerados debajo"
+                      : `${val(c.id, c.defaultValue)}${c.unit}`
+                  }
                   onChange={(n) => setValues((v) => ({ ...v, [c.id]: n }))}
                 />
               ))}
@@ -319,7 +355,7 @@ export default function Doppler({
                 Referencia del territorio:{" "}
                 {val("deep", 0)
                   ? "femoral común, femoral y poplítea: >1 s"
-                  : "troncos superficiales (y otros segmentos definidos por la guía): >0,5 s"}
+                  : "troncos superficiales, venas tibiales, femoral profunda y perforantes: >0,5 s"}
                 . La duración del esquema es {duration.toFixed(2)} s. Su
                 interpretación clínica requiere segmento, maniobra y estudio
                 completo.
@@ -335,14 +371,7 @@ export default function Doppler({
               <li key={p}>{p}</li>
             ))}
           </ul>
-          <div className="source-row">
-            {lesson.sourceIds.map((id) => {
-              const s = sources.find((s) => s.id === id);
-              return s ? (
-                <SourceLink key={id} href={s.url} label={s.title} />
-              ) : null;
-            })}
-          </div>
+          <References ids={lesson.sourceIds} />
         </div>
       </section>
     </div>

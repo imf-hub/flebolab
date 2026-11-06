@@ -1210,3 +1210,7 @@ Las condiciones de licencia documentadas corresponden al recurso y versión cons
 ## Ejecución y publicación —6 de noviembre de2026
 
 FLEBO LAB0.9 está publicado para revisión en https://flebolab-imf.ferver.chatgpt.site. Código y recursos en https://github.com/imf-hub/flebolab. El resultado de los80criterios y los pendientes se registran en [Entrega y acta de publicación](ACTA_PUBLICACION_2026-11-06.md). Las casillas marcan solo entregas implementadas; las funciones parciales, revisión médica y DNS permanecen identificadas.
+
+### Actualización de calidad médica — 6 de noviembre de 2026, versión 0.9.1
+
+Se integra la revisión UIP/flebología → vascular → otras especialidades, bibliografía pública con19 fichas y15 DOI comprobados, localizadores, lectura crítica y correcciones de contenido y medios. El informe `REVISION_MEDICA_FLEBOLAB_2026-11-06.md` registra alcance, evidencias y pendientes. Se mantienen abiertos la aprobación médica independiente, la calibración clínica y las pruebas docentes externas; esta actualización no cambia por sí sola su estado a completado.

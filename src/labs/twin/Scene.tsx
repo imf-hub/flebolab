@@ -3,6 +3,7 @@ import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Line } from "@react-three/drei";
 import * as THREE from "three";
 import type { Solution } from "./model";
+import { integratedFlow, phaseAt, type FlowKey } from "./transport";
 import assets from "../../data/assets.json";
 export type CameraPose = {
   owner: string;
@@ -58,12 +59,13 @@ const paths = [
     [-0.6, -0.6, 0.2],
     [-0.3, -0.5, 0],
   ]),
-  curve([
-    [-0.8, 1.2, 0.3],
-    [-0.4, 1.35, 0.1],
-    [0, 1.5, 0],
-  ]),
 ];
+const collateralPath = curve([
+  [-0.3, -1, 0],
+  [0.8, -0.5, 0],
+  [1, 1.2, 0],
+  [0.3, 2.8, 0],
+]);
 function Vessel({
   path,
   color,
@@ -106,18 +108,22 @@ function Tracer({
 }) {
   const ref = useRef<THREE.Mesh>(null);
   const point = useMemo(() => new THREE.Vector3(), []);
+  const key: FlowKey =
+    index === 1
+      ? "superficialFlow"
+      : index === 2
+        ? "perforator"
+        : index === 3
+          ? "collateral"
+          : "flow";
+  const phases = useMemo(
+    () => integratedFlow(solution.samples, key),
+    [solution, key],
+  );
   useFrame(() => {
     if (!ref.current) return;
-    const t = timeRef.current;
-    const s =
-      solution.samples[
-        Math.min(
-          solution.samples.length - 1,
-          Math.floor((t / (solution.period * 2)) * solution.samples.length),
-        )
-      ];
-    const q = index === 1 ? s?.superficialFlow : s?.flow;
-    const u = (((t * 0.13 * (q < 0 ? -1 : 1) + offset) % 1) + 1) % 1;
+    const displacement = phaseAt(solution.samples, phases, timeRef.current);
+    const u = (((displacement + offset) % 1) + 1) % 1;
     path.getPoint(u, point);
     ref.current.position.copy(point);
   });
@@ -137,6 +143,14 @@ function Valve({
   timeRef: React.RefObject<number>;
   large?: boolean;
 }) {
+  const leaflet = useMemo(() => {
+    const shape = new THREE.Shape();
+    shape.moveTo(0, 0);
+    shape.quadraticCurveTo(0.15, 0.02, 0.24, 0.28);
+    shape.quadraticCurveTo(0.07, 0.24, 0, 0.03);
+    shape.closePath();
+    return shape;
+  }, []);
   const left = useRef<THREE.Group>(null),
     right = useRef<THREE.Group>(null);
   useFrame(() => {
@@ -152,8 +166,8 @@ function Valve({
       s?.flow > 0
         ? 0.22 + Math.min(0.7, s.flow * 0.28)
         : solution.parameters.leak * 0.45;
-    if (left.current) left.current.rotation.z = -opening;
-    if (right.current) right.current.rotation.z = opening;
+    if (left.current) left.current.rotation.z = opening;
+    if (right.current) right.current.rotation.z = -opening;
   });
   return (
     <group
@@ -171,22 +185,14 @@ function Valve({
         />
       </mesh>
       <group ref={left} position={[-0.24, -0.1, 0]}>
-        <mesh
-          position={[0.12, 0.12, 0]}
-          rotation={[0, 0, -0.65]}
-          scale={[1, 1.7, 0.12]}
-        >
-          <sphereGeometry args={[0.23, 24, 16]} />
+        <mesh>
+          <shapeGeometry args={[leaflet]} />
           <meshStandardMaterial color="#f1d9c9" side={THREE.DoubleSide} />
         </mesh>
       </group>
       <group ref={right} position={[0.24, -0.1, 0]}>
-        <mesh
-          position={[-0.12, 0.12, 0]}
-          rotation={[0, 0, 0.65]}
-          scale={[1, 1.7, 0.12]}
-        >
-          <sphereGeometry args={[0.23, 24, 16]} />
+        <mesh scale={[-1, 1, 1]}>
+          <shapeGeometry args={[leaflet]} />
           <meshStandardMaterial color="#f1d9c9" side={THREE.DoubleSide} />
         </mesh>
       </group>
@@ -235,16 +241,19 @@ function Flow({
             </group>
           ))}
           {solution.parameters.collateral && (
-            <Vessel
-              path={curve([
-                [-0.3, -1, 0],
-                [0.8, -0.5, 0],
-                [1, 1.2, 0],
-                [0.3, 2.8, 0],
-              ])}
-              color="#e8ba77"
-              radius={0.045}
-            />
+            <group>
+              <Vessel path={collateralPath} color="#e8ba77" radius={0.045} />
+              {[0, 0.2, 0.4, 0.6, 0.8].map((offset) => (
+                <Tracer
+                  key={offset}
+                  path={collateralPath}
+                  offset={offset}
+                  solution={solution}
+                  timeRef={timeRef}
+                  index={3}
+                />
+              ))}
+            </group>
           )}
         </>
       )}
@@ -468,7 +477,7 @@ export default function Scene({
         </span>
         <span>
           {mode === "anatomy"
-            ? "Pierna izquierda · 12 estructuras"
+            ? "Miembro inferior izquierdo · 12 estructuras"
             : "Superficial · Profundo · Conexiones"}
         </span>
       </div>

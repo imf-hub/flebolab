@@ -60,7 +60,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c0-002-v1",
@@ -123,7 +125,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c0-003-v1",
@@ -180,7 +184,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-004-v1",
@@ -237,7 +243,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-005-v1",
@@ -294,7 +302,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-006-v1",
@@ -351,7 +361,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-007-v1",
@@ -408,7 +420,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-008-v1",
@@ -465,7 +479,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-009-v1",
@@ -522,7 +538,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-010-v1",
@@ -579,7 +597,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-011-v1",
@@ -636,7 +656,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-012-v1",
@@ -693,7 +715,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-013-v1",
@@ -750,7 +774,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-014-v1",
@@ -807,7 +833,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-015-v1",
@@ -864,7 +892,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-016-v1",
@@ -921,7 +951,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-017-v1",
@@ -978,7 +1010,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-018-v1",
@@ -1035,7 +1069,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-019-v1",
@@ -1092,7 +1128,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-020-v1",
@@ -1149,7 +1187,9 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c0-021-v1",
@@ -1206,14 +1246,16 @@
       "C0",
       "Fotografía clínica",
       "Sin signos venosos visibles"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c1-001-v1",
     "title": "Telangiectasias y venas reticulares · caso 001",
     "ceap": "C1",
     "class": "C1",
-    "category": "Telangiectasias y venas reticulares",
+    "category": "Telangiectasias o venas reticulares",
     "sourceId": "tricvi-c-v2",
     "sourceUrl": "https://data.mendeley.com/datasets/rf5m97cmm3/2",
     "sourceVersion": "2",
@@ -1269,14 +1311,16 @@
       "C1",
       "Fotografía clínica",
       "Telangiectasias y venas reticulares"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c1-001-v5",
     "title": "Telangiectasias y venas reticulares · caso 001",
     "ceap": "C1",
     "class": "C1",
-    "category": "Telangiectasias y venas reticulares",
+    "category": "Telangiectasias o venas reticulares",
     "sourceId": "tricvi-c-v2",
     "sourceUrl": "https://data.mendeley.com/datasets/rf5m97cmm3/2",
     "sourceVersion": "2",
@@ -1326,14 +1370,16 @@
       "C1",
       "Fotografía clínica",
       "Telangiectasias y venas reticulares"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c1-002-v1",
     "title": "Telangiectasias y venas reticulares · caso 002",
     "ceap": "C1",
     "class": "C1",
-    "category": "Telangiectasias y venas reticulares",
+    "category": "Telangiectasias o venas reticulares",
     "sourceId": "tricvi-c-v2",
     "sourceUrl": "https://data.mendeley.com/datasets/rf5m97cmm3/2",
     "sourceVersion": "2",
@@ -1389,14 +1435,16 @@
       "C1",
       "Fotografía clínica",
       "Telangiectasias y venas reticulares"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c1-002-v5",
     "title": "Telangiectasias y venas reticulares · caso 002",
     "ceap": "C1",
     "class": "C1",
-    "category": "Telangiectasias y venas reticulares",
+    "category": "Telangiectasias o venas reticulares",
     "sourceId": "tricvi-c-v2",
     "sourceUrl": "https://data.mendeley.com/datasets/rf5m97cmm3/2",
     "sourceVersion": "2",
@@ -1446,14 +1494,16 @@
       "C1",
       "Fotografía clínica",
       "Telangiectasias y venas reticulares"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c1-003-v1",
     "title": "Telangiectasias y venas reticulares · caso 003",
     "ceap": "C1",
     "class": "C1",
-    "category": "Telangiectasias y venas reticulares",
+    "category": "Telangiectasias o venas reticulares",
     "sourceId": "tricvi-c-v2",
     "sourceUrl": "https://data.mendeley.com/datasets/rf5m97cmm3/2",
     "sourceVersion": "2",
@@ -1503,14 +1553,16 @@
       "C1",
       "Fotografía clínica",
       "Telangiectasias y venas reticulares"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c1-003-v4",
     "title": "Telangiectasias y venas reticulares · caso 003",
     "ceap": "C1",
     "class": "C1",
-    "category": "Telangiectasias y venas reticulares",
+    "category": "Telangiectasias o venas reticulares",
     "sourceId": "tricvi-c-v2",
     "sourceUrl": "https://data.mendeley.com/datasets/rf5m97cmm3/2",
     "sourceVersion": "2",
@@ -1560,14 +1612,16 @@
       "C1",
       "Fotografía clínica",
       "Telangiectasias y venas reticulares"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c1-004-v1",
     "title": "Telangiectasias y venas reticulares · caso 004",
     "ceap": "C1",
     "class": "C1",
-    "category": "Telangiectasias y venas reticulares",
+    "category": "Telangiectasias o venas reticulares",
     "sourceId": "tricvi-c-v2",
     "sourceUrl": "https://data.mendeley.com/datasets/rf5m97cmm3/2",
     "sourceVersion": "2",
@@ -1617,14 +1671,16 @@
       "C1",
       "Fotografía clínica",
       "Telangiectasias y venas reticulares"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c1-004-v5",
     "title": "Telangiectasias y venas reticulares · caso 004",
     "ceap": "C1",
     "class": "C1",
-    "category": "Telangiectasias y venas reticulares",
+    "category": "Telangiectasias o venas reticulares",
     "sourceId": "tricvi-c-v2",
     "sourceUrl": "https://data.mendeley.com/datasets/rf5m97cmm3/2",
     "sourceVersion": "2",
@@ -1674,7 +1730,9 @@
       "C1",
       "Fotografía clínica",
       "Telangiectasias y venas reticulares"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-001-v1",
@@ -1737,7 +1795,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c2-001-v5",
@@ -1794,7 +1854,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-002-v1",
@@ -1857,7 +1919,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c2-002-v5",
@@ -1914,7 +1978,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-003-v1",
@@ -1971,7 +2037,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-003-v5",
@@ -2028,7 +2096,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-004-v1",
@@ -2085,7 +2155,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-004-v5",
@@ -2142,7 +2214,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-005-v1",
@@ -2199,7 +2273,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-005-v5",
@@ -2256,7 +2332,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-006-v1",
@@ -2313,7 +2391,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-006-v5",
@@ -2370,7 +2450,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-007-v1",
@@ -2427,7 +2509,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-007-v5",
@@ -2484,7 +2568,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-008-v1",
@@ -2541,7 +2627,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-008-v5",
@@ -2598,7 +2686,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-009-v1",
@@ -2655,7 +2745,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-009-v5",
@@ -2712,7 +2804,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-010-v1",
@@ -2769,7 +2863,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-010-v5",
@@ -2826,7 +2922,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-011-v1",
@@ -2883,7 +2981,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-011-v5",
@@ -2940,7 +3040,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-012-v1",
@@ -2997,7 +3099,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-012-v3",
@@ -3054,7 +3158,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-013-v1",
@@ -3111,7 +3217,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-014-v1",
@@ -3168,7 +3276,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-015-v1",
@@ -3225,7 +3335,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-016-v1",
@@ -3282,7 +3394,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-017-v1",
@@ -3339,7 +3453,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-018-v1",
@@ -3396,7 +3512,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-019-v1",
@@ -3453,7 +3571,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-020-v1",
@@ -3510,7 +3630,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c2-021-v1",
@@ -3567,7 +3689,9 @@
       "C2",
       "Fotografía clínica",
       "Várices"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-001-v1",
@@ -3630,7 +3754,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c3-002-v1",
@@ -3693,7 +3819,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c3-003-v1",
@@ -3750,7 +3878,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-004-v1",
@@ -3807,7 +3937,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-005-v1",
@@ -3864,7 +3996,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-006-v1",
@@ -3921,7 +4055,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-007-v1",
@@ -3978,7 +4114,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-008-v1",
@@ -4035,7 +4173,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-009-v1",
@@ -4092,7 +4232,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-010-v1",
@@ -4149,7 +4291,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-011-v1",
@@ -4206,7 +4350,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-012-v1",
@@ -4263,7 +4409,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-013-v1",
@@ -4320,7 +4468,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-014-v1",
@@ -4377,7 +4527,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-015-v1",
@@ -4434,7 +4586,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c3-016-v1",
@@ -4491,7 +4645,9 @@
       "C3",
       "Fotografía clínica",
       "Edema: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c4-001-v1",
@@ -4554,7 +4710,9 @@
       "C4",
       "Fotografía clínica",
       "Cambios cutáneos"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c4-001-v5",
@@ -4611,7 +4769,9 @@
       "C4",
       "Fotografía clínica",
       "Cambios cutáneos"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c4-002-v1",
@@ -4674,7 +4834,9 @@
       "C4",
       "Fotografía clínica",
       "Cambios cutáneos"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c4-002-v5",
@@ -4731,7 +4893,9 @@
       "C4",
       "Fotografía clínica",
       "Cambios cutáneos"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c4-003-v1",
@@ -4788,7 +4952,9 @@
       "C4",
       "Fotografía clínica",
       "Cambios cutáneos"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c4-003-v5",
@@ -4845,7 +5011,9 @@
       "C4",
       "Fotografía clínica",
       "Cambios cutáneos"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c4-004-v1",
@@ -4902,7 +5070,9 @@
       "C4",
       "Fotografía clínica",
       "Cambios cutáneos"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c4-004-v5",
@@ -4959,7 +5129,9 @@
       "C4",
       "Fotografía clínica",
       "Cambios cutáneos"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c5-001-v1",
@@ -5022,7 +5194,9 @@
       "C5",
       "Fotografía clínica",
       "Úlcera cicatrizada: contexto de origen"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c5-001-v5",
@@ -5079,7 +5253,9 @@
       "C5",
       "Fotografía clínica",
       "Úlcera cicatrizada: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c5-002-v1",
@@ -5136,7 +5312,9 @@
       "C5",
       "Fotografía clínica",
       "Úlcera cicatrizada: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c5-002-v5",
@@ -5193,7 +5371,9 @@
       "C5",
       "Fotografía clínica",
       "Úlcera cicatrizada: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c6-001-v1",
@@ -5256,7 +5436,9 @@
       "C6",
       "Fotografía clínica",
       "Úlcera activa: contexto de origen"
-    ]
+    ],
+    "thermalWidth": 320,
+    "thermalHeight": 240
   },
   {
     "id": "vision-c6-001-v5",
@@ -5313,7 +5495,9 @@
       "C6",
       "Fotografía clínica",
       "Úlcera activa: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c6-002-v1",
@@ -5370,7 +5554,9 @@
       "C6",
       "Fotografía clínica",
       "Úlcera activa: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c6-002-v5",
@@ -5427,7 +5613,9 @@
       "C6",
       "Fotografía clínica",
       "Úlcera activa: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c6-003-v1",
@@ -5484,7 +5672,9 @@
       "C6",
       "Fotografía clínica",
       "Úlcera activa: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   },
   {
     "id": "vision-c6-003-v5",
@@ -5541,6 +5731,8 @@
       "C6",
       "Fotografía clínica",
       "Úlcera activa: contexto de origen"
-    ]
+    ],
+    "thermalWidth": null,
+    "thermalHeight": null
   }
 ]

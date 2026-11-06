@@ -28,6 +28,8 @@ import photos from "../data/vision.json";
 import clips from "../data/dus.json";
 import waterloo from "../data/waterloo.json";
 import { Note, SourceLink } from "../shared/UI";
+import { References } from "../shared/References";
+import { medicalReferences } from "../data/references";
 import { readLocal, saveLocal, download } from "../shared/utils";
 function PageHead({
   eyebrow,
@@ -47,14 +49,7 @@ function PageHead({
   );
 }
 function SourcesFor({ ids }: { ids: string[] }) {
-  return (
-    <div className="source-row">
-      {ids.map((id) => {
-        const s = sources.find((s) => s.id === id);
-        return s ? <SourceLink key={id} href={s.url} label={s.title} /> : null;
-      })}
-    </div>
-  );
+  return <References ids={ids} />;
 }
 const targetLink = (s: { lab: string; target?: string }) =>
   s.lab === "twin"
@@ -294,6 +289,19 @@ function SourcesPage() {
         title="Saber qué estás viendo."
         body="Fuentes, naturaleza de los recursos y supuestos del modelo. La procedencia acompaña a cada experiencia."
       />
+      <div className="bibliography-intro">
+        <BookOpen size={25} />
+        <div>
+          <b>La bibliografía médica tiene su propia sección.</b>
+          <p>
+            Consulta guías y consensos ordenados por sociedad, sus localizadores
+            y las controversias.
+          </p>
+        </div>
+        <Link to="/bibliografia" className="button secondary">
+          Abrir referencias
+        </Link>
+      </div>
       <div className="provenance-strip">
         <div>
           <b>{clips.length}</b>
@@ -308,8 +316,8 @@ function SourcesPage() {
           <span>Estructuras anatómicas</span>
         </div>
         <div>
-          <b>15</b>
-          <span>Referencias principales</span>
+          <b>{medicalReferences.length}</b>
+          <span>Referencias médicas auditadas</span>
         </div>
       </div>
       <div className="nature-grid">
@@ -447,31 +455,33 @@ function SourcesPage() {
       </section>
       <div className="section-heading">
         <div>
-          <span className="eyebrow">REFERENCIAS PRINCIPALES</span>
+          <span className="eyebrow">BANCOS, RECURSOS Y HERRAMIENTAS</span>
           <h2>Consulta el origen.</h2>
         </div>
       </div>
       <div className="sources-list">
-        {sources.map((s, i) => (
-          <article key={s.id} id={s.id}>
-            <span className="source-number">
-              {String(i + 1).padStart(2, "0")}
-            </span>
-            <div>
-              <small className="eyebrow">{s.type}</small>
-              <h3>
-                <a href={s.url} target="_blank" rel="noreferrer">
-                  {s.title}
-                  <ArrowUpRight size={16} />
-                </a>
-              </h3>
-              <p>{s.summary}</p>
-              <small>
-                {s.credit} · {s.license}
-              </small>
-            </div>
-          </article>
-        ))}
+        {sources
+          .filter((s) => !medicalReferences.some((r) => r.id === s.id))
+          .map((s, i) => (
+            <article key={s.id} id={s.id}>
+              <span className="source-number">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <div>
+                <small className="eyebrow">{s.type}</small>
+                <h3>
+                  <a href={s.url} target="_blank" rel="noreferrer">
+                    {s.title}
+                    <ArrowUpRight size={16} />
+                  </a>
+                </h3>
+                <p>{s.summary}</p>
+                <small>
+                  {s.credit} · {s.license}
+                </small>
+              </div>
+            </article>
+          ))}
       </div>
       <MediaGallery />
     </>
@@ -487,7 +497,7 @@ function Glossary() {
   return (
     <>
       <PageHead
-        eyebrow="GLOSARIO / 32 CONCEPTOS"
+        eyebrow="GLOSARIO / 33 CONCEPTOS"
         title="Un lenguaje compartido."
         body="Conceptos breves para acompañar la observación. Cada término enlaza con sus fuentes de referencia."
       />
@@ -534,6 +544,19 @@ function Credits() {
           autores con condiciones de reutilización documentadas.
         </p>
       </div>
+      <p className="local-note">
+        La gestión bibliográfica se apoyó en herramientas documentadas por
+        Kassis y colaboradores (2026),{" "}
+        <a
+          href="https://arxiv.org/abs/2609.00065"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Scientific Agent Skills
+        </a>
+        . Es un crédito metodológico de software; no constituye evidencia
+        clínica ni revisión por pares del producto.
+      </p>
       <div className="credits-main">
         {[
           [
@@ -682,7 +705,7 @@ function Release() {
   return (
     <>
       <PageHead
-        eyebrow="VERSIÓN 0.9 / 6 DE NOVIEMBRE DE 2026"
+        eyebrow="VERSIÓN 0.9.1 / 6 DE NOVIEMBRE DE 2026"
         title="Un laboratorio abierto, con alcance explícito."
         body="Primera versión pública de revisión profesional. Tres experiencias completas conectadas con recursos reales y fuentes visibles."
       />
@@ -711,7 +734,7 @@ function Release() {
               comparación de dos o cuatro imágenes y anotaciones.
             </li>
             <li>
-              Doce recorridos,32 conceptos,18 láminas y seis animaciones
+              Doce recorridos, 33 conceptos, 18 láminas y seis animaciones
               conceptuales.
             </li>
             <li>
@@ -719,6 +742,18 @@ function Release() {
               almacenamiento personal local.
             </li>
           </ul>
+        </section>
+        <section className="reference-method">
+          <h2>Revisión médica documental 0.9.1</h2>
+          <p>
+            Bibliografía organizada con prioridad UIP y flebología,
+            localizadores de las fuentes, seis temas de lectura crítica y
+            correcciones de geometría, Doppler y metadatos térmicos. La revisión
+            editorial no sustituye la aprobación médica independiente.
+          </p>
+          <Link to="/bibliografia" className="button secondary">
+            Revisar bibliografía y controversias
+          </Link>
         </section>
         <section className="release-pending">
           <h2>Para llegar a la versión1.0</h2>

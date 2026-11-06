@@ -7,6 +7,7 @@ import "./styles.css";
 const Twin = lazy(() => import("./labs/twin/Twin"));
 const Dus = lazy(() => import("./labs/dus/Dus"));
 const Vision = lazy(() => import("./labs/vision/Vision"));
+const Bibliography = lazy(() => import("./pages/Bibliography"));
 const Library = lazy(() => import("./pages/Library"));
 function Scroll() {
   const l = useLocation();
@@ -18,6 +19,7 @@ function Scroll() {
       "/flebovision": "FleboVision",
       "/recorridos": "Recorridos",
       "/fuentes": "Fuentes y método",
+      "/bibliografia": "Referencias y bibliografía médica",
       "/guia": "Guía",
       "/creditos": "Créditos",
       "/glosario": "Glosario",
@@ -53,6 +55,7 @@ appRoot.render(
             <Route path="flebodus/*" element={<Dus />} />
             <Route path="flebovision/*" element={<Vision />} />
             <Route path="recorridos/*" element={<Library mode="pathways" />} />
+            <Route path="bibliografia" element={<Bibliography />} />
             <Route path="fuentes" element={<Library mode="sources" />} />
             <Route path="creditos" element={<Library mode="credits" />} />
             <Route path="guia" element={<Library mode="guide" />} />

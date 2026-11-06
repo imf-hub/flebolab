@@ -234,7 +234,7 @@ function Home() {
             <Eye size={18} /> Compara hallazgos
           </span>
           <span>
-            <BookOpen size={18} /> Consulta las fuentes
+            <BookOpen size={18} /> Consulta la bibliografía
           </span>
         </div>
       </div>
@@ -348,8 +348,8 @@ function Home() {
             educativos identificados por su naturaleza. Cada recurso conserva
             sus fuentes, su contexto y sus límites de interpretación.
           </p>
-          <Link to="/fuentes" className="text-link">
-            Conoce las fuentes y el modelo <ArrowUpRight size={17} />
+          <Link to="/bibliografia" className="text-link">
+            Consulta las referencias médicas <ArrowUpRight size={17} />
           </Link>
         </div>
       </section>
@@ -377,7 +377,7 @@ export default function App() {
               Laboratorios
             </NavLink>
             <NavLink to="/recorridos">Recorridos</NavLink>
-            <NavLink to="/fuentes">Fuentes</NavLink>
+            <NavLink to="/bibliografia">Referencias</NavLink>
             <NavLink to="/guia" className="nav-guide">
               Guía de uso <ArrowUpRight size={14} />
             </NavLink>
@@ -408,7 +408,7 @@ export default function App() {
           </div>
         </div>
         <div className="container footer-bottom">
-          <span>© 2026 Instituto Mexicano de Flebología · FLEBO LAB 0.9</span>
+          <span>© 2026 Instituto Mexicano de Flebología · FLEBO LAB 0.9.1</span>
           <span>Uso educativo profesional. Sin diagnóstico automático.</span>
           <a href="https://flebo.mx" target="_blank" rel="noreferrer">
             flebo.mx <ExternalLink size={12} />

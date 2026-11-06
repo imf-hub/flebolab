@@ -9,5 +9,5 @@
 <rect x="310" y="235" width="85" height="400" rx="42.5" fill="#dcecf7" stroke="#2c769a" /><line x1="352.5" y1="247" x2="352.5" y2="623" stroke="#a7c8dc" stroke-width="2" /><text x="650" y="330" fill="#203647" font-size="30" font-weight="400" text-anchor="start">Altura y presión</text><text x="650" y="385" fill="#203647" font-size="25" font-weight="400" text-anchor="start">usan una referencia común.</text><g class="moving"><line x1="250" y1="620" x2="250" y2="280" stroke="#c42946" stroke-width="7"><animate attributeName="y2" values="590;280;280;590" dur="6s" repeatCount="indefinite"/></line></g>
 <line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
 <text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Animación conceptual</text>
-<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Referencia: Modelo de la bomba muscular de pantorrilla · FLEBO LAB IMF, 2026</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: keijsers2015 · flebolab-imf.ferver.chatgpt.site/bibliografia</text>
 </svg>

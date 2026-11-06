@@ -9,5 +9,5 @@
 <rect x="150" y="260" width="390" height="320" rx="16" fill="#edf3f7" stroke="none" /><circle cx="345" cy="420" r="90" fill="#dcecf7" stroke="#2c769a" stroke-width="7" /><rect x="660" y="260" width="390" height="320" rx="16" fill="#edf3f7" stroke="none" /><rect x="695" y="385" width="320" height="75" rx="30" fill="#dcecf7" stroke="#2c769a" /><text x="345" y="635" fill="#203647" font-size="26" font-weight="400" text-anchor="middle">Sección transversal</text><text x="855" y="635" fill="#203647" font-size="26" font-weight="400" text-anchor="middle">Eje longitudinal</text>
 <line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
 <text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Ilustración conceptual</text>
-<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Referencia: ASA · FLEBO LAB IMF, 2026</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: uipduplex1, uipduplex2, asa · flebolab-imf.ferver.chatgpt.site/bibliografia</text>
 </svg>

@@ -71,7 +71,15 @@ Para actualizar: preparar archivos fuera de `public/`, verificar licencia y proc
 
 El subdominio propio se conectará posteriormente en Hostinger; no se han cambiado DNS.
 
+## Revisión médica documental 0.9.1
 
-## Versión publicada
+La bibliografía se consulta en `/bibliografia`. Ocho referencias de UIP y sociedades flebológicas, cuatro guías vasculares y siete fuentes complementarias; quince DOI contrastados. Véase `docs/content/REVISION_INTEGRADA_0.9.1.md` y las tres matrices de auditoría. La revisión no equivale a aprobación clínica independiente.
 
-[Revisar FLEBO LAB0.9](https://flebolab-imf.ferver.chatgpt.site). [Acta de entrega y pendientes](docs/ACTA_PUBLICACION_2026-11-06.md). Publicación1, modelo educativo1.1. El subdominio enHostinger se conectará después.
+El contenido canónico reside en `src/data/educational-content.json`; `python scripts/content/build_educational.py` regenera TypeScript y SVG sin descargar datos. Los registros clínicos se conservan en `clinical-uip.json`, `clinical-vascular.json` y `clinical-science.json`. `build_bibliography.py` usa los metadatos incluidos en `docs/content/bibliographic-metadata.json` y las utilidades de `citation-management` instaladas en `~/.codex/skills`; puede indicarse otra ubicación con `--citation-tools`. Su ejecución no forma parte de la compilación web ni requiere llamadas de red. Las descargas se distribuyen en `public/references`.
+
+Las fuentes médicas se enlazan desde términos, lecciones, guías y recorridos; datos, licencias y herramientas siguen en `/fuentes` y `/creditos`. Las clases originales del banco no se reemplazan por nuevos diagnósticos de la aplicación.
+
+
+## Versión pública
+
+[Revisar FLEBO LAB0.9.1](https://flebolab-imf.ferver.chatgpt.site). [Acta inicial y pendientes](docs/ACTA_PUBLICACION_2026-11-06.md). [Revisión médica documental0.9.1](docs/content/REVISION_INTEGRADA_0.9.1.md). El subdominio en Hostinger se conectará después.

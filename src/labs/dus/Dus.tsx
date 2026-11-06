@@ -1,3 +1,4 @@
+import { References } from "../../shared/References";
 import { useEffect, useMemo, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import {
@@ -160,9 +161,15 @@ export default function Dus() {
                 </article>
               ))}
             </div>
-            <SourceLink
-              href="https://sonographers.org/resources/clinical-resources/cvi-guideline"
-              label="Guía de exploración de insuficiencia venosa · ASA"
+            <References
+              ids={[
+                "uipduplex1",
+                "uipduplex2",
+                "svs2023",
+                "esvsthrombosis2021",
+                "asa",
+                "dicom",
+              ]}
             />
           </div>
         ) : (

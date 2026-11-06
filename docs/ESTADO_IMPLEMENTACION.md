@@ -118,4 +118,4 @@ El modelo calibrado de paciente y la validación de predicción clínica no se d
 
 ## Cierre posterior a publicación
 
-La versión1 está publicada en https://flebolab-imf.ferver.chatgpt.site. El estado actualizado de cada criterio y los límites se encuentran en [Acta de publicación](ACTA_PUBLICACION_2026-11-06.md). La tabla anterior describe la preparación del candidato.
+La versión1 se publicó en https://flebolab-imf.ferver.chatgpt.site. El acta inicial está en [Acta de publicación](ACTA_PUBLICACION_2026-11-06.md). La revisión documental0.9.1 amplía y corrige la base médica; consultar [revisión integrada](content/REVISION_INTEGRADA_0.9.1.md). La tabla anterior describe la preparación del candidato y no constituye aprobación médica independiente.

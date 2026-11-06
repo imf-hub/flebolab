@@ -2,7 +2,7 @@
 
 Fecha: 6 de noviembre de 2026.
 
-El módulo `src/data/educational.ts` contiene 15 fuentes, 32 términos, diez demostraciones Doppler, doce recorridos, siete guías de observación, 18 láminas originales y seis animaciones SVG.
+El módulo `src/data/educational.ts` contiene 26 recursos de referencia, 33 términos, diez demostraciones Doppler, doce recorridos, siete guías de observación, 18 láminas originales y seis animaciones SVG.
 
 ## Alcance de revisión
 

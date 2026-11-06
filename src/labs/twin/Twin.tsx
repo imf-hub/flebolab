@@ -1,3 +1,4 @@
+import { References } from "../../shared/References";
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import {
@@ -519,6 +520,7 @@ export default function Twin() {
                     "# " +
                       JSON.stringify({
                         version: solution.modelVersion,
+                        sampleSchemaVersion: 2,
                         parameters: solution.parameters,
                         nature: "modelo educativo; unidades relativas",
                         converged: solution.converged,
@@ -583,8 +585,12 @@ export default function Twin() {
           FleboTwin combina anatomía de referencia y una red hemodinámica
           educativa propia. La red no está ajustada a esas mallas ni a un
           paciente. Sus curvas expresan unidades relativas y no equivalen a una
-          medición clínica.
+          medición clínica. Los marcadores son transporte simbólico según el
+          flujo de cada rama; no representan velocidad anatómica.
         </Note>
+        <References
+          ids={["uiphemodynamics", "esvs2022", "keijsers2015", "ferlito2026"]}
+        />
         <SourceLink
           href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4676919/"
           label="Referencia de mecanismos: bomba muscular"

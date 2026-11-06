@@ -142,9 +142,9 @@ def label_block(x,y,title,body,w=440):
     return out
 def vessel(x,y,w=70,h=230):
     return rect(x,y,w,h,"#dcecf7","#2c769a",w/2)+line(x+w/2,y+12,x+w/2,y+h-12,"#a7c8dc",2)
-def valve(x,y,scale=1,reverse=False):
+def valve(x,y,scale=1,reverse=False,gap=0):
     delta=-1 if reverse else 1
-    return path(f'M{x-35*scale},{y+20*delta*scale} Q{x-5*scale},{y+10*delta*scale} {x},{y-18*delta*scale}',"#a8203c",5)+path(f'M{x+35*scale},{y+20*delta*scale} Q{x+5*scale},{y+10*delta*scale} {x},{y-18*delta*scale}',"#a8203c",5)
+    return path(f'M{x-35*scale},{y+20*delta*scale} Q{x-5*scale},{y+10*delta*scale} {x-gap},{y-18*delta*scale}',"#a8203c",5)+path(f'M{x+35*scale},{y+20*delta*scale} Q{x+5*scale},{y+10*delta*scale} {x+gap},{y-18*delta*scale}',"#a8203c",5)
 def spectrum(x=150,y=390,w=850,h=230,baseline=.58,negative=False):
     zero=y+h*baseline
     d=""
@@ -168,52 +168,87 @@ def frame(id,title,subtitle,body,sourcelabel,animated=False):
 {body}
 {line(55,723,1145,723,"#dce5eb",2)}
 {text(55,754,"Esquema educativo original · "+("Animación conceptual" if animated else "Ilustración conceptual"),18,"#617b8d")}
-{text(55,781,"Referencia: "+sourcelabel+" · FLEBO LAB IMF, 2026",15,"#617b8d")}
+{text(55,781,"Refs: "+sourcelabel+" · flebolab-imf.ferver.chatgpt.site/bibliografia",15,"#617b8d")}
 </svg>'''
+
+# Contenido canónico revisado; no perder correcciones al regenerar.
+canonical=json.loads((DATA/'educational-content.json').read_text(encoding='utf-8'))
+for name in ['sources','glossary','dopplerLessons','pathways','observationGuides']:
+    globals()[name]=canonical[name]
+for filename in ['clinical-uip.json','clinical-vascular.json','clinical-science.json']:
+    p=DATA/filename
+    if p.exists():
+        for ref in json.loads(p.read_text(encoding='utf-8')):
+            existing=next((s for s in sources if s['id']==ref['id']),None)
+            if existing:
+                existing['url']=ref['url']
+            else:
+                sources.append(dict(id=ref['id'],title=ref['title'],url=ref['url'],type=ref['kind'],summary=ref['scope'],credit=ref['organization'],license='Referencia bibliográfica; no se reproducen figuras'))
+def alias_diagram():
+    out=line(160,410,1010,410,'#7a91a4',2)
+    for value in [-500,500]:
+        yy=410-value*.22
+        out+=line(160,yy,1010,yy,'#7a91a4',2,'stroke-dasharray="8 6"')+text(1025,yy+6,str(value)+' Hz',17)
+    curves=[[],[]]
+    for i in range(401):
+        t=i/400; original=700*math.sin(2*math.pi*t)
+        wrapped=(original+500)%1000-500
+        for j,value in enumerate([original,wrapped]): curves[j].append((160+t*850,410-value*.22))
+    for j,points in enumerate(curves):
+        d='';previous=None
+        for x,y in points:
+            d+=('M' if previous is None or (j==1 and abs(y-previous)>180) else ' L')+f'{x:.2f},{y:.2f}'
+            previous=y
+        out+=path(d,['#2c769a','#c42946'][j],4)
+    return out+text(180,620,'Azul: original ±700 Hz · Rojo: señal envuelta · PRF 1000 Hz',23)+text(600,665,'Esquema de muestreo · no demuestra reflujo',25,anchor='middle')
 
 plate_specs=[]
 plate_specs.append(("PL01","El retorno necesita una referencia","Presión, altura y conexiones forman un sistema.",vessel(280,260,85,340)+arrow(322,550,322,310)+text(395,320,"Salida",26)+text(395,565,"Entrada",26)+label_block(620,270,"Observar una red","Las flechas indican una convención de flujo, no una medición de paciente.")+label_block(620,440,"Conservar el contexto","La presión necesita unidades y una referencia común."),["keijsers2015"]))
-plate_specs.append(("PL02","Superficial y profundo","Una relación espacial que ayuda a organizar la observación.",rect(150,245,310,380,"#fff0f3")+rect(460,245,520,380,"#edf3f7")+line(460,245,460,625,"#7a91a4",3,'stroke-dasharray="10 10"')+vessel(300,285,55,275)+vessel(710,285,85,275)+path('M355,410 C500,410 580,470 710,470',"#2c769a",18)+text(195,670,"Superficial",24)+text(660,670,"Profundo",24)+text(500,310,"Plano fascial",20)+text(420,525,"Conexión perforante",22),["asa","esvs2022"]))
+plate_specs.append(("PL02","Superficial y profundo","Una relación espacial que ayuda a organizar la observación.",rect(150,245,310,380,"#fff0f3")+rect(460,245,520,380,"#edf3f7")+line(460,245,460,625,"#7a91a4",3,'stroke-dasharray="10 10"')+vessel(300,285,55,275)+vessel(710,285,85,275)+path('M355,410 C500,410 580,470 710,470',"#2c769a",18)+text(195,670,"Superficial",24)+text(660,670,"Profundo",24)+text(485,310,"Fascia muscular",20)+text(420,525,"Conexión perforante",22),["asa","esvs2022"]))
 plate_specs.append(("PL03","Postura y carga gravitacional","El potencial se interpreta con la altura y su referencia.",vessel(260,255,80,350)+line(210,255,210,605,"#7a91a4",3,'marker-start="url(#arrow)" marker-end="url(#arrow)"')+text(175,435,"Δh",28,anchor="end")+text(380,285,"Nivel superior",23)+text(380,600,"Nivel inferior",23)+label_block(660,310,"Una sola convención","No contar dos veces la contribución gravitacional en la presión.",440)+label_block(660,465,"Comparación controlada","Conserva el resto de parámetros al cambiar la postura.",440),["keijsers2015"]))
-plate_specs.append(("PL04","La bomba tiene dos fases","Contracción y relajación cambian las condiciones del circuito.",vessel(275,270,85,280)+arrow(180,390,260,390)+arrow(455,390,375,390)+arrow(317,345,317,290)+valve(317,470)+text(210,615,"Contracción",26)+vessel(785,270,85,280)+arrow(827,500,827,410)+valve(827,350)+text(730,615,"Relajación y llenado",26),["keijsers2015"]))
-plate_specs.append(("PL05","Competencia y fuga valvular","Dos configuraciones de una representación educativa.",vessel(275,255,85,325)+valve(317,400)+arrow(317,350,317,285)+text(215,630,"Competencia",27)+vessel(795,255,85,325)+valve(837,400,.7)+arrow(837,445,837,540,"#b7213c")+text(745,630,"Fuga representada",27),["keijsers2015","ferlito2026"]))
+plate_specs.append(("PL04","La bomba tiene dos fases","Contracción y relajación cambian las condiciones del circuito.",vessel(275,270,85,280)+arrow(180,390,260,390)+arrow(455,390,375,390)+arrow(317,345,317,290)+valve(317,470)+text(210,615,"Contracción",26)+text(170,655,"Válvula distal cerrada",21)+vessel(785,270,85,280)+arrow(827,500,827,410)+valve(827,350)+text(730,615,"Relajación y llenado",26)+text(730,655,"Válvula proximal cerrada",21),["keijsers2015"]))
+plate_specs.append(("PL05","Competencia y fuga valvular","Dos configuraciones de una representación educativa.",vessel(275,255,85,325)+valve(317,400)+arrow(317,285,317,350)+text(185,630,"Cierre competente",27)+vessel(795,255,85,325)+valve(837,400,gap=15)+arrow(837,285,837,540,"#b7213c")+text(745,630,"Fuga representada",27),["keijsers2015","ferlito2026"]))
 plate_specs.append(("PL06","Presión transmural","La diferencia entre interior y exterior da contexto al volumen.",circle(355,420,118,"#dcecf7","#2c769a",8)+text(355,430,"P interior",27,anchor="middle")+arrow(170,420,220,420)+arrow(540,420,490,420)+text(305,605,"P exterior",25)+label_block(680,330,"Ptm = Pi − Pe","Una presión interior aislada no describe la condición de la pared.",400),["keijsers2015"]))
 plate_specs.append(("PL07","Conservar volumen","El cambio de volumen corresponde al balance del circuito.",rect(440,300,320,230,"#dcecf7","#2c769a",30)+arrow(160,415,420,415)+arrow(780,415,1040,415)+text(600,415,"Volumen",33,anchor="middle")+text(600,465,"del compartimento",22,anchor="middle")+text(230,365,"Entradas",26)+text(850,365,"Salidas",26)+text(600,640,"Δ volumen / Δ tiempo = entradas − salidas",29,anchor="middle"),["keijsers2015","svzerod"]))
 plate_specs.append(("PL08","Una salida alternativa","Una conexión solo modifica el cálculo si existe en la red.",path('M220,570 L220,300 L850,300 L850,570',"#2c769a",26)+path('M220,510 Q535,400 850,510',"#7a91a4",18)+rect(510,270,95,60,"#f7e5e9","#b7213c",12)+text(555,240,"Resistencia",24,anchor="middle")+arrow(350,490,470,470,"#7a91a4")+text(600,640,"Configuración genérica de circuito",28,anchor="middle"),["ferlito2026","svzerod"]))
 plate_specs.append(("PL09","Observar una compresión","La secuencia importa más que una captura aislada.",rect(185,270,270,65,"#7a91a4")+f'<ellipse cx="320" cy="460" rx="100" ry="70" fill="#dcecf7" stroke="#2c769a" stroke-width="7"/>'+arrow(320,350,320,385)+rect(730,330,270,65,"#7a91a4")+f'<ellipse cx="865" cy="490" rx="100" ry="15" fill="#dcecf7" stroke="#2c769a" stroke-width="7"/>'+text(320,625,"Antes",28,anchor="middle")+text(865,625,"Durante",28,anchor="middle"),["thrombus","asa"]))
 plate_specs.append(("PL10","Vista transversal y longitudinal","Conserva orientación, lado y segmento al comparar.",rect(150,260,390,320)+circle(345,420,90,"#dcecf7","#2c769a",7)+rect(660,260,390,320)+rect(695,385,320,75,"#dcecf7","#2c769a",30)+text(345,635,"Sección transversal",26,anchor="middle")+text(855,635,"Eje longitudinal",26,anchor="middle"),["asa"]))
-plate_specs.append(("PL11","El color necesita una leyenda","Invertir el mapa no cambia el movimiento real.",rect(170,310,330,120,"#f7e5e9")+arrow(210,370,460,370,"#c42946",9)+rect(700,310,330,120,"#dcecf7")+arrow(740,370,990,370,"#2c769a",9)+text(335,485,"Mapa A",28,anchor="middle")+text(865,485,"Mapa invertido",28,anchor="middle")+text(600,610,"Misma dirección · distinta codificación",29,anchor="middle"),["asa"]))
+plate_specs.append(("PL11","El color necesita una leyenda","Invertir el mapa no cambia el movimiento real.",rect(170,310,330,120,"#f7e5e9")+arrow(210,370,460,370,"#c42946",9)+rect(700,310,330,120,"#dcecf7")+arrow(740,370,990,370,"#2c769a",9)+text(335,485,"Rojo: hacia el transductor",23,anchor="middle")+text(865,485,"Azul: hacia el transductor",23,anchor="middle")+text(600,610,"Misma dirección · distinta codificación",29,anchor="middle"),["asa"]))
 plate_specs.append(("PL12","Los ejes dan significado al espectro","Representación sintética de una señal; no es una adquisición.",spectrum(150,290,850,280)+text(80,320,"Señal",20)+text(270,660,"Antes de medir: región, unidades, cero y orientación.",24),["dicom","dopplerphysics"]))
 plate_specs.append(("PL13","Una duración pertenece a un eje calibrado","La velocidad del reproductor no cambia el tiempo de origen.",spectrum(150,270,850,270,negative=True)+line(617,300,617,580,"#c42946",3,'stroke-dasharray="7 6"')+line(804,300,804,580,"#c42946",3,'stroke-dasharray="7 6"')+line(617,600,804,600,"#c42946",4,'marker-start="url(#arrow)" marker-end="url(#arrow)"')+text(710,650,"Intervalo ilustrativo",25,anchor="middle"),["dicom","asa"]))
-plate_specs.append(("PL14","La señal depende de una proyección","El término coseno relaciona haz y dirección del movimiento.",arrow(160,520,610,520,"#2c769a",8)+arrow(200,260,510,470,"#c42946",7)+path('M430,520 A95,95 0 0 0 410,455',"#7a91a4",3)+text(445,487,"θ",32)+text(610,575,"Movimiento",25,anchor="middle")+text(220,235,"Haz",25)+label_block(700,340,"fD ∝ v · cos θ","Esquema de la ecuación ideal. La adquisición real requiere más contexto.",400),["dopplerphysics"]))
-plate_specs.append(("PL15","Aliasing y señal original","El envolvimiento puede aparentar un cambio de signo.",spectrum(160,260,850,300)+line(160,370,1010,370,"#c42946",3,'stroke-dasharray="8 6"')+text(1025,375,"Límite",20)+path('M350,370 L380,510 L415,470 L450,425',"#c42946",7)+text(600,665,"Esquema de muestreo · no demuestra reflujo",27,anchor="middle"),["dopplerphysics"]))
+plate_specs.append(("PL14","La señal depende de una proyección","El ángulo comparte vértice con haz y movimiento.",arrow(240,500,610,500,"#2c769a",8)+arrow(240,500,520,280,"#c42946",7)+path('M340,500 A100,100 0 0 0 319,438',"#7a91a4",3)+text(350,471,"θ",32)+text(610,550,"Movimiento",25,anchor="middle")+text(440,240,"Dirección del haz",25)+label_block(700,340,"fD ∝ v · cos θ","θ es el ángulo entre las dos direcciones. Proyección, no velocidad corregida.",400),["dopplerphysics"]))
+plate_specs.append(("PL15","Aliasing y señal original","f aparente = ((f + PRF/2) módulo PRF) − PRF/2",alias_diagram(),["dopplerphysics"]))
 plate_specs.append(("PL16","Maniobra, segmento y tiempo","El registro debe permitir relacionar un evento con la respuesta.",spectrum(150,270,850,270,negative=True)+line(385,250,385,580,"#c42946",4,'stroke-dasharray="7 6"')+text(385,235,"Evento",24,anchor="middle")+text(600,650,"Documenta qué maniobra y en qué territorio se realizó.",25,anchor="middle"),["asa","svs2022"]))
 guide_colors=["#edf3f7","#e7f0f5","#dcebf3","#f4e9ed","#f1dbe2","#ead0da","#e7becb"]
 body=""
+ceap_labels=[["Sin signos","visibles/palpables"],["Telangiectasias","o reticulares"],["Várices"],["Edema"],["Piel y tejido","subcutáneo"],["Úlcera venosa","cicatrizada"],["Úlcera venosa","activa"]]
 for i,g in enumerate(observationGuides):
-    x=95+i*147;body+=rect(x,290,125,160,guide_colors[i])+text(x+62,355,g['id'],36,"#a8203c",700,"middle")+text(x+62,410,["Sin signos","Vasos","Várices","Edema","Piel","Cicatrizada","Activa"][i],17,"#203647",400,"middle")
-body+=text(600,560,"La clase pertenece al contexto del miembro.",29,anchor="middle")+text(600,615,"La fotografía no completa E, A y P.",25,anchor="middle")
+    x=95+i*147;body+=rect(x,280,125,125,guide_colors[i])+text(x+62,355,g['id'],36,"#a8203c",700,"middle")
+    for j,label in enumerate(ceap_labels[i]):body+=text(x+62,445+j*24,label,15,"#203647",400,"middle")
+body+=text(600,535,"C4a: pigmentación/eccema · C4b: lipodermatoesclerosis/atrofia blanca · C4c: corona",20,anchor="middle")
+body+=text(600,595,"Descripción por miembro · no es puntuación de gravedad",25,anchor="middle")+text(600,645,"La fotografía no completa E, A y P ni documenta síntomas o palpación.",22,anchor="middle")
 plate_specs.append(("PL17","CEAP: descripción con contexto","Una guía de lectura, no un clasificador por apariencia.",body,["ceap2020","esvs2022"]))
 plate_specs.append(("PL18","Dos modalidades, un mismo caso","Conserva la relación de vista y las escalas de cada modalidad.",rect(150,280,370,250,"#edf3f7","#7a91a4")+rect(680,280,370,250,"#f7e5e9","#c42946")+text(335,400,"RGB",42,"#2c769a",700,"middle")+text(865,400,"Térmica",42,"#a8203c",700,"middle")+text(335,460,"Aspecto visible",24,anchor="middle")+text(865,460,"Paleta y matriz",24,anchor="middle")+line(535,405,665,405,"#7a91a4",4,'stroke-dasharray="7 6"')+text(600,635,"Diagramas de modalidad · no son imágenes de paciente",24,anchor="middle"),["tricvi"]))
 
 plates=[]
 source_map={s['id']:s for s in sources}
 for id,title,subtitle,body,refs in plate_specs:
-    label="; ".join(source_map[r]['title'].split(':')[0] for r in refs)
+    refs=list(dict.fromkeys((['uipduplex1','uipduplex2'] if id in ['PL02','PL09','PL10','PL11','PL13','PL16'] else ['uipnomenclature'] if id=='PL02' else [])+refs))
+    label=", ".join(refs)
     (PLATES/f'{id.lower()}.svg').write_text(frame(id,title,subtitle,body,label),encoding="utf-8")
     plates.append(dict(id=id,title=title,description=subtitle,path=f"/media/plates/{id.lower()}.svg",sourceIds=refs,nature="illustration",credit="Esquema original de FLEBO LAB IMF, 2026"))
 
 animations=[]
 anim_specs=[
-    ("AN01","Válvula y dirección","Movimiento conceptual ligado a una dirección de referencia.",vessel(320,235,100,400)+valve(370,450)+text(650,345,"Observa la dirección",30)+text(650,395,"y el estado representado.",26)+f'<g class="moving"><circle r="12" fill="#c42946"><animateMotion dur="4s" repeatCount="indefinite" path="M370,600 L370,270"/></circle></g>',["keijsers2015"]),
+    ("AN01","Válvula y dirección","Movimiento conceptual ligado a una dirección de referencia.",vessel(320,235,100,400)+valve(370,450,gap=20)+text(650,345,"Válvula abierta: flujo hacia proximal",25)+text(650,395,"Apertura conceptual; no biomecánica.",24)+f'<g class="moving"><circle r="12" fill="#c42946"><animateMotion dur="4s" repeatCount="indefinite" path="M370,600 L370,270"/></circle></g>',["keijsers2015"]),
     ("AN02","Postura y referencia","Una columna de altura ayuda a relacionar potencial y posición.",vessel(310,235,85,400)+text(650,330,"Altura y presión",30)+text(650,385,"usan una referencia común.",25)+f'<g class="moving"><line x1="250" y1="620" x2="250" y2="280" stroke="#c42946" stroke-width="7"><animate attributeName="y2" values="590;280;280;590" dur="6s" repeatCount="indefinite"/></line></g>',["keijsers2015"]),
-    ("AN03","Dos fases de la bomba","Esquema de contracción y relajación, sin unidades clínicas.",rect(210,260,370,320)+f'<ellipse class="static" cx="395" cy="420" rx="55" ry="135" fill="#dcecf7" stroke="#2c769a" stroke-width="6"/><ellipse class="moving" cx="395" cy="420" rx="55" ry="135" fill="#dcecf7" stroke="#2c769a" stroke-width="6"><animate attributeName="rx" values="55;24;24;55;55" dur="5s" repeatCount="indefinite"/></ellipse>'+arrow(145,420,270,420)+arrow(645,420,520,420)+text(745,340,"Contracción",28)+text(745,400,"Relajación",28)+text(745,465,"Observa el ciclo",24),["keijsers2015"]),
-    ("AN04","Presión y volumen","Una representación de respuesta de pared; no es una medida real.",f'<circle class="static" cx="370" cy="420" r="100" fill="#dcecf7" stroke="#2c769a" stroke-width="8"/><circle class="moving" cx="370" cy="420" r="100" fill="#dcecf7" stroke="#2c769a" stroke-width="8"><animate attributeName="r" values="70;120;70" dur="5s" repeatCount="indefinite"/></circle>'+text(700,340,"Interior − exterior",28)+text(700,395,"Presión transmural",25)+text(700,455,"Volumen representado",25),["keijsers2015"]),
+    ("AN03","Dos fases de la bomba","Esquema de contracción y relajación, sin unidades clínicas.",rect(210,260,370,320)+f'<ellipse class="static" cx="395" cy="420" rx="55" ry="135" fill="#dcecf7" stroke="#2c769a" stroke-width="6"/><ellipse class="moving" cx="395" cy="420" rx="55" ry="135" fill="#dcecf7" stroke="#2c769a" stroke-width="6"><animate attributeName="rx" values="55;24;24;55;55" dur="5s" repeatCount="indefinite"/></ellipse>'+'<g class="moving">'+arrow(145,420,270,420)+arrow(645,420,520,420)+'<animate attributeName="opacity" values="1;1;1;0.1;0.1" dur="5s" repeatCount="indefinite"/></g>'+text(745,340,"Contracción / relajación",25)+text(745,400,"Presión externa variable",24)+text(745,465,"Observa el ciclo",24),["keijsers2015"]),
+    ("AN04","Presión y sección","Cambio conceptual de calibre; no es una respuesta calculada de pared.",f'<circle class="static" cx="370" cy="420" r="100" fill="#dcecf7" stroke="#2c769a" stroke-width="8"/><circle class="moving" cx="370" cy="420" r="100" fill="#dcecf7" stroke="#2c769a" stroke-width="8"><animate attributeName="r" values="70;120;70" dur="5s" repeatCount="indefinite"/></circle>'+text(700,340,"Interior − exterior",28)+text(700,395,"Presión transmural",25)+text(700,455,"Cambio conceptual de sección",23),["keijsers2015"]),
     ("AN05","Compresión: observa una secuencia","La maniobra tiene tiempo; una sola captura muestra solo un momento.",rect(270,240,250,60,"#7a91a4")+f'<ellipse class="static" cx="395" cy="480" rx="120" ry="75" fill="#dcecf7" stroke="#2c769a" stroke-width="7"/><ellipse class="moving" cx="395" cy="480" rx="120" ry="75" fill="#dcecf7" stroke="#2c769a" stroke-width="7"><animate attributeName="ry" values="75;12;12;75;75" dur="5s" repeatCount="indefinite"/></ellipse>'+text(710,355,"Antes · durante · después",28)+text(710,415,"Secuencia ilustrativa",25),["asa","thrombus"]),
     ("AN06","Un cursor y un mismo tiempo","Escena y curva deben leer la misma serie temporal.",spectrum(150,270,850,280)+f'<g class="moving"><line x1="170" y1="260" x2="170" y2="580" stroke="#c42946" stroke-width="4"><animate attributeName="x1" values="170;990;170" dur="8s" repeatCount="indefinite"/><animate attributeName="x2" values="170;990;170" dur="8s" repeatCount="indefinite"/></line></g>'+text(600,650,"El reloj de representación no altera los datos de origen.",25,anchor="middle"),["dicom"]),
 ]
 for id,title,subtitle,body,refs in anim_specs:
-    label="; ".join(source_map[r]['title'].split(':')[0] for r in refs)
+    label=", ".join(refs)
     (ANIMATIONS/f'{id.lower()}.svg').write_text(frame(id,title,subtitle,body,label,True),encoding="utf-8")
     animations.append(dict(id=id,title=title,description=subtitle,path=f"/media/animations/{id.lower()}.svg",sourceIds=refs,nature="illustration",credit="Animación vectorial original de FLEBO LAB IMF, 2026"))
 
@@ -235,7 +270,7 @@ doc='''# Contenido editorial de FLEBO LAB
 
 Fecha: 6 de noviembre de 2026.
 
-El módulo `src/data/educational.ts` contiene 15 fuentes, 32 términos, diez demostraciones Doppler, doce recorridos, siete guías de observación, 18 láminas originales y seis animaciones SVG.
+El módulo `src/data/educational.ts` contiene 26 recursos de referencia, 33 términos, diez demostraciones Doppler, doce recorridos, siete guías de observación, 18 láminas originales y seis animaciones SVG.
 
 ## Alcance de revisión
 

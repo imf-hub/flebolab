@@ -1,0 +1,78 @@
+FLEBO LAB IMF — Bibliografía médica y científica
+Revisión: 6 de noviembre de 2026. Prioridad institucional no equivale a grado de evidencia.
+
+1. Coleridge-Smith P, Labropoulos N, Partsch H, Myers K, Nicolaides A, Cavezzi A. Duplex ultrasound investigation of the veins in chronic venous disease of the lower limbs—UIP consensus document. Part I. Basic principles. Eur J Vasc Endovasc Surg. 2006;31(1):83–92. DOI: 10.1016/j.ejvs.2005.07.019. https://doi.org/10.1016/j.ejvs.2005.07.019
+   Localizador: p. 84 Methodology; p. 85 Position of the patient and probe y Doppler settings; p. 86 Examination for reflux; p. 90 Organisation and reporting. Copia leída: https://www.strteknikk.no/venopulse/Coleridge_Smith%2006%20Duplex%20Consensus%20I.pdf
+   Acceso: Texto completo de 10 páginas cotejado en copia del artículo primario; DOI y PMID 16226898 verificados. El acceso al PDF editorial devolvió 403 en esta revisión.
+
+2. Cavezzi A, Labropoulos N, Partsch H, Ricci S, Caggiati A, Myers K, Nicolaides A, Smith PC. Duplex ultrasound investigation of the veins in chronic venous disease of the lower limbs—UIP consensus document. Part II. Anatomy. Eur J Vasc Endovasc Surg. 2006;31(3):288–299. DOI: 10.1016/j.ejvs.2005.07.020. https://doi.org/10.1016/j.ejvs.2005.07.020
+   Localizador: p. 289 Anatomy/Methodology; p. 290 Ultrasound markers of venous anatomy; pp. 291–292 Saphenous veins and junctions. Copia leída: https://www.strteknikk.no/venopulse/Cavezzi%2006%20Duplex%20Consensus%20II.pdf
+   Acceso: Texto completo de 12 páginas cotejado en copia del artículo primario; PMID 16230038 y DOI verificados.
+
+3. Caggiati A, Bergan JJ, Gloviczki P, Jantet G, Wendell-Smith CP, Partsch H; International Interdisciplinary Consensus Committee on Venous Anatomical Terminology. Nomenclature of the veins of the lower limbs: an international interdisciplinary consensus statement. J Vasc Surg. 2002;36(2):416–422. DOI: 10.1067/mva.2002.125847. https://doi.org/10.1067/mva.2002.125847
+   Localizador: J Vasc Surg36(2):416–422; relación institucional descrita en el resumen. No se atribuyen aquí afirmaciones a una página interior no leída.
+   Acceso: Ficha, autores y resumen verificados en PubMed 12170230 y en el archivo institucional UIP. No se obtuvo acceso completo al PDF en esta revisión.
+
+4. Lurie F, Passman M, Meisner M, Dalsing M, Masuda E, Welch H, Bush RL, Blebea J, Carpentier PH, De Maeseneer M, Gasparis A, Labropoulos N, Marston WA, Rafetto J, Santiago F, Shortell C, Uhl JF, Urbanek T, van Rij A, Eklof B, Gloviczki P, Kistner R, Lawrence P, Moneta G, Padberg F, Perrin M, Wakefield T. The 2020 update of the CEAP classification system and reporting standards. J Vasc Surg Venous Lymphat Disord. 2020;8(3):342–352. DOI: 10.1016/j.jvsv.2019.12.075. https://doi.org/10.1016/j.jvsv.2019.12.075
+   Localizador: p. 343 naturaleza descriptiva; p. 346 Revisions to clinical (C) classification; p. 347 Table III y justificación de C4c. Copia leída: https://www.angiolife.com.ua/media/pages/files/CEAP%202020.pdf
+   Acceso: Texto completo de 11 páginas cotejado en copia del artículo primario; metadatos PMID 32113854 y proceso institucional corroborados en AVF.
+
+5. Meissner M, Boyle EM, Labropoulos N, Caggiati A, Drgastin R, Doganci S, Gasparis A. The anterior saphenous vein. Part 1. A position statement endorsed by the American Vein and Lymphatic Society, the American Venous Forum, and the International Union of Phlebology. J Vasc Surg Venous Lymphat Disord. 2024;12(3):101721. Publicación electrónica 2023; publicación paralela Phlebology. 2024;39(5):310–312. DOI: 10.1016/j.jvsv.2023.101721. https://doi.org/10.1016/j.jvsv.2023.101721
+   Localizador: PDF AVLS pp. 3–4 Terminology y p. 5 Name recommendation. https://www.myavls.org/assets/pdf/The%20Anterior%20Saphenous%20%E2%80%8EVein.pdf . DOI paralelo 10.1177/02683555231224529.
+   Acceso: PMID 38008181 y publicación paralela verificados. Texto de posición completo contrastado en PDF oficial AVLS; su portada institucional no equivale a la lista de autores del artículo.
+
+6. Lee BB, Nicolaides AN, Myers K, Meissner M, Kalodiki E, Allegra C, Antignani PL, Bækgaard N, Beach K, Belcaro G, Black S, Blomgren L, Bouskela E, Cappelli M, Caprini J, Carpentier P, Cavezzi A, Chastanet S, Christenson JT, Christopoulos D, Clarke H, Davies A, Demaeseneer M, Eklöf B, Ermini S, Fernández F, Franceschi C, Gasparis A, Geroulakos G, Gianesini S, Giannoukas A, Gloviczki P, Huang Y, Ibegbuna V, Kakkos SK, Kistner R, Kölbel T, Kurstjens RL, Labropoulos N, Laredo J, Lattimer CR, Lugli M, Lurie F, Maleti O, Markovic J, Mendoza E, Monedero JL, Moneta G, Moore H, Morrison N, Mosti G, Nelzén O, Obermayer A, Ogawa T, Parsi K, Partsch H, Passariello F, Perrin ML, Pittaluga P, Raju S, Ricci S, Rosales A, Scuderi A, Slagsvold CE, Thurin A, Urbanek T, van Rij AM, Vasquez M, Wittens CH, Zamboni P, Zimmet S, Ezpeleta SZ. Venous hemodynamic changes in lower limb venous disease: the UIP consensus according to scientific evidence. Int Angiol. 2016;35(3):236–352. DOI: no consignado. https://pubmed.ncbi.nlm.nih.gov/27013029/
+   Localizador: Int Angiol35(3):236–352; resumen y ficha. Editorial: https://www.minervamedica.it/en/journals/international-angiology/article.php?cod=R34Y2016N03A0236 . No se atribuyen páginas internas no leídas.
+   Acceso: Autores, título, año, volumen/páginas y resumen cotejados en PMID 27013029 y archivo UIP. Texto completo no obtenido en esta revisión; no se identificó DOI en la ficha consultada.
+
+7. Tan M, Vuylsteke M, Blebea J, Parsi K, Davies AH; on behalf of UIP. Management of the patient with the swollen lower limb. Phlebology. 2024;39(3):218–220. Publicación electrónica5dic2023. DOI: 10.1177/02683555231219726. https://journals.sagepub.com/doi/10.1177/02683555231219726
+   Localizador: Introduction, Management recommendations, Discussion, Table 1 y Figure 1; pp. 218–220. HTML oficial permite localizar por esos encabezados; no se dedujo la página individual de cada párrafo.
+   Acceso: Texto completo HTML oficial SAGE contrastado; PMID 38052723. Publicado con CC BY-NC4.0; no se importó la figura ni el algoritmo a la aplicación.
+
+8. Kim W, Kim TS, Yun S, Ohe H, Lee SC, Lee SH, Yun SS. Proper Preparations for the Ultrasonographic Evaluation of Varicose Veins of the Lower Extremities - The 2023 Korean Society for Phlebology Clinical Practice Guidelines. Ann Phlebology. 2023;21(2):60–62. DOI: 10.37923/phle.2023.21.2.60. https://www.annphlebology.org/journal/view.html?uid=142&vmd=Full
+   Localizador: Key Question 1 y Key Question 2, apartados 2-1 a 2-3: transductor, ajustes, artefactos y posición.
+   Acceso: Texto completo HTML del editor y metadatos contrastados.
+
+9. Gloviczki P, Lawrence PF, Wasan SM, Meissner MH, Almeida J, Brown KR, et al. The 2022 Society for Vascular Surgery, American Venous Forum, and American Vein and Lymphatic Society clinical practice guidelines for the management of varicose veins of the lower extremities. Part I. Duplex Scanning and Treatment of Superficial Truncal Reflux: Endorsed by the Society for Vascular Medicine and the International Union of Phlebology. J Vasc Surg Venous Lymphat Disord. 2023;11(2):231-261.e6. DOI: 10.1016/j.jvsv.2022.09.004. https://doi.org/10.1016/j.jvsv.2022.09.004
+   Localizador: Apartado de evaluación dúplex, definiciones y buenas prácticas; recomendaciones reproducidas en Part II, 1.2.1, 1.3.1-1.3.3 y 1.4.1-1.4.5.
+   Acceso: Metadatos y texto del editor indexado verificados. El PDF público de Société Française de Médecine Vasculaire respondió con timeout en el lector; los criterios se cotejaron además en el texto completo de Part II, que los reproduce con localizadores. https://www.portailvasculaire.fr/sites/default/files/docs/2022_svs_avf_avls_reflux_tronculaire_diagnostic_traitement_part1_jvsvld.pdf
+
+10. Gloviczki P, Lawrence PF, Wasan SM, Meissner MH, Almeida J, Brown KR, et al. The 2023 Society for Vascular Surgery, American Venous Forum, and American Vein and Lymphatic Society clinical practice guidelines for the management of varicose veins of the lower extremities. Part II: Endorsed by the Society of Interventional Radiology and the Society for Vascular Medicine. J Vasc Surg Venous Lymphat Disord. 2024;12(1):101670. DOI: 10.1016/j.jvsv.2023.08.011. https://www.phlebology.ch/upload/pdf/dokumente/AVLS%20guidelines%2020230.pdf
+   Localizador: PDF páginas 2 y10: 1.2.1, implementation remarks1.3.1-1.3.3, good-practice statements1.4.1-1.4.5. Página 2: CEAP/VCSS1.1.1-1.1.2.
+   Acceso: Texto primario íntegro, 67 páginas, alojado públicamente por sociedad suiza de flebología; DOI y año final cotejados con PubMed PMID 37652254. El PDF es la versión editorial anticipada de 2023; volumen final de enero de 2024.
+
+11. De Maeseneer MG, Kakkos SK, Aherne T, Baekgaard N, Black S, Blomgren L, et al. European Society for Vascular Surgery (ESVS) 2022 Clinical Practice Guidelines on the Management of Chronic Venous Disease of the Lower Limbs. Eur J Vasc Endovasc Surg. 2022;63(2):184-267. DOI: 10.1016/j.ejvs.2021.12.024. https://findresearcher.sdu.dk/ws/files/206201181/1_s2.0_S1078588421009795_main.pdf
+   Localizador: Sección2.3.1, página impresa198 (PDF 16): postura, provocación y cortes; recomendación 3, impresa199 (PDF 17), claseI/nivelB; tablas1-2, impresa190 (PDF 9), grados; tabla3, impresa192 (PDF 10), CEAP.
+   Acceso: Versión final publicada íntegra,85p con portada del depósito institucional University of Southern Denmark. El enlace antiguo de esvs.org usado por la aplicación redirigió a login el6 noviembre 2026.
+
+12. Kakkos SK, Gohel M, Baekgaard N, Bauersachs R, Bellmunt-Montoya S, Black SA, et al. European Society for Vascular Surgery (ESVS) 2021 Clinical Practice Guidelines on the Management of Venous Thrombosis. Eur J Vasc Endovasc Surg. 2021;61(1):9-82. DOI: 10.1016/j.ejvs.2020.09.023. https://doi.org/10.1016/j.ejvs.2020.09.023
+   Localizador: Sección2.2.1 y2.2.1.3, impresas16-18 (PDF 8-10). Recomendaciones1-3, impresa18 (PDF 10), todas claseI/nivelC.
+   Acceso: Texto primario íntegro74p consultado en reproducción pública no institucional; metadatos cotejados con PubMed PMID 33334670. Copia: https://www.veinhealth.com.au/wp-content/uploads/2025/02/Venous-thrombosis-guidelines-2021-1.pdf . El antiguo PDF oficial redirigió a login.
+
+13. Australasian Sonographers Association. Duplex ultrasound examination of the lower limb for chronic venous disease: evidence-based guideline for sonographers. Recurso institucional web; s.f. DOI: no consignado. https://www.sonographers.org/resources/clinical-resources/cvi-guideline
+   Localizador: E3,PDF 4: color estático; E4-E5,PDF 5: ángulo y umbrales; G2,PDF 2: postura; G3,PDF 3: maniobras; F,PDF 5: instrumentación, escala y aliasing.
+   Acceso: Secciones oficiales completas públicas consultadas:E21p,F11p,G4p. Fecha de consulta6 noviembre 2026. El año de publicación/revisión no aparece en el texto legible de la página ni en las secciones consultadas; no se infiere de la URL.
+
+14. American Institute of Ultrasound in Medicine. AIUM Practice Parameter for the Performance of a Peripheral Venous Ultrasound Examination, 2024 Revision. J Ultrasound Med. 2026;45(1):E1-E9. DOI: 10.1002/jum.70049. https://www.aium.org/resources/practice-parameters/peripheral-venous
+   Localizador: Specification of the Examination: Venous Thromboembolic Disease—Lower Extremity, Technique/Recordings/Interpretation; Venous Insufficiency—Lower Extremity, Technique/Recording.
+   Acceso: Registro institucional oficial y texto completo del editor indexado consultados; apertura automatizada del HTML editorial devolvió 403. PubMed PMID 40955146 confirma revisión 2024, publicación online16 septiembre 2025 y volumen enero 2026.
+
+15. Intersocietal Accreditation Commission. IAC Standards and Guidelines for Vascular Testing Accreditation. Recurso institucional web; s.f. DOI: no consignado. https://intersocietal.org/wp-content/uploads/2026/08/IACVascularTestingStandardsAug2026.pdf
+   Localizador: 3.8A,impresas16-17 (PDF 16-17): criterios interpretativos; 4.7.1B-4.7.2B,impresas42-44 (PDF 42-44): TVP, permeabilidad y reflujo; orientaciones4.7.1.1B en impresa46 (PDF 46).
+   Acceso: PDF oficial íntegro65p; publicación3 agosto 2026 confirmada en la página institucional y pie del documento. El título embebido del PDF mantiene una referencia antigua a 2024; se cita la fecha editorial visible 2026.
+
+16. Keijsers JMT, Leguy CAD, Huberts W, Narracott AJ, Rittweger J, van de Vosse FN. A 1D pulse wave propagation model of the hemodynamics of calf muscle pump function. International Journal for Numerical Methods in Biomedical Engineering. 2015;31(7). DOI: 10.1002/cnm.2714. https://doi.org/10.1002/cnm.2714
+   Localizador: Methods: 1D model y venous valves; resultados de calf muscle pump.
+   Acceso: Texto completo contrastado en PMC4676919 en la investigación del proyecto; metadatos Crossref verificados.
+
+17. Ferlito S, Reda M, Sen A, Alastruey J, Avril S. Chronic Venous Insufficiency - A One-dimensional Blood Flow Modelling Assessment of Venous Valves, Perforators, Muscle Pump Activity and External Compression. IEEE Transactions on Biomedical Engineering. 2026:1-10. DOI: 10.1109/TBME.2026.3701594. https://doi.org/10.1109/TBME.2026.3701594
+   Localizador: Abstract: valves, perforators, muscle pump and external compression. Publicación electrónica anticipada.
+   Acceso: Metadatos Crossref y resumen PubMed42258676; texto completo no cotejado en esta revisión.
+
+18. Magee P. Essential notes on the physics of Doppler ultrasound. BJA Education. 2020;20(4):112-113. DOI: 10.1016/j.bjae.2020.01.003. https://doi.org/10.1016/j.bjae.2020.01.003
+   Localizador: pp.112–113: desplazamiento Doppler, ángulo, muestreo pulsado y aliasing.
+   Acceso: Artículo de acceso abierto PMC7807840 consultado en la investigación; metadatos Crossref verificados.
+
+19. DICOM Standards Committee / NEMA. DICOM PS3.3: Information Object Definitions. Estándar web, edición 2026d; consulta 6 de noviembre de 2026. DOI: no consignado. https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.8.5.5.html
+   Localizador: C.8.5.5 US Region Calibration Module, tabla C.8-17; C.7.6.5 Cine Module, tabla C.7-13.
+   Acceso: Texto normativo completo en el sitio oficial.

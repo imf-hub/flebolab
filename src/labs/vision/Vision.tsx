@@ -1,3 +1,4 @@
+import { References } from "../../shared/References";
 import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import {
@@ -28,6 +29,8 @@ function ClinicalViewer({
   thermal?: boolean;
   blind?: boolean;
 }) {
+  const width = thermal ? (image.thermalWidth ?? image.width) : image.width;
+  const height = thermal ? (image.thermalHeight ?? image.height) : image.height;
   const [tool, setTool] = useState("pan");
   const annotations = useAnnotations(image.id + (thermal ? "-thermal" : ""));
   return (
@@ -38,8 +41,8 @@ function ClinicalViewer({
       >
         <ImageViewer
           src={thermal && image.thermal ? image.thermal : image.image}
-          width={image.width}
-          height={image.height}
+          width={width}
+          height={height}
           tool={tool}
           marks={annotations.marks}
           onAdd={annotations.add}
@@ -53,7 +56,7 @@ function ClinicalViewer({
           {blind
             ? `Imagen ${images.findIndex((i) => i.id === image.id) + 1}`
             : image.sourceCaseId}{" "}
-          · {image.width} × {image.height}px
+          · {width} × {height}px
         </span>
       </div>
     </>
@@ -418,9 +421,9 @@ export default function Vision() {
               />
               {thermal && (
                 <Note>
-                  La imagen térmica conserva la representación original. No hay
-                  calibración de temperatura validada en este visor; no se
-                  muestran mediciones de °C.
+                  No añadimos mediciones de temperatura. La escala y los valores
+                  incrustados pertenecen al archivo original; su calibración
+                  radiométrica no está validada en este visor.
                 </Note>
               )}
               {related.length > 0 && (
@@ -477,6 +480,7 @@ export default function Vision() {
                       <p key={t}>{t}</p>
                     ))}
                   </details>
+                  <References ids={guide?.sources ?? ["ceap2020"]} />
                   <details>
                     <summary>Procedencia y transformaciones</summary>
                     <p>{current.attribution}</p>

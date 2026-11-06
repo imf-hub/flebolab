@@ -73,7 +73,7 @@ export const sources: EducationalSource[] = [
   {
     id: "ceap2020",
     title: "CEAP 2020: clasificación y documentación",
-    url: "https://pubmed.ncbi.nlm.nih.gov/32113854/",
+    url: "https://doi.org/10.1016/j.jvsv.2019.12.075",
     type: "Clasificación",
     summary:
       "Referencia para describir manifestaciones clínicas, etiología, anatomía y fisiopatología por miembro; incorpora corona flebectásica y modificadores de recurrencia.",
@@ -94,7 +94,7 @@ export const sources: EducationalSource[] = [
   {
     id: "esvs2022",
     title: "ESVS 2022: enfermedad venosa crónica",
-    url: "https://esvs.org/wp-content/uploads/2023/03/ESVS-2022-CVD-Guidelines.pdf",
+    url: "https://findresearcher.sdu.dk/ws/files/206201181/1_s2.0_S1078588421009795_main.pdf",
     type: "Guía clínica",
     summary:
       "Marco de referencia para anatomía, mecanismos, evaluación y contexto de enfermedad venosa de miembros inferiores.",
@@ -104,12 +104,12 @@ export const sources: EducationalSource[] = [
   {
     id: "asa",
     title: "ASA: exploración de insuficiencia venosa",
-    url: "https://sonographers.org/resources/clinical-resources/cvi-guideline",
+    url: "https://www.sonographers.org/resources/clinical-resources/cvi-guideline",
     type: "Guía de sonografía",
     summary:
       "Organiza anatomía, maniobras, interpretación y documentación. Sus apartados ayudan a separar lo observado de los requisitos de una exploración completa.",
     credit:
-      "Australasian Sonographers Association; sección E actualizada en 2025",
+      "Australasian Sonographers Association; secciones oficiales consultadas el 6 de noviembre de 2026",
     license: "Referencia; cada recurso enlazado conserva sus derechos",
   },
   {
@@ -125,7 +125,7 @@ export const sources: EducationalSource[] = [
   {
     id: "keijsers2015",
     title: "Modelo de la bomba muscular de pantorrilla",
-    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4676919/",
+    url: "https://doi.org/10.1002/cnm.2714",
     type: "Modelo científico",
     summary:
       "Estudia mecanismos de bomba, válvulas, gravedad y colapso venoso mediante una formulación unidimensional.",
@@ -178,7 +178,7 @@ export const sources: EducationalSource[] = [
   {
     id: "dopplerphysics",
     title: "Física del Doppler: frecuencia, ángulo y muestreo",
-    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7807840/",
+    url: "https://doi.org/10.1016/j.bjae.2020.01.003",
     type: "Referencia de física",
     summary:
       "Referencia conceptual para desplazamiento Doppler, proyección angular y límites del muestreo pulsado.",
@@ -226,6 +226,131 @@ export const sources: EducationalSource[] = [
     credit: "Stanford University, University of California y colaboradores",
     license: "BSD-3-Clause; dependencias con sus propios avisos",
   },
+  {
+    id: "uipduplex1",
+    title:
+      "Duplex ultrasound investigation of the veins in chronic venous disease of the lower limbs—UIP consensus document. Part I. Basic principles",
+    url: "https://doi.org/10.1016/j.ejvs.2005.07.019",
+    type: "Consenso de expertos sobre metodología dúplex",
+    summary:
+      "Metodología histórica de examen, posición, provocación, orientación e informe. Respalda distinguir un estudio de reflujo de un examen por sospecha de TVP.",
+    credit:
+      "International Union of Phlebology (UIP): iniciativa y consenso identificados en el artículo.",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "uipduplex2",
+    title:
+      "Duplex ultrasound investigation of the veins in chronic venous disease of the lower limbs—UIP consensus document. Part II. Anatomy",
+    url: "https://doi.org/10.1016/j.ejvs.2005.07.020",
+    type: "Consenso sobre anatomía ecográfica",
+    summary:
+      "Marcadores fasciales, troncos safenos, tributarias, perforantes y variaciones. Fuente directa de nomenclatura y orientación docente GSV/SSV.",
+    credit:
+      "International Union of Phlebology (UIP): iniciativa de consenso anatómico dúplex.",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "uipnomenclature",
+    title:
+      "Nomenclature of the veins of the lower limbs: an international interdisciplinary consensus statement",
+    url: "https://doi.org/10.1067/mva.2002.125847",
+    type: "Consenso internacional de nomenclatura anatómica",
+    summary:
+      "Base de normalización de términos y relaciones anatómicas venosas de miembros inferiores; complementar con refinamientos 2005 y actualizaciones específicas 2024.",
+    credit:
+      "Consenso interdisciplinario bajo auspicios de UIP, IFAA y FICAT; reunión de Roma 2001.",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "asv2024",
+    title:
+      "The anterior saphenous vein. Part 1. A position statement endorsed by the American Vein and Lymphatic Society, the American Venous Forum, and the International Union of Phlebology",
+    url: "https://doi.org/10.1016/j.jvsv.2023.101721",
+    type: "Posición sobre terminología anatómica y clínica",
+    summary:
+      "Recomienda anterior saphenous vein(ASV) en lugar de anterior accessory saphenous vein(AASV), reconociendo su carácter troncular. Permite mantener AASV/AAGSV como equivalencias históricas en búsqueda y fuentes.",
+    credit: "Panel multisocietario y posición respaldada por AVLS, AVF y UIP.",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "uiphemodynamics",
+    title:
+      "Venous hemodynamic changes in lower limb venous disease: the UIP consensus according to scientific evidence",
+    url: "https://pubmed.ncbi.nlm.nih.gov/27013029/",
+    type: "Consenso de hemodinámica venosa",
+    summary:
+      "Referencia prioritaria para el marco conceptual de fisiología, bomba, válvulas, obstrucción y efectos de tratamientos. La lectura del resumen confirma el alcance, no parámetros cuantitativos del motor.",
+    credit:
+      "International Union of Phlebology(UIP); panel de expertos con participación de sociedades flebológicas y vasculares.",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "uipedema",
+    title: "Management of the patient with the swollen lower limb",
+    url: "https://journals.sagepub.com/doi/10.1177/02683555231219726",
+    type: "Informe breve y guía de una página basada en evidencia y consenso experto",
+    summary:
+      "La valoración de una pierna aumentada de volumen requiere historia, examen y diagnóstico diferencial; puede haber causas sistémicas, locales y mixtas. Complementa los límites docentes de C3 y de observación por fotografías.",
+    credit:
+      "UIP One-Page Guidelines; autoría on behalf of UIP y garante Alun Davies en nombre de UIP.",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "ksp2023",
+    title:
+      "Proper Preparations for the Ultrasonographic Evaluation of Varicose Veins of the Lower Extremities - The 2023 Korean Society for Phlebology Clinical Practice Guidelines",
+    url: "https://www.annphlebology.org/journal/view.html?uid=142&vmd=Full",
+    type: "Guía clínica flebológica de preparación ecográfica",
+    summary:
+      "Estandarización de la exploración; bipedestación para reflujo y alternativas si no es posible. Complemento flebológico contemporáneo al consenso UIP.",
+    credit: "Korean Society for Phlebology",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "svs2023",
+    title:
+      "The 2023 Society for Vascular Surgery, American Venous Forum, and American Vein and Lymphatic Society clinical practice guidelines for the management of varicose veins of the lower extremities. Part II: Endorsed by the Society of Interventional Radiology and the Society for Vascular Medicine",
+    url: "https://www.phlebology.ch/upload/pdf/dokumente/AVLS%20guidelines%2020230.pdf",
+    type: "Guía clínica vascular y flebológica conjunta",
+    summary:
+      "Tabla completa de umbrales, postura y provocación por segmento; contexto de exploración y clasificación. La recomendación1.2.1 es1/fuerte,B/moderada; 1.3.x y1.4.x no heredan automáticamente ese grado.",
+    credit:
+      "Society for Vascular Surgery; American Venous Forum; American Vein and Lymphatic Society. Endorsed by Society of Interventional Radiology and Society for Vascular Medicine.",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "esvsthrombosis2021",
+    title:
+      "European Society for Vascular Surgery (ESVS) 2021 Clinical Practice Guidelines on the Management of Venous Thrombosis",
+    url: "https://doi.org/10.1016/j.ejvs.2020.09.023",
+    type: "Guía clínica vascular de trombosis venosa",
+    summary:
+      "Probabilidad preprueba, vía diagnóstica validada y ecografía en sospecha de TVP. Distingue estudios de compresión limitados y ecografía de toda la pierna.",
+    credit: "European Society for Vascular Surgery",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "aium2026",
+    title:
+      "AIUM Practice Parameter for the Performance of a Peripheral Venous Ultrasound Examination, 2024 Revision",
+    url: "https://www.aium.org/resources/practice-parameters/peripheral-venous",
+    type: "Parámetro de práctica ecográfica",
+    summary:
+      "Extensión de la exploración, compresión transversal y documentación. Distingue una adquisición seleccionada de un estudio completo; solicita espectro y contexto para reflujo.",
+    credit: "American Institute of Ultrasound in Medicine",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
+  {
+    id: "iac2026",
+    title: "IAC Standards and Guidelines for Vascular Testing Accreditation",
+    url: "https://intersocietal.org/wp-content/uploads/2026/08/IACVascularTestingStandardsAug2026.pdf",
+    type: "Estándar de acreditación de laboratorios vasculares",
+    summary:
+      "Documentación multisegmentaria con y sin compresión, Doppler y protocolos específicos. Útil para describir lo que un banco de cuatro sitios no documenta.",
+    credit: "Intersocietal Accreditation Commission",
+    license: "Referencia bibliográfica; no se reproducen figuras",
+  },
 ];
 
 export const glossary: GlossaryTerm[] = [
@@ -249,9 +374,9 @@ export const glossary: GlossaryTerm[] = [
   },
   {
     id: "G03",
-    term: "Gradiente de potencial",
-    english: "Pressure potential gradient",
-    aliases: ["carga gravitacional"],
+    term: "Diferencia de potencial hemodinámico",
+    english: "Hemodynamic potential difference",
+    aliases: ["gradiente de potencial", "carga gravitacional"],
     definition:
       "Diferencia que impulsa el flujo cuando se consideran presión y altura con una convención de referencia común.",
     sourceIds: ["keijsers2015"],
@@ -281,7 +406,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["flujo retrógrado"],
     definition:
       "Flujo inverso evaluado con su duración, territorio y condiciones de provocación. Una inversión breve o un color aislado no completan su interpretación.",
-    sourceIds: ["svs2022", "asa"],
+    sourceIds: ["uipduplex1", "svs2022", "asa"],
   },
   {
     id: "G07",
@@ -307,8 +432,8 @@ export const glossary: GlossaryTerm[] = [
     english: "Perforating vein",
     aliases: ["perforante"],
     definition:
-      "Conexión entre territorios venosos superficial y profundo a través de los planos fasciales.",
-    sourceIds: ["asa", "esvs2022"],
+      "Vena que atraviesa la fascia muscular para comunicar sistemas superficial y profundo. Su anatomía no implica por sí sola reflujo ni indicación terapéutica.",
+    sourceIds: ["uipnomenclature", "uipduplex2", "asa", "esvs2022"],
   },
   {
     id: "G10",
@@ -317,7 +442,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["GSV", "VSM", "safena mayor"],
     definition:
       "Vena del sistema superficial cuyo trayecto y uniones se consideran por segmento. Un cine de la unión no representa todo su estudio.",
-    sourceIds: ["asa"],
+    sourceIds: ["uipnomenclature", "uipduplex2", "asa"],
   },
   {
     id: "G11",
@@ -326,7 +451,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["SSV", "VSP", "safena parva"],
     definition:
       "Vena superficial con trayecto posterior y variabilidad de sus conexiones; la denominación se conserva ligada al territorio observado.",
-    sourceIds: ["asa"],
+    sourceIds: ["uipnomenclature", "uipduplex2", "asa"],
   },
   {
     id: "G12",
@@ -335,7 +460,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["SFJ", "USF"],
     definition:
       "Región de conexión de la safena magna con la femoral común. GS en ThrombUS+ identifica un sitio de adquisición cercano a esa relación.",
-    sourceIds: ["asa", "thrombus"],
+    sourceIds: ["uipnomenclature", "uipduplex2", "asa", "thrombus"],
   },
   {
     id: "G13",
@@ -344,7 +469,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["CFV", "VFC"],
     definition:
       "Segmento profundo proximal que se identifica por su relación anatómica y contexto de adquisición.",
-    sourceIds: ["asa", "thrombus"],
+    sourceIds: ["uipnomenclature", "uipduplex2", "asa", "thrombus"],
   },
   {
     id: "G14",
@@ -353,7 +478,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["FV", "VF"],
     definition:
       "Segmento del sistema venoso profundo del muslo; el término visible en la biblioteca se conserva según la fuente.",
-    sourceIds: ["asa", "thrombus"],
+    sourceIds: ["uipnomenclature", "uipduplex2", "asa", "thrombus"],
   },
   {
     id: "G15",
@@ -362,7 +487,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["PV", "VP"],
     definition:
       "Segmento profundo de la región de la rodilla. La orientación del cine debe conservarse al comparar imágenes.",
-    sourceIds: ["asa", "thrombus"],
+    sourceIds: ["uipnomenclature", "uipduplex2", "asa", "thrombus"],
   },
   {
     id: "G16",
@@ -371,7 +496,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["escala de grises"],
     definition:
       "Representación de ecos que permite observar forma y relaciones. Su brillo no asigna por sí solo una etiología.",
-    sourceIds: ["asa"],
+    sourceIds: ["uipduplex1", "asa"],
   },
   {
     id: "G17",
@@ -380,7 +505,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["compresión ecográfica"],
     definition:
       "Cambio de la luz vascular observado durante la presión del transductor. En los casos reales se conserva la etiqueta del proveedor.",
-    sourceIds: ["thrombus", "asa"],
+    sourceIds: ["uipduplex1", "thrombus", "asa"],
   },
   {
     id: "G18",
@@ -389,7 +514,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["mapa de color"],
     definition:
       "Representación que codifica información de flujo con una leyenda. La interpretación de dirección requiere revisar mapa y orientación.",
-    sourceIds: ["asa", "dicom"],
+    sourceIds: ["uipduplex1", "asa", "dicom"],
   },
   {
     id: "G19",
@@ -398,7 +523,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["espectro", "trazado"],
     definition:
       "Representación temporal de información Doppler. Sus ejes y unidades deben conocerse antes de medir.",
-    sourceIds: ["asa", "dicom"],
+    sourceIds: ["uipduplex1", "asa", "dicom"],
   },
   {
     id: "G20",
@@ -452,7 +577,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["gate", "compuerta"],
     definition:
       "Región de adquisición del Doppler pulsado. Su ubicación debe relacionarse con la anatomía mostrada.",
-    sourceIds: ["asa", "dicom"],
+    sourceIds: ["uipduplex1", "asa", "dicom"],
   },
   {
     id: "G26",
@@ -461,7 +586,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["modulación respiratoria"],
     definition:
       "Variación temporal del flujo. Un patrón se interpreta con segmento y contexto; no constituye una conclusión aislada.",
-    sourceIds: ["asa"],
+    sourceIds: ["uipduplex1", "asa"],
   },
   {
     id: "G27",
@@ -470,7 +595,7 @@ export const glossary: GlossaryTerm[] = [
     aliases: ["provocación distal"],
     definition:
       "Maniobra que modifica el flujo desde una localización distal al punto de observación. Debe documentarse junto al espectro.",
-    sourceIds: ["asa", "svs2022"],
+    sourceIds: ["uipduplex1", "asa", "svs2022"],
   },
   {
     id: "G28",
@@ -517,6 +642,15 @@ export const glossary: GlossaryTerm[] = [
       "Correspondencia de píxeles, ejes y unidades de una región concreta. La calibración de distancia no calibra automáticamente tiempo o velocidad.",
     sourceIds: ["dicom"],
   },
+  {
+    id: "G33",
+    term: "Vena safena anterior",
+    english: "Anterior saphenous vein",
+    aliases: ["ASV", "AASV", "AAGSV", "safena accesoria anterior"],
+    definition:
+      "Tronco superficial reconocido como vena safena anterior en la posición multisocietaria de 2024. AASV y AAGSV son denominaciones históricas útiles al consultar fuentes anteriores. El nombre no implica enfermedad.",
+    sourceIds: ["asv2024", "uipduplex2"],
+  },
 ];
 
 export const dopplerLessons: DopplerLesson[] = [
@@ -550,7 +684,7 @@ export const dopplerLessons: DopplerLesson[] = [
         unit: "cm/s",
       },
     ],
-    sourceIds: ["dopplerphysics", "asa"],
+    sourceIds: ["uipduplex1", "dopplerphysics", "asa"],
     nature: "illustration",
     demo: "direction",
     formula: "fD = 2 · f0 · v · cos(θ) / c",
@@ -587,7 +721,7 @@ export const dopplerLessons: DopplerLesson[] = [
         unit: "cm/s",
       },
     ],
-    sourceIds: ["asa"],
+    sourceIds: ["uipduplex1", "asa"],
     nature: "illustration",
     demo: "color",
     takeaway: "Conserva la leyenda al comparar y al exportar una imagen.",
@@ -701,7 +835,7 @@ export const dopplerLessons: DopplerLesson[] = [
         unit: "cm/s",
       },
     ],
-    sourceIds: ["dopplerphysics", "asa"],
+    sourceIds: ["uipduplex1", "dopplerphysics", "asa"],
     nature: "illustration",
     demo: "angle",
     formula: "fD = 2 · f0 · v · cos(θ) / c",
@@ -775,7 +909,7 @@ export const dopplerLessons: DopplerLesson[] = [
         unit: "s",
       },
     ],
-    sourceIds: ["dicom", "asa"],
+    sourceIds: ["uipduplex1", "ksp2023", "dicom", "asa"],
     nature: "illustration",
     demo: "timing",
     takeaway: "Mide entre referencias del mismo eje calibrado.",
@@ -810,7 +944,7 @@ export const dopplerLessons: DopplerLesson[] = [
         unit: "s",
       },
     ],
-    sourceIds: ["asa"],
+    sourceIds: ["uipduplex1", "asa"],
     nature: "illustration",
     demo: "phasicity",
     takeaway:
@@ -818,13 +952,13 @@ export const dopplerLessons: DopplerLesson[] = [
   },
   {
     id: "DP09",
-    title: "Contracción y flujo femoral experimental",
+    title: "Flujo femoral en un cine experimental",
     intro:
-      "Los extractos de Waterloo permiten observar flujo femoral durante una condición de adquisición documentada. Son un puente entre fisiología e imagen, no un banco de todas las patologías venosas.",
+      "Recurso publicado de una adquisición femoral humana con vectores estimados por los autores. El conjunto describe un protocolo de contracción e inclinación; este extracto no incorpora metadatos individuales de Acq0.",
     keyPoints: [
-      "Conserva participante, vista longitudinal y condición del experimento.",
-      "Los campos de velocidad son resultados del procesamiento identificado por los autores.",
-      "Varios momentos de una adquisición no son pacientes diferentes.",
+      "El video conserva una reconstrucción de los autores. No son trayectorias eritrocitarias ni curvas espectrales obtenidas por la aplicación.",
+      "Las demoras del GIF determinan su reproducción; no demuestran la escala temporal de la adquisición RF.",
+      "No se importaron matrices de velocidades ni metadatos individuales. El visor no mide velocidad, caudal, diámetros o duración de reflujo en este recurso.",
     ],
     controls: [
       {
@@ -850,17 +984,18 @@ export const dopplerLessons: DopplerLesson[] = [
     nature: "experimental",
     demo: "experimental",
     takeaway:
-      "Consulta la condición de adquisición antes de generalizar un cambio observado.",
+      "Distingue un flujo estimado y renderizado de una medición disponible para el visor.",
   },
   {
     id: "DP10",
     title: "Duración del flujo inverso",
     intro:
-      "Explora una medida temporal en un esquema calibrado y consulta el criterio correspondiente al territorio. El resultado de esta demostración no es un diagnóstico individual.",
+      "La duración del flujo inverso se interpreta por segmento, postura y maniobra. El esquema adopta los criterios segmentarios de SVS/AVF/AVLS; no diagnostica un caso.",
     keyPoints: [
-      "SVS/AVF/AVLS diferencia criterios: >0.5 s en troncos superficiales y otros segmentos; >1 s en femoral común, femoral y poplítea.",
-      "Especifica segmento y condiciones de provocación.",
-      "Una breve señal inversa no debe interpretarse sin la secuencia completa y su contexto.",
+      "SVS/AVF/AVLS: >0,5 s en troncos superficiales, venas tibiales, femoral profunda y perforantes; >1 s en femoral común, femoral y poplítea. Son criterios de implementación, no una escala de gravedad.",
+      "La guía define una perforante patológica en C2 por flujo hacia afuera >0,5 s y diámetro >3,5 mm. Dirección, duración y diámetro son criterios diferentes; no se deducen de esta curva.",
+      "ESVS describe variación entre >0,35 y >0,5 s para perforantes. Debe registrarse qué protocolo se aplicó. El valor exacto del umbral no cumple una condición estrictamente mayor.",
+      "Documenta lado, segmento, posición y maniobra. La evaluación se realiza de pie cuando es posible, con alternativas si no se tolera; color aislado no sustituye la documentación espectral.",
     ],
     controls: [
       {
@@ -882,7 +1017,14 @@ export const dopplerLessons: DopplerLesson[] = [
         unit: "",
       },
     ],
-    sourceIds: ["svs2022", "asa", "dicom"],
+    sourceIds: [
+      "uipduplex1",
+      "uipduplex2",
+      "svs2022",
+      "svs2023",
+      "esvs2022",
+      "asa",
+    ],
     nature: "illustration",
     demo: "reflux",
     takeaway: "Segmento, maniobra y escala dan significado a la duración.",
@@ -1064,11 +1206,17 @@ export const pathways: Pathway[] = [
       },
       {
         title: "Conserva el alcance",
-        body: "Los clips seleccionados enseñan una maniobra; no documentan por sí solos todo el protocolo de reflujo.",
+        body: "Una selección de compresión con el transductor no constituye una exploración diagnóstica completa de TVP ni de reflujo. Conserva la probabilidad clínica y los territorios no mostrados como información ausente.",
         lab: "dus",
       },
     ],
-    sourceIds: ["thrombus", "asa"],
+    sourceIds: [
+      "uipduplex1",
+      "thrombus",
+      "asa",
+      "esvsthrombosis2021",
+      "aium2026",
+    ],
   },
   {
     id: "RC06",
@@ -1083,7 +1231,7 @@ export const pathways: Pathway[] = [
       },
       {
         title: "Unión safena",
-        body: "Observa GS como sitio de unión; evita asumir que representa el trayecto safeno completo.",
+        body: "Observa GS como sitio safeno proximal descrito por el proveedor; no garantiza mostrar el ostium exacto; evita asumir que representa el trayecto safeno completo.",
         lab: "dus",
       },
       {
@@ -1102,7 +1250,7 @@ export const pathways: Pathway[] = [
         lab: "dus",
       },
     ],
-    sourceIds: ["thrombus", "asa"],
+    sourceIds: ["uipduplex1", "thrombus", "asa"],
   },
   {
     id: "RC07",
@@ -1136,7 +1284,7 @@ export const pathways: Pathway[] = [
         target: "DP06",
       },
     ],
-    sourceIds: ["asa", "dopplerphysics"],
+    sourceIds: ["uipduplex1", "asa", "dopplerphysics"],
   },
   {
     id: "RC08",
@@ -1170,7 +1318,7 @@ export const pathways: Pathway[] = [
         target: "DP10",
       },
     ],
-    sourceIds: ["svs2022", "asa", "dicom"],
+    sourceIds: ["uipduplex1", "svs2022", "asa", "dicom"],
   },
   {
     id: "RC09",
@@ -1290,7 +1438,7 @@ export const pathways: Pathway[] = [
       },
       {
         title: "Revisa la térmica",
-        body: "Consulta paleta, matriz y unidades disponibles; no compares colores de escalas distintas.",
+        body: "Compara cualitativamente las representaciones originales. No se dispone de matriz térmica calibrada ni se verificó registro geométrico o sincronía entre modalidades; el color no asigna etiología.",
         lab: "vision",
       },
       {
@@ -1354,7 +1502,7 @@ export const observationGuides: ObservationGuide[] = [
     limitations: [
       "La fotografía aislada no confirma edema ni su etiología venosa.",
     ],
-    sources: ["ceap2020", "esvs2022", "tricvi"],
+    sources: ["uipedema", "ceap2020", "esvs2022", "tricvi"],
   },
   {
     id: "C4",
@@ -1415,7 +1563,7 @@ export const plates: EducationalPlate[] = [
     title: "Superficial y profundo",
     description: "Una relación espacial que ayuda a organizar la observación.",
     path: "/media/plates/pl02.svg",
-    sourceIds: ["asa", "esvs2022"],
+    sourceIds: ["uipduplex1", "uipduplex2", "asa", "esvs2022"],
     nature: "illustration",
     credit: "Esquema original de FLEBO LAB IMF, 2026",
   },
@@ -1480,7 +1628,7 @@ export const plates: EducationalPlate[] = [
     title: "Observar una compresión",
     description: "La secuencia importa más que una captura aislada.",
     path: "/media/plates/pl09.svg",
-    sourceIds: ["thrombus", "asa"],
+    sourceIds: ["uipduplex1", "uipduplex2", "thrombus", "asa"],
     nature: "illustration",
     credit: "Esquema original de FLEBO LAB IMF, 2026",
   },
@@ -1489,7 +1637,7 @@ export const plates: EducationalPlate[] = [
     title: "Vista transversal y longitudinal",
     description: "Conserva orientación, lado y segmento al comparar.",
     path: "/media/plates/pl10.svg",
-    sourceIds: ["asa"],
+    sourceIds: ["uipduplex1", "uipduplex2", "asa"],
     nature: "illustration",
     credit: "Esquema original de FLEBO LAB IMF, 2026",
   },
@@ -1498,7 +1646,7 @@ export const plates: EducationalPlate[] = [
     title: "El color necesita una leyenda",
     description: "Invertir el mapa no cambia el movimiento real.",
     path: "/media/plates/pl11.svg",
-    sourceIds: ["asa"],
+    sourceIds: ["uipduplex1", "uipduplex2", "asa"],
     nature: "illustration",
     credit: "Esquema original de FLEBO LAB IMF, 2026",
   },
@@ -1517,14 +1665,14 @@ export const plates: EducationalPlate[] = [
     title: "Una duración pertenece a un eje calibrado",
     description: "La velocidad del reproductor no cambia el tiempo de origen.",
     path: "/media/plates/pl13.svg",
-    sourceIds: ["dicom", "asa"],
+    sourceIds: ["uipduplex1", "uipduplex2", "dicom", "asa"],
     nature: "illustration",
     credit: "Esquema original de FLEBO LAB IMF, 2026",
   },
   {
     id: "PL14",
     title: "La señal depende de una proyección",
-    description: "El término coseno relaciona haz y dirección del movimiento.",
+    description: "El ángulo comparte vértice con haz y movimiento.",
     path: "/media/plates/pl14.svg",
     sourceIds: ["dopplerphysics"],
     nature: "illustration",
@@ -1533,7 +1681,7 @@ export const plates: EducationalPlate[] = [
   {
     id: "PL15",
     title: "Aliasing y señal original",
-    description: "El envolvimiento puede aparentar un cambio de signo.",
+    description: "f aparente = ((f + PRF/2) módulo PRF) − PRF/2",
     path: "/media/plates/pl15.svg",
     sourceIds: ["dopplerphysics"],
     nature: "illustration",
@@ -1545,7 +1693,7 @@ export const plates: EducationalPlate[] = [
     description:
       "El registro debe permitir relacionar un evento con la respuesta.",
     path: "/media/plates/pl16.svg",
-    sourceIds: ["asa", "svs2022"],
+    sourceIds: ["uipduplex1", "uipduplex2", "asa", "svs2022"],
     nature: "illustration",
     credit: "Esquema original de FLEBO LAB IMF, 2026",
   },
@@ -1601,9 +1749,9 @@ export const animations: EducationalPlate[] = [
   },
   {
     id: "AN04",
-    title: "Presión y volumen",
+    title: "Presión y sección",
     description:
-      "Una representación de respuesta de pared; no es una medida real.",
+      "Cambio conceptual de calibre; no es una respuesta calculada de pared.",
     path: "/media/animations/an04.svg",
     sourceIds: ["keijsers2015"],
     nature: "illustration",

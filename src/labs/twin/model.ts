@@ -29,6 +29,7 @@ export type Sample = {
   pump: number;
   valve: number;
   perforator: number;
+  collateral: number;
   reflux: number;
 };
 export type Solution = {
@@ -175,6 +176,7 @@ export function solve(
         pump: state.pump,
         valve: state.deep >= 0 ? 1 : p.leak,
         perforator: state.perforator,
+        collateral: state.collateral,
         reflux: Math.min(0, state.deep) + Math.min(0, state.superficial),
       });
     if (step < recordSteps) {

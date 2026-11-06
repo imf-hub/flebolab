@@ -9,5 +9,5 @@
 <rect x="270" y="240" width="250" height="60" rx="16" fill="#7a91a4" stroke="none" /><ellipse class="static" cx="395" cy="480" rx="120" ry="75" fill="#dcecf7" stroke="#2c769a" stroke-width="7"/><ellipse class="moving" cx="395" cy="480" rx="120" ry="75" fill="#dcecf7" stroke="#2c769a" stroke-width="7"><animate attributeName="ry" values="75;12;12;75;75" dur="5s" repeatCount="indefinite"/></ellipse><text x="710" y="355" fill="#203647" font-size="28" font-weight="400" text-anchor="start">Antes · durante · después</text><text x="710" y="415" fill="#203647" font-size="25" font-weight="400" text-anchor="start">Secuencia ilustrativa</text>
 <line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
 <text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Animación conceptual</text>
-<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Referencia: ASA; ThrombUS+ · FLEBO LAB IMF, 2026</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: asa, thrombus · flebolab-imf.ferver.chatgpt.site/bibliografia</text>
 </svg>
