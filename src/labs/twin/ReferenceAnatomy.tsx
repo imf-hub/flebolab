@@ -220,6 +220,7 @@ export default function ReferenceAnatomy({
         </span>
         <button
           onClick={() => {
+            onCameraInput?.();
             if (cameraPose) {
               cameraPose.current.owner = "reset";
               cameraPose.current.position = [0, 0.3, 9];

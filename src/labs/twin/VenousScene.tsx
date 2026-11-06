@@ -740,6 +740,7 @@ export default function VenousScene({
           <button
             className="dark-button"
             onClick={() => {
+              onCameraInput?.();
               controls.current?.reset();
               if (cameraPose) cameraPose.current.owner = id;
             }}

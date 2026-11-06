@@ -345,7 +345,7 @@ function Player({ lesson }: { lesson: Lesson }) {
             </button>
             <button
               className={`icon-button ${subtitles ? "selected" : ""}`}
-              aria-label="Mostrar subtítulos"
+              aria-label={subtitles ? "Ocultar subtítulos" : "Mostrar subtítulos"}
               aria-pressed={subtitles}
               onClick={() => setSubtitles(!subtitles)}
             >
