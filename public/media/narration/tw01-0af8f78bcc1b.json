@@ -1,0 +1,126 @@
+{
+  "id": "TW01",
+  "audio": "/media/narration/tw01-0af8f78bcc1b.mp3",
+  "vtt": "/media/narration/tw01-0af8f78bcc1b.vtt",
+  "duration": 59.924898,
+  "sha256": "0af8f78bcc1b15a3bdfeb3359e95b7b353caaf1a8beebbfad4f64bc7db44909c",
+  "originalSha256": "a087571d7732a869b4d139f968509cf87240aa7aa65b9f1781178c42fa8b12db",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 13.668,
+      "end": 14.568
+    },
+    {
+      "index": 1,
+      "start": 14.568,
+      "speechEnd": 28.12,
+      "end": 28.988
+    },
+    {
+      "index": 2,
+      "start": 28.988,
+      "speechEnd": 44.45,
+      "end": 45.35
+    },
+    {
+      "index": 3,
+      "start": 45.35,
+      "speechEnd": 59.682,
+      "end": 59.924898
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 3.819,
+      "text": "En decúbito, el eje de esta red se aproxima a la horizontal."
+    },
+    {
+      "start": 3.925,
+      "end": 7.7010000000000005,
+      "text": "El azul representa la rama profunda y el violeta la superficial."
+    },
+    {
+      "start": 7.72,
+      "end": 13.818,
+      "text": "Son cuatro compartimentos de un modelo docente; las separaciones y los colores permiten reconocer sus conexiones."
+    },
+    {
+      "start": 14.568,
+      "end": 19.014,
+      "text": "Para interpretar el flujo debemos considerar tanto la presión como la altura."
+    },
+    {
+      "start": 19.105999999999998,
+      "end": 23.031999999999996,
+      "text": "La curva muestra la presión distal calculada mientras actúa la bomba."
+    },
+    {
+      "start": 23.117,
+      "end": 28.27,
+      "text": "La lectura cambia con el ciclo; una presión aislada no describe toda la dinámica de la red."
+    },
+    {
+      "start": 28.988,
+      "end": 31.144,
+      "text": "Pasamos al perfil de bipedestación."
+    },
+    {
+      "start": 31.291999999999998,
+      "end": 36.387,
+      "text": "La orientación y la carga gravitacional cambian; las unidades continúan siendo relativas."
+    },
+    {
+      "start": 36.531,
+      "end": 40.456,
+      "text": "Mira la nueva curva y conserva la misma referencia antes de comparar."
+    },
+    {
+      "start": 40.456,
+      "end": 44.6,
+      "text": "El resultado representa estas ecuaciones, no la presión de una persona."
+    },
+    {
+      "start": 45.35,
+      "end": 46.919,
+      "text": "Regresamos al decúbito."
+    },
+    {
+      "start": 46.992000000000004,
+      "end": 53.095,
+      "text": "Identifica qué cambió con la postura y qué permanece: las conexiones y la activación de la bomba."
+    },
+    {
+      "start": 53.435,
+      "end": 59.832,
+      "text": "Al explorar, modifica una sola condición cada vez y relaciona la escena con la curva correspondiente."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Sitúa la red",
+      "text": "En decúbito, el eje de esta red se aproxima a la horizontal. El azul representa la rama profunda y el violeta la superficial. Son cuatro compartimentos de un modelo docente; las separaciones y los colores permiten reconocer sus conexiones."
+    },
+    {
+      "title": "Presión y altura",
+      "text": "Para interpretar el flujo debemos considerar tanto la presión como la altura. La curva muestra la presión distal calculada mientras actúa la bomba. La lectura cambia con el ciclo; una presión aislada no describe toda la dinámica de la red."
+    },
+    {
+      "title": "Cambia una condición",
+      "text": "Pasamos al perfil de bipedestación. La orientación y la carga gravitacional cambian; las unidades continúan siendo relativas. Mira la nueva curva y conserva la misma referencia antes de comparar. El resultado representa estas ecuaciones, no la presión de una persona."
+    },
+    {
+      "title": "Comprueba la interpretación",
+      "text": "Regresamos al decúbito. Identifica qué cambió con la postura y qué permanece: las conexiones y la activación de la bomba. Al explorar, modifica una sola condición cada vez y relaciona la escena con la curva correspondiente."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW05",
+  "group": "twin",
+  "title": "Apertura y coaptación valvular",
+  "objective": "Reconoce inserción, borde libre y bloqueo ideal del flujo inverso del modelo.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Pared y valvas",
+      "spoken": "La pared se muestra abierta para observar dos valvas. Sus inserciones permanecen unidas a la pared y los bordes libres se aproximan hacia el centro. Las proporciones están ampliadas; el corte es una decisión de visualización.",
+      "scenario": "TW05",
+      "view": "valve",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "section"
+    },
+    {
+      "title": "Apertura",
+      "spoken": "Cuando el flujo calculado es positivo, las valvas se abren en esta representación. Sigue la dirección de los trazadores y el cursor de la curva. La apertura ilustra el estado funcional del modelo; no resuelve la mecánica del tejido.",
+      "scenario": "TW05",
+      "view": "valve",
+      "phase": [
+        0,
+        0.25
+      ],
+      "shot": "detail"
+    },
+    {
+      "title": "Coaptación",
+      "spoken": "Al cambiar el gradiente, los bordes se aproximan. En este perfil competente, la formulación bloquea el flujo inverso de la rama. Comprueba la lectura y la curva antes de interpretar una posición de las valvas como una observación clínica.",
+      "scenario": "TW05",
+      "view": "valve",
+      "phase": [
+        0.39,
+        0.47
+      ],
+      "shot": "detail"
+    },
+    {
+      "title": "Integra el ciclo",
+      "spoken": "Recuperamos el conjunto y repetimos el ciclo. La relación importante es entre flujo calculado y estado representado. La evaluación clínica de una válvula exige su contexto y un estudio adecuado; no se obtiene de esta geometría ilustrativa.",
+      "scenario": "TW05",
+      "view": "valve",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW05"
+}

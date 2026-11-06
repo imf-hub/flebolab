@@ -1,0 +1,67 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP02",
+  "group": "doppler",
+  "title": "El mapa de color puede invertirse",
+  "objective": "Distingue el mapa de presentación de la dirección física del movimiento.",
+  "sourceIds": [
+    "uipduplex1",
+    "asa"
+  ],
+  "stages": [
+    {
+      "title": "Reconoce el mapa",
+      "spoken": "El color Doppler representa información de movimiento según un mapa y una referencia. El rojo y el azul de esta demostración no identifican por sí mismos arterias o venas. Localiza la leyenda antes de interpretar.",
+      "values": {
+        "invert": 0,
+        "velocity": 25
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Invierte la presentación",
+      "spoken": "Ahora invertimos el mapa manteniendo la misma señal ilustrativa. Cambia el color mostrado, pero no hemos invertido el flujo. Esta separación es esencial cuando una imagen se interpreta sin conocer sus ajustes.",
+      "values": {
+        "invert": 1,
+        "velocity": 25
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Movimiento en otro sentido",
+      "spoken": "Cambiamos el sentido de la señal y conservamos el mapa invertido. Relaciona ambas decisiones con la leyenda. Un color aislado no permite nombrar el vaso ni confirmar reflujo.",
+      "values": {
+        "invert": 1,
+        "velocity": -25
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Conserva el contexto",
+      "spoken": "Volvemos al mapa inicial. En la práctica, orientación del haz, escala, inversión y adquisición forman parte de la lectura. Describe el movimiento en su contexto anatómico y evita utilizar el color como diagnóstico independiente.",
+      "values": {
+        "invert": 0,
+        "velocity": 25
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP02"
+}

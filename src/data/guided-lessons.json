@@ -1,0 +1,1916 @@
+[
+  {
+    "id": "TW01",
+    "group": "twin",
+    "title": "La postura cambia el contexto",
+    "objective": "Relaciona altura, potencial y presión sin confundirlos con una medición clínica.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Sitúa la red",
+        "spoken": "En decúbito, el eje de esta red se aproxima a la horizontal. El azul representa la rama profunda y el violeta la superficial. Son cuatro compartimentos de un modelo docente; las separaciones y los colores permiten reconocer sus conexiones.",
+        "scenario": "TW01",
+        "view": "flow",
+        "phase": [
+          0,
+          0.2
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Presión y altura",
+        "spoken": "Para interpretar el flujo debemos considerar tanto la presión como la altura. La curva muestra la presión distal calculada mientras actúa la bomba. La lectura cambia con el ciclo; una presión aislada no describe toda la dinámica de la red.",
+        "scenario": "TW01",
+        "view": "flow",
+        "phase": [
+          0.2,
+          0.8
+        ],
+        "shot": "deep"
+      },
+      {
+        "title": "Cambia una condición",
+        "spoken": "Pasamos al perfil de bipedestación. La orientación y la carga gravitacional cambian; las unidades continúan siendo relativas. Mira la nueva curva y conserva la misma referencia antes de comparar. El resultado representa estas ecuaciones, no la presión de una persona.",
+        "scenario": "TW02",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Comprueba la interpretación",
+        "spoken": "Regresamos al decúbito. Identifica qué cambió con la postura y qué permanece: las conexiones y la activación de la bomba. Al explorar, modifica una sola condición cada vez y relaciona la escena con la curva correspondiente.",
+        "scenario": "TW01",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW01"
+  },
+  {
+    "id": "TW02",
+    "group": "twin",
+    "title": "Del decúbito a la bipedestación",
+    "objective": "Distingue orientación anatómica, gravedad y representación del circuito.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Referencia vertical",
+        "spoken": "Esta vista sitúa la red en bipedestación. Localiza los extremos proximal y distal antes de seguir las partículas. Su desplazamiento procede del flujo calculado; el giro del conjunto representa la postura y no una deformación del cuerpo.",
+        "scenario": "TW02",
+        "view": "flow",
+        "phase": [
+          0,
+          0.2
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Lee el circuito",
+        "spoken": "El circuito permite reconocer los cuatro compartimentos sin transparencias. Cada nodo tiene presión y volumen; las conexiones muestran flujos con signo. Esta representación ayuda a comprobar lo que el dibujo tridimensional puede ocultar desde un ángulo concreto.",
+        "scenario": "TW02",
+        "view": "circuit",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Contrasta la postura",
+        "spoken": "Ahora se muestra el perfil en decúbito. La presión se interpreta con la misma convención del modelo. No traduzcas estas unidades a milímetros de mercurio ni uses el cambio de altura como una predicción individual.",
+        "scenario": "TW01",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Vuelve al mecanismo",
+        "spoken": "De nuevo en bipedestación, observa contracción y relajación. La gravedad modifica el contexto en el que trabaja la bomba, pero una animación por sí sola no determina síntomas ni competencia venosa en un paciente.",
+        "scenario": "TW02",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "deep"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW02"
+  },
+  {
+    "id": "TW03",
+    "group": "twin",
+    "title": "La bomba muscular en acción",
+    "objective": "Relaciona contracción, desplazamiento y curva temporal del mismo cálculo.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Antes de contraer",
+        "spoken": "Localiza la rama profunda y la envoltura muscular ilustrativa. El modelo conserva sangre dentro de sus compartimentos. Las partículas son trazadores simbólicos: hacen visible el transporte sin representar la velocidad real de cada célula.",
+        "scenario": "TW03",
+        "view": "flow",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Eyección",
+        "spoken": "La activación de la bomba aumenta. Mira la envoltura y sigue el ascenso de la curva de flujo. El cursor señala el mismo instante que utiliza la escena. La contracción visual y la lectura numérica pertenecen a una única solución.",
+        "scenario": "TW03",
+        "view": "flow",
+        "phase": [
+          0,
+          0.25
+        ],
+        "shot": "deep"
+      },
+      {
+        "title": "Relajación y relleno",
+        "spoken": "Al disminuir la activación, cambian las presiones y los flujos entre compartimentos. Observa la conexión entre los sistemas y evita asumir que todas las ramas se mueven siempre en el mismo sentido. La dirección está determinada por este cálculo.",
+        "scenario": "TW03",
+        "view": "flow",
+        "phase": [
+          0.25,
+          0.8
+        ],
+        "shot": "superficial"
+      },
+      {
+        "title": "Ciclo completo",
+        "spoken": "Revisamos un ciclo completo. Compara amplitud y forma de la onda, y después prueba una activación menor en Explorar. La contracción y las valvas son esquemas docentes; esta pieza no reproduce una biomecánica individual validada.",
+        "scenario": "TW03",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW03"
+  },
+  {
+    "id": "TW04",
+    "group": "twin",
+    "title": "Qué cambia al reducir la bomba",
+    "objective": "Compara perfiles manteniendo explícita la condición que cambia.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Activación menor",
+        "spoken": "El perfil utiliza una activación muscular reducida. Reconoce primero la misma red y las mismas conexiones. El propósito de la comparación es observar cómo cambian las ondas cuando modificamos una condición del modelo.",
+        "scenario": "TW04",
+        "view": "flow",
+        "phase": [
+          0,
+          0.2
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Observa la onda",
+        "spoken": "Sigue un ciclo de este perfil. La amplitud y la distribución temporal del flujo deben leerse en la curva, junto al movimiento. Una imagen detenida de un vaso no permite deducir la eficacia funcional de la bomba de una persona.",
+        "scenario": "TW04",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "deep"
+      },
+      {
+        "title": "Perfil de contraste",
+        "spoken": "Mostramos ahora la bomba más activa. La curva y la escena se reconstruyen con las condiciones de este segundo perfil. Compara sus formas; no interpretes el retorno medio como una medida clínica, porque las entradas del modelo permanecen constantes.",
+        "scenario": "TW03",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "deep"
+      },
+      {
+        "title": "Compara con propósito",
+        "spoken": "Volvemos a la activación reducida. Identifica el cambio observable antes de añadir otras variables. La exploración permite repetir la comparación y ver cómo intervienen también las conexiones, la salida y la conductancia inversa.",
+        "scenario": "TW04",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW04"
+  },
+  {
+    "id": "TW05",
+    "group": "twin",
+    "title": "Apertura y coaptación valvular",
+    "objective": "Reconoce inserción, borde libre y bloqueo ideal del flujo inverso del modelo.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Pared y valvas",
+        "spoken": "La pared se muestra abierta para observar dos valvas. Sus inserciones permanecen unidas a la pared y los bordes libres se aproximan hacia el centro. Las proporciones están ampliadas; el corte es una decisión de visualización.",
+        "scenario": "TW05",
+        "view": "valve",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "section"
+      },
+      {
+        "title": "Apertura",
+        "spoken": "Cuando el flujo calculado es positivo, las valvas se abren en esta representación. Sigue la dirección de los trazadores y el cursor de la curva. La apertura ilustra el estado funcional del modelo; no resuelve la mecánica del tejido.",
+        "scenario": "TW05",
+        "view": "valve",
+        "phase": [
+          0,
+          0.25
+        ],
+        "shot": "detail"
+      },
+      {
+        "title": "Coaptación",
+        "spoken": "Al cambiar el gradiente, los bordes se aproximan. En este perfil competente, la formulación bloquea el flujo inverso de la rama. Comprueba la lectura y la curva antes de interpretar una posición de las valvas como una observación clínica.",
+        "scenario": "TW05",
+        "view": "valve",
+        "phase": [
+          0.39,
+          0.47
+        ],
+        "shot": "detail"
+      },
+      {
+        "title": "Integra el ciclo",
+        "spoken": "Recuperamos el conjunto y repetimos el ciclo. La relación importante es entre flujo calculado y estado representado. La evaluación clínica de una válvula exige su contexto y un estudio adecuado; no se obtiene de esta geometría ilustrativa.",
+        "scenario": "TW05",
+        "view": "valve",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW05"
+  },
+  {
+    "id": "TW06",
+    "group": "twin",
+    "title": "Cómo se representa una fuga",
+    "objective": "Relaciona conductancia inversa, defecto ilustrativo de coaptación y flujo con signo.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Una condición diferente",
+        "spoken": "Este perfil permite conductancia inversa en la rama. El defecto de coaptación representa esa condición del modelo. No es una medida de lesión anatómica ni un grado clínico de insuficiencia. Mira cómo se conserva la inserción de las valvas.",
+        "scenario": "TW06",
+        "view": "valve",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "section"
+      },
+      {
+        "title": "Durante la eyección",
+        "spoken": "Primero observamos el flujo positivo. La apertura acompaña la onda, igual que en el perfil competente. La diferencia entre ambos perfiles no debe juzgarse únicamente por una imagen de las valvas abiertas.",
+        "scenario": "TW06",
+        "view": "valve",
+        "phase": [
+          0,
+          0.25
+        ],
+        "shot": "detail"
+      },
+      {
+        "title": "Inversión calculada",
+        "spoken": "Durante la fase siguiente aparece flujo negativo. La curva pasa bajo cero y los trazadores invierten el sentido. Esos tres elementos describen el mismo instante. Una inversión del modelo no sustituye la medición clínica de duración y condiciones de provocación.",
+        "scenario": "TW06",
+        "view": "valve",
+        "phase": [
+          0.38,
+          0.5
+        ],
+        "shot": "detail"
+      },
+      {
+        "title": "Referencia competente",
+        "spoken": "Compara ahora con la rama competente: bajo estas condiciones el flujo inverso queda bloqueado. Conserva la misma orientación y observa el ciclo completo. En Explorar puedes abrir la comparación simultánea para contrastar ambos resultados.",
+        "scenario": "TW05",
+        "view": "valve",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW06"
+  },
+  {
+    "id": "TW07",
+    "group": "twin",
+    "title": "La conexión entre sistemas",
+    "objective": "Sigue el intercambio calculado entre los compartimentos distales.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Localiza la conexión",
+        "spoken": "La rama verde conecta los compartimentos distales superficial y profundo. En anatomía, una vena perforante atraviesa la fascia; este circuito simplifica esa relación. El color identifica la conexión y no establece por sí mismo su función clínica.",
+        "scenario": "TW07",
+        "view": "flow",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "superficial"
+      },
+      {
+        "title": "Sigue el intercambio",
+        "spoken": "A lo largo del ciclo cambia la diferencia de potencial entre ambos lados. La dirección del trazador y el valor con signo muestran el intercambio calculado. No asumas que una flecha fija describe todas las fases o todas las perforantes.",
+        "scenario": "TW07",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "deep"
+      },
+      {
+        "title": "Confirma en el circuito",
+        "spoken": "El circuito hace explícita esa conexión. Relaciona su valor con las presiones y los volúmenes de los nodos. La comunicación está representada como un elemento de la red, sin reconstruir trayectos fasciales individuales.",
+        "scenario": "TW07",
+        "view": "circuit",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Del esquema a la evaluación",
+        "spoken": "Regresa a la vista espacial y repite el ciclo. Para evaluar una perforante en clínica hacen falta localización, maniobras y dúplex. Su existencia o su diámetro aislados no justifican una interpretación terapéutica.",
+        "scenario": "TW07",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW07"
+  },
+  {
+    "id": "TW08",
+    "group": "twin",
+    "title": "Una conexión menos conductora",
+    "objective": "Distingue conductancia del modelo y diagnóstico anatómico.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Menor conductancia",
+        "spoken": "La conexión verde tiene una conductancia menor en este perfil. Su presencia sigue visible porque no estamos eliminando la anatomía. Hemos cambiado una propiedad funcional de la red para observar sus consecuencias.",
+        "scenario": "TW08",
+        "view": "flow",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "superficial"
+      },
+      {
+        "title": "Resultado del ciclo",
+        "spoken": "Sigue el intercambio calculado durante la contracción y la relajación. El tamaño aparente de la línea no debe utilizarse como una medición de la vena. La lectura numérica representa flujo relativo dentro de las ecuaciones.",
+        "scenario": "TW08",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "deep"
+      },
+      {
+        "title": "Contraste controlado",
+        "spoken": "Mostramos el perfil con mayor conexión. Escena, lecturas y curva pertenecen ahora a esa solución. Compara las condiciones y la onda, sin atribuir al cambio una mejoría clínica automática.",
+        "scenario": "TW07",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "superficial"
+      },
+      {
+        "title": "Qué permanece",
+        "spoken": "Volvemos a la conexión menos conductora. Los compartimentos y la regla de conservación siguen presentes. En la exploración, cambia una condición y formula una predicción antes de observar el resultado.",
+        "scenario": "TW08",
+        "view": "circuit",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW08"
+  },
+  {
+    "id": "TW09",
+    "group": "twin",
+    "title": "Resistencia a la salida",
+    "objective": "Reconoce una condición de frontera sin confundirla con una estenosis reconstruida.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Sitúa la salida",
+        "spoken": "El marcador de salida representa mayor resistencia en la red. No dibuja una estenosis anatómica ni mide el porcentaje de obstrucción de una vena. Localiza primero el trayecto al que se aplica esa condición.",
+        "scenario": "TW09",
+        "view": "flow",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "outflow"
+      },
+      {
+        "title": "Lee la consecuencia",
+        "spoken": "La presión y la forma de las ondas cambian durante el ciclo. El modelo estabiliza sus volúmenes antes de mostrar la solución. Mira la curva correspondiente y evita deducir una presión de paciente a partir de sus unidades relativas.",
+        "scenario": "TW09",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "deep"
+      },
+      {
+        "title": "Comprueba los nodos",
+        "spoken": "En el circuito, cada salida y conexión puede seguirse sin ocultamientos. La conservación permite comprobar el balance de la red. Una mayor resistencia no se traduce automáticamente en un diagnóstico o una indicación de intervención.",
+        "scenario": "TW09",
+        "view": "circuit",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Añade una pregunta",
+        "spoken": "Regresamos al conjunto: ¿qué podría cambiar si existiera una vía adicional? El experimento de colaterales permite explorar esa pregunta con otra solución, manteniendo explícitas las condiciones que se comparan.",
+        "scenario": "TW09",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW09"
+  },
+  {
+    "id": "TW10",
+    "group": "twin",
+    "title": "Una vía colateral en la red",
+    "objective": "Identifica una rama adicional y su flujo propio calculado.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Una ruta adicional",
+        "spoken": "La rama ocre añade una vía colateral al perfil con resistencia de salida. Su trazado es esquemático. La presencia de una colateral en una imagen clínica exige interpretación anatómica y funcional, no una conclusión automática sobre la gravedad.",
+        "scenario": "TW10",
+        "view": "flow",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Distribución del flujo",
+        "spoken": "Sigue el flujo de esa rama durante el ciclo. Tiene su propio valor calculado; no es una animación decorativa. Relaciónalo con las lecturas de las otras ramas y con la presión de la red.",
+        "scenario": "TW10",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "outflow"
+      },
+      {
+        "title": "Sin esa rama",
+        "spoken": "Mostramos el perfil de resistencia sin la vía adicional. La comparación pregunta cómo se redistribuye el flujo cuando cambia la conectividad. No representa la oclusión o apertura de una colateral en tiempo real dentro de un paciente.",
+        "scenario": "TW09",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "outflow"
+      },
+      {
+        "title": "Contrasta ambas redes",
+        "spoken": "Volvemos a la red con colateral y la expresamos como circuito. Comprueba qué conexión se añadió y cómo se conserva el balance. La exploración permite revisar ambas soluciones con un mismo período.",
+        "scenario": "TW10",
+        "view": "circuit",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW10"
+  },
+  {
+    "id": "TW11",
+    "group": "twin",
+    "title": "Presión exterior y volumen",
+    "objective": "Relaciona presión transmural y respuesta del compartimento superficial.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Soporte externo",
+        "spoken": "Este perfil modifica la presión exterior del compartimento superficial. La representación señala el lugar de aplicación. El control es una condición docente sin calibración clínica y no prescribe una presión de compresión.",
+        "scenario": "TW11",
+        "view": "flow",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "superficial"
+      },
+      {
+        "title": "Mira el volumen",
+        "spoken": "Al cambiar la diferencia entre presión interna y externa, cambia el volumen calculado. La curva muestra el mismo compartimento que la escena. El calibre se utiliza para representar volumen a longitud fija, no como una medición ecográfica.",
+        "scenario": "TW11",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "superficial"
+      },
+      {
+        "title": "Presión no es receta",
+        "spoken": "El circuito permite separar presión, volumen y flujo. El soporte externo forma parte del contexto mecánico, pero la selección clínica de compresión requiere valoración y guías. Este modelo no calcula tallas, dosis de presión ni seguridad arterial.",
+        "scenario": "TW11",
+        "view": "circuit",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Explora una relación",
+        "spoken": "Recupera la red y observa otra vez el ciclo. Antes de mover el ajuste, predice la dirección del cambio de volumen. Contrasta luego tu predicción con la curva, manteniendo las demás condiciones.",
+        "scenario": "TW11",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW11"
+  },
+  {
+    "id": "TW12",
+    "group": "twin",
+    "title": "Mecanismos que interactúan",
+    "objective": "Integra bomba, válvulas, conexiones y presión exterior sin inferir efectos terapéuticos.",
+    "sourceIds": [
+      "uiphemodynamics",
+      "esvs2022",
+      "keijsers2015"
+    ],
+    "stages": [
+      {
+        "title": "Reconoce las condiciones",
+        "spoken": "Aquí intervienen varias condiciones a la vez: bomba, conductancia inversa, conexión, salida y presión exterior. Identifica sus valores antes de interpretar la escena. Una combinación visualmente compleja no equivale a una simulación individual más validada.",
+        "scenario": "TW12",
+        "view": "flow",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Observa un ciclo",
+        "spoken": "Sigue la activación y el transporte en las ramas. Sus flujos pueden cambiar de forma diferente porque dependen de la red completa. La lectura temporal resulta más informativa que una imagen aislada de las partículas.",
+        "scenario": "TW12",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "deep"
+      },
+      {
+        "title": "Verifica el circuito",
+        "spoken": "El circuito revela qué compartimentos reciben y entregan flujo. Compara presiones y volúmenes mientras avanza el cursor. Los resultados son relativos y las entradas constantes limitan lo que puede inferirse del retorno medio.",
+        "scenario": "TW12",
+        "view": "circuit",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Descompón el problema",
+        "spoken": "Vuelve a la red. Para comprender una interacción, empieza comparando perfiles simples y añade condiciones de una en una. Esta herramienta permite ensayar explicaciones causales, sin predecir la respuesta de una persona a un tratamiento.",
+        "scenario": "TW12",
+        "view": "flow",
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebotwin?scenario=TW12"
+  },
+  {
+    "id": "DP01",
+    "group": "doppler",
+    "title": "Dirección del haz y del flujo",
+    "objective": "Relaciona el haz con la componente del movimiento que detecta.",
+    "sourceIds": [
+      "uipduplex1",
+      "dopplerphysics",
+      "asa"
+    ],
+    "stages": [
+      {
+        "title": "Dos direcciones",
+        "spoken": "El transductor y el flujo tienen direcciones diferentes. La flecha del vaso representa movimiento y el haz señala la dirección de observación. El esquema separa ambos para explicar qué componente participa en el desplazamiento Doppler.",
+        "values": {
+          "angle": 25,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "La proyección",
+        "spoken": "Al cambiar el ángulo, cambia la proyección del movimiento sobre el haz. La curva sintética representa esa componente, no la velocidad total del vaso. Un ángulo cercano a perpendicular reduce la componente detectada en esta idealización.",
+        "values": {
+          "angle": 80,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Cambia el sentido relativo",
+        "spoken": "Al sobrepasar la perpendicular cambia el signo de la proyección. Eso describe la relación con el haz y la convención de presentación. No identifica automáticamente arteria, vena, normalidad o enfermedad.",
+        "values": {
+          "angle": 135,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Pregunta antes de interpretar",
+        "spoken": "Regresamos a la orientación inicial. Antes de interpretar un signo, localiza el transductor, la dirección del flujo y la configuración del equipo. En clínica se necesitan anatomía y protocolo, además de la señal.",
+        "values": {
+          "angle": 25,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP01"
+  },
+  {
+    "id": "DP02",
+    "group": "doppler",
+    "title": "El mapa de color puede invertirse",
+    "objective": "Distingue el mapa de presentación de la dirección física del movimiento.",
+    "sourceIds": [
+      "uipduplex1",
+      "asa"
+    ],
+    "stages": [
+      {
+        "title": "Reconoce el mapa",
+        "spoken": "El color Doppler representa información de movimiento según un mapa y una referencia. El rojo y el azul de esta demostración no identifican por sí mismos arterias o venas. Localiza la leyenda antes de interpretar.",
+        "values": {
+          "invert": 0,
+          "velocity": 25
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Invierte la presentación",
+        "spoken": "Ahora invertimos el mapa manteniendo la misma señal ilustrativa. Cambia el color mostrado, pero no hemos invertido el flujo. Esta separación es esencial cuando una imagen se interpreta sin conocer sus ajustes.",
+        "values": {
+          "invert": 1,
+          "velocity": 25
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Movimiento en otro sentido",
+        "spoken": "Cambiamos el sentido de la señal y conservamos el mapa invertido. Relaciona ambas decisiones con la leyenda. Un color aislado no permite nombrar el vaso ni confirmar reflujo.",
+        "values": {
+          "invert": 1,
+          "velocity": -25
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Conserva el contexto",
+        "spoken": "Volvemos al mapa inicial. En la práctica, orientación del haz, escala, inversión y adquisición forman parte de la lectura. Describe el movimiento en su contexto anatómico y evita utilizar el color como diagnóstico independiente.",
+        "values": {
+          "invert": 0,
+          "velocity": 25
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP02"
+  },
+  {
+    "id": "DP03",
+    "group": "doppler",
+    "title": "Encuentra la línea base",
+    "objective": "Encuentra la referencia cero antes de leer una onda.",
+    "sourceIds": [
+      "dicom",
+      "dopplerphysics"
+    ],
+    "stages": [
+      {
+        "title": "Una referencia común",
+        "spoken": "La línea base indica la referencia cero del registro. El trazo sintético se muestra sobre una cuadrícula temporal. Antes de comparar signos o amplitudes, identifica el cero y las unidades de presentación.",
+        "values": {
+          "baseline": 0,
+          "scale": 50
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Desplaza la línea base",
+        "spoken": "Ahora cambia la posición de esa referencia en pantalla. La demostración desplaza el conjunto de la presentación; no añade una nueva alteración fisiológica. Sigue la onda respecto del cero, no respecto del borde del visor.",
+        "values": {
+          "baseline": 30,
+          "scale": 50
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Otra posición",
+        "spoken": "Situamos la línea base en el otro sentido. La lectura debe seguir utilizando la referencia visible. La forma de una captura y su encuadre pueden modificar la impresión que produce una misma señal.",
+        "values": {
+          "baseline": -25,
+          "scale": 50
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Interpretación completa",
+        "spoken": "Regresamos al centro. En un registro clínico, conserva metadatos, escala y referencia antes de comparar con otro estudio. Esta curva es sintética y no representa una medición de un paciente.",
+        "values": {
+          "baseline": 0,
+          "scale": 50
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP03"
+  },
+  {
+    "id": "DP04",
+    "group": "doppler",
+    "title": "Escala y fisiología son cosas distintas",
+    "objective": "Diferencia escala del visor y cambio de la señal.",
+    "sourceIds": [
+      "dicom",
+      "dopplerphysics"
+    ],
+    "stages": [
+      {
+        "title": "La misma señal",
+        "spoken": "La curva parte de una velocidad ilustrativa constante en sus condiciones de base. Su tamaño en pantalla depende de la escala vertical. El propósito es separar la magnitud representada de su apariencia.",
+        "values": {
+          "scale": 40,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Amplía la escala",
+        "spoken": "Al ampliar el rango vertical, la misma onda ocupa menos altura. La sangre no ha cambiado de velocidad por este ajuste. La comparación visual exige leer los valores y sus unidades.",
+        "values": {
+          "scale": 90,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Acerca el rango",
+        "spoken": "Con un rango menor, el trazo ocupa más espacio y puede salir del área visible. Este recorte gráfico no debe confundirse con aliasing, cuyo mecanismo depende del muestreo pulsado.",
+        "values": {
+          "scale": 20,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Compara con referencia",
+        "spoken": "Volvemos al rango inicial. Distingue un cambio de configuración de un cambio físico de la señal. Conserva la escala cuando presentes dos registros y comprueba si sus condiciones de adquisición son comparables.",
+        "values": {
+          "scale": 40,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP04"
+  },
+  {
+    "id": "DP05",
+    "group": "doppler",
+    "title": "El papel del ángulo Doppler",
+    "objective": "Comprende la dependencia angular de la ecuación Doppler ideal.",
+    "sourceIds": [
+      "uipduplex1",
+      "dopplerphysics",
+      "asa"
+    ],
+    "stages": [
+      {
+        "title": "Ángulo y proyección",
+        "spoken": "La ecuación Doppler incluye el coseno del ángulo entre haz y movimiento. El esquema muestra esa relación geométrica y una señal ilustrativa. No es una medición cuantitativa de un vaso adquirido.",
+        "values": {
+          "angle": 30,
+          "frequency": 5,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Hacia la perpendicular",
+        "spoken": "Al aproximar el haz a la perpendicular, disminuye la componente proyectada. Esa dependencia también aumenta la sensibilidad de una estimación a errores de orientación. La corrección angular requiere definir adecuadamente el eje del flujo.",
+        "values": {
+          "angle": 85,
+          "frequency": 5,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Frecuencia de emisión",
+        "spoken": "Cambiamos la frecuencia de emisión en la ecuación ideal y mantenemos la velocidad. Varía el desplazamiento Doppler, no la velocidad física impuesta. Frecuencia, ángulo y velocidad tienen papeles distintos.",
+        "values": {
+          "angle": 45,
+          "frequency": 8,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Lee la adquisición",
+        "spoken": "Recuperamos las condiciones iniciales. Antes de usar una cifra clínica, revisa orientación, volumen de muestra y ajustes pertinentes. Esta demostración explica una relación matemática, no certifica la calibración de un equipo.",
+        "values": {
+          "angle": 30,
+          "frequency": 5,
+          "velocity": 20
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP05"
+  },
+  {
+    "id": "DP06",
+    "group": "doppler",
+    "title": "Aliasing: un límite del muestreo",
+    "objective": "Reconoce el límite de Nyquist y el plegamiento de una señal pulsada.",
+    "sourceIds": [
+      "dopplerphysics"
+    ],
+    "stages": [
+      {
+        "title": "Señal y muestreo",
+        "spoken": "El Doppler pulsado representa una señal dentro de un intervalo determinado por la frecuencia de repetición de pulsos. Las líneas señalan el límite de Nyquist. Distinguimos la señal impuesta de la que puede mostrarse dentro de ese intervalo.",
+        "values": {
+          "prf": 2000,
+          "shift": 800
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Aparece el plegamiento",
+        "spoken": "Reducimos la frecuencia de repetición manteniendo el desplazamiento original. La señal supera el límite y se representa plegada al otro lado. Ese signo mostrado no demuestra por sí mismo una inversión física del flujo.",
+        "values": {
+          "prf": 1000,
+          "shift": 800
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Recupera el intervalo",
+        "spoken": "Al aumentar de nuevo el rango de muestreo, la misma señal puede representarse sin ese plegamiento. En una adquisición real existen restricciones relacionadas con profundidad y configuración; no todo ajuste puede modificarse libremente.",
+        "values": {
+          "prf": 3000,
+          "shift": 800
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Distingue los fenómenos",
+        "spoken": "Compara la señal original, el límite y el valor representado. Aliasing, inversión del mapa y cambio verdadero de dirección son fenómenos diferentes. Este ejemplo usa valores sintéticos para hacer visible esa distinción.",
+        "values": {
+          "prf": 1000,
+          "shift": 800
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP06"
+  },
+  {
+    "id": "DP07",
+    "group": "doppler",
+    "title": "Tiempo, evento y maniobra",
+    "objective": "Relaciona una señal temporal con el evento que la provoca.",
+    "sourceIds": [
+      "uipduplex1",
+      "ksp2023",
+      "dicom",
+      "asa"
+    ],
+    "stages": [
+      {
+        "title": "Sitúa el evento",
+        "spoken": "Una onda temporal necesita una referencia del evento que la acompaña. El marcador señala una maniobra ilustrativa y el área destaca el intervalo que queremos observar. El tiempo se lee en el eje horizontal.",
+        "values": {
+          "eventTime": 2,
+          "duration": 0.8
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "El momento importa",
+        "spoken": "Desplazamos el evento y conservamos la duración del intervalo. No hemos creado una nueva velocidad de la sangre; estamos mostrando cómo cambia la relación temporal dentro del registro docente.",
+        "values": {
+          "eventTime": 3.5,
+          "duration": 0.8
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Delimita el intervalo",
+        "spoken": "Ahora cambia la duración representada. El inicio y el final deben colocarse según el fenómeno y su adquisición, no por la anchura aparente de una captura. Esta demostración no asigna una clase clínica.",
+        "values": {
+          "eventTime": 2,
+          "duration": 1.2
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Documenta condiciones",
+        "spoken": "Recuperamos la referencia inicial. Un informe útil relaciona señal, segmento, postura y maniobra. La interpretación de reflujo requiere el protocolo y el territorio correspondientes, además de medir correctamente el tiempo.",
+        "values": {
+          "eventTime": 2,
+          "duration": 0.8
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP07"
+  },
+  {
+    "id": "DP08",
+    "group": "doppler",
+    "title": "Variación temporal del flujo",
+    "objective": "Distingue variación temporal de una conclusión diagnóstica.",
+    "sourceIds": [
+      "uipduplex1",
+      "asa"
+    ],
+    "stages": [
+      {
+        "title": "Una onda modulada",
+        "spoken": "La señal sintética varía a lo largo del tiempo. Su modulación permite explicar el concepto de fasicidad. El esquema no reproduce el registro respiratorio o cardíaco de una persona.",
+        "values": {
+          "modulation": 60,
+          "period": 4
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Modulación menor",
+        "spoken": "Reducimos la amplitud de la modulación mientras mantenemos el período del ejemplo. La onda se vuelve menos variable. Ese aspecto aislado no basta para localizar una lesión o excluir enfermedad.",
+        "values": {
+          "modulation": 15,
+          "period": 4
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Otra periodicidad",
+        "spoken": "Cambiamos el período del esquema. Frecuencia de repetición y amplitud son propiedades diferentes de la variación temporal. En clínica deben interpretarse con la adquisición y otras observaciones.",
+        "values": {
+          "modulation": 60,
+          "period": 2.5
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Integra la información",
+        "spoken": "Volvemos a la onda inicial. Describe qué observas, compara condiciones y evita convertir un patrón único en diagnóstico. La información temporal es una pieza del estudio, junto a anatomía, compresibilidad y otras señales.",
+        "values": {
+          "modulation": 60,
+          "period": 4
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP08"
+  },
+  {
+    "id": "DP09",
+    "group": "doppler",
+    "title": "Flujo femoral en un cine experimental",
+    "objective": "Distingue un renderizado experimental de una serie cuantitativa importada.",
+    "sourceIds": [
+      "waterloo"
+    ],
+    "stages": [
+      {
+        "title": "Procedencia visible",
+        "spoken": "Este material procede del conjunto experimental Waterloo, distribuido por sus autores. Muestra un renderizado publicado del flujo femoral. Su naturaleza es diferente de las curvas sintéticas de las otras lecciones.",
+        "values": {
+          "phase": 0
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          0.2
+        ]
+      },
+      {
+        "title": "Observa el movimiento",
+        "spoken": "La secuencia permite observar cambios espaciales y temporales en el renderizado. Conserva sus leyendas y condiciones. La visualización de vectores no convierte automáticamente un archivo de video en datos numéricos accesibles.",
+        "values": {
+          "phase": 35
+        },
+        "shot": "overview",
+        "phase": [
+          0.2,
+          0.6
+        ]
+      },
+      {
+        "title": "Límite de medición",
+        "spoken": "En esta aplicación no se importaron las matrices de radiofrecuencia ni una serie cuantitativa de velocidades. No extraigas cifras físicas desde el color del video o desde el tamaño aparente de una flecha.",
+        "values": {
+          "phase": 65
+        },
+        "shot": "overview",
+        "phase": [
+          0.6,
+          0.6
+        ]
+      },
+      {
+        "title": "Relaciona las fuentes",
+        "spoken": "Revisa el protocolo y la publicación del recurso para conocer su origen. Esta pieza acompaña la explicación de flujo y adquisición; no sustituye un estudio clínico, una calibración regional ni una validación diagnóstica.",
+        "values": {
+          "phase": 90
+        },
+        "shot": "overview",
+        "phase": [
+          0.6,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP09"
+  },
+  {
+    "id": "DP10",
+    "group": "doppler",
+    "title": "Duración del flujo inverso",
+    "objective": "Mide un intervalo de inversión y conserva territorio y maniobra.",
+    "sourceIds": [
+      "uipduplex1",
+      "uipduplex2",
+      "svs2022",
+      "svs2023",
+      "esvs2022",
+      "asa"
+    ],
+    "stages": [
+      {
+        "title": "Define qué mides",
+        "spoken": "La curva muestra una inversión sintética respecto de la referencia cero. Los dos marcadores delimitan un intervalo. Esa duración es distinta de la amplitud de la onda y exige situar correctamente inicio y final.",
+        "values": {
+          "duration": 0.35,
+          "deep": 0
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Compara intervalos",
+        "spoken": "Al ampliar la duración, el área negativa ocupa más tiempo. La representación ayuda a practicar lectura temporal, sin diagnosticar un paciente. La provocación y el segmento evaluado siguen siendo parte esencial de la interpretación.",
+        "values": {
+          "duration": 0.8,
+          "deep": 0
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "El territorio cambia el contexto",
+        "spoken": "No debe aplicarse un único umbral a todos los segmentos profundos. Las guías distinguen territorios y condiciones; consulta la referencia completa antes de clasificar un hallazgo. Esta vista resalta esa necesidad de contexto.",
+        "values": {
+          "duration": 1.2,
+          "deep": 1
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      },
+      {
+        "title": "Conserva el protocolo",
+        "spoken": "Describe duración, segmento y maniobra junto a las limitaciones de adquisición. El color aislado y una imagen fija no completan el estudio de reflujo. Usa el laboratorio para practicar el intervalo y revisa las fuentes del protocolo.",
+        "values": {
+          "duration": 0.8,
+          "deep": 0
+        },
+        "shot": "overview",
+        "phase": [
+          0,
+          1
+        ]
+      }
+    ],
+    "explore": "/flebodus?tab=doppler&lesson=DP10"
+  },
+  {
+    "id": "CEAP-C0",
+    "group": "vision",
+    "title": "Sin signos visibles o palpables",
+    "objective": "Distingue ausencia de signos de ausencia de síntomas.",
+    "sourceIds": [
+      "ceap2020",
+      "esvs2022",
+      "tricvi"
+    ],
+    "stages": [
+      {
+        "title": "Qué significa cero",
+        "spoken": "La clase cero describe ausencia de signos venosos visibles o palpables. No significa que la persona no tenga síntomas. Una fotografía solo contiene parte de esa evaluación y no permite comprobar la palpación.",
+        "clinicalClass": "C0",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Describe el recurso",
+        "spoken": "Estos ejemplos conservan la etiqueta del depósito original. Puedes describir lo visible, la distribución y las limitaciones de la imagen. La etiqueta no equivale a una adjudicación independiente por miembro realizada por esta aplicación.",
+        "clinicalClass": "C0",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Completa el contexto",
+        "spoken": "La historia de síntomas y la exploración aportan información que no está en los píxeles. Los dominios de etiología, anatomía y fisiopatología tampoco se asignan automáticamente a partir de una imagen sin signos visibles.",
+        "clinicalClass": "C0",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Comprueba el concepto",
+        "spoken": "Antes de escribir asintomático, pregunta por los síntomas atribuibles al trastorno venoso. La clasificación describe un caso evaluado; no es una escala de gravedad ni una secuencia obligatoria que comience en estas fotografías.",
+        "clinicalClass": "C0",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebovision?class=C0"
+  },
+  {
+    "id": "CEAP-C1",
+    "group": "vision",
+    "title": "Telangiectasias o venas reticulares",
+    "objective": "Describe el patrón superficial y distingue C1 de corona flebectásica.",
+    "sourceIds": [
+      "ceap2020",
+      "esvs2022",
+      "tricvi"
+    ],
+    "stages": [
+      {
+        "title": "Una definición disyuntiva",
+        "spoken": "La clase uno incluye telangiectasias o venas reticulares. No exige que estén presentes ambas. Observa la distribución superficial y conserva una descripción del patrón antes de atribuirle un mecanismo funcional.",
+        "clinicalClass": "C1",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Observación con límites",
+        "spoken": "Las imágenes mantienen sus etiquetas de origen. Sin una escala validada no puedes medir el diámetro real desde la pantalla. Tampoco puedes reconstruir desde el aspecto superficial todo el circuito de reflujo.",
+        "clinicalClass": "C1",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "El contexto del tobillo",
+        "spoken": "La corona flebectásica tiene un patrón y una localización característicos y se incluye como subclase cuatro ce en la revisión de dos mil veinte. No equivale a cualquier telangiectasia aislada.",
+        "clinicalClass": "C1",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Describe y pregunta",
+        "spoken": "Compara los ejemplos y formula qué información clínica falta. Una descripción precisa distingue el hallazgo visible de sus causas y síntomas. La fotografía apoya la enseñanza, pero no completa los cuatro dominios de la clasificación.",
+        "clinicalClass": "C1",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebovision?class=C1"
+  },
+  {
+    "id": "CEAP-C2",
+    "group": "vision",
+    "title": "Várices y recurrencia",
+    "objective": "Distingue el hallazgo clínico de su etiología y de la recurrencia.",
+    "sourceIds": [
+      "ceap2020",
+      "esvs2022",
+      "tricvi"
+    ],
+    "stages": [
+      {
+        "title": "Sigue los trayectos",
+        "spoken": "La clase dos corresponde a várices. Sigue la distribución de los trayectos superficiales visibles en estos ejemplos. Las fotografías son material del depósito y conservan su clasificación de origen.",
+        "clinicalClass": "C2",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Más allá del aspecto",
+        "spoken": "El aspecto de una vena no describe por sí solo síntomas, etiología o el origen de un reflujo. La exploración y el dúplex permiten completar preguntas que la imagen superficial deja abiertas.",
+        "clinicalClass": "C2",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Cuándo hablar de recurrencia",
+        "spoken": "El modificador de recurrencia requiere antecedentes clínicos documentados. No se deduce del número de vasos visibles ni de su color. La aplicación no añade ese modificador automáticamente a las fotografías.",
+        "clinicalClass": "C2",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Una observación útil",
+        "spoken": "Compara distribución y condiciones de captura. Después distingue lo observado de lo que preguntarías o estudiarías. La clase clínica es parte de una descripción más amplia, no un diagnóstico funcional completo.",
+        "clinicalClass": "C2",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebovision?class=C2"
+  },
+  {
+    "id": "CEAP-C3",
+    "group": "vision",
+    "title": "Edema y contexto clínico",
+    "objective": "Reconoce por qué el edema requiere exploración y evaluación de causa.",
+    "sourceIds": [
+      "ceap2020",
+      "esvs2022",
+      "tricvi"
+    ],
+    "stages": [
+      {
+        "title": "La clase del depósito",
+        "spoken": "La clase tres describe edema en el contexto de la clasificación venosa. Estos ejemplos conservan esa etiqueta. El contorno en una fotografía no permite confirmar por sí solo edema ni demostrar su causa.",
+        "clinicalClass": "C3",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Observa sin concluir de más",
+        "spoken": "Describe simetría, distribución y lo que queda fuera del encuadre. La presencia de aumento de volumen puede requerir historia, exploración y estudio de otras causas; no todos los miembros hinchados tienen la misma etiología.",
+        "clinicalClass": "C3",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Exploración necesaria",
+        "spoken": "La evaluación directa permite comprobar hallazgos y relacionarlos con su evolución. Los datos venosos se interpretan junto al resto del contexto. La imagen no contiene esa entrevista ni sustituye una exploración física.",
+        "clinicalClass": "C3",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Una pregunta clínica",
+        "spoken": "Antes de atribuir el edema a enfermedad venosa, identifica qué información falta. La tarea educativa es formular una descripción y una necesidad de evaluación; no asignar una causa automática desde el aspecto de la fotografía.",
+        "clinicalClass": "C3",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebovision?class=C3"
+  },
+  {
+    "id": "CEAP-C4",
+    "group": "vision",
+    "title": "Cambios cutáneos: las tres subclases",
+    "objective": "Distingue C4a, C4b y C4c conservando los límites de las fotos generales C4.",
+    "sourceIds": [
+      "ceap2020",
+      "esvs2022",
+      "tricvi"
+    ],
+    "stages": [
+      {
+        "title": "Cambios con contexto",
+        "spoken": "La clase cuatro reúne cambios cutáneos o subcutáneos secundarios a enfermedad venosa crónica. El banco conserva etiquetas generales de clase cuatro. Sus fotos no están reclasificadas como una subclase por esta aplicación.",
+        "clinicalClass": "C4",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Pigmentación y eccema",
+        "spoken": "La subclase cuatro a incluye pigmentación o eccema. Describe localización, superficie y color, y conserva el contexto causal. El aspecto por sí solo no reemplaza la valoración que atribuye el cambio a enfermedad venosa.",
+        "clinicalClass": "C4",
+        "subclass": "C4a",
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Induración y atrofia blanca",
+        "spoken": "La subclase cuatro be incluye lipodermatosclerosis o atrofia blanca. Parte de la evaluación requiere exploración, como la induración. Una fotografía general del depósito no documenta automáticamente todos los criterios de esa subclase.",
+        "clinicalClass": "C4",
+        "subclass": "C4b",
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Corona flebectásica",
+        "spoken": "La revisión de dos mil veinte incorpora la corona flebectásica como cuatro ce. Es un patrón de pequeñas venas en abanico en tobillo y pie, distinto de una telangiectasia aislada. Conserva estas distinciones sin adjudicarlas automáticamente a los ejemplos.",
+        "clinicalClass": "C4",
+        "subclass": "C4c",
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebovision?class=C4"
+  },
+  {
+    "id": "CEAP-C5",
+    "group": "vision",
+    "title": "Úlcera venosa cicatrizada",
+    "objective": "Relaciona una cicatriz con los antecedentes necesarios para describir C5.",
+    "sourceIds": [
+      "ceap2020",
+      "esvs2022",
+      "tricvi"
+    ],
+    "stages": [
+      {
+        "title": "Una historia que importa",
+        "spoken": "La clase cinco corresponde a úlcera venosa cicatrizada. Una cicatriz visible no demuestra por sí sola que existió una úlcera venosa. Hace falta conocer el antecedente y la atribución de su causa.",
+        "clinicalClass": "C5",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Describe el área",
+        "spoken": "Observa localización, superficie y cambios alrededor del área cicatricial. Estos ejemplos mantienen la etiqueta original del depósito. Las diferencias de iluminación y captura limitan las comparaciones de color y textura.",
+        "clinicalClass": "C5",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Cicatrizada no es sin enfermedad",
+        "spoken": "La ausencia de una herida abierta en el momento de la imagen no elimina la necesidad de evaluación venosa. La clasificación describe manifestaciones presentes y antecedentes pertinentes, sin garantizar un pronóstico individual.",
+        "clinicalClass": "C5",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Completa la descripción",
+        "spoken": "Distingue el hallazgo visible de la historia que lo sustenta. La fotografía no permite completar por sí sola etiología, anatomía, fisiopatología o síntomas. Formula las preguntas antes de cerrar la clasificación de un miembro.",
+        "clinicalClass": "C5",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebovision?class=C5"
+  },
+  {
+    "id": "CEAP-C6",
+    "group": "vision",
+    "title": "Úlcera activa y recurrencia",
+    "objective": "Distingue herida visible, atribución venosa y antecedentes de recurrencia.",
+    "sourceIds": [
+      "ceap2020",
+      "esvs2022",
+      "tricvi"
+    ],
+    "stages": [
+      {
+        "title": "La herida y su causa",
+        "spoken": "La clase seis corresponde a úlcera venosa activa. La pérdida de continuidad de la piel puede verse en una imagen, pero su causa venosa exige evaluación. No toda herida del tobillo tiene la misma etiología.",
+        "clinicalClass": "C6",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Describe lo observable",
+        "spoken": "Observa distribución y características visibles sin deducir la causa desde el color. Las fotografías conservan sus etiquetas de origen y no incluyen una valoración clínica completa ni un plan de tratamiento.",
+        "clinicalClass": "C6",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Recurrencia documentada",
+        "spoken": "El modificador de recurrencia requiere antecedentes. No puede inferirse automáticamente por el tamaño o aspecto de la herida. La revisión de dos mil veinte distingue esa información del hallazgo de una úlcera activa.",
+        "clinicalClass": "C6",
+        "subclass": null,
+        "example": 0,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Integra el caso",
+        "spoken": "La descripción clínica se completa con historia, exploración y los estudios correspondientes. Los ejemplos sirven para aprender a observar y preguntar. No permiten indicar un tratamiento ni predecir cicatrización desde la pantalla.",
+        "clinicalClass": "C6",
+        "subclass": null,
+        "example": 1,
+        "phase": [
+          0,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebovision?class=C6"
+  },
+  {
+    "id": "AN01",
+    "group": "anatomy",
+    "title": "Anatomía por planos",
+    "objective": "Localiza huesos, músculos y venas sin confundir referencia anatómica con el modelo funcional.",
+    "sourceIds": [
+      "uipnomenclature",
+      "uipduplex2",
+      "bodyparts3d"
+    ],
+    "stages": [
+      {
+        "title": "Referencias óseas",
+        "spoken": "El modelo procede de BodyParts tres de y representa una selección de estructuras del miembro inferior izquierdo. Comenzamos con los huesos para situar el eje y reconocer el contexto espacial antes de añadir otras capas.",
+        "tissues": [
+          "bone"
+        ],
+        "view": "anatomy",
+        "scenario": "TW03",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Plano muscular",
+        "spoken": "Añadimos músculos de la pantorrilla. Su relación con las venas es importante para comprender la bomba muscular. Esta referencia anatómica no se deforma ni calcula la contracción de un paciente; ese mecanismo se explica en el esquema funcional.",
+        "tissues": [
+          "bone",
+          "muscle"
+        ],
+        "view": "anatomy",
+        "scenario": "TW03",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "section"
+      },
+      {
+        "title": "Territorios venosos",
+        "spoken": "Las venas se incorporan al contexto. Reconoce superficial, profundo y sus relaciones, teniendo presente que la selección no incluye todas las ramas ni las variantes. La nomenclatura se consulta en las fuentes flebológicas.",
+        "tissues": [
+          "bone",
+          "muscle",
+          "vein"
+        ],
+        "view": "anatomy",
+        "scenario": "TW03",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Vuelve al conjunto",
+        "spoken": "Aislamos visualmente las venas conservando el encuadre. Puedes girar y recuperar los planos para comprender las relaciones. La referencia anatómica y el modelo hemodinámico cumplen funciones diferentes; sus formas no constituyen una calibración individual.",
+        "tissues": [
+          "vein"
+        ],
+        "view": "anatomy",
+        "scenario": "TW03",
+        "phase": [
+          0,
+          0
+        ],
+        "shot": "detail"
+      }
+    ],
+    "explore": "/flebotwin?view=anatomy"
+  },
+  {
+    "id": "DC01",
+    "group": "cine",
+    "title": "Observar una compresión real",
+    "objective": "Relaciona cuadros, maniobra, etiqueta de origen y alcance del estudio.",
+    "sourceIds": [
+      "uipduplex1",
+      "aium2026",
+      "esvsthrombosis2021",
+      "thrombus"
+    ],
+    "stages": [
+      {
+        "title": "Una adquisición real",
+        "spoken": "Este cine de compresión procede del conjunto público ThrombUS. Conservamos sus cuadros, dimensiones y tiempo de adquisición. La etiqueta del proveedor describe ese recurso; no equivale a una revisión diagnóstica independiente realizada por la aplicación.",
+        "clipId": "dus-cfv-001",
+        "phase": [
+          0,
+          0.15
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Sigue la maniobra",
+        "spoken": "Observa la respuesta de la estructura durante la compresión con el transductor. El segmento y el lado documentados ayudan a situar el recurso. La postura y la orientación no deben inventarse cuando el depósito no las informa.",
+        "clipId": "dus-cfv-001",
+        "phase": [
+          0.15,
+          0.65
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Pausa con propósito",
+        "spoken": "Detenemos un cuadro para describir lo visible. Una sola imagen no representa toda la maniobra ni un protocolo completo. El avance por cuadros permite volver a examinar la secuencia sin crear imágenes intermedias sintéticas.",
+        "clipId": "dus-cfv-001",
+        "phase": [
+          0.65,
+          0.65
+        ],
+        "shot": "overview"
+      },
+      {
+        "title": "Alcance y registro",
+        "spoken": "Revisamos el final del extracto. El estudio clínico integra anatomía, compresibilidad y otros hallazgos según el protocolo. Aquí el tiempo está documentado; las distancias y velocidades permanecen limitadas por la calibración espacial disponible.",
+        "clipId": "dus-cfv-001",
+        "phase": [
+          0.65,
+          1
+        ],
+        "shot": "overview"
+      }
+    ],
+    "explore": "/flebodus?case=dus-cfv-001"
+  }
+]

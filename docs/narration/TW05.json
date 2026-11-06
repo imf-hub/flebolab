@@ -1,0 +1,804 @@
+{
+  "id": "TW05",
+  "request": {
+    "id": "TW05",
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "language": "es",
+    "inputType": "ssml",
+    "text": "<speak>La pared se muestra abierta para observar dos valvas. Sus inserciones permanecen unidas a la pared y los bordes libres se aproximan hacia el centro. Las proporciones están ampliadas; el corte es una decisión de visualización.<break time=\"0.9s\"/>Cuando el flujo calculado es positivo, las valvas se abren en esta representación. Sigue la dirección de los trazadores y el cursor de la curva. La apertura ilustra el estado funcional del modelo; no resuelve la mecánica del tejido.<break time=\"0.9s\"/>Al cambiar el gradiente, los bordes se aproximan. En este perfil competente, la formulación bloquea el flujo inverso de la rama. Comprueba la lectura y la curva antes de interpretar una posición de las valvas como una observación clínica.<break time=\"0.9s\"/>Recuperamos el conjunto y repetimos el ciclo. La relación importante es entre flujo calculado y estado representado. La evaluación clínica de una válvula exige su contexto y un estudio adecuado; no se obtiene de esta geometría ilustrativa.</speak>",
+    "stages": [
+      "La pared se muestra abierta para observar dos valvas. Sus inserciones permanecen unidas a la pared y los bordes libres se aproximan hacia el centro. Las proporciones están ampliadas; el corte es una decisión de visualización.",
+      "Cuando el flujo calculado es positivo, las valvas se abren en esta representación. Sigue la dirección de los trazadores y el cursor de la curva. La apertura ilustra el estado funcional del modelo; no resuelve la mecánica del tejido.",
+      "Al cambiar el gradiente, los bordes se aproximan. En este perfil competente, la formulación bloquea el flujo inverso de la rama. Comprueba la lectura y la curva antes de interpretar una posición de las valvas como una observación clínica.",
+      "Recuperamos el conjunto y repetimos el ciclo. La relación importante es entre flujo calculado y estado representado. La evaluación clínica de una válvula exige su contexto y un estudio adecuado; no se obtiene de esta geometría ilustrativa."
+    ]
+  },
+  "requestId": "4093d10fc6dc4d4fb514515bbb0eea04",
+  "voice": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "duration": 56.868571,
+  "sha256": "d53dc15f086b549954bc7ef48b32c13006036c6db5ee02f8e2e0483d8cb343f6",
+  "word_timestamps": [
+    {
+      "word": "<start>",
+      "start": 0.0,
+      "end": 0.0
+    },
+    {
+      "word": "La",
+      "start": 0.299,
+      "end": 0.4267
+    },
+    {
+      "word": "pared",
+      "start": 0.469,
+      "end": 0.64
+    },
+    {
+      "word": "se",
+      "start": 0.725,
+      "end": 0.853
+    },
+    {
+      "word": "muestra",
+      "start": 0.896,
+      "end": 1.1947
+    },
+    {
+      "word": "abierta",
+      "start": 1.237,
+      "end": 1.621
+    },
+    {
+      "word": "para",
+      "start": 1.664,
+      "end": 1.8347
+    },
+    {
+      "word": "observar",
+      "start": 1.877,
+      "end": 2.2187
+    },
+    {
+      "word": "dos",
+      "start": 2.304,
+      "end": 2.517
+    },
+    {
+      "word": "valvas.",
+      "start": 2.603,
+      "end": 3.2
+    },
+    {
+      "word": "Sus",
+      "start": 3.499,
+      "end": 3.669
+    },
+    {
+      "word": "inserciones",
+      "start": 3.712,
+      "end": 4.224
+    },
+    {
+      "word": "permanecen",
+      "start": 4.267,
+      "end": 4.736
+    },
+    {
+      "word": "unidas",
+      "start": 4.779,
+      "end": 5.077
+    },
+    {
+      "word": "a",
+      "start": 5.163,
+      "end": 5.205
+    },
+    {
+      "word": "la",
+      "start": 5.248,
+      "end": 5.2907
+    },
+    {
+      "word": "pared",
+      "start": 5.333,
+      "end": 5.461
+    },
+    {
+      "word": "y",
+      "start": 5.675,
+      "end": 6.016
+    },
+    {
+      "word": "los",
+      "start": 6.059,
+      "end": 6.144
+    },
+    {
+      "word": "bordes",
+      "start": 6.187,
+      "end": 6.4427
+    },
+    {
+      "word": "libres",
+      "start": 6.528,
+      "end": 6.8267
+    },
+    {
+      "word": "se",
+      "start": 6.869,
+      "end": 6.9547
+    },
+    {
+      "word": "aproximan",
+      "start": 6.997,
+      "end": 7.4667
+    },
+    {
+      "word": "hacia",
+      "start": 7.509,
+      "end": 7.723
+    },
+    {
+      "word": "el",
+      "start": 7.765,
+      "end": 7.808
+    },
+    {
+      "word": "centro.",
+      "start": 7.808,
+      "end": 8.256
+    },
+    {
+      "word": "Las",
+      "start": 8.405,
+      "end": 8.5329
+    },
+    {
+      "word": "proporciones",
+      "start": 8.618,
+      "end": 9.0876
+    },
+    {
+      "word": "están",
+      "start": 9.13,
+      "end": 9.3436
+    },
+    {
+      "word": "ampliadas;",
+      "start": 9.386,
+      "end": 9.962
+    },
+    {
+      "word": "el",
+      "start": 10.069,
+      "end": 10.5809
+    },
+    {
+      "word": "corte",
+      "start": 10.624,
+      "end": 10.8796
+    },
+    {
+      "word": "es",
+      "start": 10.965,
+      "end": 11.0076
+    },
+    {
+      "word": "una",
+      "start": 11.05,
+      "end": 11.178
+    },
+    {
+      "word": "decisión",
+      "start": 11.221,
+      "end": 11.605
+    },
+    {
+      "word": "de",
+      "start": 11.648,
+      "end": 11.7329
+    },
+    {
+      "word": "visualización.",
+      "start": 11.776,
+      "end": 12.463
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 12.463,
+      "end": 13.363
+    },
+    {
+      "word": "Cuando",
+      "start": 13.363,
+      "end": 13.661999999999999
+    },
+    {
+      "word": "el",
+      "start": 13.704,
+      "end": 13.747
+    },
+    {
+      "word": "flujo",
+      "start": 13.79,
+      "end": 14.046
+    },
+    {
+      "word": "calculado",
+      "start": 14.088,
+      "end": 14.6
+    },
+    {
+      "word": "es",
+      "start": 14.642999999999999,
+      "end": 14.686
+    },
+    {
+      "word": "positivo,",
+      "start": 14.728,
+      "end": 15.326
+    },
+    {
+      "word": "las",
+      "start": 15.454,
+      "end": 15.751999999999999
+    },
+    {
+      "word": "valvas",
+      "start": 15.795,
+      "end": 16.136
+    },
+    {
+      "word": "se",
+      "start": 16.221999999999998,
+      "end": 16.307
+    },
+    {
+      "word": "abren",
+      "start": 16.349999999999998,
+      "end": 16.563
+    },
+    {
+      "word": "en",
+      "start": 16.605999999999998,
+      "end": 16.733999999999998
+    },
+    {
+      "word": "esta",
+      "start": 16.775999999999996,
+      "end": 16.99
+    },
+    {
+      "word": "representación.",
+      "start": 17.031999999999996,
+      "end": 17.964999999999996
+    },
+    {
+      "word": "Sigue",
+      "start": 18.173,
+      "end": 18.471999999999998
+    },
+    {
+      "word": "la",
+      "start": 18.514999999999997,
+      "end": 18.599999999999998
+    },
+    {
+      "word": "dirección",
+      "start": 18.642999999999997,
+      "end": 18.983999999999998
+    },
+    {
+      "word": "de",
+      "start": 19.026999999999997,
+      "end": 19.069
+    },
+    {
+      "word": "los",
+      "start": 19.112,
+      "end": 19.197
+    },
+    {
+      "word": "trazadores",
+      "start": 19.24,
+      "end": 19.794999999999998
+    },
+    {
+      "word": "y",
+      "start": 19.88,
+      "end": 20.008
+    },
+    {
+      "word": "el",
+      "start": 20.051,
+      "end": 20.092999999999996
+    },
+    {
+      "word": "cursor",
+      "start": 20.179,
+      "end": 20.476999999999997
+    },
+    {
+      "word": "de",
+      "start": 20.561999999999998,
+      "end": 20.604999999999997
+    },
+    {
+      "word": "la",
+      "start": 20.648,
+      "end": 20.689999999999998
+    },
+    {
+      "word": "curva.",
+      "start": 20.732999999999997,
+      "end": 21.308999999999997
+    },
+    {
+      "word": "La",
+      "start": 21.628999999999998,
+      "end": 21.927999999999997
+    },
+    {
+      "word": "apertura",
+      "start": 21.97,
+      "end": 22.397
+    },
+    {
+      "word": "ilustra",
+      "start": 22.439999999999998,
+      "end": 22.781
+    },
+    {
+      "word": "el",
+      "start": 22.823999999999998,
+      "end": 22.866999999999997
+    },
+    {
+      "word": "estado",
+      "start": 22.909,
+      "end": 23.208
+    },
+    {
+      "word": "funcional",
+      "start": 23.250999999999998,
+      "end": 23.592
+    },
+    {
+      "word": "del",
+      "start": 23.762999999999998,
+      "end": 23.848
+    },
+    {
+      "word": "modelo;",
+      "start": 23.891,
+      "end": 24.339
+    },
+    {
+      "word": "no",
+      "start": 24.529999999999998,
+      "end": 24.785999999999998
+    },
+    {
+      "word": "resuelve",
+      "start": 24.828999999999997,
+      "end": 25.212999999999997
+    },
+    {
+      "word": "la",
+      "start": 25.255999999999997,
+      "end": 25.298
+    },
+    {
+      "word": "mecánica",
+      "start": 25.340999999999998,
+      "end": 25.682
+    },
+    {
+      "word": "del",
+      "start": 25.81,
+      "end": 25.895999999999997
+    },
+    {
+      "word": "tejido.",
+      "start": 25.938,
+      "end": 26.377999999999997
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 26.377999999999997,
+      "end": 27.278
+    },
+    {
+      "word": "Al",
+      "start": 27.278,
+      "end": 27.747
+    },
+    {
+      "word": "cambiar",
+      "start": 27.79,
+      "end": 28.089
+    },
+    {
+      "word": "el",
+      "start": 28.131,
+      "end": 28.174
+    },
+    {
+      "word": "gradiente,",
+      "start": 28.217,
+      "end": 28.793
+    },
+    {
+      "word": "los",
+      "start": 28.942,
+      "end": 29.113
+    },
+    {
+      "word": "bordes",
+      "start": 29.154999999999998,
+      "end": 29.454
+    },
+    {
+      "word": "se",
+      "start": 29.497,
+      "end": 29.625
+    },
+    {
+      "word": "aproximan.",
+      "start": 29.666999999999998,
+      "end": 30.413999999999998
+    },
+    {
+      "word": "En",
+      "start": 30.733999999999998,
+      "end": 30.862
+    },
+    {
+      "word": "este",
+      "start": 30.904999999999998,
+      "end": 31.118
+    },
+    {
+      "word": "perfil",
+      "start": 31.160999999999998,
+      "end": 31.459
+    },
+    {
+      "word": "competente,",
+      "start": 31.502,
+      "end": 32.312999999999995
+    },
+    {
+      "word": "la",
+      "start": 32.525999999999996,
+      "end": 32.653999999999996
+    },
+    {
+      "word": "formulación",
+      "start": 32.696999999999996,
+      "end": 33.294
+    },
+    {
+      "word": "bloquea",
+      "start": 33.336999999999996,
+      "end": 33.763
+    },
+    {
+      "word": "el",
+      "start": 33.806,
+      "end": 33.849
+    },
+    {
+      "word": "flujo",
+      "start": 33.891,
+      "end": 34.275
+    },
+    {
+      "word": "inverso",
+      "start": 34.318,
+      "end": 34.65899999999999
+    },
+    {
+      "word": "de",
+      "start": 34.702,
+      "end": 34.78699999999999
+    },
+    {
+      "word": "la",
+      "start": 34.83,
+      "end": 34.91499999999999
+    },
+    {
+      "word": "rama.",
+      "start": 34.958,
+      "end": 35.397
+    },
+    {
+      "word": "Comprueba",
+      "start": 35.62199999999999,
+      "end": 36.135
+    },
+    {
+      "word": "la",
+      "start": 36.17699999999999,
+      "end": 36.263
+    },
+    {
+      "word": "lectura",
+      "start": 36.30499999999999,
+      "end": 36.68899999999999
+    },
+    {
+      "word": "y",
+      "start": 36.73199999999999,
+      "end": 36.775
+    },
+    {
+      "word": "la",
+      "start": 36.81699999999999,
+      "end": 36.85999999999999
+    },
+    {
+      "word": "curva",
+      "start": 36.903,
+      "end": 37.20099999999999
+    },
+    {
+      "word": "antes",
+      "start": 37.28699999999999,
+      "end": 37.840999999999994
+    },
+    {
+      "word": "de",
+      "start": 37.88399999999999,
+      "end": 37.968999999999994
+    },
+    {
+      "word": "interpretar",
+      "start": 38.01199999999999,
+      "end": 38.43899999999999
+    },
+    {
+      "word": "una",
+      "start": 38.480999999999995,
+      "end": 38.608999999999995
+    },
+    {
+      "word": "posición",
+      "start": 38.651999999999994,
+      "end": 39.035999999999994
+    },
+    {
+      "word": "de",
+      "start": 39.07899999999999,
+      "end": 39.163999999999994
+    },
+    {
+      "word": "las",
+      "start": 39.206999999999994,
+      "end": 39.291999999999994
+    },
+    {
+      "word": "valvas",
+      "start": 39.334999999999994,
+      "end": 39.675999999999995
+    },
+    {
+      "word": "como",
+      "start": 39.760999999999996,
+      "end": 39.974
+    },
+    {
+      "word": "una",
+      "start": 40.059999999999995,
+      "end": 40.187999999999995
+    },
+    {
+      "word": "observación",
+      "start": 40.23,
+      "end": 40.742
+    },
+    {
+      "word": "clínica.",
+      "start": 40.785,
+      "end": 41.135
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 41.135,
+      "end": 42.035000000000004
+    },
+    {
+      "word": "Recuperamos",
+      "start": 42.035000000000004,
+      "end": 42.589000000000006
+    },
+    {
+      "word": "el",
+      "start": 42.675000000000004,
+      "end": 42.760000000000005
+    },
+    {
+      "word": "conjunto",
+      "start": 42.803000000000004,
+      "end": 43.272000000000006
+    },
+    {
+      "word": "y",
+      "start": 43.400000000000006,
+      "end": 43.571000000000005
+    },
+    {
+      "word": "repetimos",
+      "start": 43.613,
+      "end": 44.083000000000006
+    },
+    {
+      "word": "el",
+      "start": 44.125,
+      "end": 44.211000000000006
+    },
+    {
+      "word": "ciclo.",
+      "start": 44.254000000000005,
+      "end": 44.822
+    },
+    {
+      "word": "La",
+      "start": 45.049,
+      "end": 45.177
+    },
+    {
+      "word": "relación",
+      "start": 45.220000000000006,
+      "end": 45.604
+    },
+    {
+      "word": "importante",
+      "start": 45.646,
+      "end": 45.988
+    },
+    {
+      "word": "es",
+      "start": 46.201,
+      "end": 46.244
+    },
+    {
+      "word": "entre",
+      "start": 46.329,
+      "end": 46.542
+    },
+    {
+      "word": "flujo",
+      "start": 46.585,
+      "end": 46.969
+    },
+    {
+      "word": "calculado",
+      "start": 47.012,
+      "end": 47.566
+    },
+    {
+      "word": "y",
+      "start": 47.652,
+      "end": 47.822
+    },
+    {
+      "word": "estado",
+      "start": 47.865,
+      "end": 48.206
+    },
+    {
+      "word": "representado.",
+      "start": 48.249,
+      "end": 49.06
+    },
+    {
+      "word": "La",
+      "start": 49.230000000000004,
+      "end": 49.614000000000004
+    },
+    {
+      "word": "evaluación",
+      "start": 49.657000000000004,
+      "end": 50.126000000000005
+    },
+    {
+      "word": "clínica",
+      "start": 50.169000000000004,
+      "end": 50.425000000000004
+    },
+    {
+      "word": "de",
+      "start": 50.596000000000004,
+      "end": 50.638000000000005
+    },
+    {
+      "word": "una",
+      "start": 50.681000000000004,
+      "end": 50.809000000000005
+    },
+    {
+      "word": "válvula",
+      "start": 50.852000000000004,
+      "end": 51.278000000000006
+    },
+    {
+      "word": "exige",
+      "start": 51.321000000000005,
+      "end": 51.833000000000006
+    },
+    {
+      "word": "su",
+      "start": 51.876000000000005,
+      "end": 51.961000000000006
+    },
+    {
+      "word": "contexto",
+      "start": 52.004000000000005,
+      "end": 52.473
+    },
+    {
+      "word": "y",
+      "start": 52.601,
+      "end": 52.772000000000006
+    },
+    {
+      "word": "un",
+      "start": 52.814,
+      "end": 52.857
+    },
+    {
+      "word": "estudio",
+      "start": 52.900000000000006,
+      "end": 53.284000000000006
+    },
+    {
+      "word": "adecuado;",
+      "start": 53.326,
+      "end": 53.945
+    },
+    {
+      "word": "no",
+      "start": 54.137,
+      "end": 54.35
+    },
+    {
+      "word": "se",
+      "start": 54.393,
+      "end": 54.521
+    },
+    {
+      "word": "obtiene",
+      "start": 54.564,
+      "end": 54.82
+    },
+    {
+      "word": "de",
+      "start": 54.948,
+      "end": 55.033
+    },
+    {
+      "word": "esta",
+      "start": 55.076,
+      "end": 55.246
+    },
+    {
+      "word": "geometría",
+      "start": 55.289,
+      "end": 55.801
+    },
+    {
+      "word": "ilustrativa.",
+      "start": 55.844,
+      "end": 56.63597732426304
+    },
+    {
+      "word": "<end>",
+      "start": 56.86857142857143,
+      "end": 56.86857142857143
+    }
+  ],
+  "review": "Exact normalized transcript and provider timestamps checked; independent auditory and medical approval are separate."
+}

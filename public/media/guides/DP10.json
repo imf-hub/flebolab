@@ -1,0 +1,71 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP10",
+  "group": "doppler",
+  "title": "Duración del flujo inverso",
+  "objective": "Mide un intervalo de inversión y conserva territorio y maniobra.",
+  "sourceIds": [
+    "uipduplex1",
+    "uipduplex2",
+    "svs2022",
+    "svs2023",
+    "esvs2022",
+    "asa"
+  ],
+  "stages": [
+    {
+      "title": "Define qué mides",
+      "spoken": "La curva muestra una inversión sintética respecto de la referencia cero. Los dos marcadores delimitan un intervalo. Esa duración es distinta de la amplitud de la onda y exige situar correctamente inicio y final.",
+      "values": {
+        "duration": 0.35,
+        "deep": 0
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Compara intervalos",
+      "spoken": "Al ampliar la duración, el área negativa ocupa más tiempo. La representación ayuda a practicar lectura temporal, sin diagnosticar un paciente. La provocación y el segmento evaluado siguen siendo parte esencial de la interpretación.",
+      "values": {
+        "duration": 0.8,
+        "deep": 0
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "El territorio cambia el contexto",
+      "spoken": "No debe aplicarse un único umbral a todos los segmentos profundos. Las guías distinguen territorios y condiciones; consulta la referencia completa antes de clasificar un hallazgo. Esta vista resalta esa necesidad de contexto.",
+      "values": {
+        "duration": 1.2,
+        "deep": 1
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Conserva el protocolo",
+      "spoken": "Describe duración, segmento y maniobra junto a las limitaciones de adquisición. El color aislado y una imagen fija no completan el estudio de reflujo. Usa el laboratorio para practicar el intervalo y revisa las fuentes del protocolo.",
+      "values": {
+        "duration": 0.8,
+        "deep": 0
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP10"
+}

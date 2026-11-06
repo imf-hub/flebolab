@@ -1,0 +1,67 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP04",
+  "group": "doppler",
+  "title": "Escala y fisiología son cosas distintas",
+  "objective": "Diferencia escala del visor y cambio de la señal.",
+  "sourceIds": [
+    "dicom",
+    "dopplerphysics"
+  ],
+  "stages": [
+    {
+      "title": "La misma señal",
+      "spoken": "La curva parte de una velocidad ilustrativa constante en sus condiciones de base. Su tamaño en pantalla depende de la escala vertical. El propósito es separar la magnitud representada de su apariencia.",
+      "values": {
+        "scale": 40,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Amplía la escala",
+      "spoken": "Al ampliar el rango vertical, la misma onda ocupa menos altura. La sangre no ha cambiado de velocidad por este ajuste. La comparación visual exige leer los valores y sus unidades.",
+      "values": {
+        "scale": 90,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Acerca el rango",
+      "spoken": "Con un rango menor, el trazo ocupa más espacio y puede salir del área visible. Este recorte gráfico no debe confundirse con aliasing, cuyo mecanismo depende del muestreo pulsado.",
+      "values": {
+        "scale": 20,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Compara con referencia",
+      "spoken": "Volvemos al rango inicial. Distingue un cambio de configuración de un cambio físico de la señal. Conserva la escala cuando presentes dos registros y comprueba si sus condiciones de adquisición son comparables.",
+      "values": {
+        "scale": 40,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP04"
+}

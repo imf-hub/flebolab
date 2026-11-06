@@ -1,0 +1,121 @@
+{
+  "id": "TW02",
+  "audio": "/media/narration/tw02-39d75289f51c.mp3",
+  "vtt": "/media/narration/tw02-39d75289f51c.vtt",
+  "duration": 55.771429,
+  "sha256": "39d75289f51c4f4f2f78258f4c34eede98f74be2af19b0383eeda16b4098e3f7",
+  "originalSha256": "dd6ae57437b3cc25c67adb53e57063520b2a0878c6041a13a1a1e72c8bb1063b",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 14.226,
+      "end": 15.126
+    },
+    {
+      "index": 1,
+      "start": 15.126,
+      "speechEnd": 29.999000000000002,
+      "end": 30.899
+    },
+    {
+      "index": 2,
+      "start": 30.899,
+      "speechEnd": 42.471000000000004,
+      "end": 43.413
+    },
+    {
+      "index": 3,
+      "start": 43.413,
+      "speechEnd": 55.522,
+      "end": 55.771429
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 2.945,
+      "text": "Esta vista sitúa la red en bipedestación."
+    },
+    {
+      "start": 3.029,
+      "end": 7.445,
+      "text": "Localiza los extremos proximal y distal antes de seguir las partículas."
+    },
+    {
+      "start": 7.465,
+      "end": 14.376000000000001,
+      "text": "Su desplazamiento procede del flujo calculado; el giro del conjunto representa la postura y no una deformación del cuerpo."
+    },
+    {
+      "start": 15.126000000000001,
+      "end": 19.862000000000002,
+      "text": "El circuito permite reconocer los cuatro compartimentos sin transparencias."
+    },
+    {
+      "start": 19.990000000000002,
+      "end": 24.549,
+      "text": "Cada nodo tiene presión y volumen; las conexiones muestran flujos con signo."
+    },
+    {
+      "start": 24.585,
+      "end": 30.149,
+      "text": "Esta representación ayuda a comprobar lo que el dibujo tridimensional puede ocultar desde un ángulo concreto."
+    },
+    {
+      "start": 30.899,
+      "end": 33.284,
+      "text": "Ahora se muestra el perfil en decúbito."
+    },
+    {
+      "start": 33.364,
+      "end": 36.479,
+      "text": "La presión se interpreta con la misma convención del modelo."
+    },
+    {
+      "start": 36.564,
+      "end": 42.621,
+      "text": "No traduzcas estas unidades a milímetros de mercurio ni uses el cambio de altura como una predicción individual."
+    },
+    {
+      "start": 43.413000000000004,
+      "end": 46.955,
+      "text": "De nuevo en bipedestación, observa contracción y relajación."
+    },
+    {
+      "start": 47.082,
+      "end": 52.884,
+      "text": "La gravedad modifica el contexto en el que trabaja la bomba, pero una animación por sí sola no determina"
+    },
+    {
+      "start": 52.884,
+      "end": 55.672,
+      "text": "síntomas ni competencia venosa en un paciente."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Referencia vertical",
+      "text": "Esta vista sitúa la red en bipedestación. Localiza los extremos proximal y distal antes de seguir las partículas. Su desplazamiento procede del flujo calculado; el giro del conjunto representa la postura y no una deformación del cuerpo."
+    },
+    {
+      "title": "Lee el circuito",
+      "text": "El circuito permite reconocer los cuatro compartimentos sin transparencias. Cada nodo tiene presión y volumen; las conexiones muestran flujos con signo. Esta representación ayuda a comprobar lo que el dibujo tridimensional puede ocultar desde un ángulo concreto."
+    },
+    {
+      "title": "Contrasta la postura",
+      "text": "Ahora se muestra el perfil en decúbito. La presión se interpreta con la misma convención del modelo. No traduzcas estas unidades a milímetros de mercurio ni uses el cambio de altura como una predicción individual."
+    },
+    {
+      "title": "Vuelve al mecanismo",
+      "text": "De nuevo en bipedestación, observa contracción y relajación. La gravedad modifica el contexto en el que trabaja la bomba, pero una animación por sí sola no determina síntomas ni competencia venosa en un paciente."
+    }
+  ]
+}

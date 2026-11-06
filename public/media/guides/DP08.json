@@ -1,0 +1,67 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP08",
+  "group": "doppler",
+  "title": "Variación temporal del flujo",
+  "objective": "Distingue variación temporal de una conclusión diagnóstica.",
+  "sourceIds": [
+    "uipduplex1",
+    "asa"
+  ],
+  "stages": [
+    {
+      "title": "Una onda modulada",
+      "spoken": "La señal sintética varía a lo largo del tiempo. Su modulación permite explicar el concepto de fasicidad. El esquema no reproduce el registro respiratorio o cardíaco de una persona.",
+      "values": {
+        "modulation": 60,
+        "period": 4
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Modulación menor",
+      "spoken": "Reducimos la amplitud de la modulación mientras mantenemos el período del ejemplo. La onda se vuelve menos variable. Ese aspecto aislado no basta para localizar una lesión o excluir enfermedad.",
+      "values": {
+        "modulation": 15,
+        "period": 4
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Otra periodicidad",
+      "spoken": "Cambiamos el período del esquema. Frecuencia de repetición y amplitud son propiedades diferentes de la variación temporal. En clínica deben interpretarse con la adquisición y otras observaciones.",
+      "values": {
+        "modulation": 60,
+        "period": 2.5
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Integra la información",
+      "spoken": "Volvemos a la onda inicial. Describe qué observas, compara condiciones y evita convertir un patrón único en diagnóstico. La información temporal es una pieza del estudio, junto a anatomía, compresibilidad y otras señales.",
+      "values": {
+        "modulation": 60,
+        "period": 4
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP08"
+}

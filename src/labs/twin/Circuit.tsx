@@ -1,13 +1,17 @@
 import { theme } from "../../shared/theme";
 import type { Solution } from "./model";
 import { sampleAt } from "./transport";
+import { useId } from "react";
 export default function Circuit({
   solution,
   time,
+  compact = false,
 }: {
   solution: Solution;
   time: number;
+  compact?: boolean;
 }) {
+  const arrowId = useId().replace(/:/g, "");
   const s = sampleAt(solution, time);
   const nodes = [
     {
@@ -60,13 +64,14 @@ export default function Circuit({
         y2={q < 0 ? y1 : y2}
         stroke={q < 0 ? theme.reverse : color}
         strokeWidth={2 + Math.min(6, Math.abs(q) * 2)}
-        markerEnd={Math.abs(q) > 1e-6 ? "url(#circuit-arrow)" : undefined}
+        markerEnd={Math.abs(q) > 1e-6 ? `url(#${arrowId})` : undefined}
       />
       <text
-        x={(x1 + x2) / 2 + 10}
+        x={(x1 + x2) / 2 + (compact && x1 !== x2 ? 0 : 10)}
         y={(y1 + y2) / 2 - 10}
         fill={color}
-        fontSize="13"
+        fontSize={compact ? 17 : 13}
+        textAnchor={compact && x1 !== x2 ? "middle" : undefined}
       >
         {label} {q.toFixed(3)}
       </text>
@@ -80,13 +85,13 @@ export default function Circuit({
         </span>
       </div>
       <svg
-        viewBox="0 0 780 460"
+        viewBox={compact ? "100 -15 590 460" : "0 0 780 460"}
         role="img"
         aria-label="Circuito venoso: presiones, volúmenes y flujos calculados"
       >
         <defs>
           <marker
-            id="circuit-arrow"
+            id={arrowId}
             viewBox="0 0 10 10"
             refX="8"
             refY="5"
@@ -138,7 +143,7 @@ export default function Circuit({
               y={n.y - 5}
               textAnchor="middle"
               fill={theme.ink}
-              fontSize="14"
+              fontSize={compact ? 18 : 14}
             >
               P {n.p.toFixed(2)}
             </text>
@@ -147,7 +152,7 @@ export default function Circuit({
               y={n.y + 15}
               textAnchor="middle"
               fill={n.color}
-              fontSize="12"
+              fontSize={compact ? 18 : 12}
             >
               V {n.v.toFixed(2)}
             </text>
@@ -156,7 +161,7 @@ export default function Circuit({
               y={n.y + 72}
               textAnchor="middle"
               fill={theme.muted}
-              fontSize="13"
+              fontSize={compact ? 18 : 13}
             >
               {n.label}
             </text>
@@ -167,10 +172,11 @@ export default function Circuit({
           y="430"
           textAnchor="middle"
           fill={theme.muted}
-          fontSize="12"
+          fontSize={compact ? 16 : 12}
         >
-          Unidades relativas · Entradas constantes 0,48 + 0,22 · dV/dt =
-          entradas − salidas
+          {compact
+            ? "u.r. · dV/dt = entradas − salidas"
+            : "Unidades relativas · Entradas constantes 0,48 + 0,22 · dV/dt = entradas − salidas"}
         </text>
       </svg>
     </div>

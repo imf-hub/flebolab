@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW02",
+  "group": "twin",
+  "title": "Del decúbito a la bipedestación",
+  "objective": "Distingue orientación anatómica, gravedad y representación del circuito.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Referencia vertical",
+      "spoken": "Esta vista sitúa la red en bipedestación. Localiza los extremos proximal y distal antes de seguir las partículas. Su desplazamiento procede del flujo calculado; el giro del conjunto representa la postura y no una deformación del cuerpo.",
+      "scenario": "TW02",
+      "view": "flow",
+      "phase": [
+        0,
+        0.2
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Lee el circuito",
+      "spoken": "El circuito permite reconocer los cuatro compartimentos sin transparencias. Cada nodo tiene presión y volumen; las conexiones muestran flujos con signo. Esta representación ayuda a comprobar lo que el dibujo tridimensional puede ocultar desde un ángulo concreto.",
+      "scenario": "TW02",
+      "view": "circuit",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Contrasta la postura",
+      "spoken": "Ahora se muestra el perfil en decúbito. La presión se interpreta con la misma convención del modelo. No traduzcas estas unidades a milímetros de mercurio ni uses el cambio de altura como una predicción individual.",
+      "scenario": "TW01",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Vuelve al mecanismo",
+      "spoken": "De nuevo en bipedestación, observa contracción y relajación. La gravedad modifica el contexto en el que trabaja la bomba, pero una animación por sí sola no determina síntomas ni competencia venosa en un paciente.",
+      "scenario": "TW02",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "deep"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW02"
+}

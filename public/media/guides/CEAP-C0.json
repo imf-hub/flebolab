@@ -1,0 +1,64 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "CEAP-C0",
+  "group": "vision",
+  "title": "Sin signos visibles o palpables",
+  "objective": "Distingue ausencia de signos de ausencia de síntomas.",
+  "sourceIds": [
+    "ceap2020",
+    "esvs2022",
+    "tricvi"
+  ],
+  "stages": [
+    {
+      "title": "Qué significa cero",
+      "spoken": "La clase cero describe ausencia de signos venosos visibles o palpables. No significa que la persona no tenga síntomas. Una fotografía solo contiene parte de esa evaluación y no permite comprobar la palpación.",
+      "clinicalClass": "C0",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Describe el recurso",
+      "spoken": "Estos ejemplos conservan la etiqueta del depósito original. Puedes describir lo visible, la distribución y las limitaciones de la imagen. La etiqueta no equivale a una adjudicación independiente por miembro realizada por esta aplicación.",
+      "clinicalClass": "C0",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Completa el contexto",
+      "spoken": "La historia de síntomas y la exploración aportan información que no está en los píxeles. Los dominios de etiología, anatomía y fisiopatología tampoco se asignan automáticamente a partir de una imagen sin signos visibles.",
+      "clinicalClass": "C0",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Comprueba el concepto",
+      "spoken": "Antes de escribir asintomático, pregunta por los síntomas atribuibles al trastorno venoso. La clasificación describe un caso evaluado; no es una escala de gravedad ni una secuencia obligatoria que comience en estas fotografías.",
+      "clinicalClass": "C0",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebovision?class=C0"
+}

@@ -1,0 +1,64 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "CEAP-C2",
+  "group": "vision",
+  "title": "Várices y recurrencia",
+  "objective": "Distingue el hallazgo clínico de su etiología y de la recurrencia.",
+  "sourceIds": [
+    "ceap2020",
+    "esvs2022",
+    "tricvi"
+  ],
+  "stages": [
+    {
+      "title": "Sigue los trayectos",
+      "spoken": "La clase dos corresponde a várices. Sigue la distribución de los trayectos superficiales visibles en estos ejemplos. Las fotografías son material del depósito y conservan su clasificación de origen.",
+      "clinicalClass": "C2",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Más allá del aspecto",
+      "spoken": "El aspecto de una vena no describe por sí solo síntomas, etiología o el origen de un reflujo. La exploración y el dúplex permiten completar preguntas que la imagen superficial deja abiertas.",
+      "clinicalClass": "C2",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Cuándo hablar de recurrencia",
+      "spoken": "El modificador de recurrencia requiere antecedentes clínicos documentados. No se deduce del número de vasos visibles ni de su color. La aplicación no añade ese modificador automáticamente a las fotografías.",
+      "clinicalClass": "C2",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Una observación útil",
+      "spoken": "Compara distribución y condiciones de captura. Después distingue lo observado de lo que preguntarías o estudiarías. La clase clínica es parte de una descripción más amplia, no un diagnóstico funcional completo.",
+      "clinicalClass": "C2",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebovision?class=C2"
+}

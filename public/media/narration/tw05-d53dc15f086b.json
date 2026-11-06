@@ -1,0 +1,126 @@
+{
+  "id": "TW05",
+  "audio": "/media/narration/tw05-d53dc15f086b.mp3",
+  "vtt": "/media/narration/tw05-d53dc15f086b.vtt",
+  "duration": 56.868571,
+  "sha256": "d53dc15f086b549954bc7ef48b32c13006036c6db5ee02f8e2e0483d8cb343f6",
+  "originalSha256": "f607cef36fed704bade5e37a1cfe5408083074c7d5501aab9f1c9e9aade9e884",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 12.463,
+      "end": 13.363
+    },
+    {
+      "index": 1,
+      "start": 13.363,
+      "speechEnd": 26.377999999999997,
+      "end": 27.278
+    },
+    {
+      "index": 2,
+      "start": 27.278,
+      "speechEnd": 41.135,
+      "end": 42.035
+    },
+    {
+      "index": 3,
+      "start": 42.035,
+      "speechEnd": 56.63597732426304,
+      "end": 56.868571
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 3.35,
+      "text": "La pared se muestra abierta para observar dos valvas."
+    },
+    {
+      "start": 3.499,
+      "end": 8.405,
+      "text": "Sus inserciones permanecen unidas a la pared y los bordes libres se aproximan hacia el centro."
+    },
+    {
+      "start": 8.405,
+      "end": 12.613,
+      "text": "Las proporciones están ampliadas; el corte es una decisión de visualización."
+    },
+    {
+      "start": 13.363,
+      "end": 18.114999999999995,
+      "text": "Cuando el flujo calculado es positivo, las valvas se abren en esta representación."
+    },
+    {
+      "start": 18.173,
+      "end": 21.458999999999996,
+      "text": "Sigue la dirección de los trazadores y el cursor de la curva."
+    },
+    {
+      "start": 21.628999999999998,
+      "end": 26.527999999999995,
+      "text": "La apertura ilustra el estado funcional del modelo; no resuelve la mecánica del tejido."
+    },
+    {
+      "start": 27.278,
+      "end": 30.563999999999997,
+      "text": "Al cambiar el gradiente, los bordes se aproximan."
+    },
+    {
+      "start": 30.733999999999998,
+      "end": 35.547,
+      "text": "En este perfil competente, la formulación bloquea el flujo inverso de la rama."
+    },
+    {
+      "start": 35.62199999999999,
+      "end": 41.285,
+      "text": "Comprueba la lectura y la curva antes de interpretar una posición de las valvas como una observación clínica."
+    },
+    {
+      "start": 42.035000000000004,
+      "end": 44.972,
+      "text": "Recuperamos el conjunto y repetimos el ciclo."
+    },
+    {
+      "start": 45.049,
+      "end": 49.21,
+      "text": "La relación importante es entre flujo calculado y estado representado."
+    },
+    {
+      "start": 49.230000000000004,
+      "end": 55.844,
+      "text": "La evaluación clínica de una válvula exige su contexto y un estudio adecuado; no se obtiene de esta geometría"
+    },
+    {
+      "start": 55.844,
+      "end": 56.78597732426304,
+      "text": "ilustrativa."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Pared y valvas",
+      "text": "La pared se muestra abierta para observar dos valvas. Sus inserciones permanecen unidas a la pared y los bordes libres se aproximan hacia el centro. Las proporciones están ampliadas; el corte es una decisión de visualización."
+    },
+    {
+      "title": "Apertura",
+      "text": "Cuando el flujo calculado es positivo, las valvas se abren en esta representación. Sigue la dirección de los trazadores y el cursor de la curva. La apertura ilustra el estado funcional del modelo; no resuelve la mecánica del tejido."
+    },
+    {
+      "title": "Coaptación",
+      "text": "Al cambiar el gradiente, los bordes se aproximan. En este perfil competente, la formulación bloquea el flujo inverso de la rama. Comprueba la lectura y la curva antes de interpretar una posición de las valvas como una observación clínica."
+    },
+    {
+      "title": "Integra el ciclo",
+      "text": "Recuperamos el conjunto y repetimos el ciclo. La relación importante es entre flujo calculado y estado representado. La evaluación clínica de una válvula exige su contexto y un estudio adecuado; no se obtiene de esta geometría ilustrativa."
+    }
+  ]
+}

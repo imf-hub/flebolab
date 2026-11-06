@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW10",
+  "group": "twin",
+  "title": "Una vía colateral en la red",
+  "objective": "Identifica una rama adicional y su flujo propio calculado.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Una ruta adicional",
+      "spoken": "La rama ocre añade una vía colateral al perfil con resistencia de salida. Su trazado es esquemático. La presencia de una colateral en una imagen clínica exige interpretación anatómica y funcional, no una conclusión automática sobre la gravedad.",
+      "scenario": "TW10",
+      "view": "flow",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Distribución del flujo",
+      "spoken": "Sigue el flujo de esa rama durante el ciclo. Tiene su propio valor calculado; no es una animación decorativa. Relaciónalo con las lecturas de las otras ramas y con la presión de la red.",
+      "scenario": "TW10",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "outflow"
+    },
+    {
+      "title": "Sin esa rama",
+      "spoken": "Mostramos el perfil de resistencia sin la vía adicional. La comparación pregunta cómo se redistribuye el flujo cuando cambia la conectividad. No representa la oclusión o apertura de una colateral en tiempo real dentro de un paciente.",
+      "scenario": "TW09",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "outflow"
+    },
+    {
+      "title": "Contrasta ambas redes",
+      "spoken": "Volvemos a la red con colateral y la expresamos como circuito. Comprueba qué conexión se añadió y cómo se conserva el balance. La exploración permite revisar ambas soluciones con un mismo período.",
+      "scenario": "TW10",
+      "view": "circuit",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW10"
+}

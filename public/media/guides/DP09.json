@@ -1,0 +1,62 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP09",
+  "group": "doppler",
+  "title": "Flujo femoral en un cine experimental",
+  "objective": "Distingue un renderizado experimental de una serie cuantitativa importada.",
+  "sourceIds": [
+    "waterloo"
+  ],
+  "stages": [
+    {
+      "title": "Procedencia visible",
+      "spoken": "Este material procede del conjunto experimental Waterloo, distribuido por sus autores. Muestra un renderizado publicado del flujo femoral. Su naturaleza es diferente de las curvas sintéticas de las otras lecciones.",
+      "values": {
+        "phase": 0
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        0.2
+      ]
+    },
+    {
+      "title": "Observa el movimiento",
+      "spoken": "La secuencia permite observar cambios espaciales y temporales en el renderizado. Conserva sus leyendas y condiciones. La visualización de vectores no convierte automáticamente un archivo de video en datos numéricos accesibles.",
+      "values": {
+        "phase": 35
+      },
+      "shot": "overview",
+      "phase": [
+        0.2,
+        0.6
+      ]
+    },
+    {
+      "title": "Límite de medición",
+      "spoken": "En esta aplicación no se importaron las matrices de radiofrecuencia ni una serie cuantitativa de velocidades. No extraigas cifras físicas desde el color del video o desde el tamaño aparente de una flecha.",
+      "values": {
+        "phase": 65
+      },
+      "shot": "overview",
+      "phase": [
+        0.6,
+        0.6
+      ]
+    },
+    {
+      "title": "Relaciona las fuentes",
+      "spoken": "Revisa el protocolo y la publicación del recurso para conocer su origen. Esta pieza acompaña la explicación de flujo y adquisición; no sustituye un estudio clínico, una calibración regional ni una validación diagnóstica.",
+      "values": {
+        "phase": 90
+      },
+      "shot": "overview",
+      "phase": [
+        0.6,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP09"
+}

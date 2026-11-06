@@ -1,0 +1,754 @@
+{
+  "id": "TW10",
+  "request": {
+    "id": "TW10",
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "language": "es",
+    "inputType": "ssml",
+    "text": "<speak>La rama ocre añade una vía colateral al perfil con resistencia de salida. Su trazado es esquemático. La presencia de una colateral en una imagen clínica exige interpretación anatómica y funcional, no una conclusión automática sobre la gravedad.<break time=\"0.9s\"/>Sigue el flujo de esa rama durante el ciclo. Tiene su propio valor calculado; no es una animación decorativa. Relaciónalo con las lecturas de las otras ramas y con la presión de la red.<break time=\"0.9s\"/>Mostramos el perfil de resistencia sin la vía adicional. La comparación pregunta cómo se redistribuye el flujo cuando cambia la conectividad. No representa la oclusión o apertura de una colateral en tiempo real dentro de un paciente.<break time=\"0.9s\"/>Volvemos a la red con colateral y la expresamos como circuito. Comprueba qué conexión se añadió y cómo se conserva el balance. La exploración permite revisar ambas soluciones con un mismo período.</speak>",
+    "stages": [
+      "La rama ocre añade una vía colateral al perfil con resistencia de salida. Su trazado es esquemático. La presencia de una colateral en una imagen clínica exige interpretación anatómica y funcional, no una conclusión automática sobre la gravedad.",
+      "Sigue el flujo de esa rama durante el ciclo. Tiene su propio valor calculado; no es una animación decorativa. Relaciónalo con las lecturas de las otras ramas y con la presión de la red.",
+      "Mostramos el perfil de resistencia sin la vía adicional. La comparación pregunta cómo se redistribuye el flujo cuando cambia la conectividad. No representa la oclusión o apertura de una colateral en tiempo real dentro de un paciente.",
+      "Volvemos a la red con colateral y la expresamos como circuito. Comprueba qué conexión se añadió y cómo se conserva el balance. La exploración permite revisar ambas soluciones con un mismo período."
+    ]
+  },
+  "requestId": "789f4d8b8b174af88acaa241b9ce9f33",
+  "voice": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "duration": 53.812245,
+  "sha256": "0105458f2e8bbcdcc7054fa05f2d0fb75257f79bc7d8b2fdaa3da3f209b1eb2b",
+  "word_timestamps": [
+    {
+      "word": "<start>",
+      "start": 0.0,
+      "end": 0.0
+    },
+    {
+      "word": "La",
+      "start": 0.299,
+      "end": 0.4267
+    },
+    {
+      "word": "rama",
+      "start": 0.469,
+      "end": 0.725
+    },
+    {
+      "word": "ocre",
+      "start": 0.811,
+      "end": 1.0667
+    },
+    {
+      "word": "añade",
+      "start": 1.152,
+      "end": 1.792
+    },
+    {
+      "word": "una",
+      "start": 1.877,
+      "end": 2.091
+    },
+    {
+      "word": "vía",
+      "start": 2.133,
+      "end": 2.261
+    },
+    {
+      "word": "colateral",
+      "start": 2.304,
+      "end": 2.7307
+    },
+    {
+      "word": "al",
+      "start": 2.859,
+      "end": 2.901
+    },
+    {
+      "word": "perfil",
+      "start": 2.944,
+      "end": 3.328
+    },
+    {
+      "word": "con",
+      "start": 3.456,
+      "end": 3.541
+    },
+    {
+      "word": "resistencia",
+      "start": 3.584,
+      "end": 4.224
+    },
+    {
+      "word": "de",
+      "start": 4.267,
+      "end": 4.352
+    },
+    {
+      "word": "salida.",
+      "start": 4.395,
+      "end": 4.885
+    },
+    {
+      "word": "Su",
+      "start": 5.035,
+      "end": 5.205
+    },
+    {
+      "word": "trazado",
+      "start": 5.248,
+      "end": 5.717
+    },
+    {
+      "word": "es",
+      "start": 5.803,
+      "end": 6.016
+    },
+    {
+      "word": "esquemático.",
+      "start": 6.059,
+      "end": 6.826
+    },
+    {
+      "word": "La",
+      "start": 6.954,
+      "end": 7.0817
+    },
+    {
+      "word": "presencia",
+      "start": 7.124,
+      "end": 7.551
+    },
+    {
+      "word": "de",
+      "start": 7.594,
+      "end": 7.679
+    },
+    {
+      "word": "una",
+      "start": 7.722,
+      "end": 7.807
+    },
+    {
+      "word": "colateral",
+      "start": 7.85,
+      "end": 8.276
+    },
+    {
+      "word": "en",
+      "start": 8.447,
+      "end": 8.532
+    },
+    {
+      "word": "una",
+      "start": 8.575,
+      "end": 8.703
+    },
+    {
+      "word": "imagen",
+      "start": 8.746,
+      "end": 9.0017
+    },
+    {
+      "word": "clínica",
+      "start": 9.087,
+      "end": 9.428
+    },
+    {
+      "word": "exige",
+      "start": 9.599,
+      "end": 10.324
+    },
+    {
+      "word": "interpretación",
+      "start": 10.367,
+      "end": 11.007
+    },
+    {
+      "word": "anatómica",
+      "start": 11.05,
+      "end": 11.562
+    },
+    {
+      "word": "y",
+      "start": 11.604,
+      "end": 11.647
+    },
+    {
+      "word": "funcional,",
+      "start": 11.69,
+      "end": 12.266
+    },
+    {
+      "word": "no",
+      "start": 12.5,
+      "end": 12.756
+    },
+    {
+      "word": "una",
+      "start": 12.799,
+      "end": 12.927
+    },
+    {
+      "word": "conclusión",
+      "start": 12.97,
+      "end": 13.439
+    },
+    {
+      "word": "automática",
+      "start": 13.482,
+      "end": 14.036
+    },
+    {
+      "word": "sobre",
+      "start": 14.079,
+      "end": 14.292
+    },
+    {
+      "word": "la",
+      "start": 14.335,
+      "end": 14.42
+    },
+    {
+      "word": "gravedad.",
+      "start": 14.463,
+      "end": 14.911
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 14.911,
+      "end": 15.811
+    },
+    {
+      "word": "Sigue",
+      "start": 15.811,
+      "end": 16.11
+    },
+    {
+      "word": "el",
+      "start": 16.151999999999997,
+      "end": 16.195
+    },
+    {
+      "word": "flujo",
+      "start": 16.238,
+      "end": 16.621999999999996
+    },
+    {
+      "word": "de",
+      "start": 16.663999999999998,
+      "end": 16.791999999999998
+    },
+    {
+      "word": "esa",
+      "start": 16.834999999999997,
+      "end": 17.005999999999997
+    },
+    {
+      "word": "rama",
+      "start": 17.048,
+      "end": 17.304
+    },
+    {
+      "word": "durante",
+      "start": 17.346999999999998,
+      "end": 17.517999999999997
+    },
+    {
+      "word": "el",
+      "start": 17.688,
+      "end": 17.730999999999998
+    },
+    {
+      "word": "ciclo.",
+      "start": 17.730999999999998,
+      "end": 18.299
+    },
+    {
+      "word": "Tiene",
+      "start": 18.525,
+      "end": 18.695999999999998
+    },
+    {
+      "word": "su",
+      "start": 18.781,
+      "end": 18.909
+    },
+    {
+      "word": "propio",
+      "start": 18.951999999999998,
+      "end": 19.249999999999996
+    },
+    {
+      "word": "valor",
+      "start": 19.293,
+      "end": 19.464
+    },
+    {
+      "word": "calculado;",
+      "start": 19.505999999999997,
+      "end": 20.188999999999997
+    },
+    {
+      "word": "no",
+      "start": 20.36,
+      "end": 20.529999999999998
+    },
+    {
+      "word": "es",
+      "start": 20.572999999999997,
+      "end": 20.700999999999997
+    },
+    {
+      "word": "una",
+      "start": 20.744,
+      "end": 20.913999999999998
+    },
+    {
+      "word": "animación",
+      "start": 20.956999999999997,
+      "end": 21.340999999999998
+    },
+    {
+      "word": "decorativa.",
+      "start": 21.383999999999997,
+      "end": 22.215999999999998
+    },
+    {
+      "word": "Relaciónalo",
+      "start": 22.535999999999998,
+      "end": 23.389
+    },
+    {
+      "word": "con",
+      "start": 23.432,
+      "end": 23.56
+    },
+    {
+      "word": "las",
+      "start": 23.601999999999997,
+      "end": 23.688
+    },
+    {
+      "word": "lecturas",
+      "start": 23.729999999999997,
+      "end": 24.156999999999996
+    },
+    {
+      "word": "de",
+      "start": 24.2,
+      "end": 24.241999999999997
+    },
+    {
+      "word": "las",
+      "start": 24.284999999999997,
+      "end": 24.369999999999997
+    },
+    {
+      "word": "otras",
+      "start": 24.412999999999997,
+      "end": 24.668999999999997
+    },
+    {
+      "word": "ramas",
+      "start": 24.712,
+      "end": 25.052999999999997
+    },
+    {
+      "word": "y",
+      "start": 25.137999999999998,
+      "end": 25.308999999999997
+    },
+    {
+      "word": "con",
+      "start": 25.351999999999997,
+      "end": 25.479999999999997
+    },
+    {
+      "word": "la",
+      "start": 25.522,
+      "end": 25.564999999999998
+    },
+    {
+      "word": "presión",
+      "start": 25.607999999999997,
+      "end": 25.906
+    },
+    {
+      "word": "de",
+      "start": 25.948999999999998,
+      "end": 26.034
+    },
+    {
+      "word": "la",
+      "start": 26.076999999999998,
+      "end": 26.119999999999997
+    },
+    {
+      "word": "red.",
+      "start": 26.162,
+      "end": 26.4
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 26.4,
+      "end": 27.386
+    },
+    {
+      "word": "Mostramos",
+      "start": 27.386,
+      "end": 27.854999999999997
+    },
+    {
+      "word": "el",
+      "start": 27.898,
+      "end": 27.982999999999997
+    },
+    {
+      "word": "perfil",
+      "start": 28.026,
+      "end": 28.325
+    },
+    {
+      "word": "de",
+      "start": 28.366999999999997,
+      "end": 28.453
+    },
+    {
+      "word": "resistencia",
+      "start": 28.494999999999997,
+      "end": 29.134999999999998
+    },
+    {
+      "word": "sin",
+      "start": 29.177999999999997,
+      "end": 29.348999999999997
+    },
+    {
+      "word": "la",
+      "start": 29.391,
+      "end": 29.476999999999997
+    },
+    {
+      "word": "vía",
+      "start": 29.519,
+      "end": 29.775
+    },
+    {
+      "word": "adicional.",
+      "start": 29.817999999999998,
+      "end": 30.607
+    },
+    {
+      "word": "La",
+      "start": 31.055,
+      "end": 31.354
+    },
+    {
+      "word": "comparación",
+      "start": 31.397,
+      "end": 31.909
+    },
+    {
+      "word": "pregunta",
+      "start": 31.950999999999997,
+      "end": 32.335
+    },
+    {
+      "word": "cómo",
+      "start": 32.421,
+      "end": 32.805
+    },
+    {
+      "word": "se",
+      "start": 32.847,
+      "end": 32.975
+    },
+    {
+      "word": "redistribuye",
+      "start": 33.018,
+      "end": 33.701
+    },
+    {
+      "word": "el",
+      "start": 33.742999999999995,
+      "end": 33.786
+    },
+    {
+      "word": "flujo",
+      "start": 33.829,
+      "end": 34.169999999999995
+    },
+    {
+      "word": "cuando",
+      "start": 34.213,
+      "end": 34.510999999999996
+    },
+    {
+      "word": "cambia",
+      "start": 34.553999999999995,
+      "end": 34.853
+    },
+    {
+      "word": "la",
+      "start": 34.894999999999996,
+      "end": 34.937999999999995
+    },
+    {
+      "word": "conectividad.",
+      "start": 34.980999999999995,
+      "end": 35.849
+    },
+    {
+      "word": "No",
+      "start": 36.120999999999995,
+      "end": 36.291
+    },
+    {
+      "word": "representa",
+      "start": 36.333999999999996,
+      "end": 36.803
+    },
+    {
+      "word": "la",
+      "start": 36.931,
+      "end": 37.016999999999996
+    },
+    {
+      "word": "oclusión",
+      "start": 37.059,
+      "end": 37.742
+    },
+    {
+      "word": "o",
+      "start": 37.785,
+      "end": 37.87
+    },
+    {
+      "word": "apertura",
+      "start": 37.913,
+      "end": 38.424
+    },
+    {
+      "word": "de",
+      "start": 38.467,
+      "end": 38.552
+    },
+    {
+      "word": "una",
+      "start": 38.595,
+      "end": 38.766
+    },
+    {
+      "word": "colateral",
+      "start": 38.808,
+      "end": 39.235
+    },
+    {
+      "word": "en",
+      "start": 39.406,
+      "end": 39.576
+    },
+    {
+      "word": "tiempo",
+      "start": 39.619,
+      "end": 39.918
+    },
+    {
+      "word": "real",
+      "start": 39.96,
+      "end": 40.131
+    },
+    {
+      "word": "dentro",
+      "start": 40.302,
+      "end": 40.6
+    },
+    {
+      "word": "de",
+      "start": 40.643,
+      "end": 40.728
+    },
+    {
+      "word": "un",
+      "start": 40.771,
+      "end": 40.814
+    },
+    {
+      "word": "paciente.",
+      "start": 40.855999999999995,
+      "end": 41.326
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 41.326,
+      "end": 42.226
+    },
+    {
+      "word": "Volvemos",
+      "start": 42.226,
+      "end": 42.61
+    },
+    {
+      "word": "a",
+      "start": 42.651999999999994,
+      "end": 42.738
+    },
+    {
+      "word": "la",
+      "start": 42.781,
+      "end": 42.866
+    },
+    {
+      "word": "red",
+      "start": 42.909,
+      "end": 43.037
+    },
+    {
+      "word": "con",
+      "start": 43.12199999999999,
+      "end": 43.24999999999999
+    },
+    {
+      "word": "colateral",
+      "start": 43.293,
+      "end": 43.677
+    },
+    {
+      "word": "y",
+      "start": 43.88999999999999,
+      "end": 43.974999999999994
+    },
+    {
+      "word": "la",
+      "start": 44.017999999999994,
+      "end": 44.102999999999994
+    },
+    {
+      "word": "expresamos",
+      "start": 44.145999999999994,
+      "end": 44.614999999999995
+    },
+    {
+      "word": "como",
+      "start": 44.657999999999994,
+      "end": 44.870999999999995
+    },
+    {
+      "word": "circuito.",
+      "start": 44.870999999999995,
+      "end": 45.51
+    },
+    {
+      "word": "Comprueba",
+      "start": 45.76499999999999,
+      "end": 46.276999999999994
+    },
+    {
+      "word": "qué",
+      "start": 46.31999999999999,
+      "end": 46.532999999999994
+    },
+    {
+      "word": "conexión",
+      "start": 46.57599999999999,
+      "end": 47.00299999999999
+    },
+    {
+      "word": "se",
+      "start": 47.044999999999995,
+      "end": 47.13099999999999
+    },
+    {
+      "word": "añadió",
+      "start": 47.172999999999995,
+      "end": 47.471999999999994
+    },
+    {
+      "word": "y",
+      "start": 47.642999999999994,
+      "end": 47.770999999999994
+    },
+    {
+      "word": "cómo",
+      "start": 47.812999999999995,
+      "end": 48.068999999999996
+    },
+    {
+      "word": "se",
+      "start": 48.111999999999995,
+      "end": 48.196999999999996
+    },
+    {
+      "word": "conserva",
+      "start": 48.239999999999995,
+      "end": 48.538999999999994
+    },
+    {
+      "word": "el",
+      "start": 48.580999999999996,
+      "end": 48.623999999999995
+    },
+    {
+      "word": "balance.",
+      "start": 48.666999999999994,
+      "end": 49.306999999999995
+    },
+    {
+      "word": "La",
+      "start": 49.690999999999995,
+      "end": 49.903999999999996
+    },
+    {
+      "word": "exploración",
+      "start": 49.946999999999996,
+      "end": 50.458999999999996
+    },
+    {
+      "word": "permite",
+      "start": 50.501,
+      "end": 50.714999999999996
+    },
+    {
+      "word": "revisar",
+      "start": 50.842999999999996,
+      "end": 51.227
+    },
+    {
+      "word": "ambas",
+      "start": 51.355,
+      "end": 51.653
+    },
+    {
+      "word": "soluciones",
+      "start": 51.739,
+      "end": 52.208
+    },
+    {
+      "word": "con",
+      "start": 52.251,
+      "end": 52.379
+    },
+    {
+      "word": "un",
+      "start": 52.421,
+      "end": 52.507
+    },
+    {
+      "word": "mismo",
+      "start": 52.549,
+      "end": 52.848
+    },
+    {
+      "word": "período.",
+      "start": 52.933,
+      "end": 53.56759637188208
+    },
+    {
+      "word": "<end>",
+      "start": 53.81224489795918,
+      "end": 53.81224489795918
+    }
+  ],
+  "review": "Exact normalized transcript and provider timestamps checked; independent auditory and medical approval are separate."
+}

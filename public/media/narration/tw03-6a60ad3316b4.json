@@ -1,0 +1,131 @@
+{
+  "id": "TW03",
+  "audio": "/media/narration/tw03-6a60ad3316b4.mp3",
+  "vtt": "/media/narration/tw03-6a60ad3316b4.vtt",
+  "duration": 59.376327,
+  "sha256": "6a60ad3316b48c3e0df0a8578b8041800182778355a058c98c94df4347e9fe59",
+  "originalSha256": "16368e9f3541ce2ed2b1a98e0a7854ec74a3f97b7976f69d4db2a0877e68c8f2",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 13.651,
+      "end": 14.551
+    },
+    {
+      "index": 1,
+      "start": 14.551,
+      "speechEnd": 28.633999999999997,
+      "end": 29.534
+    },
+    {
+      "index": 2,
+      "start": 29.534,
+      "speechEnd": 43.826,
+      "end": 44.726
+    },
+    {
+      "index": 3,
+      "start": 44.726,
+      "speechEnd": 59.14575736961451,
+      "end": 59.376327
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 3.797,
+      "text": "Localiza la rama profunda y la envoltura muscular ilustrativa."
+    },
+    {
+      "start": 3.797,
+      "end": 7.234,
+      "text": "El modelo conserva sangre dentro de sus compartimentos."
+    },
+    {
+      "start": 7.255,
+      "end": 13.801,
+      "text": "Las partículas son trazadores simbólicos: hacen visible el transporte sin representar la velocidad real de cada célula."
+    },
+    {
+      "start": 14.551,
+      "end": 16.935,
+      "text": "La activación de la bomba aumenta."
+    },
+    {
+      "start": 17.055999999999997,
+      "end": 20.384999999999998,
+      "text": "Mira la envoltura y sigue el ascenso de la curva de flujo."
+    },
+    {
+      "start": 20.427,
+      "end": 24.032999999999998,
+      "text": "El cursor señala el mismo instante que utiliza la escena."
+    },
+    {
+      "start": 24.096,
+      "end": 28.783999999999995,
+      "text": "La contracción visual y la lectura numérica pertenecen a una única solución."
+    },
+    {
+      "start": 29.534,
+      "end": 34.931999999999995,
+      "text": "Al disminuir la activación, cambian las presiones y los flujos entre compartimentos."
+    },
+    {
+      "start": 35.079,
+      "end": 40.583,
+      "text": "Observa la conexión entre los sistemas y evita asumir que todas las ramas se mueven siempre en el mismo"
+    },
+    {
+      "start": 40.583,
+      "end": 41.501,
+      "text": "sentido."
+    },
+    {
+      "start": 41.693,
+      "end": 43.976,
+      "text": "La dirección está determinada por este cálculo."
+    },
+    {
+      "start": 44.726,
+      "end": 46.461999999999996,
+      "text": "Revisamos un ciclo completo."
+    },
+    {
+      "start": 46.576,
+      "end": 52.294,
+      "text": "Compara amplitud y forma de la onda, y después prueba una activación menor en Explorar."
+    },
+    {
+      "start": 52.506,
+      "end": 59.295757369614506,
+      "text": "La contracción y las valvas son esquemas docentes; esta pieza no reproduce una biomecánica individual validada."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Antes de contraer",
+      "text": "Localiza la rama profunda y la envoltura muscular ilustrativa. El modelo conserva sangre dentro de sus compartimentos. Las partículas son trazadores simbólicos: hacen visible el transporte sin representar la velocidad real de cada célula."
+    },
+    {
+      "title": "Eyección",
+      "text": "La activación de la bomba aumenta. Mira la envoltura y sigue el ascenso de la curva de flujo. El cursor señala el mismo instante que utiliza la escena. La contracción visual y la lectura numérica pertenecen a una única solución."
+    },
+    {
+      "title": "Relajación y relleno",
+      "text": "Al disminuir la activación, cambian las presiones y los flujos entre compartimentos. Observa la conexión entre los sistemas y evita asumir que todas las ramas se mueven siempre en el mismo sentido. La dirección está determinada por este cálculo."
+    },
+    {
+      "title": "Ciclo completo",
+      "text": "Revisamos un ciclo completo. Compara amplitud y forma de la onda, y después prueba una activación menor en Explorar. La contracción y las valvas son esquemas docentes; esta pieza no reproduce una biomecánica individual validada."
+    }
+  ]
+}

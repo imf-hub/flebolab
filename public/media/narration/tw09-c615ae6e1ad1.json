@@ -1,0 +1,116 @@
+{
+  "id": "TW09",
+  "audio": "/media/narration/tw09-c615ae6e1ad1.mp3",
+  "vtt": "/media/narration/tw09-c615ae6e1ad1.vtt",
+  "duration": 52.897959,
+  "sha256": "c615ae6e1ad1a17e1572004c04fa4e864df936808460ab89027c0938f9edf877",
+  "originalSha256": "38e10eec32d17c9041238c78bc0b198d472482ef35da6cc9f239435705392bd9",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 11.31,
+      "end": 12.21
+    },
+    {
+      "index": 1,
+      "start": 12.21,
+      "speechEnd": 25.39,
+      "end": 26.29
+    },
+    {
+      "index": 2,
+      "start": 26.29,
+      "speechEnd": 39.463,
+      "end": 40.293
+    },
+    {
+      "index": 3,
+      "start": 40.293,
+      "speechEnd": 52.668,
+      "end": 52.897959
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.256,
+      "end": 3.713,
+      "text": "El marcador de salida representa mayor resistencia en la red."
+    },
+    {
+      "start": 3.883,
+      "end": 8.449,
+      "text": "No dibuja una estenosis anatómica ni mide el porcentaje de obstrucción de una vena."
+    },
+    {
+      "start": 8.533,
+      "end": 11.46,
+      "text": "Localiza primero el trayecto al que se aplica esa condición."
+    },
+    {
+      "start": 12.21,
+      "end": 15.987000000000002,
+      "text": "La presión y la forma de las ondas cambian durante el ciclo."
+    },
+    {
+      "start": 16.135,
+      "end": 19.781999999999996,
+      "text": "El modelo estabiliza sus volúmenes antes de mostrar la solución."
+    },
+    {
+      "start": 19.886,
+      "end": 25.54,
+      "text": "Mira la curva correspondiente y evita deducir una presión de paciente a partir de sus unidades relativas."
+    },
+    {
+      "start": 26.290000000000003,
+      "end": 30.655,
+      "text": "En el circuito, cada salida y conexión puede seguirse sin ocultamientos."
+    },
+    {
+      "start": 30.709,
+      "end": 33.568,
+      "text": "La conservación permite comprobar el balance de la red."
+    },
+    {
+      "start": 33.61,
+      "end": 39.613,
+      "text": "Una mayor resistencia no se traduce automáticamente en un diagnóstico o una indicación de intervención."
+    },
+    {
+      "start": 40.293,
+      "end": 44.898999999999994,
+      "text": "Regresamos al conjunto: ¿qué podría cambiar si existiera una vía adicional?"
+    },
+    {
+      "start": 45.065,
+      "end": 52.818,
+      "text": "El experimento de colaterales permite explorar esa pregunta con otra solución, manteniendo explícitas las condiciones que se comparan."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Sitúa la salida",
+      "text": "El marcador de salida representa mayor resistencia en la red. No dibuja una estenosis anatómica ni mide el porcentaje de obstrucción de una vena. Localiza primero el trayecto al que se aplica esa condición."
+    },
+    {
+      "title": "Lee la consecuencia",
+      "text": "La presión y la forma de las ondas cambian durante el ciclo. El modelo estabiliza sus volúmenes antes de mostrar la solución. Mira la curva correspondiente y evita deducir una presión de paciente a partir de sus unidades relativas."
+    },
+    {
+      "title": "Comprueba los nodos",
+      "text": "En el circuito, cada salida y conexión puede seguirse sin ocultamientos. La conservación permite comprobar el balance de la red. Una mayor resistencia no se traduce automáticamente en un diagnóstico o una indicación de intervención."
+    },
+    {
+      "title": "Añade una pregunta",
+      "text": "Regresamos al conjunto: ¿qué podría cambiar si existiera una vía adicional? El experimento de colaterales permite explorar esa pregunta con otra solución, manteniendo explícitas las condiciones que se comparan."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP01",
+  "group": "doppler",
+  "title": "Dirección del haz y del flujo",
+  "objective": "Relaciona el haz con la componente del movimiento que detecta.",
+  "sourceIds": [
+    "uipduplex1",
+    "dopplerphysics",
+    "asa"
+  ],
+  "stages": [
+    {
+      "title": "Dos direcciones",
+      "spoken": "El transductor y el flujo tienen direcciones diferentes. La flecha del vaso representa movimiento y el haz señala la dirección de observación. El esquema separa ambos para explicar qué componente participa en el desplazamiento Doppler.",
+      "values": {
+        "angle": 25,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "La proyección",
+      "spoken": "Al cambiar el ángulo, cambia la proyección del movimiento sobre el haz. La curva sintética representa esa componente, no la velocidad total del vaso. Un ángulo cercano a perpendicular reduce la componente detectada en esta idealización.",
+      "values": {
+        "angle": 80,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Cambia el sentido relativo",
+      "spoken": "Al sobrepasar la perpendicular cambia el signo de la proyección. Eso describe la relación con el haz y la convención de presentación. No identifica automáticamente arteria, vena, normalidad o enfermedad.",
+      "values": {
+        "angle": 135,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Pregunta antes de interpretar",
+      "spoken": "Regresamos a la orientación inicial. Antes de interpretar un signo, localiza el transductor, la dirección del flujo y la configuración del equipo. En clínica se necesitan anatomía y protocolo, además de la señal.",
+      "values": {
+        "angle": 25,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP01"
+}

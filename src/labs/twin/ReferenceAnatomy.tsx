@@ -7,6 +7,8 @@ import type { Solution } from "./model";
 import { integratedFlow, phaseAt, type FlowKey } from "./transport";
 import assets from "../../data/assets";
 import FitCamera from "./FitCamera";
+import GuidedCamera from "../../learning/GuidedCamera";
+import type { CameraGuide } from "../../learning/types";
 export type CameraPose = {
   owner: string;
   position: [number, number, number];
@@ -115,11 +117,19 @@ export default function ReferenceAnatomy({
   solution,
   timeRef,
   cameraPose,
+  guidance,
+  onCameraInput,
+  guidedTissues,
+  onTissuesChange,
 }: {
   mode: string;
   solution: Solution;
   timeRef: React.RefObject<number>;
   cameraPose?: React.RefObject<CameraPose>;
+  guidance?: React.RefObject<CameraGuide>;
+  onCameraInput?: () => void;
+  guidedTissues?: string[];
+  onTissuesChange?: (tissues: string[]) => void;
 }) {
   const controls = useRef<any>(null),
     sceneId = useId();
@@ -128,6 +138,15 @@ export default function ReferenceAnatomy({
     [selected, setSelected] = useState(""),
     [cut, setCut] = useState(false),
     [reset, setReset] = useState(0);
+  useEffect(() => {
+    if (guidedTissues) {
+      setTissues(guidedTissues);
+      setIsolate(false);
+    }
+  }, [guidedTissues?.join(",")]);
+  useEffect(() => {
+    onTissuesChange?.(tissues);
+  }, [tissues, onTissuesChange]);
   return (
     <div className="scene-wrap">
       <Canvas
@@ -148,7 +167,10 @@ export default function ReferenceAnatomy({
           <Anatomy
             tissues={tissues}
             selected={selected}
-            onSelect={setSelected}
+            onSelect={(id) => {
+              onCameraInput?.();
+              setSelected(id);
+            }}
             cut={cut}
             isolate={isolate}
           />
@@ -160,10 +182,14 @@ export default function ReferenceAnatomy({
           minDistance={3}
           maxDistance={17}
           onStart={() => {
+            onCameraInput?.();
             if (cameraPose) cameraPose.current.owner = sceneId;
           }}
         />
         <FitCamera mode="anatomy" controls={controls} />
+        {guidance && (
+          <GuidedCamera guide={guidance} mode="anatomy" controls={controls} />
+        )}
         {cameraPose && (
           <CameraSync pose={cameraPose} id={sceneId} controls={controls} />
         )}
@@ -196,6 +222,7 @@ export default function ReferenceAnatomy({
             aria-label="Seleccionar estructura anatómica"
             value={selected}
             onChange={(e) => {
+              onCameraInput?.();
               setSelected(e.target.value);
               setIsolate(false);
             }}
@@ -212,7 +239,10 @@ export default function ReferenceAnatomy({
           <button
             className="dark-button"
             disabled={!selected}
-            onClick={() => setIsolate(!isolate)}
+            onClick={() => {
+              onCameraInput?.();
+              setIsolate(!isolate);
+            }}
           >
             {isolate ? "Volver al territorio" : "Aislar selección"}
           </button>
@@ -229,11 +259,12 @@ export default function ReferenceAnatomy({
               <input
                 type="checkbox"
                 checked={tissues.includes(v)}
-                onChange={() =>
+                onChange={() => {
+                  onCameraInput?.();
                   setTissues((t) =>
                     t.includes(v) ? t.filter((x) => x !== v) : [...t, v],
-                  )
-                }
+                  );
+                }}
               />
               {l}
             </label>
@@ -242,7 +273,10 @@ export default function ReferenceAnatomy({
             <input
               type="checkbox"
               checked={cut}
-              onChange={(e) => setCut(e.target.checked)}
+              onChange={(e) => {
+                onCameraInput?.();
+                setCut(e.target.checked);
+              }}
             />
             Corte visual
           </label>

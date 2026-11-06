@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW12",
+  "group": "twin",
+  "title": "Mecanismos que interactúan",
+  "objective": "Integra bomba, válvulas, conexiones y presión exterior sin inferir efectos terapéuticos.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Reconoce las condiciones",
+      "spoken": "Aquí intervienen varias condiciones a la vez: bomba, conductancia inversa, conexión, salida y presión exterior. Identifica sus valores antes de interpretar la escena. Una combinación visualmente compleja no equivale a una simulación individual más validada.",
+      "scenario": "TW12",
+      "view": "flow",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Observa un ciclo",
+      "spoken": "Sigue la activación y el transporte en las ramas. Sus flujos pueden cambiar de forma diferente porque dependen de la red completa. La lectura temporal resulta más informativa que una imagen aislada de las partículas.",
+      "scenario": "TW12",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "deep"
+    },
+    {
+      "title": "Verifica el circuito",
+      "spoken": "El circuito revela qué compartimentos reciben y entregan flujo. Compara presiones y volúmenes mientras avanza el cursor. Los resultados son relativos y las entradas constantes limitan lo que puede inferirse del retorno medio.",
+      "scenario": "TW12",
+      "view": "circuit",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Descompón el problema",
+      "spoken": "Vuelve a la red. Para comprender una interacción, empieza comparando perfiles simples y añade condiciones de una en una. Esta herramienta permite ensayar explicaciones causales, sin predecir la respuesta de una persona a un tratamiento.",
+      "scenario": "TW12",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW12"
+}

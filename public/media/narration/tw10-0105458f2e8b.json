@@ -1,0 +1,126 @@
+{
+  "id": "TW10",
+  "audio": "/media/narration/tw10-0105458f2e8b.mp3",
+  "vtt": "/media/narration/tw10-0105458f2e8b.vtt",
+  "duration": 53.812245,
+  "sha256": "0105458f2e8bbcdcc7054fa05f2d0fb75257f79bc7d8b2fdaa3da3f209b1eb2b",
+  "originalSha256": "053b17d1fd8fda4a26f3a3f136bbad13fd875598928789fec0af2a2e863c46c0",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 14.911,
+      "end": 15.811
+    },
+    {
+      "index": 1,
+      "start": 15.811,
+      "speechEnd": 26.4,
+      "end": 27.386
+    },
+    {
+      "index": 2,
+      "start": 27.386,
+      "speechEnd": 41.326,
+      "end": 42.226
+    },
+    {
+      "index": 3,
+      "start": 42.226,
+      "speechEnd": 53.56759637188208,
+      "end": 53.812245
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 5.035,
+      "text": "La rama ocre añade una vía colateral al perfil con resistencia de salida."
+    },
+    {
+      "start": 5.035,
+      "end": 6.954,
+      "text": "Su trazado es esquemático."
+    },
+    {
+      "start": 6.954,
+      "end": 14.335,
+      "text": "La presencia de una colateral en una imagen clínica exige interpretación anatómica y funcional, no una conclusión automática sobre"
+    },
+    {
+      "start": 14.335,
+      "end": 15.061,
+      "text": "la gravedad."
+    },
+    {
+      "start": 15.811,
+      "end": 18.448999999999998,
+      "text": "Sigue el flujo de esa rama durante el ciclo."
+    },
+    {
+      "start": 18.525,
+      "end": 22.365999999999996,
+      "text": "Tiene su propio valor calculado; no es una animación decorativa."
+    },
+    {
+      "start": 22.535999999999998,
+      "end": 26.549999999999997,
+      "text": "Relaciónalo con las lecturas de las otras ramas y con la presión de la red."
+    },
+    {
+      "start": 27.386,
+      "end": 30.756999999999998,
+      "text": "Mostramos el perfil de resistencia sin la vía adicional."
+    },
+    {
+      "start": 31.055,
+      "end": 35.998999999999995,
+      "text": "La comparación pregunta cómo se redistribuye el flujo cuando cambia la conectividad."
+    },
+    {
+      "start": 36.120999999999995,
+      "end": 41.476,
+      "text": "No representa la oclusión o apertura de una colateral en tiempo real dentro de un paciente."
+    },
+    {
+      "start": 42.226,
+      "end": 45.66,
+      "text": "Volvemos a la red con colateral y la expresamos como circuito."
+    },
+    {
+      "start": 45.76499999999999,
+      "end": 49.456999999999994,
+      "text": "Comprueba qué conexión se añadió y cómo se conserva el balance."
+    },
+    {
+      "start": 49.690999999999995,
+      "end": 53.71759637188208,
+      "text": "La exploración permite revisar ambas soluciones con un mismo período."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Una ruta adicional",
+      "text": "La rama ocre añade una vía colateral al perfil con resistencia de salida. Su trazado es esquemático. La presencia de una colateral en una imagen clínica exige interpretación anatómica y funcional, no una conclusión automática sobre la gravedad."
+    },
+    {
+      "title": "Distribución del flujo",
+      "text": "Sigue el flujo de esa rama durante el ciclo. Tiene su propio valor calculado; no es una animación decorativa. Relaciónalo con las lecturas de las otras ramas y con la presión de la red."
+    },
+    {
+      "title": "Sin esa rama",
+      "text": "Mostramos el perfil de resistencia sin la vía adicional. La comparación pregunta cómo se redistribuye el flujo cuando cambia la conectividad. No representa la oclusión o apertura de una colateral en tiempo real dentro de un paciente."
+    },
+    {
+      "title": "Contrasta ambas redes",
+      "text": "Volvemos a la red con colateral y la expresamos como circuito. Comprueba qué conexión se añadió y cómo se conserva el balance. La exploración permite revisar ambas soluciones con un mismo período."
+    }
+  ]
+}

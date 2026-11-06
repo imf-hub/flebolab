@@ -219,6 +219,15 @@ export function clinicalClass(value: string | null): ClinicalClass {
     : "C2";
 }
 export function classExamples(id: ClinicalClass) {
+  // Selection by useful framing, preserving every provider label and view ID.
+  // C5/C6 use two views of one record where the area is less obscured; these are not two cases.
+  const curated: Partial<Record<ClinicalClass, string[]>> = {
+    C4: ["vision-c4-004-v5", "vision-c4-001-v1"],
+    C5: ["vision-c5-001-v5", "vision-c5-001-v1"],
+    C6: ["vision-c6-003-v1", "vision-c6-003-v5"],
+  };
+  if (curated[id])
+    return curated[id]!.map((key) => images.find((image) => image.id === key)!);
   const seen = new Set<string>();
   return images
     .filter((image) => {

@@ -121,7 +121,15 @@ export default function Dus() {
         title="El movimiento también se estudia."
         description="Cine real. Cuadros exactos. Fundamentos Doppler."
         color="teal"
-      />
+      >
+        <Link
+          className="button secondary"
+          to={`/aprender/${tab === "doppler" ? lesson : "DC01"}`}
+        >
+          <Play size={14} />
+          Explicación guiada
+        </Link>
+      </LabHeader>
       <div className="container dus-container">
         <div className="main-tabs">
           <button

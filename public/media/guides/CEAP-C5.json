@@ -1,0 +1,64 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "CEAP-C5",
+  "group": "vision",
+  "title": "Úlcera venosa cicatrizada",
+  "objective": "Relaciona una cicatriz con los antecedentes necesarios para describir C5.",
+  "sourceIds": [
+    "ceap2020",
+    "esvs2022",
+    "tricvi"
+  ],
+  "stages": [
+    {
+      "title": "Una historia que importa",
+      "spoken": "La clase cinco corresponde a úlcera venosa cicatrizada. Una cicatriz visible no demuestra por sí sola que existió una úlcera venosa. Hace falta conocer el antecedente y la atribución de su causa.",
+      "clinicalClass": "C5",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Describe el área",
+      "spoken": "Observa localización, superficie y cambios alrededor del área cicatricial. Estos ejemplos mantienen la etiqueta original del depósito. Las diferencias de iluminación y captura limitan las comparaciones de color y textura.",
+      "clinicalClass": "C5",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Cicatrizada no es sin enfermedad",
+      "spoken": "La ausencia de una herida abierta en el momento de la imagen no elimina la necesidad de evaluación venosa. La clasificación describe manifestaciones presentes y antecedentes pertinentes, sin garantizar un pronóstico individual.",
+      "clinicalClass": "C5",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Completa la descripción",
+      "spoken": "Distingue el hallazgo visible de la historia que lo sustenta. La fotografía no permite completar por sí sola etiología, anatomía, fisiopatología o síntomas. Formula las preguntas antes de cerrar la clasificación de un miembro.",
+      "clinicalClass": "C5",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebovision?class=C5"
+}

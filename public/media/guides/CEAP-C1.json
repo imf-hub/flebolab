@@ -1,0 +1,64 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "CEAP-C1",
+  "group": "vision",
+  "title": "Telangiectasias o venas reticulares",
+  "objective": "Describe el patrón superficial y distingue C1 de corona flebectásica.",
+  "sourceIds": [
+    "ceap2020",
+    "esvs2022",
+    "tricvi"
+  ],
+  "stages": [
+    {
+      "title": "Una definición disyuntiva",
+      "spoken": "La clase uno incluye telangiectasias o venas reticulares. No exige que estén presentes ambas. Observa la distribución superficial y conserva una descripción del patrón antes de atribuirle un mecanismo funcional.",
+      "clinicalClass": "C1",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Observación con límites",
+      "spoken": "Las imágenes mantienen sus etiquetas de origen. Sin una escala validada no puedes medir el diámetro real desde la pantalla. Tampoco puedes reconstruir desde el aspecto superficial todo el circuito de reflujo.",
+      "clinicalClass": "C1",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "El contexto del tobillo",
+      "spoken": "La corona flebectásica tiene un patrón y una localización característicos y se incluye como subclase cuatro ce en la revisión de dos mil veinte. No equivale a cualquier telangiectasia aislada.",
+      "clinicalClass": "C1",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Describe y pregunta",
+      "spoken": "Compara los ejemplos y formula qué información clínica falta. Una descripción precisa distingue el hallazgo visible de sus causas y síntomas. La fotografía apoya la enseñanza, pero no completa los cuatro dominios de la clasificación.",
+      "clinicalClass": "C1",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebovision?class=C1"
+}

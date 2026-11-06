@@ -1,0 +1,774 @@
+{
+  "id": "TW06",
+  "request": {
+    "id": "TW06",
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "language": "es",
+    "inputType": "ssml",
+    "text": "<speak>Este perfil permite conductancia inversa en la rama. El defecto de coaptación representa esa condición del modelo. No es una medida de lesión anatómica ni un grado clínico de insuficiencia. Mira cómo se conserva la inserción de las valvas.<break time=\"0.9s\"/>Primero observamos el flujo positivo. La apertura acompaña la onda, igual que en el perfil competente. La diferencia entre ambos perfiles no debe juzgarse únicamente por una imagen de las valvas abiertas.<break time=\"0.9s\"/>Durante la fase siguiente aparece flujo negativo. La curva pasa bajo cero y los trazadores invierten el sentido. Esos tres elementos describen el mismo instante. Una inversión del modelo no sustituye la medición clínica de duración y condiciones de provocación.<break time=\"0.9s\"/>Compara ahora con la rama competente: bajo estas condiciones el flujo inverso queda bloqueado. Conserva la misma orientación y observa el ciclo completo. En Explorar puedes abrir la comparación simultánea para contrastar ambos resultados.</speak>",
+    "stages": [
+      "Este perfil permite conductancia inversa en la rama. El defecto de coaptación representa esa condición del modelo. No es una medida de lesión anatómica ni un grado clínico de insuficiencia. Mira cómo se conserva la inserción de las valvas.",
+      "Primero observamos el flujo positivo. La apertura acompaña la onda, igual que en el perfil competente. La diferencia entre ambos perfiles no debe juzgarse únicamente por una imagen de las valvas abiertas.",
+      "Durante la fase siguiente aparece flujo negativo. La curva pasa bajo cero y los trazadores invierten el sentido. Esos tres elementos describen el mismo instante. Una inversión del modelo no sustituye la medición clínica de duración y condiciones de provocación.",
+      "Compara ahora con la rama competente: bajo estas condiciones el flujo inverso queda bloqueado. Conserva la misma orientación y observa el ciclo completo. En Explorar puedes abrir la comparación simultánea para contrastar ambos resultados."
+    ]
+  },
+  "requestId": "3bc7d75f57c248b38f1fde14e269c5f9",
+  "voice": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "duration": 56.999184,
+  "sha256": "e1a8029874ea5d8404bd2db895ecc8bd47a83a2c2dc9fd4c00c6525fd30f8466",
+  "word_timestamps": [
+    {
+      "word": "<start>",
+      "start": 0.0,
+      "end": 0.0
+    },
+    {
+      "word": "Este",
+      "start": 0.256,
+      "end": 0.512
+    },
+    {
+      "word": "perfil",
+      "start": 0.555,
+      "end": 0.853
+    },
+    {
+      "word": "permite",
+      "start": 0.939,
+      "end": 1.237
+    },
+    {
+      "word": "conductancia",
+      "start": 1.323,
+      "end": 2.048
+    },
+    {
+      "word": "inversa",
+      "start": 2.091,
+      "end": 2.432
+    },
+    {
+      "word": "en",
+      "start": 2.475,
+      "end": 2.517
+    },
+    {
+      "word": "la",
+      "start": 2.56,
+      "end": 2.645
+    },
+    {
+      "word": "rama.",
+      "start": 2.688,
+      "end": 3.136
+    },
+    {
+      "word": "El",
+      "start": 3.371,
+      "end": 3.669
+    },
+    {
+      "word": "defecto",
+      "start": 3.712,
+      "end": 4.053
+    },
+    {
+      "word": "de",
+      "start": 4.096,
+      "end": 4.181
+    },
+    {
+      "word": "coaptación",
+      "start": 4.224,
+      "end": 4.7787
+    },
+    {
+      "word": "representa",
+      "start": 4.864,
+      "end": 5.2907
+    },
+    {
+      "word": "esa",
+      "start": 5.376,
+      "end": 5.5467
+    },
+    {
+      "word": "condición",
+      "start": 5.589,
+      "end": 6.016
+    },
+    {
+      "word": "del",
+      "start": 6.059,
+      "end": 6.101
+    },
+    {
+      "word": "modelo.",
+      "start": 6.187,
+      "end": 6.699
+    },
+    {
+      "word": "No",
+      "start": 6.997,
+      "end": 7.168
+    },
+    {
+      "word": "es",
+      "start": 7.211,
+      "end": 7.253
+    },
+    {
+      "word": "una",
+      "start": 7.296,
+      "end": 7.4667
+    },
+    {
+      "word": "medida",
+      "start": 7.509,
+      "end": 7.765
+    },
+    {
+      "word": "de",
+      "start": 7.808,
+      "end": 7.936
+    },
+    {
+      "word": "lesión",
+      "start": 7.979,
+      "end": 8.192
+    },
+    {
+      "word": "anatómica",
+      "start": 8.235,
+      "end": 8.789
+    },
+    {
+      "word": "ni",
+      "start": 8.832,
+      "end": 8.96
+    },
+    {
+      "word": "un",
+      "start": 9.003,
+      "end": 9.045
+    },
+    {
+      "word": "grado",
+      "start": 9.088,
+      "end": 9.344
+    },
+    {
+      "word": "clínico",
+      "start": 9.387,
+      "end": 9.728
+    },
+    {
+      "word": "de",
+      "start": 9.771,
+      "end": 9.856
+    },
+    {
+      "word": "insuficiencia.",
+      "start": 9.856,
+      "end": 10.579
+    },
+    {
+      "word": "Mira",
+      "start": 10.704,
+      "end": 10.9597
+    },
+    {
+      "word": "cómo",
+      "start": 11.002,
+      "end": 11.173
+    },
+    {
+      "word": "se",
+      "start": 11.216,
+      "end": 11.3437
+    },
+    {
+      "word": "conserva",
+      "start": 11.386,
+      "end": 11.813
+    },
+    {
+      "word": "la",
+      "start": 11.856,
+      "end": 11.898
+    },
+    {
+      "word": "inserción",
+      "start": 11.941,
+      "end": 12.3677
+    },
+    {
+      "word": "de",
+      "start": 12.41,
+      "end": 12.4957
+    },
+    {
+      "word": "las",
+      "start": 12.538,
+      "end": 12.6237
+    },
+    {
+      "word": "valvas.",
+      "start": 12.666,
+      "end": 13.012
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 13.012,
+      "end": 13.912
+    },
+    {
+      "word": "Primero",
+      "start": 13.912,
+      "end": 14.296000000000001
+    },
+    {
+      "word": "observamos",
+      "start": 14.339000000000002,
+      "end": 15.150000000000002
+    },
+    {
+      "word": "el",
+      "start": 15.192000000000002,
+      "end": 15.278000000000002
+    },
+    {
+      "word": "flujo",
+      "start": 15.320000000000002,
+      "end": 15.619000000000002
+    },
+    {
+      "word": "positivo.",
+      "start": 15.662,
+      "end": 16.387
+    },
+    {
+      "word": "La",
+      "start": 16.643,
+      "end": 16.856
+    },
+    {
+      "word": "apertura",
+      "start": 16.899,
+      "end": 17.368000000000002
+    },
+    {
+      "word": "acompaña",
+      "start": 17.411,
+      "end": 17.880000000000003
+    },
+    {
+      "word": "la",
+      "start": 17.923000000000002,
+      "end": 18.008000000000003
+    },
+    {
+      "word": "onda,",
+      "start": 18.051000000000002,
+      "end": 18.414
+    },
+    {
+      "word": "igual",
+      "start": 18.563000000000002,
+      "end": 18.819000000000003
+    },
+    {
+      "word": "que",
+      "start": 18.862000000000002,
+      "end": 18.990000000000002
+    },
+    {
+      "word": "en",
+      "start": 19.032,
+      "end": 19.075000000000003
+    },
+    {
+      "word": "el",
+      "start": 19.118000000000002,
+      "end": 19.16
+    },
+    {
+      "word": "perfil",
+      "start": 19.203000000000003,
+      "end": 19.416
+    },
+    {
+      "word": "competente.",
+      "start": 19.459000000000003,
+      "end": 20.200000000000003
+    },
+    {
+      "word": "La",
+      "start": 20.428,
+      "end": 20.599
+    },
+    {
+      "word": "diferencia",
+      "start": 20.642000000000003,
+      "end": 21.026
+    },
+    {
+      "word": "entre",
+      "start": 21.068,
+      "end": 21.196
+    },
+    {
+      "word": "ambos",
+      "start": 21.282,
+      "end": 21.452
+    },
+    {
+      "word": "perfiles",
+      "start": 21.495,
+      "end": 21.836000000000002
+    },
+    {
+      "word": "no",
+      "start": 21.964000000000002,
+      "end": 22.178
+    },
+    {
+      "word": "debe",
+      "start": 22.220000000000002,
+      "end": 22.391000000000002
+    },
+    {
+      "word": "juzgarse",
+      "start": 22.434,
+      "end": 22.860000000000003
+    },
+    {
+      "word": "únicamente",
+      "start": 22.946,
+      "end": 23.330000000000002
+    },
+    {
+      "word": "por",
+      "start": 23.5,
+      "end": 23.586000000000002
+    },
+    {
+      "word": "una",
+      "start": 23.628,
+      "end": 23.756
+    },
+    {
+      "word": "imagen",
+      "start": 23.799000000000003,
+      "end": 24.14
+    },
+    {
+      "word": "de",
+      "start": 24.183,
+      "end": 24.311
+    },
+    {
+      "word": "las",
+      "start": 24.354000000000003,
+      "end": 24.439
+    },
+    {
+      "word": "valvas",
+      "start": 24.482000000000003,
+      "end": 24.738000000000003
+    },
+    {
+      "word": "abiertas.",
+      "start": 24.78,
+      "end": 25.297
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 25.297,
+      "end": 26.197
+    },
+    {
+      "word": "Durante",
+      "start": 26.197,
+      "end": 26.453
+    },
+    {
+      "word": "la",
+      "start": 26.581,
+      "end": 26.666
+    },
+    {
+      "word": "fase",
+      "start": 26.709,
+      "end": 26.837
+    },
+    {
+      "word": "siguiente",
+      "start": 26.88,
+      "end": 27.349
+    },
+    {
+      "word": "aparece",
+      "start": 27.392,
+      "end": 27.817999999999998
+    },
+    {
+      "word": "flujo",
+      "start": 27.989,
+      "end": 28.288
+    },
+    {
+      "word": "negativo.",
+      "start": 28.33,
+      "end": 29.025
+    },
+    {
+      "word": "La",
+      "start": 29.251,
+      "end": 29.422
+    },
+    {
+      "word": "curva",
+      "start": 29.465,
+      "end": 29.678
+    },
+    {
+      "word": "pasa",
+      "start": 29.721,
+      "end": 29.934
+    },
+    {
+      "word": "bajo",
+      "start": 29.976,
+      "end": 30.147
+    },
+    {
+      "word": "cero",
+      "start": 30.19,
+      "end": 30.488
+    },
+    {
+      "word": "y",
+      "start": 30.573999999999998,
+      "end": 30.958
+    },
+    {
+      "word": "los",
+      "start": 31.0,
+      "end": 31.086
+    },
+    {
+      "word": "trazadores",
+      "start": 31.128,
+      "end": 31.555
+    },
+    {
+      "word": "invierten",
+      "start": 31.64,
+      "end": 32.11
+    },
+    {
+      "word": "el",
+      "start": 32.153,
+      "end": 32.195
+    },
+    {
+      "word": "sentido.",
+      "start": 32.238,
+      "end": 32.857
+    },
+    {
+      "word": "Esos",
+      "start": 33.04900000000001,
+      "end": 33.561
+    },
+    {
+      "word": "tres",
+      "start": 33.646,
+      "end": 33.902
+    },
+    {
+      "word": "elementos",
+      "start": 33.987,
+      "end": 34.457
+    },
+    {
+      "word": "describen",
+      "start": 34.499,
+      "end": 34.883
+    },
+    {
+      "word": "el",
+      "start": 35.011,
+      "end": 35.097
+    },
+    {
+      "word": "mismo",
+      "start": 35.182,
+      "end": 35.566
+    },
+    {
+      "word": "instante.",
+      "start": 35.609,
+      "end": 36.198
+    },
+    {
+      "word": "Una",
+      "start": 36.489000000000004,
+      "end": 36.703
+    },
+    {
+      "word": "inversión",
+      "start": 36.745000000000005,
+      "end": 37.087
+    },
+    {
+      "word": "del",
+      "start": 37.129000000000005,
+      "end": 37.172000000000004
+    },
+    {
+      "word": "modelo",
+      "start": 37.257000000000005,
+      "end": 37.471000000000004
+    },
+    {
+      "word": "no",
+      "start": 37.684000000000005,
+      "end": 37.897000000000006
+    },
+    {
+      "word": "sustituye",
+      "start": 37.940000000000005,
+      "end": 38.495000000000005
+    },
+    {
+      "word": "la",
+      "start": 38.537000000000006,
+      "end": 38.623000000000005
+    },
+    {
+      "word": "medición",
+      "start": 38.665000000000006,
+      "end": 39.04900000000001
+    },
+    {
+      "word": "clínica",
+      "start": 39.092000000000006,
+      "end": 39.391000000000005
+    },
+    {
+      "word": "de",
+      "start": 39.519000000000005,
+      "end": 39.604000000000006
+    },
+    {
+      "word": "duración",
+      "start": 39.647000000000006,
+      "end": 40.073
+    },
+    {
+      "word": "y",
+      "start": 40.159000000000006,
+      "end": 40.329
+    },
+    {
+      "word": "condiciones",
+      "start": 40.372,
+      "end": 40.884
+    },
+    {
+      "word": "de",
+      "start": 40.927,
+      "end": 41.012
+    },
+    {
+      "word": "provocación.",
+      "start": 41.055,
+      "end": 41.646
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 41.646,
+      "end": 42.356
+    },
+    {
+      "word": "Compara",
+      "start": 42.356,
+      "end": 43.081
+    },
+    {
+      "word": "ahora",
+      "start": 43.167,
+      "end": 43.465
+    },
+    {
+      "word": "con",
+      "start": 43.508,
+      "end": 43.593
+    },
+    {
+      "word": "la",
+      "start": 43.636,
+      "end": 43.721000000000004
+    },
+    {
+      "word": "rama",
+      "start": 43.764,
+      "end": 43.977000000000004
+    },
+    {
+      "word": "competente:",
+      "start": 44.02,
+      "end": 44.745000000000005
+    },
+    {
+      "word": "bajo",
+      "start": 45.001000000000005,
+      "end": 45.257000000000005
+    },
+    {
+      "word": "estas",
+      "start": 45.300000000000004,
+      "end": 45.513000000000005
+    },
+    {
+      "word": "condiciones",
+      "start": 45.556000000000004,
+      "end": 46.111000000000004
+    },
+    {
+      "word": "el",
+      "start": 46.153000000000006,
+      "end": 46.324000000000005
+    },
+    {
+      "word": "flujo",
+      "start": 46.409000000000006,
+      "end": 46.751000000000005
+    },
+    {
+      "word": "inverso",
+      "start": 46.793000000000006,
+      "end": 47.135000000000005
+    },
+    {
+      "word": "queda",
+      "start": 47.220000000000006,
+      "end": 47.476000000000006
+    },
+    {
+      "word": "bloqueado.",
+      "start": 47.519000000000005,
+      "end": 48.265
+    },
+    {
+      "word": "Conserva",
+      "start": 48.585,
+      "end": 48.969
+    },
+    {
+      "word": "la",
+      "start": 49.012,
+      "end": 49.097
+    },
+    {
+      "word": "misma",
+      "start": 49.14,
+      "end": 49.396
+    },
+    {
+      "word": "orientación",
+      "start": 49.439,
+      "end": 49.993
+    },
+    {
+      "word": "y",
+      "start": 50.036,
+      "end": 50.207
+    },
+    {
+      "word": "observa",
+      "start": 50.249,
+      "end": 50.591
+    },
+    {
+      "word": "el",
+      "start": 50.633,
+      "end": 50.676
+    },
+    {
+      "word": "ciclo",
+      "start": 50.719,
+      "end": 51.06
+    },
+    {
+      "word": "completo.",
+      "start": 51.103,
+      "end": 51.67
+    },
+    {
+      "word": "En",
+      "start": 51.939,
+      "end": 52.067
+    },
+    {
+      "word": "Explorar",
+      "start": 52.109,
+      "end": 52.536
+    },
+    {
+      "word": "puedes",
+      "start": 52.621,
+      "end": 52.92
+    },
+    {
+      "word": "abrir",
+      "start": 52.963,
+      "end": 53.219
+    },
+    {
+      "word": "la",
+      "start": 53.261,
+      "end": 53.347
+    },
+    {
+      "word": "comparación",
+      "start": 53.389,
+      "end": 53.901
+    },
+    {
+      "word": "simultánea",
+      "start": 53.944,
+      "end": 54.584
+    },
+    {
+      "word": "para",
+      "start": 54.627,
+      "end": 54.84
+    },
+    {
+      "word": "contrastar",
+      "start": 54.883,
+      "end": 55.352000000000004
+    },
+    {
+      "word": "ambos",
+      "start": 55.523,
+      "end": 55.821000000000005
+    },
+    {
+      "word": "resultados.",
+      "start": 55.864000000000004,
+      "end": 56.757000000000005
+    },
+    {
+      "word": "<end>",
+      "start": 56.99918367346939,
+      "end": 56.99918367346939
+    }
+  ],
+  "review": "Exact normalized transcript and provider timestamps checked; independent auditory and medical approval are separate."
+}

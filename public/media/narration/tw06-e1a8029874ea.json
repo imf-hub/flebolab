@@ -1,0 +1,131 @@
+{
+  "id": "TW06",
+  "audio": "/media/narration/tw06-e1a8029874ea.mp3",
+  "vtt": "/media/narration/tw06-e1a8029874ea.vtt",
+  "duration": 56.999184,
+  "sha256": "e1a8029874ea5d8404bd2db895ecc8bd47a83a2c2dc9fd4c00c6525fd30f8466",
+  "originalSha256": "8f8eb1b8ae4bf99e90a4df1cb4cfb548a5f8d4806c813da0d4e356f8bbe6cfbd",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 13.012,
+      "end": 13.912
+    },
+    {
+      "index": 1,
+      "start": 13.912,
+      "speechEnd": 25.297,
+      "end": 26.197
+    },
+    {
+      "index": 2,
+      "start": 26.197,
+      "speechEnd": 41.646,
+      "end": 42.356
+    },
+    {
+      "index": 3,
+      "start": 42.356,
+      "speechEnd": 56.757000000000005,
+      "end": 56.999184
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.256,
+      "end": 3.286,
+      "text": "Este perfil permite conductancia inversa en la rama."
+    },
+    {
+      "start": 3.371,
+      "end": 6.849,
+      "text": "El defecto de coaptación representa esa condición del modelo."
+    },
+    {
+      "start": 6.997,
+      "end": 10.704,
+      "text": "No es una medida de lesión anatómica ni un grado clínico de insuficiencia."
+    },
+    {
+      "start": 10.704,
+      "end": 13.162,
+      "text": "Mira cómo se conserva la inserción de las valvas."
+    },
+    {
+      "start": 13.912,
+      "end": 16.537,
+      "text": "Primero observamos el flujo positivo."
+    },
+    {
+      "start": 16.643,
+      "end": 20.35,
+      "text": "La apertura acompaña la onda, igual que en el perfil competente."
+    },
+    {
+      "start": 20.428,
+      "end": 25.447,
+      "text": "La diferencia entre ambos perfiles no debe juzgarse únicamente por una imagen de las valvas abiertas."
+    },
+    {
+      "start": 26.197,
+      "end": 29.174999999999997,
+      "text": "Durante la fase siguiente aparece flujo negativo."
+    },
+    {
+      "start": 29.251,
+      "end": 33.007,
+      "text": "La curva pasa bajo cero y los trazadores invierten el sentido."
+    },
+    {
+      "start": 33.04900000000001,
+      "end": 36.348,
+      "text": "Esos tres elementos describen el mismo instante."
+    },
+    {
+      "start": 36.489000000000004,
+      "end": 41.796,
+      "text": "Una inversión del modelo no sustituye la medición clínica de duración y condiciones de provocación."
+    },
+    {
+      "start": 42.356,
+      "end": 48.415,
+      "text": "Compara ahora con la rama competente: bajo estas condiciones el flujo inverso queda bloqueado."
+    },
+    {
+      "start": 48.585,
+      "end": 51.82,
+      "text": "Conserva la misma orientación y observa el ciclo completo."
+    },
+    {
+      "start": 51.939,
+      "end": 56.907000000000004,
+      "text": "En Explorar puedes abrir la comparación simultánea para contrastar ambos resultados."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Una condición diferente",
+      "text": "Este perfil permite conductancia inversa en la rama. El defecto de coaptación representa esa condición del modelo. No es una medida de lesión anatómica ni un grado clínico de insuficiencia. Mira cómo se conserva la inserción de las valvas."
+    },
+    {
+      "title": "Durante la eyección",
+      "text": "Primero observamos el flujo positivo. La apertura acompaña la onda, igual que en el perfil competente. La diferencia entre ambos perfiles no debe juzgarse únicamente por una imagen de las valvas abiertas."
+    },
+    {
+      "title": "Inversión calculada",
+      "text": "Durante la fase siguiente aparece flujo negativo. La curva pasa bajo cero y los trazadores invierten el sentido. Esos tres elementos describen el mismo instante. Una inversión del modelo no sustituye la medición clínica de duración y condiciones de provocación."
+    },
+    {
+      "title": "Referencia competente",
+      "text": "Compara ahora con la rama competente: bajo estas condiciones el flujo inverso queda bloqueado. Conserva la misma orientación y observa el ciclo completo. En Explorar puedes abrir la comparación simultánea para contrastar ambos resultados."
+    }
+  ]
+}

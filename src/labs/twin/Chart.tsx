@@ -8,25 +8,29 @@ export default function Chart({
   time,
   onTime,
   channel = "deep",
+  flowBranch,
 }: {
   a: Solution;
   b?: Solution;
   metric: "flow" | "pressure" | "volume";
   time: number;
-  onTime: (n: number) => void;
+  onTime?: (n: number) => void;
   channel?: "deep" | "superficial";
+  flowBranch?: "perforator" | "collateral";
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const click = useRef(onTime);
   click.current = onTime;
   const field =
-    channel === "superficial"
-      ? metric === "flow"
-        ? "superficialFlow"
-        : metric === "pressure"
-          ? "superficialPressure"
-          : "superficialVolume"
-      : metric;
+    metric === "flow" && flowBranch
+      ? flowBranch
+      : channel === "superficial"
+        ? metric === "flow"
+          ? "superficialFlow"
+          : metric === "pressure"
+            ? "superficialPressure"
+            : "superficialVolume"
+        : metric;
   useEffect(() => {
     let active = true;
     let plot: any;
@@ -89,7 +93,7 @@ export default function Chart({
       Promise.resolve(rendering).then(() => {
         if (!active || !ref.current) return;
         (ref.current as any).on("plotly_click", (e: any) =>
-          click.current(e.points[0].x),
+          click.current?.(e.points[0].x),
         );
         observer = new ResizeObserver(() => {
           if (active && ref.current) plot.Plots.resize(ref.current);
@@ -102,9 +106,9 @@ export default function Chart({
       observer?.disconnect();
       if (plot && ref.current) plot.purge(ref.current);
     };
-  }, [a, b, metric, channel]);
+  }, [a, b, metric, channel, flowBranch]);
   return (
-    <div className="chart-wrap">
+    <div className="chart-wrap" data-field={field}>
       <div ref={ref} className="plot-chart" />
       <div
         className="chart-cursor"
@@ -112,7 +116,9 @@ export default function Chart({
           left: `calc(48px + (100% - 60px) * ${time / (a.period * 2)})`,
         }}
       />
-      <span className="chart-tip">Pulsa la curva para situar el ciclo</span>
+      {onTime && (
+        <span className="chart-tip">Pulsa la curva para situar el ciclo</span>
+      )}
     </div>
   );
 }

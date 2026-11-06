@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW01",
+  "group": "twin",
+  "title": "La postura cambia el contexto",
+  "objective": "Relaciona altura, potencial y presión sin confundirlos con una medición clínica.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Sitúa la red",
+      "spoken": "En decúbito, el eje de esta red se aproxima a la horizontal. El azul representa la rama profunda y el violeta la superficial. Son cuatro compartimentos de un modelo docente; las separaciones y los colores permiten reconocer sus conexiones.",
+      "scenario": "TW01",
+      "view": "flow",
+      "phase": [
+        0,
+        0.2
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Presión y altura",
+      "spoken": "Para interpretar el flujo debemos considerar tanto la presión como la altura. La curva muestra la presión distal calculada mientras actúa la bomba. La lectura cambia con el ciclo; una presión aislada no describe toda la dinámica de la red.",
+      "scenario": "TW01",
+      "view": "flow",
+      "phase": [
+        0.2,
+        0.8
+      ],
+      "shot": "deep"
+    },
+    {
+      "title": "Cambia una condición",
+      "spoken": "Pasamos al perfil de bipedestación. La orientación y la carga gravitacional cambian; las unidades continúan siendo relativas. Mira la nueva curva y conserva la misma referencia antes de comparar. El resultado representa estas ecuaciones, no la presión de una persona.",
+      "scenario": "TW02",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Comprueba la interpretación",
+      "spoken": "Regresamos al decúbito. Identifica qué cambió con la postura y qué permanece: las conexiones y la activación de la bomba. Al explorar, modifica una sola condición cada vez y relaciona la escena con la curva correspondiente.",
+      "scenario": "TW01",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW01"
+}

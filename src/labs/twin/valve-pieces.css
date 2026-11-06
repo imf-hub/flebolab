@@ -1,0 +1,38 @@
+.valve-pieces {
+  position: absolute;
+  z-index: 3;
+  left: 12px;
+  bottom: 40px;
+  max-width: calc(100% - 24px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 5px;
+  border: 1px solid #dce3e7;
+  border-radius: 9px;
+  background: #fffffff2;
+}
+.valve-pieces button {
+  min-height: 32px;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  font: 500 11px var(--sans);
+  color: #516777;
+  cursor: pointer;
+}
+.valve-pieces button[aria-pressed="true"] {
+  background: #f9eded;
+  color: #a82732;
+}
+.valve-pieces small {
+  flex-basis: 100%;
+  padding: 2px 5px;
+  font-size: 9px;
+  color: #647581;
+}
+.guided-model .valve-pieces {
+  left: 9px;
+  bottom: 37px;
+}

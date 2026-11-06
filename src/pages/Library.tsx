@@ -635,6 +635,12 @@ function Guide() {
       <div className="guide-featured">
         {[
           [
+            "00",
+            "Aula visual",
+            "Sigue una de las 31 explicaciones en cuatro tomas. Reproduce, pausa o salta a un paso; el modelo y la curva comparten el instante. Hay 11 piezas con voz de Rocío y 20 guías visuales animadas sin voz. Puedes leer el texto, abrir sus fuentes y volver a explorar el laboratorio.",
+            "/aprender",
+          ],
+          [
             "01",
             "FleboTwin",
             "Elige un experimento y alterna Red y flujo, Válvula, Anatomía o Circuito. En escritorio el 3D, las curvas y los Ajustes permanecen juntos. Usa Contracción, Relajación o Flujo inverso para detener el ciclo; Comparar A/B añade un segundo perfil.",
@@ -706,7 +712,7 @@ function Release() {
   return (
     <>
       <PageHead
-        eyebrow="VERSIÓN 0.11.0 / 6 DE NOVIEMBRE DE 2026"
+        eyebrow="VERSIÓN 0.12.0 / 6 DE NOVIEMBRE DE 2026"
         title="Un laboratorio abierto, con alcance explícito."
         body="Versión de revisión profesional publicada desde GitHub. Tres laboratorios interactivos con fuentes visibles."
       />
@@ -714,6 +720,12 @@ function Release() {
         <section>
           <h2>Disponible en esta versión</h2>
           <ul>
+            <li>
+              Aula visual: 31 explicaciones, 124 tomas, cámara guiada o manual,
+              pausa, salto temporal, texto y fuentes. Once incluyen voz de Rocío
+              y subtítulos sincronizados; veinte funcionan como guías visuales
+              animadas sin voz. Guiones y recursos editables disponibles.
+            </li>
             <li>
               Doce escenarios de FleboTwin que abren su vista correspondiente:
               red de flujo, válvula, anatomía independiente o circuito; curvas,
@@ -756,7 +768,7 @@ function Release() {
           </ul>
         </section>
         <section className="reference-method">
-          <h2>Revisión médica documental 0.9.1</h2>
+          <h2>Fuentes y revisión documental</h2>
           <p>
             Bibliografía organizada con prioridad UIP y flebología,
             localizadores de las fuentes, seis temas de lectura crítica y
@@ -770,6 +782,11 @@ function Release() {
         <section className="release-pending">
           <h2>Para llegar a la versión1.0</h2>
           <ul>
+            <li>
+              Completar las 20 narraciones pendientes y la revisión auditiva
+              integral. La síntesis se detuvo tras un fallo del proveedor para
+              evitar retomas y consumo duplicado sin confirmación.
+            </li>
             <li>
               Revisión médica independiente del producto integrado y registro de
               aprobación editorial.

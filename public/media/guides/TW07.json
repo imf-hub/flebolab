@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW07",
+  "group": "twin",
+  "title": "La conexión entre sistemas",
+  "objective": "Sigue el intercambio calculado entre los compartimentos distales.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Localiza la conexión",
+      "spoken": "La rama verde conecta los compartimentos distales superficial y profundo. En anatomía, una vena perforante atraviesa la fascia; este circuito simplifica esa relación. El color identifica la conexión y no establece por sí mismo su función clínica.",
+      "scenario": "TW07",
+      "view": "flow",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "superficial"
+    },
+    {
+      "title": "Sigue el intercambio",
+      "spoken": "A lo largo del ciclo cambia la diferencia de potencial entre ambos lados. La dirección del trazador y el valor con signo muestran el intercambio calculado. No asumas que una flecha fija describe todas las fases o todas las perforantes.",
+      "scenario": "TW07",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "deep"
+    },
+    {
+      "title": "Confirma en el circuito",
+      "spoken": "El circuito hace explícita esa conexión. Relaciona su valor con las presiones y los volúmenes de los nodos. La comunicación está representada como un elemento de la red, sin reconstruir trayectos fasciales individuales.",
+      "scenario": "TW07",
+      "view": "circuit",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Del esquema a la evaluación",
+      "spoken": "Regresa a la vista espacial y repite el ciclo. Para evaluar una perforante en clínica hacen falta localización, maniobras y dúplex. Su existencia o su diámetro aislados no justifican una interpretación terapéutica.",
+      "scenario": "TW07",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW07"
+}

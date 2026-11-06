@@ -2,6 +2,7 @@ import { useState, useLayoutEffect, useRef, lazy, Suspense } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { MotionConfig, motion, AnimatePresence } from "motion/react";
 import { assetUrl } from "./shared/assets";
+import "./learning/learning.css";
 import {
   Activity,
   ScanLine,
@@ -11,6 +12,7 @@ import {
   BookOpen,
   ArrowUpRight,
   Github,
+  Headphones,
 } from "lucide-react";
 const Home = lazy(() => import("./pages/LaboratoryHome"));
 export function Brand() {
@@ -70,6 +72,7 @@ export default function App() {
     location = useLocation(),
     home = ["/", "/laboratorios"].includes(location.pathname);
   const isTwin = location.pathname.startsWith("/flebotwin");
+  const isGuided = location.pathname.startsWith("/aprender/");
   const headerRef = useRef<HTMLElement>(null);
   useLayoutEffect(() => {
     const header = headerRef.current;
@@ -109,6 +112,10 @@ export default function App() {
                 {l.name}
               </NavLink>
             ))}
+            <NavLink to="/aprender">
+              <Headphones size={14} />
+              Aprender
+            </NavLink>
             <NavLink className="nav-reference" to="/bibliografia">
               <BookOpen size={14} />
               <span>Referencias</span>
@@ -125,7 +132,7 @@ export default function App() {
       </header>
       <main
         id="main-content"
-        className={isTwin ? "main-workbench" : ""}
+        className={isTwin ? "main-workbench" : isGuided ? "main-guided" : ""}
         tabIndex={-1}
       >
         {home ? (

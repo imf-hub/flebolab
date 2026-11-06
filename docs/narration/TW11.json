@@ -1,0 +1,739 @@
+{
+  "id": "TW11",
+  "request": {
+    "id": "TW11",
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "language": "es",
+    "inputType": "ssml",
+    "text": "<speak>Este perfil modifica la presión exterior del compartimento superficial. La representación señala el lugar de aplicación. El control es una condición docente sin calibración clínica y no prescribe una presión de compresión.<break time=\"0.9s\"/>Al cambiar la diferencia entre presión interna y externa, cambia el volumen calculado. La curva muestra el mismo compartimento que la escena. El calibre se utiliza para representar volumen a longitud fija, no como una medición ecográfica.<break time=\"0.9s\"/>El circuito permite separar presión, volumen y flujo. El soporte externo forma parte del contexto mecánico, pero la selección clínica de compresión requiere valoración y guías. Este modelo no calcula tallas, dosis de presión ni seguridad arterial.<break time=\"0.9s\"/>Recupera la red y observa otra vez el ciclo. Antes de mover el ajuste, predice la dirección del cambio de volumen. Contrasta luego tu predicción con la curva, manteniendo las demás condiciones.</speak>",
+    "stages": [
+      "Este perfil modifica la presión exterior del compartimento superficial. La representación señala el lugar de aplicación. El control es una condición docente sin calibración clínica y no prescribe una presión de compresión.",
+      "Al cambiar la diferencia entre presión interna y externa, cambia el volumen calculado. La curva muestra el mismo compartimento que la escena. El calibre se utiliza para representar volumen a longitud fija, no como una medición ecográfica.",
+      "El circuito permite separar presión, volumen y flujo. El soporte externo forma parte del contexto mecánico, pero la selección clínica de compresión requiere valoración y guías. Este modelo no calcula tallas, dosis de presión ni seguridad arterial.",
+      "Recupera la red y observa otra vez el ciclo. Antes de mover el ajuste, predice la dirección del cambio de volumen. Contrasta luego tu predicción con la curva, manteniendo las demás condiciones."
+    ]
+  },
+  "requestId": "1fbec8c9f0fc403b8527a22c1e510146",
+  "voice": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "duration": 55.536327,
+  "sha256": "7db54fd4ae2eb821d1014017409fc4f90ed0e6139e9718799429225dd6ccdf0c",
+  "word_timestamps": [
+    {
+      "word": "<start>",
+      "start": 0.0,
+      "end": 0.0
+    },
+    {
+      "word": "Este",
+      "start": 0.299,
+      "end": 0.512
+    },
+    {
+      "word": "perfil",
+      "start": 0.555,
+      "end": 0.9387
+    },
+    {
+      "word": "modifica",
+      "start": 1.024,
+      "end": 1.408
+    },
+    {
+      "word": "la",
+      "start": 1.536,
+      "end": 1.621
+    },
+    {
+      "word": "presión",
+      "start": 1.664,
+      "end": 2.005
+    },
+    {
+      "word": "exterior",
+      "start": 2.048,
+      "end": 2.4747
+    },
+    {
+      "word": "del",
+      "start": 2.517,
+      "end": 2.6027
+    },
+    {
+      "word": "compartimento",
+      "start": 2.645,
+      "end": 3.285
+    },
+    {
+      "word": "superficial.",
+      "start": 3.328,
+      "end": 4.224
+    },
+    {
+      "word": "La",
+      "start": 4.565,
+      "end": 4.736
+    },
+    {
+      "word": "representación",
+      "start": 4.779,
+      "end": 5.504
+    },
+    {
+      "word": "señala",
+      "start": 5.547,
+      "end": 6.016
+    },
+    {
+      "word": "el",
+      "start": 6.059,
+      "end": 6.101
+    },
+    {
+      "word": "lugar",
+      "start": 6.144,
+      "end": 6.357
+    },
+    {
+      "word": "de",
+      "start": 6.4,
+      "end": 6.4427
+    },
+    {
+      "word": "aplicación.",
+      "start": 6.485,
+      "end": 7.089
+    },
+    {
+      "word": "El",
+      "start": 7.223,
+      "end": 7.351
+    },
+    {
+      "word": "control",
+      "start": 7.394,
+      "end": 7.5646
+    },
+    {
+      "word": "es",
+      "start": 7.778,
+      "end": 7.8206
+    },
+    {
+      "word": "una",
+      "start": 7.863,
+      "end": 7.991
+    },
+    {
+      "word": "condición",
+      "start": 8.034,
+      "end": 8.503
+    },
+    {
+      "word": "docente",
+      "start": 8.546,
+      "end": 9.015
+    },
+    {
+      "word": "sin",
+      "start": 9.058,
+      "end": 9.3139
+    },
+    {
+      "word": "calibración",
+      "start": 9.399,
+      "end": 9.9539
+    },
+    {
+      "word": "clínica",
+      "start": 9.997,
+      "end": 10.3379
+    },
+    {
+      "word": "y",
+      "start": 10.509,
+      "end": 10.8499
+    },
+    {
+      "word": "no",
+      "start": 10.893,
+      "end": 11.063
+    },
+    {
+      "word": "prescribe",
+      "start": 11.106,
+      "end": 11.575
+    },
+    {
+      "word": "una",
+      "start": 11.618,
+      "end": 11.7886
+    },
+    {
+      "word": "presión",
+      "start": 11.831,
+      "end": 12.173
+    },
+    {
+      "word": "de",
+      "start": 12.215,
+      "end": 12.3006
+    },
+    {
+      "word": "compresión.",
+      "start": 12.343,
+      "end": 12.86
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 12.86,
+      "end": 13.76
+    },
+    {
+      "word": "Al",
+      "start": 13.76,
+      "end": 13.845
+    },
+    {
+      "word": "cambiar",
+      "start": 13.888,
+      "end": 14.187
+    },
+    {
+      "word": "la",
+      "start": 14.229,
+      "end": 14.315
+    },
+    {
+      "word": "diferencia",
+      "start": 14.357,
+      "end": 14.827
+    },
+    {
+      "word": "entre",
+      "start": 14.869,
+      "end": 15.04
+    },
+    {
+      "word": "presión",
+      "start": 15.083,
+      "end": 15.381
+    },
+    {
+      "word": "interna",
+      "start": 15.467,
+      "end": 15.850999999999999
+    },
+    {
+      "word": "y",
+      "start": 15.892999999999999,
+      "end": 15.936
+    },
+    {
+      "word": "externa,",
+      "start": 15.979,
+      "end": 16.639999999999997
+    },
+    {
+      "word": "cambia",
+      "start": 16.831999999999997,
+      "end": 17.130999999999997
+    },
+    {
+      "word": "el",
+      "start": 17.173,
+      "end": 17.215999999999998
+    },
+    {
+      "word": "volumen",
+      "start": 17.258999999999997,
+      "end": 17.599999999999998
+    },
+    {
+      "word": "calculado.",
+      "start": 17.642999999999997,
+      "end": 18.400999999999996
+    },
+    {
+      "word": "La",
+      "start": 18.604,
+      "end": 18.775
+    },
+    {
+      "word": "curva",
+      "start": 18.817999999999998,
+      "end": 19.073999999999998
+    },
+    {
+      "word": "muestra",
+      "start": 19.159,
+      "end": 19.543
+    },
+    {
+      "word": "el",
+      "start": 19.627999999999997,
+      "end": 19.671
+    },
+    {
+      "word": "mismo",
+      "start": 19.755999999999997,
+      "end": 20.098
+    },
+    {
+      "word": "compartimento",
+      "start": 20.139999999999997,
+      "end": 20.779999999999998
+    },
+    {
+      "word": "que",
+      "start": 20.822999999999997,
+      "end": 20.907999999999998
+    },
+    {
+      "word": "la",
+      "start": 20.950999999999997,
+      "end": 20.993999999999996
+    },
+    {
+      "word": "escena.",
+      "start": 21.035999999999998,
+      "end": 21.569999999999997
+    },
+    {
+      "word": "El",
+      "start": 21.846999999999998,
+      "end": 21.932
+    },
+    {
+      "word": "calibre",
+      "start": 22.017999999999997,
+      "end": 22.316
+    },
+    {
+      "word": "se",
+      "start": 22.401999999999997,
+      "end": 22.487
+    },
+    {
+      "word": "utiliza",
+      "start": 22.529999999999998,
+      "end": 22.785999999999998
+    },
+    {
+      "word": "para",
+      "start": 22.913999999999998,
+      "end": 23.127
+    },
+    {
+      "word": "representar",
+      "start": 23.169999999999998,
+      "end": 23.682
+    },
+    {
+      "word": "volumen",
+      "start": 23.767,
+      "end": 24.194
+    },
+    {
+      "word": "a",
+      "start": 24.235999999999997,
+      "end": 24.278999999999996
+    },
+    {
+      "word": "longitud",
+      "start": 24.322,
+      "end": 24.747999999999998
+    },
+    {
+      "word": "fija,",
+      "start": 24.834,
+      "end": 25.281999999999996
+    },
+    {
+      "word": "no",
+      "start": 25.430999999999997,
+      "end": 25.686999999999998
+    },
+    {
+      "word": "como",
+      "start": 25.729999999999997,
+      "end": 25.9
+    },
+    {
+      "word": "una",
+      "start": 25.942999999999998,
+      "end": 26.070999999999998
+    },
+    {
+      "word": "medición",
+      "start": 26.113999999999997,
+      "end": 26.497999999999998
+    },
+    {
+      "word": "ecográfica.",
+      "start": 26.54,
+      "end": 27.217
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 27.217,
+      "end": 27.929
+    },
+    {
+      "word": "El",
+      "start": 27.929,
+      "end": 28.227999999999998
+    },
+    {
+      "word": "circuito",
+      "start": 28.313,
+      "end": 28.697
+    },
+    {
+      "word": "permite",
+      "start": 28.781999999999996,
+      "end": 29.037999999999997
+    },
+    {
+      "word": "separar",
+      "start": 29.165999999999997,
+      "end": 29.464999999999996
+    },
+    {
+      "word": "presión,",
+      "start": 29.549999999999997,
+      "end": 30.168999999999997
+    },
+    {
+      "word": "volumen",
+      "start": 30.317999999999998,
+      "end": 30.83
+    },
+    {
+      "word": "y",
+      "start": 30.958,
+      "end": 31.171999999999997
+    },
+    {
+      "word": "flujo.",
+      "start": 31.214,
+      "end": 31.811999999999998
+    },
+    {
+      "word": "El",
+      "start": 32.025,
+      "end": 32.11
+    },
+    {
+      "word": "soporte",
+      "start": 32.153,
+      "end": 32.452
+    },
+    {
+      "word": "externo",
+      "start": 32.537,
+      "end": 32.921
+    },
+    {
+      "word": "forma",
+      "start": 32.964,
+      "end": 33.22
+    },
+    {
+      "word": "parte",
+      "start": 33.305,
+      "end": 33.561
+    },
+    {
+      "word": "del",
+      "start": 33.604,
+      "end": 33.689
+    },
+    {
+      "word": "contexto",
+      "start": 33.774,
+      "end": 34.158
+    },
+    {
+      "word": "mecánico,",
+      "start": 34.244,
+      "end": 34.905
+    },
+    {
+      "word": "pero",
+      "start": 35.054,
+      "end": 35.225
+    },
+    {
+      "word": "la",
+      "start": 35.268,
+      "end": 35.353
+    },
+    {
+      "word": "selección",
+      "start": 35.396,
+      "end": 35.78
+    },
+    {
+      "word": "clínica",
+      "start": 35.822,
+      "end": 36.078
+    },
+    {
+      "word": "de",
+      "start": 36.206,
+      "end": 36.292
+    },
+    {
+      "word": "compresión",
+      "start": 36.334,
+      "end": 36.846000000000004
+    },
+    {
+      "word": "requiere",
+      "start": 37.017,
+      "end": 37.401
+    },
+    {
+      "word": "valoración",
+      "start": 37.444,
+      "end": 38.041000000000004
+    },
+    {
+      "word": "y",
+      "start": 38.169000000000004,
+      "end": 38.34
+    },
+    {
+      "word": "guías.",
+      "start": 38.382000000000005,
+      "end": 38.946000000000005
+    },
+    {
+      "word": "Este",
+      "start": 39.211,
+      "end": 39.424
+    },
+    {
+      "word": "modelo",
+      "start": 39.467,
+      "end": 39.723
+    },
+    {
+      "word": "no",
+      "start": 39.851,
+      "end": 40.064
+    },
+    {
+      "word": "calcula",
+      "start": 40.107,
+      "end": 40.491
+    },
+    {
+      "word": "tallas,",
+      "start": 40.533,
+      "end": 41.088
+    },
+    {
+      "word": "dosis",
+      "start": 41.173,
+      "end": 41.429
+    },
+    {
+      "word": "de",
+      "start": 41.472,
+      "end": 41.557
+    },
+    {
+      "word": "presión",
+      "start": 41.6,
+      "end": 42.027
+    },
+    {
+      "word": "ni",
+      "start": 42.069,
+      "end": 42.197
+    },
+    {
+      "word": "seguridad",
+      "start": 42.24,
+      "end": 42.667
+    },
+    {
+      "word": "arterial.",
+      "start": 42.709,
+      "end": 43.127
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 43.127,
+      "end": 44.027
+    },
+    {
+      "word": "Recupera",
+      "start": 44.027,
+      "end": 44.539
+    },
+    {
+      "word": "la",
+      "start": 44.667,
+      "end": 44.752
+    },
+    {
+      "word": "red",
+      "start": 44.795,
+      "end": 44.965
+    },
+    {
+      "word": "y",
+      "start": 45.136,
+      "end": 45.264
+    },
+    {
+      "word": "observa",
+      "start": 45.307,
+      "end": 45.733
+    },
+    {
+      "word": "otra",
+      "start": 45.819,
+      "end": 46.160000000000004
+    },
+    {
+      "word": "vez",
+      "start": 46.245,
+      "end": 46.373
+    },
+    {
+      "word": "el",
+      "start": 46.416,
+      "end": 46.459
+    },
+    {
+      "word": "ciclo.",
+      "start": 46.501,
+      "end": 47.035000000000004
+    },
+    {
+      "word": "Antes",
+      "start": 47.227,
+      "end": 47.781
+    },
+    {
+      "word": "de",
+      "start": 47.824,
+      "end": 47.909
+    },
+    {
+      "word": "mover",
+      "start": 47.952,
+      "end": 48.08
+    },
+    {
+      "word": "el",
+      "start": 48.123,
+      "end": 48.165
+    },
+    {
+      "word": "ajuste,",
+      "start": 48.208,
+      "end": 48.741
+    },
+    {
+      "word": "predice",
+      "start": 48.848,
+      "end": 49.147
+    },
+    {
+      "word": "la",
+      "start": 49.232,
+      "end": 49.317
+    },
+    {
+      "word": "dirección",
+      "start": 49.36,
+      "end": 49.787
+    },
+    {
+      "word": "del",
+      "start": 49.829,
+      "end": 49.915
+    },
+    {
+      "word": "cambio",
+      "start": 50.0,
+      "end": 50.256
+    },
+    {
+      "word": "de",
+      "start": 50.299,
+      "end": 50.384
+    },
+    {
+      "word": "volumen.",
+      "start": 50.427,
+      "end": 50.926
+    },
+    {
+      "word": "Contrasta",
+      "start": 51.127,
+      "end": 51.597
+    },
+    {
+      "word": "luego",
+      "start": 51.639,
+      "end": 51.895
+    },
+    {
+      "word": "tu",
+      "start": 51.938,
+      "end": 52.023
+    },
+    {
+      "word": "predicción",
+      "start": 52.066,
+      "end": 52.535000000000004
+    },
+    {
+      "word": "con",
+      "start": 52.578,
+      "end": 52.663000000000004
+    },
+    {
+      "word": "la",
+      "start": 52.706,
+      "end": 52.791
+    },
+    {
+      "word": "curva,",
+      "start": 52.834,
+      "end": 53.282000000000004
+    },
+    {
+      "word": "manteniendo",
+      "start": 53.431,
+      "end": 53.986
+    },
+    {
+      "word": "las",
+      "start": 54.072,
+      "end": 54.157000000000004
+    },
+    {
+      "word": "demás",
+      "start": 54.2,
+      "end": 54.413000000000004
+    },
+    {
+      "word": "condiciones.",
+      "start": 54.498,
+      "end": 55.307
+    },
+    {
+      "word": "<end>",
+      "start": 55.53632653061224,
+      "end": 55.53632653061224
+    }
+  ],
+  "review": "Exact normalized transcript and provider timestamps checked; independent auditory and medical approval are separate."
+}

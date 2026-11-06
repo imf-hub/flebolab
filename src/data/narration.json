@@ -1,0 +1,1165 @@
+{
+  "TW01": {
+    "audio": "/media/narration/tw01-0af8f78bcc1b.mp3",
+    "vtt": "/media/narration/tw01-0af8f78bcc1b.vtt",
+    "duration": 59.924898,
+    "sha256": "0af8f78bcc1b15a3bdfeb3359e95b7b353caaf1a8beebbfad4f64bc7db44909c",
+    "originalSha256": "a087571d7732a869b4d139f968509cf87240aa7aa65b9f1781178c42fa8b12db",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 13.668,
+        "end": 14.568
+      },
+      {
+        "index": 1,
+        "start": 14.568,
+        "speechEnd": 28.12,
+        "end": 28.988
+      },
+      {
+        "index": 2,
+        "start": 28.988,
+        "speechEnd": 44.45,
+        "end": 45.35
+      },
+      {
+        "index": 3,
+        "start": 45.35,
+        "speechEnd": 59.682,
+        "end": 59.924898
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 3.819,
+        "text": "En decúbito, el eje de esta red se aproxima a la horizontal."
+      },
+      {
+        "start": 3.925,
+        "end": 7.7010000000000005,
+        "text": "El azul representa la rama profunda y el violeta la superficial."
+      },
+      {
+        "start": 7.72,
+        "end": 13.818,
+        "text": "Son cuatro compartimentos de un modelo docente; las separaciones y los colores permiten reconocer sus conexiones."
+      },
+      {
+        "start": 14.568,
+        "end": 19.014,
+        "text": "Para interpretar el flujo debemos considerar tanto la presión como la altura."
+      },
+      {
+        "start": 19.105999999999998,
+        "end": 23.031999999999996,
+        "text": "La curva muestra la presión distal calculada mientras actúa la bomba."
+      },
+      {
+        "start": 23.117,
+        "end": 28.27,
+        "text": "La lectura cambia con el ciclo; una presión aislada no describe toda la dinámica de la red."
+      },
+      {
+        "start": 28.988,
+        "end": 31.144,
+        "text": "Pasamos al perfil de bipedestación."
+      },
+      {
+        "start": 31.291999999999998,
+        "end": 36.387,
+        "text": "La orientación y la carga gravitacional cambian; las unidades continúan siendo relativas."
+      },
+      {
+        "start": 36.531,
+        "end": 40.456,
+        "text": "Mira la nueva curva y conserva la misma referencia antes de comparar."
+      },
+      {
+        "start": 40.456,
+        "end": 44.6,
+        "text": "El resultado representa estas ecuaciones, no la presión de una persona."
+      },
+      {
+        "start": 45.35,
+        "end": 46.919,
+        "text": "Regresamos al decúbito."
+      },
+      {
+        "start": 46.992000000000004,
+        "end": 53.095,
+        "text": "Identifica qué cambió con la postura y qué permanece: las conexiones y la activación de la bomba."
+      },
+      {
+        "start": 53.435,
+        "end": 59.832,
+        "text": "Al explorar, modifica una sola condición cada vez y relaciona la escena con la curva correspondiente."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw01-0af8f78bcc1b.json"
+  },
+  "TW02": {
+    "audio": "/media/narration/tw02-39d75289f51c.mp3",
+    "vtt": "/media/narration/tw02-39d75289f51c.vtt",
+    "duration": 55.771429,
+    "sha256": "39d75289f51c4f4f2f78258f4c34eede98f74be2af19b0383eeda16b4098e3f7",
+    "originalSha256": "dd6ae57437b3cc25c67adb53e57063520b2a0878c6041a13a1a1e72c8bb1063b",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 14.226,
+        "end": 15.126
+      },
+      {
+        "index": 1,
+        "start": 15.126,
+        "speechEnd": 29.999000000000002,
+        "end": 30.899
+      },
+      {
+        "index": 2,
+        "start": 30.899,
+        "speechEnd": 42.471000000000004,
+        "end": 43.413
+      },
+      {
+        "index": 3,
+        "start": 43.413,
+        "speechEnd": 55.522,
+        "end": 55.771429
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 2.945,
+        "text": "Esta vista sitúa la red en bipedestación."
+      },
+      {
+        "start": 3.029,
+        "end": 7.445,
+        "text": "Localiza los extremos proximal y distal antes de seguir las partículas."
+      },
+      {
+        "start": 7.465,
+        "end": 14.376000000000001,
+        "text": "Su desplazamiento procede del flujo calculado; el giro del conjunto representa la postura y no una deformación del cuerpo."
+      },
+      {
+        "start": 15.126000000000001,
+        "end": 19.862000000000002,
+        "text": "El circuito permite reconocer los cuatro compartimentos sin transparencias."
+      },
+      {
+        "start": 19.990000000000002,
+        "end": 24.549,
+        "text": "Cada nodo tiene presión y volumen; las conexiones muestran flujos con signo."
+      },
+      {
+        "start": 24.585,
+        "end": 30.149,
+        "text": "Esta representación ayuda a comprobar lo que el dibujo tridimensional puede ocultar desde un ángulo concreto."
+      },
+      {
+        "start": 30.899,
+        "end": 33.284,
+        "text": "Ahora se muestra el perfil en decúbito."
+      },
+      {
+        "start": 33.364,
+        "end": 36.479,
+        "text": "La presión se interpreta con la misma convención del modelo."
+      },
+      {
+        "start": 36.564,
+        "end": 42.621,
+        "text": "No traduzcas estas unidades a milímetros de mercurio ni uses el cambio de altura como una predicción individual."
+      },
+      {
+        "start": 43.413000000000004,
+        "end": 46.955,
+        "text": "De nuevo en bipedestación, observa contracción y relajación."
+      },
+      {
+        "start": 47.082,
+        "end": 52.884,
+        "text": "La gravedad modifica el contexto en el que trabaja la bomba, pero una animación por sí sola no determina"
+      },
+      {
+        "start": 52.884,
+        "end": 55.672,
+        "text": "síntomas ni competencia venosa en un paciente."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw02-39d75289f51c.json"
+  },
+  "TW03": {
+    "audio": "/media/narration/tw03-6a60ad3316b4.mp3",
+    "vtt": "/media/narration/tw03-6a60ad3316b4.vtt",
+    "duration": 59.376327,
+    "sha256": "6a60ad3316b48c3e0df0a8578b8041800182778355a058c98c94df4347e9fe59",
+    "originalSha256": "16368e9f3541ce2ed2b1a98e0a7854ec74a3f97b7976f69d4db2a0877e68c8f2",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 13.651,
+        "end": 14.551
+      },
+      {
+        "index": 1,
+        "start": 14.551,
+        "speechEnd": 28.633999999999997,
+        "end": 29.534
+      },
+      {
+        "index": 2,
+        "start": 29.534,
+        "speechEnd": 43.826,
+        "end": 44.726
+      },
+      {
+        "index": 3,
+        "start": 44.726,
+        "speechEnd": 59.14575736961451,
+        "end": 59.376327
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 3.797,
+        "text": "Localiza la rama profunda y la envoltura muscular ilustrativa."
+      },
+      {
+        "start": 3.797,
+        "end": 7.234,
+        "text": "El modelo conserva sangre dentro de sus compartimentos."
+      },
+      {
+        "start": 7.255,
+        "end": 13.801,
+        "text": "Las partículas son trazadores simbólicos: hacen visible el transporte sin representar la velocidad real de cada célula."
+      },
+      {
+        "start": 14.551,
+        "end": 16.935,
+        "text": "La activación de la bomba aumenta."
+      },
+      {
+        "start": 17.055999999999997,
+        "end": 20.384999999999998,
+        "text": "Mira la envoltura y sigue el ascenso de la curva de flujo."
+      },
+      {
+        "start": 20.427,
+        "end": 24.032999999999998,
+        "text": "El cursor señala el mismo instante que utiliza la escena."
+      },
+      {
+        "start": 24.096,
+        "end": 28.783999999999995,
+        "text": "La contracción visual y la lectura numérica pertenecen a una única solución."
+      },
+      {
+        "start": 29.534,
+        "end": 34.931999999999995,
+        "text": "Al disminuir la activación, cambian las presiones y los flujos entre compartimentos."
+      },
+      {
+        "start": 35.079,
+        "end": 40.583,
+        "text": "Observa la conexión entre los sistemas y evita asumir que todas las ramas se mueven siempre en el mismo"
+      },
+      {
+        "start": 40.583,
+        "end": 41.501,
+        "text": "sentido."
+      },
+      {
+        "start": 41.693,
+        "end": 43.976,
+        "text": "La dirección está determinada por este cálculo."
+      },
+      {
+        "start": 44.726,
+        "end": 46.461999999999996,
+        "text": "Revisamos un ciclo completo."
+      },
+      {
+        "start": 46.576,
+        "end": 52.294,
+        "text": "Compara amplitud y forma de la onda, y después prueba una activación menor en Explorar."
+      },
+      {
+        "start": 52.506,
+        "end": 59.295757369614506,
+        "text": "La contracción y las valvas son esquemas docentes; esta pieza no reproduce una biomecánica individual validada."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw03-6a60ad3316b4.json"
+  },
+  "TW04": {
+    "audio": "/media/narration/tw04-edf0f09aeb44.mp3",
+    "vtt": "/media/narration/tw04-edf0f09aeb44.vtt",
+    "duration": 56.058776,
+    "sha256": "edf0f09aeb44c6cc73c7f8db90283e834ecfc87ecb22f8139d1c924c6a8d55c5",
+    "originalSha256": "d8713f397a8d81ad76d08e308fbd722ce6ac1d027d4eeed3abfd4c5ecd0b4ed1",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 11.969,
+        "end": 12.869
+      },
+      {
+        "index": 1,
+        "start": 12.869,
+        "speechEnd": 25.458000000000002,
+        "end": 26.326
+      },
+      {
+        "index": 2,
+        "start": 26.326,
+        "speechEnd": 41.724,
+        "end": 42.624
+      },
+      {
+        "index": 3,
+        "start": 42.624,
+        "speechEnd": 55.82355555555556,
+        "end": 56.058776
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 3.073,
+        "text": "El perfil utiliza una activación muscular reducida."
+      },
+      {
+        "start": 3.115,
+        "end": 6.367,
+        "text": "Reconoce primero la misma red y las mismas conexiones."
+      },
+      {
+        "start": 6.418,
+        "end": 12.119,
+        "text": "El propósito de la comparación es observar cómo cambian las ondas cuando modificamos una condición del modelo."
+      },
+      {
+        "start": 12.869,
+        "end": 14.614,
+        "text": "Sigue un ciclo de este perfil."
+      },
+      {
+        "start": 14.695,
+        "end": 20.134999999999998,
+        "text": "La amplitud y la distribución temporal del flujo deben leerse en la curva, junto al movimiento."
+      },
+      {
+        "start": 20.241,
+        "end": 25.608,
+        "text": "Una imagen detenida de un vaso no permite deducir la eficacia funcional de la bomba de una persona."
+      },
+      {
+        "start": 26.326,
+        "end": 29.355999999999998,
+        "text": "Mostramos ahora la bomba más activa."
+      },
+      {
+        "start": 29.569,
+        "end": 34.29599999999999,
+        "text": "La curva y la escena se reconstruyen con las condiciones de este segundo perfil."
+      },
+      {
+        "start": 34.415,
+        "end": 41.873999999999995,
+        "text": "Compara sus formas; no interpretes el retorno medio como una medida clínica, porque las entradas del modelo permanecen constantes."
+      },
+      {
+        "start": 42.624,
+        "end": 44.623,
+        "text": "Volvemos a la activación reducida."
+      },
+      {
+        "start": 44.701,
+        "end": 48.35,
+        "text": "Identifica el cambio observable antes de añadir otras variables."
+      },
+      {
+        "start": 48.498,
+        "end": 55.973555555555556,
+        "text": "La exploración permite repetir la comparación y ver cómo intervienen también las conexiones, la salida y la conductancia inversa."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw04-edf0f09aeb44.json"
+  },
+  "TW05": {
+    "audio": "/media/narration/tw05-d53dc15f086b.mp3",
+    "vtt": "/media/narration/tw05-d53dc15f086b.vtt",
+    "duration": 56.868571,
+    "sha256": "d53dc15f086b549954bc7ef48b32c13006036c6db5ee02f8e2e0483d8cb343f6",
+    "originalSha256": "f607cef36fed704bade5e37a1cfe5408083074c7d5501aab9f1c9e9aade9e884",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 12.463,
+        "end": 13.363
+      },
+      {
+        "index": 1,
+        "start": 13.363,
+        "speechEnd": 26.377999999999997,
+        "end": 27.278
+      },
+      {
+        "index": 2,
+        "start": 27.278,
+        "speechEnd": 41.135,
+        "end": 42.035
+      },
+      {
+        "index": 3,
+        "start": 42.035,
+        "speechEnd": 56.63597732426304,
+        "end": 56.868571
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 3.35,
+        "text": "La pared se muestra abierta para observar dos valvas."
+      },
+      {
+        "start": 3.499,
+        "end": 8.405,
+        "text": "Sus inserciones permanecen unidas a la pared y los bordes libres se aproximan hacia el centro."
+      },
+      {
+        "start": 8.405,
+        "end": 12.613,
+        "text": "Las proporciones están ampliadas; el corte es una decisión de visualización."
+      },
+      {
+        "start": 13.363,
+        "end": 18.114999999999995,
+        "text": "Cuando el flujo calculado es positivo, las valvas se abren en esta representación."
+      },
+      {
+        "start": 18.173,
+        "end": 21.458999999999996,
+        "text": "Sigue la dirección de los trazadores y el cursor de la curva."
+      },
+      {
+        "start": 21.628999999999998,
+        "end": 26.527999999999995,
+        "text": "La apertura ilustra el estado funcional del modelo; no resuelve la mecánica del tejido."
+      },
+      {
+        "start": 27.278,
+        "end": 30.563999999999997,
+        "text": "Al cambiar el gradiente, los bordes se aproximan."
+      },
+      {
+        "start": 30.733999999999998,
+        "end": 35.547,
+        "text": "En este perfil competente, la formulación bloquea el flujo inverso de la rama."
+      },
+      {
+        "start": 35.62199999999999,
+        "end": 41.285,
+        "text": "Comprueba la lectura y la curva antes de interpretar una posición de las valvas como una observación clínica."
+      },
+      {
+        "start": 42.035000000000004,
+        "end": 44.972,
+        "text": "Recuperamos el conjunto y repetimos el ciclo."
+      },
+      {
+        "start": 45.049,
+        "end": 49.21,
+        "text": "La relación importante es entre flujo calculado y estado representado."
+      },
+      {
+        "start": 49.230000000000004,
+        "end": 55.844,
+        "text": "La evaluación clínica de una válvula exige su contexto y un estudio adecuado; no se obtiene de esta geometría"
+      },
+      {
+        "start": 55.844,
+        "end": 56.78597732426304,
+        "text": "ilustrativa."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw05-d53dc15f086b.json"
+  },
+  "TW06": {
+    "audio": "/media/narration/tw06-e1a8029874ea.mp3",
+    "vtt": "/media/narration/tw06-e1a8029874ea.vtt",
+    "duration": 56.999184,
+    "sha256": "e1a8029874ea5d8404bd2db895ecc8bd47a83a2c2dc9fd4c00c6525fd30f8466",
+    "originalSha256": "8f8eb1b8ae4bf99e90a4df1cb4cfb548a5f8d4806c813da0d4e356f8bbe6cfbd",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 13.012,
+        "end": 13.912
+      },
+      {
+        "index": 1,
+        "start": 13.912,
+        "speechEnd": 25.297,
+        "end": 26.197
+      },
+      {
+        "index": 2,
+        "start": 26.197,
+        "speechEnd": 41.646,
+        "end": 42.356
+      },
+      {
+        "index": 3,
+        "start": 42.356,
+        "speechEnd": 56.757000000000005,
+        "end": 56.999184
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.256,
+        "end": 3.286,
+        "text": "Este perfil permite conductancia inversa en la rama."
+      },
+      {
+        "start": 3.371,
+        "end": 6.849,
+        "text": "El defecto de coaptación representa esa condición del modelo."
+      },
+      {
+        "start": 6.997,
+        "end": 10.704,
+        "text": "No es una medida de lesión anatómica ni un grado clínico de insuficiencia."
+      },
+      {
+        "start": 10.704,
+        "end": 13.162,
+        "text": "Mira cómo se conserva la inserción de las valvas."
+      },
+      {
+        "start": 13.912,
+        "end": 16.537,
+        "text": "Primero observamos el flujo positivo."
+      },
+      {
+        "start": 16.643,
+        "end": 20.35,
+        "text": "La apertura acompaña la onda, igual que en el perfil competente."
+      },
+      {
+        "start": 20.428,
+        "end": 25.447,
+        "text": "La diferencia entre ambos perfiles no debe juzgarse únicamente por una imagen de las valvas abiertas."
+      },
+      {
+        "start": 26.197,
+        "end": 29.174999999999997,
+        "text": "Durante la fase siguiente aparece flujo negativo."
+      },
+      {
+        "start": 29.251,
+        "end": 33.007,
+        "text": "La curva pasa bajo cero y los trazadores invierten el sentido."
+      },
+      {
+        "start": 33.04900000000001,
+        "end": 36.348,
+        "text": "Esos tres elementos describen el mismo instante."
+      },
+      {
+        "start": 36.489000000000004,
+        "end": 41.796,
+        "text": "Una inversión del modelo no sustituye la medición clínica de duración y condiciones de provocación."
+      },
+      {
+        "start": 42.356,
+        "end": 48.415,
+        "text": "Compara ahora con la rama competente: bajo estas condiciones el flujo inverso queda bloqueado."
+      },
+      {
+        "start": 48.585,
+        "end": 51.82,
+        "text": "Conserva la misma orientación y observa el ciclo completo."
+      },
+      {
+        "start": 51.939,
+        "end": 56.907000000000004,
+        "text": "En Explorar puedes abrir la comparación simultánea para contrastar ambos resultados."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw06-e1a8029874ea.json"
+  },
+  "TW07": {
+    "audio": "/media/narration/tw07-5b4af33a3b2a.mp3",
+    "vtt": "/media/narration/tw07-5b4af33a3b2a.vtt",
+    "duration": 57.6,
+    "sha256": "5b4af33a3b2a715f945b9ce5df27bb171c484d5f8a74f264d0d48e05facf91c6",
+    "originalSha256": "c7f567aadf4c5a60c1a8d663becf711c158afbb8c46b16cf9d2e83bb93df3bf1",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 14.774,
+        "end": 15.674
+      },
+      {
+        "index": 1,
+        "start": 15.674,
+        "speechEnd": 29.35,
+        "end": 30.068
+      },
+      {
+        "index": 2,
+        "start": 30.068,
+        "speechEnd": 42.452,
+        "end": 43.352
+      },
+      {
+        "index": 3,
+        "start": 43.352,
+        "speechEnd": 57.35671882086168,
+        "end": 57.6
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 4.545,
+        "text": "La rama verde conecta los compartimentos distales superficial y profundo."
+      },
+      {
+        "start": 4.736,
+        "end": 10.452,
+        "text": "En anatomía, una vena perforante atraviesa la fascia; este circuito simplifica esa relación."
+      },
+      {
+        "start": 10.452,
+        "end": 14.924,
+        "text": "El color identifica la conexión y no establece por sí mismo su función clínica."
+      },
+      {
+        "start": 15.674,
+        "end": 19.892,
+        "text": "A lo largo del ciclo cambia la diferencia de potencial entre ambos lados."
+      },
+      {
+        "start": 20.012,
+        "end": 24.747999999999998,
+        "text": "La dirección del trazador y el valor con signo muestran el intercambio calculado."
+      },
+      {
+        "start": 24.876,
+        "end": 29.5,
+        "text": "No asumas que una flecha fija describe todas las fases o todas las perforantes."
+      },
+      {
+        "start": 30.068,
+        "end": 32.90599999999999,
+        "text": "El circuito hace explícita esa conexión."
+      },
+      {
+        "start": 32.968999999999994,
+        "end": 36.678999999999995,
+        "text": "Relaciona su valor con las presiones y los volúmenes de los nodos."
+      },
+      {
+        "start": 36.803,
+        "end": 42.602,
+        "text": "La comunicación está representada como un elemento de la red, sin reconstruir trayectos fasciales individuales."
+      },
+      {
+        "start": 43.352000000000004,
+        "end": 46.204,
+        "text": "Regresa a la vista espacial y repite el ciclo."
+      },
+      {
+        "start": 46.281000000000006,
+        "end": 51.999,
+        "text": "Para evaluar una perforante en clínica hacen falta localización, maniobras y dúplex."
+      },
+      {
+        "start": 52.254000000000005,
+        "end": 57.50671882086168,
+        "text": "Su existencia o su diámetro aislados no justifican una interpretación terapéutica."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw07-5b4af33a3b2a.json"
+  },
+  "TW08": {
+    "audio": "/media/narration/tw08-ad0d792d73b0.mp3",
+    "vtt": "/media/narration/tw08-ad0d792d73b0.vtt",
+    "duration": 50.703673,
+    "sha256": "ad0d792d73b0129b3c14e23b9833bc07bcad00d9aab88e411787d0bbdff02b82",
+    "originalSha256": "f352925565afb484b6b2d568b000ac487130d47aaa333f4d3b872be16d38b4d7",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 11.096,
+        "end": 11.996
+      },
+      {
+        "index": 1,
+        "start": 11.996,
+        "speechEnd": 24.488999999999997,
+        "end": 25.389
+      },
+      {
+        "index": 2,
+        "start": 25.389,
+        "speechEnd": 37.318999999999996,
+        "end": 38.219
+      },
+      {
+        "index": 3,
+        "start": 38.219,
+        "speechEnd": 50.47359410430838,
+        "end": 50.703673
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 3.5629999999999997,
+        "text": "La conexión verde tiene una conductancia menor en este perfil."
+      },
+      {
+        "start": 3.669,
+        "end": 7.124,
+        "text": "Su presencia sigue visible porque no estamos eliminando la anatomía."
+      },
+      {
+        "start": 7.124,
+        "end": 11.246,
+        "text": "Hemos cambiado una propiedad funcional de la red para observar sus consecuencias."
+      },
+      {
+        "start": 11.996,
+        "end": 16.04,
+        "text": "Sigue el intercambio calculado durante la contracción y la relajación."
+      },
+      {
+        "start": 16.156,
+        "end": 20.678999999999995,
+        "text": "El tamaño aparente de la línea no debe utilizarse como una medición de la vena."
+      },
+      {
+        "start": 20.720999999999997,
+        "end": 24.638999999999996,
+        "text": "La lectura numérica representa flujo relativo dentro de las ecuaciones."
+      },
+      {
+        "start": 25.389,
+        "end": 27.876999999999995,
+        "text": "Mostramos el perfil con mayor conexión."
+      },
+      {
+        "start": 27.974999999999998,
+        "end": 32.32699999999999,
+        "text": "Escena, lecturas y curva pertenecen ahora a esa solución."
+      },
+      {
+        "start": 32.412,
+        "end": 37.468999999999994,
+        "text": "Compara las condiciones y la onda, sin atribuir al cambio una mejoría clínica automática."
+      },
+      {
+        "start": 38.218999999999994,
+        "end": 40.833999999999996,
+        "text": "Volvemos a la conexión menos conductora."
+      },
+      {
+        "start": 40.92999999999999,
+        "end": 44.556999999999995,
+        "text": "Los compartimentos y la regla de conservación siguen presentes."
+      },
+      {
+        "start": 44.769999999999996,
+        "end": 50.62359410430838,
+        "text": "En la exploración, cambia una condición y formula una predicción antes de observar el resultado."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw08-ad0d792d73b0.json"
+  },
+  "TW09": {
+    "audio": "/media/narration/tw09-c615ae6e1ad1.mp3",
+    "vtt": "/media/narration/tw09-c615ae6e1ad1.vtt",
+    "duration": 52.897959,
+    "sha256": "c615ae6e1ad1a17e1572004c04fa4e864df936808460ab89027c0938f9edf877",
+    "originalSha256": "38e10eec32d17c9041238c78bc0b198d472482ef35da6cc9f239435705392bd9",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 11.31,
+        "end": 12.21
+      },
+      {
+        "index": 1,
+        "start": 12.21,
+        "speechEnd": 25.39,
+        "end": 26.29
+      },
+      {
+        "index": 2,
+        "start": 26.29,
+        "speechEnd": 39.463,
+        "end": 40.293
+      },
+      {
+        "index": 3,
+        "start": 40.293,
+        "speechEnd": 52.668,
+        "end": 52.897959
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.256,
+        "end": 3.713,
+        "text": "El marcador de salida representa mayor resistencia en la red."
+      },
+      {
+        "start": 3.883,
+        "end": 8.449,
+        "text": "No dibuja una estenosis anatómica ni mide el porcentaje de obstrucción de una vena."
+      },
+      {
+        "start": 8.533,
+        "end": 11.46,
+        "text": "Localiza primero el trayecto al que se aplica esa condición."
+      },
+      {
+        "start": 12.21,
+        "end": 15.987000000000002,
+        "text": "La presión y la forma de las ondas cambian durante el ciclo."
+      },
+      {
+        "start": 16.135,
+        "end": 19.781999999999996,
+        "text": "El modelo estabiliza sus volúmenes antes de mostrar la solución."
+      },
+      {
+        "start": 19.886,
+        "end": 25.54,
+        "text": "Mira la curva correspondiente y evita deducir una presión de paciente a partir de sus unidades relativas."
+      },
+      {
+        "start": 26.290000000000003,
+        "end": 30.655,
+        "text": "En el circuito, cada salida y conexión puede seguirse sin ocultamientos."
+      },
+      {
+        "start": 30.709,
+        "end": 33.568,
+        "text": "La conservación permite comprobar el balance de la red."
+      },
+      {
+        "start": 33.61,
+        "end": 39.613,
+        "text": "Una mayor resistencia no se traduce automáticamente en un diagnóstico o una indicación de intervención."
+      },
+      {
+        "start": 40.293,
+        "end": 44.898999999999994,
+        "text": "Regresamos al conjunto: ¿qué podría cambiar si existiera una vía adicional?"
+      },
+      {
+        "start": 45.065,
+        "end": 52.818,
+        "text": "El experimento de colaterales permite explorar esa pregunta con otra solución, manteniendo explícitas las condiciones que se comparan."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw09-c615ae6e1ad1.json"
+  },
+  "TW10": {
+    "audio": "/media/narration/tw10-0105458f2e8b.mp3",
+    "vtt": "/media/narration/tw10-0105458f2e8b.vtt",
+    "duration": 53.812245,
+    "sha256": "0105458f2e8bbcdcc7054fa05f2d0fb75257f79bc7d8b2fdaa3da3f209b1eb2b",
+    "originalSha256": "053b17d1fd8fda4a26f3a3f136bbad13fd875598928789fec0af2a2e863c46c0",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 14.911,
+        "end": 15.811
+      },
+      {
+        "index": 1,
+        "start": 15.811,
+        "speechEnd": 26.4,
+        "end": 27.386
+      },
+      {
+        "index": 2,
+        "start": 27.386,
+        "speechEnd": 41.326,
+        "end": 42.226
+      },
+      {
+        "index": 3,
+        "start": 42.226,
+        "speechEnd": 53.56759637188208,
+        "end": 53.812245
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 5.035,
+        "text": "La rama ocre añade una vía colateral al perfil con resistencia de salida."
+      },
+      {
+        "start": 5.035,
+        "end": 6.954,
+        "text": "Su trazado es esquemático."
+      },
+      {
+        "start": 6.954,
+        "end": 14.335,
+        "text": "La presencia de una colateral en una imagen clínica exige interpretación anatómica y funcional, no una conclusión automática sobre"
+      },
+      {
+        "start": 14.335,
+        "end": 15.061,
+        "text": "la gravedad."
+      },
+      {
+        "start": 15.811,
+        "end": 18.448999999999998,
+        "text": "Sigue el flujo de esa rama durante el ciclo."
+      },
+      {
+        "start": 18.525,
+        "end": 22.365999999999996,
+        "text": "Tiene su propio valor calculado; no es una animación decorativa."
+      },
+      {
+        "start": 22.535999999999998,
+        "end": 26.549999999999997,
+        "text": "Relaciónalo con las lecturas de las otras ramas y con la presión de la red."
+      },
+      {
+        "start": 27.386,
+        "end": 30.756999999999998,
+        "text": "Mostramos el perfil de resistencia sin la vía adicional."
+      },
+      {
+        "start": 31.055,
+        "end": 35.998999999999995,
+        "text": "La comparación pregunta cómo se redistribuye el flujo cuando cambia la conectividad."
+      },
+      {
+        "start": 36.120999999999995,
+        "end": 41.476,
+        "text": "No representa la oclusión o apertura de una colateral en tiempo real dentro de un paciente."
+      },
+      {
+        "start": 42.226,
+        "end": 45.66,
+        "text": "Volvemos a la red con colateral y la expresamos como circuito."
+      },
+      {
+        "start": 45.76499999999999,
+        "end": 49.456999999999994,
+        "text": "Comprueba qué conexión se añadió y cómo se conserva el balance."
+      },
+      {
+        "start": 49.690999999999995,
+        "end": 53.71759637188208,
+        "text": "La exploración permite revisar ambas soluciones con un mismo período."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw10-0105458f2e8b.json"
+  },
+  "TW11": {
+    "audio": "/media/narration/tw11-7db54fd4ae2e.mp3",
+    "vtt": "/media/narration/tw11-7db54fd4ae2e.vtt",
+    "duration": 55.536327,
+    "sha256": "7db54fd4ae2eb821d1014017409fc4f90ed0e6139e9718799429225dd6ccdf0c",
+    "originalSha256": "79823468217b2aab609c66121770ce11912213f98f1315d58c955664212ecb08",
+    "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+    "stages": [
+      {
+        "index": 0,
+        "start": 0,
+        "speechEnd": 12.86,
+        "end": 13.76
+      },
+      {
+        "index": 1,
+        "start": 13.76,
+        "speechEnd": 27.217,
+        "end": 27.929
+      },
+      {
+        "index": 2,
+        "start": 27.929,
+        "speechEnd": 43.127,
+        "end": 44.027
+      },
+      {
+        "index": 3,
+        "start": 44.027,
+        "speechEnd": 55.307,
+        "end": 55.536327
+      }
+    ],
+    "captions": [
+      {
+        "start": 0.299,
+        "end": 4.3740000000000006,
+        "text": "Este perfil modifica la presión exterior del compartimento superficial."
+      },
+      {
+        "start": 4.565,
+        "end": 7.223,
+        "text": "La representación señala el lugar de aplicación."
+      },
+      {
+        "start": 7.223,
+        "end": 13.01,
+        "text": "El control es una condición docente sin calibración clínica y no prescribe una presión de compresión."
+      },
+      {
+        "start": 13.76,
+        "end": 18.550999999999995,
+        "text": "Al cambiar la diferencia entre presión interna y externa, cambia el volumen calculado."
+      },
+      {
+        "start": 18.604,
+        "end": 21.719999999999995,
+        "text": "La curva muestra el mismo compartimento que la escena."
+      },
+      {
+        "start": 21.846999999999998,
+        "end": 27.366999999999997,
+        "text": "El calibre se utiliza para representar volumen a longitud fija, no como una medición ecográfica."
+      },
+      {
+        "start": 27.929,
+        "end": 31.961999999999996,
+        "text": "El circuito permite separar presión, volumen y flujo."
+      },
+      {
+        "start": 32.025,
+        "end": 39.096000000000004,
+        "text": "El soporte externo forma parte del contexto mecánico, pero la selección clínica de compresión requiere valoración y guías."
+      },
+      {
+        "start": 39.211,
+        "end": 43.277,
+        "text": "Este modelo no calcula tallas, dosis de presión ni seguridad arterial."
+      },
+      {
+        "start": 44.027,
+        "end": 47.185,
+        "text": "Recupera la red y observa otra vez el ciclo."
+      },
+      {
+        "start": 47.227,
+        "end": 51.076,
+        "text": "Antes de mover el ajuste, predice la dirección del cambio de volumen."
+      },
+      {
+        "start": 51.127,
+        "end": 55.457,
+        "text": "Contrasta luego tu predicción con la curva, manteniendo las demás condiciones."
+      }
+    ],
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "voiceName": "Rocío - Calm & Trustworthy",
+    "engine": "orca",
+    "language": "es",
+    "playbackRate": 1,
+    "transcriptVerified": true,
+    "package": "/media/narration/tw11-7db54fd4ae2e.json"
+  }
+}

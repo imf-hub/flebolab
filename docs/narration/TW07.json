@@ -1,0 +1,759 @@
+{
+  "id": "TW07",
+  "request": {
+    "id": "TW07",
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "language": "es",
+    "inputType": "ssml",
+    "text": "<speak>La rama verde conecta los compartimentos distales superficial y profundo. En anatomía, una vena perforante atraviesa la fascia; este circuito simplifica esa relación. El color identifica la conexión y no establece por sí mismo su función clínica.<break time=\"0.9s\"/>A lo largo del ciclo cambia la diferencia de potencial entre ambos lados. La dirección del trazador y el valor con signo muestran el intercambio calculado. No asumas que una flecha fija describe todas las fases o todas las perforantes.<break time=\"0.9s\"/>El circuito hace explícita esa conexión. Relaciona su valor con las presiones y los volúmenes de los nodos. La comunicación está representada como un elemento de la red, sin reconstruir trayectos fasciales individuales.<break time=\"0.9s\"/>Regresa a la vista espacial y repite el ciclo. Para evaluar una perforante en clínica hacen falta localización, maniobras y dúplex. Su existencia o su diámetro aislados no justifican una interpretación terapéutica.</speak>",
+    "stages": [
+      "La rama verde conecta los compartimentos distales superficial y profundo. En anatomía, una vena perforante atraviesa la fascia; este circuito simplifica esa relación. El color identifica la conexión y no establece por sí mismo su función clínica.",
+      "A lo largo del ciclo cambia la diferencia de potencial entre ambos lados. La dirección del trazador y el valor con signo muestran el intercambio calculado. No asumas que una flecha fija describe todas las fases o todas las perforantes.",
+      "El circuito hace explícita esa conexión. Relaciona su valor con las presiones y los volúmenes de los nodos. La comunicación está representada como un elemento de la red, sin reconstruir trayectos fasciales individuales.",
+      "Regresa a la vista espacial y repite el ciclo. Para evaluar una perforante en clínica hacen falta localización, maniobras y dúplex. Su existencia o su diámetro aislados no justifican una interpretación terapéutica."
+    ]
+  },
+  "requestId": "9200e42727b143748298ed1623b50742",
+  "voice": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "duration": 57.6,
+  "sha256": "5b4af33a3b2a715f945b9ce5df27bb171c484d5f8a74f264d0d48e05facf91c6",
+  "word_timestamps": [
+    {
+      "word": "<start>",
+      "start": 0.0,
+      "end": 0.0
+    },
+    {
+      "word": "La",
+      "start": 0.299,
+      "end": 0.469
+    },
+    {
+      "word": "rama",
+      "start": 0.512,
+      "end": 0.6827
+    },
+    {
+      "word": "verde",
+      "start": 0.725,
+      "end": 0.981
+    },
+    {
+      "word": "conecta",
+      "start": 1.024,
+      "end": 1.365
+    },
+    {
+      "word": "los",
+      "start": 1.408,
+      "end": 1.493
+    },
+    {
+      "word": "compartimentos",
+      "start": 1.536,
+      "end": 2.176
+    },
+    {
+      "word": "distales",
+      "start": 2.219,
+      "end": 2.645
+    },
+    {
+      "word": "superficial",
+      "start": 2.731,
+      "end": 3.328
+    },
+    {
+      "word": "y",
+      "start": 3.499,
+      "end": 3.584
+    },
+    {
+      "word": "profundo.",
+      "start": 3.627,
+      "end": 4.395
+    },
+    {
+      "word": "En",
+      "start": 4.736,
+      "end": 4.864
+    },
+    {
+      "word": "anatomía,",
+      "start": 4.907,
+      "end": 5.547
+    },
+    {
+      "word": "una",
+      "start": 5.675,
+      "end": 6.016
+    },
+    {
+      "word": "vena",
+      "start": 6.059,
+      "end": 6.229
+    },
+    {
+      "word": "perforante",
+      "start": 6.272,
+      "end": 6.656
+    },
+    {
+      "word": "atraviesa",
+      "start": 6.869,
+      "end": 7.253
+    },
+    {
+      "word": "la",
+      "start": 7.296,
+      "end": 7.381
+    },
+    {
+      "word": "fascia;",
+      "start": 7.424,
+      "end": 7.872
+    },
+    {
+      "word": "este",
+      "start": 7.979,
+      "end": 8.4907
+    },
+    {
+      "word": "circuito",
+      "start": 8.533,
+      "end": 8.96
+    },
+    {
+      "word": "simplifica",
+      "start": 9.003,
+      "end": 9.6
+    },
+    {
+      "word": "esa",
+      "start": 9.643,
+      "end": 9.813
+    },
+    {
+      "word": "relación.",
+      "start": 9.856,
+      "end": 10.346
+    },
+    {
+      "word": "El",
+      "start": 10.452,
+      "end": 10.58
+    },
+    {
+      "word": "color",
+      "start": 10.665,
+      "end": 10.793
+    },
+    {
+      "word": "identifica",
+      "start": 11.007,
+      "end": 11.3907
+    },
+    {
+      "word": "la",
+      "start": 11.476,
+      "end": 11.561
+    },
+    {
+      "word": "conexión",
+      "start": 11.604,
+      "end": 12.073
+    },
+    {
+      "word": "y",
+      "start": 12.201,
+      "end": 12.5427
+    },
+    {
+      "word": "no",
+      "start": 12.585,
+      "end": 12.713
+    },
+    {
+      "word": "establece",
+      "start": 12.756,
+      "end": 13.14
+    },
+    {
+      "word": "por",
+      "start": 13.268,
+      "end": 13.396
+    },
+    {
+      "word": "sí",
+      "start": 13.439,
+      "end": 13.5667
+    },
+    {
+      "word": "mismo",
+      "start": 13.609,
+      "end": 13.865
+    },
+    {
+      "word": "su",
+      "start": 13.951,
+      "end": 14.036
+    },
+    {
+      "word": "función",
+      "start": 14.079,
+      "end": 14.42
+    },
+    {
+      "word": "clínica.",
+      "start": 14.463,
+      "end": 14.774
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 14.774,
+      "end": 15.674
+    },
+    {
+      "word": "A",
+      "start": 15.674,
+      "end": 16.016
+    },
+    {
+      "word": "lo",
+      "start": 16.058,
+      "end": 16.144
+    },
+    {
+      "word": "largo",
+      "start": 16.186,
+      "end": 16.442
+    },
+    {
+      "word": "del",
+      "start": 16.485,
+      "end": 16.528
+    },
+    {
+      "word": "ciclo",
+      "start": 16.57,
+      "end": 16.912
+    },
+    {
+      "word": "cambia",
+      "start": 16.954,
+      "end": 17.466
+    },
+    {
+      "word": "la",
+      "start": 17.509,
+      "end": 17.594
+    },
+    {
+      "word": "diferencia",
+      "start": 17.637,
+      "end": 18.064
+    },
+    {
+      "word": "de",
+      "start": 18.105999999999998,
+      "end": 18.149
+    },
+    {
+      "word": "potencial",
+      "start": 18.192,
+      "end": 18.618
+    },
+    {
+      "word": "entre",
+      "start": 18.704,
+      "end": 18.916999999999998
+    },
+    {
+      "word": "ambos",
+      "start": 18.96,
+      "end": 19.173
+    },
+    {
+      "word": "lados.",
+      "start": 19.216,
+      "end": 19.742
+    },
+    {
+      "word": "La",
+      "start": 20.012,
+      "end": 20.183
+    },
+    {
+      "word": "dirección",
+      "start": 20.225,
+      "end": 20.608999999999998
+    },
+    {
+      "word": "del",
+      "start": 20.652,
+      "end": 20.695
+    },
+    {
+      "word": "trazador",
+      "start": 20.737,
+      "end": 21.249
+    },
+    {
+      "word": "y",
+      "start": 21.334,
+      "end": 21.377
+    },
+    {
+      "word": "el",
+      "start": 21.419999999999998,
+      "end": 21.462
+    },
+    {
+      "word": "valor",
+      "start": 21.505,
+      "end": 21.718
+    },
+    {
+      "word": "con",
+      "start": 21.804,
+      "end": 21.932
+    },
+    {
+      "word": "signo",
+      "start": 21.974,
+      "end": 22.273
+    },
+    {
+      "word": "muestran",
+      "start": 22.358,
+      "end": 23.084
+    },
+    {
+      "word": "el",
+      "start": 23.127,
+      "end": 23.212
+    },
+    {
+      "word": "intercambio",
+      "start": 23.297,
+      "end": 23.767
+    },
+    {
+      "word": "calculado.",
+      "start": 23.809,
+      "end": 24.598
+    },
+    {
+      "word": "No",
+      "start": 24.876,
+      "end": 25.004
+    },
+    {
+      "word": "asumas",
+      "start": 25.046,
+      "end": 25.387999999999998
+    },
+    {
+      "word": "que",
+      "start": 25.473,
+      "end": 25.558
+    },
+    {
+      "word": "una",
+      "start": 25.601,
+      "end": 25.729
+    },
+    {
+      "word": "flecha",
+      "start": 25.772,
+      "end": 26.028
+    },
+    {
+      "word": "fija",
+      "start": 26.07,
+      "end": 26.412
+    },
+    {
+      "word": "describe",
+      "start": 26.454,
+      "end": 26.796
+    },
+    {
+      "word": "todas",
+      "start": 26.924,
+      "end": 27.308
+    },
+    {
+      "word": "las",
+      "start": 27.351,
+      "end": 27.479
+    },
+    {
+      "word": "fases",
+      "start": 27.521,
+      "end": 27.905
+    },
+    {
+      "word": "o",
+      "start": 28.033,
+      "end": 28.161
+    },
+    {
+      "word": "todas",
+      "start": 28.204,
+      "end": 28.503
+    },
+    {
+      "word": "las",
+      "start": 28.544999999999998,
+      "end": 28.631
+    },
+    {
+      "word": "perforantes.",
+      "start": 28.673,
+      "end": 29.35
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 29.35,
+      "end": 30.068
+    },
+    {
+      "word": "El",
+      "start": 30.068,
+      "end": 30.409
+    },
+    {
+      "word": "circuito",
+      "start": 30.451999999999998,
+      "end": 30.921
+    },
+    {
+      "word": "hace",
+      "start": 30.964,
+      "end": 31.177
+    },
+    {
+      "word": "explícita",
+      "start": 31.22,
+      "end": 31.86
+    },
+    {
+      "word": "esa",
+      "start": 31.903,
+      "end": 32.031
+    },
+    {
+      "word": "conexión.",
+      "start": 32.073,
+      "end": 32.75599999999999
+    },
+    {
+      "word": "Relaciona",
+      "start": 32.968999999999994,
+      "end": 33.56699999999999
+    },
+    {
+      "word": "su",
+      "start": 33.608999999999995,
+      "end": 33.736999999999995
+    },
+    {
+      "word": "valor",
+      "start": 33.779999999999994,
+      "end": 33.95099999999999
+    },
+    {
+      "word": "con",
+      "start": 34.035999999999994,
+      "end": 34.120999999999995
+    },
+    {
+      "word": "las",
+      "start": 34.163999999999994,
+      "end": 34.248999999999995
+    },
+    {
+      "word": "presiones",
+      "start": 34.334999999999994,
+      "end": 34.888999999999996
+    },
+    {
+      "word": "y",
+      "start": 34.974999999999994,
+      "end": 35.102999999999994
+    },
+    {
+      "word": "los",
+      "start": 35.144999999999996,
+      "end": 35.230999999999995
+    },
+    {
+      "word": "volúmenes",
+      "start": 35.272999999999996,
+      "end": 35.742999999999995
+    },
+    {
+      "word": "de",
+      "start": 35.785,
+      "end": 35.870999999999995
+    },
+    {
+      "word": "los",
+      "start": 35.913,
+      "end": 35.998999999999995
+    },
+    {
+      "word": "nodos.",
+      "start": 35.998999999999995,
+      "end": 36.528999999999996
+    },
+    {
+      "word": "La",
+      "start": 36.803,
+      "end": 36.974
+    },
+    {
+      "word": "comunicación",
+      "start": 37.016999999999996,
+      "end": 37.614
+    },
+    {
+      "word": "está",
+      "start": 37.657,
+      "end": 37.827
+    },
+    {
+      "word": "representada",
+      "start": 37.87,
+      "end": 38.339
+    },
+    {
+      "word": "como",
+      "start": 38.467,
+      "end": 38.681
+    },
+    {
+      "word": "un",
+      "start": 38.723,
+      "end": 38.809
+    },
+    {
+      "word": "elemento",
+      "start": 38.851,
+      "end": 39.278
+    },
+    {
+      "word": "de",
+      "start": 39.363,
+      "end": 39.449
+    },
+    {
+      "word": "la",
+      "start": 39.491,
+      "end": 39.534
+    },
+    {
+      "word": "red,",
+      "start": 39.577,
+      "end": 39.93899999999999
+    },
+    {
+      "word": "sin",
+      "start": 40.13099999999999,
+      "end": 40.25899999999999
+    },
+    {
+      "word": "reconstruir",
+      "start": 40.302,
+      "end": 40.857
+    },
+    {
+      "word": "trayectos",
+      "start": 40.898999999999994,
+      "end": 41.369
+    },
+    {
+      "word": "fasciales",
+      "start": 41.410999999999994,
+      "end": 41.837999999999994
+    },
+    {
+      "word": "individuales.",
+      "start": 41.965999999999994,
+      "end": 42.452
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 42.452,
+      "end": 43.352000000000004
+    },
+    {
+      "word": "Regresa",
+      "start": 43.352000000000004,
+      "end": 43.736000000000004
+    },
+    {
+      "word": "a",
+      "start": 43.821000000000005,
+      "end": 43.864000000000004
+    },
+    {
+      "word": "la",
+      "start": 43.907000000000004,
+      "end": 43.949000000000005
+    },
+    {
+      "word": "vista",
+      "start": 43.992000000000004,
+      "end": 44.248000000000005
+    },
+    {
+      "word": "espacial",
+      "start": 44.291000000000004,
+      "end": 44.675000000000004
+    },
+    {
+      "word": "y",
+      "start": 44.760000000000005,
+      "end": 44.973000000000006
+    },
+    {
+      "word": "repite",
+      "start": 45.016000000000005,
+      "end": 45.315000000000005
+    },
+    {
+      "word": "el",
+      "start": 45.443000000000005,
+      "end": 45.48500000000001
+    },
+    {
+      "word": "ciclo.",
+      "start": 45.48500000000001,
+      "end": 46.054
+    },
+    {
+      "word": "Para",
+      "start": 46.281000000000006,
+      "end": 46.45100000000001
+    },
+    {
+      "word": "evaluar",
+      "start": 46.49400000000001,
+      "end": 46.83500000000001
+    },
+    {
+      "word": "una",
+      "start": 46.87800000000001,
+      "end": 47.00600000000001
+    },
+    {
+      "word": "perforante",
+      "start": 47.04900000000001,
+      "end": 47.43300000000001
+    },
+    {
+      "word": "en",
+      "start": 47.60300000000001,
+      "end": 47.64600000000001
+    },
+    {
+      "word": "clínica",
+      "start": 47.68900000000001,
+      "end": 47.987
+    },
+    {
+      "word": "hacen",
+      "start": 48.20100000000001,
+      "end": 48.71300000000001
+    },
+    {
+      "word": "falta",
+      "start": 48.755,
+      "end": 49.011
+    },
+    {
+      "word": "localización,",
+      "start": 49.054,
+      "end": 49.993
+    },
+    {
+      "word": "maniobras",
+      "start": 50.121,
+      "end": 50.761
+    },
+    {
+      "word": "y",
+      "start": 50.846000000000004,
+      "end": 51.059000000000005
+    },
+    {
+      "word": "dúplex.",
+      "start": 51.102000000000004,
+      "end": 51.849000000000004
+    },
+    {
+      "word": "Su",
+      "start": 52.254000000000005,
+      "end": 52.425000000000004
+    },
+    {
+      "word": "existencia",
+      "start": 52.467000000000006,
+      "end": 53.150000000000006
+    },
+    {
+      "word": "o",
+      "start": 53.23500000000001,
+      "end": 53.36300000000001
+    },
+    {
+      "word": "su",
+      "start": 53.406000000000006,
+      "end": 53.534000000000006
+    },
+    {
+      "word": "diámetro",
+      "start": 53.577000000000005,
+      "end": 53.961000000000006
+    },
+    {
+      "word": "aislados",
+      "start": 54.00300000000001,
+      "end": 54.473000000000006
+    },
+    {
+      "word": "no",
+      "start": 54.601000000000006,
+      "end": 54.94200000000001
+    },
+    {
+      "word": "justifican",
+      "start": 54.98500000000001,
+      "end": 55.45400000000001
+    },
+    {
+      "word": "una",
+      "start": 55.53900000000001,
+      "end": 55.75300000000001
+    },
+    {
+      "word": "interpretación",
+      "start": 55.795,
+      "end": 56.435
+    },
+    {
+      "word": "terapéutica.",
+      "start": 56.47800000000001,
+      "end": 57.35671882086168
+    },
+    {
+      "word": "<end>",
+      "start": 57.6,
+      "end": 57.6
+    }
+  ],
+  "review": "Exact normalized transcript and provider timestamps checked; independent auditory and medical approval are separate."
+}

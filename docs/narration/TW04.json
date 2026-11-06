@@ -1,0 +1,774 @@
+{
+  "id": "TW04",
+  "request": {
+    "id": "TW04",
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "language": "es",
+    "inputType": "ssml",
+    "text": "<speak>El perfil utiliza una activación muscular reducida. Reconoce primero la misma red y las mismas conexiones. El propósito de la comparación es observar cómo cambian las ondas cuando modificamos una condición del modelo.<break time=\"0.9s\"/>Sigue un ciclo de este perfil. La amplitud y la distribución temporal del flujo deben leerse en la curva, junto al movimiento. Una imagen detenida de un vaso no permite deducir la eficacia funcional de la bomba de una persona.<break time=\"0.9s\"/>Mostramos ahora la bomba más activa. La curva y la escena se reconstruyen con las condiciones de este segundo perfil. Compara sus formas; no interpretes el retorno medio como una medida clínica, porque las entradas del modelo permanecen constantes.<break time=\"0.9s\"/>Volvemos a la activación reducida. Identifica el cambio observable antes de añadir otras variables. La exploración permite repetir la comparación y ver cómo intervienen también las conexiones, la salida y la conductancia inversa.</speak>",
+    "stages": [
+      "El perfil utiliza una activación muscular reducida. Reconoce primero la misma red y las mismas conexiones. El propósito de la comparación es observar cómo cambian las ondas cuando modificamos una condición del modelo.",
+      "Sigue un ciclo de este perfil. La amplitud y la distribución temporal del flujo deben leerse en la curva, junto al movimiento. Una imagen detenida de un vaso no permite deducir la eficacia funcional de la bomba de una persona.",
+      "Mostramos ahora la bomba más activa. La curva y la escena se reconstruyen con las condiciones de este segundo perfil. Compara sus formas; no interpretes el retorno medio como una medida clínica, porque las entradas del modelo permanecen constantes.",
+      "Volvemos a la activación reducida. Identifica el cambio observable antes de añadir otras variables. La exploración permite repetir la comparación y ver cómo intervienen también las conexiones, la salida y la conductancia inversa."
+    ]
+  },
+  "requestId": "86354db3546e4bd59d673f3568d372dc",
+  "voice": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "duration": 56.058776,
+  "sha256": "edf0f09aeb44c6cc73c7f8db90283e834ecfc87ecb22f8139d1c924c6a8d55c5",
+  "word_timestamps": [
+    {
+      "word": "<start>",
+      "start": 0.0,
+      "end": 0.0
+    },
+    {
+      "word": "El",
+      "start": 0.299,
+      "end": 0.384
+    },
+    {
+      "word": "perfil",
+      "start": 0.469,
+      "end": 0.768
+    },
+    {
+      "word": "utiliza",
+      "start": 0.811,
+      "end": 1.109
+    },
+    {
+      "word": "una",
+      "start": 1.237,
+      "end": 1.3227
+    },
+    {
+      "word": "activación",
+      "start": 1.365,
+      "end": 1.792
+    },
+    {
+      "word": "muscular",
+      "start": 1.835,
+      "end": 2.0907
+    },
+    {
+      "word": "reducida.",
+      "start": 2.261,
+      "end": 2.923
+    },
+    {
+      "word": "Reconoce",
+      "start": 3.115,
+      "end": 3.7547
+    },
+    {
+      "word": "primero",
+      "start": 3.797,
+      "end": 4.1387
+    },
+    {
+      "word": "la",
+      "start": 4.181,
+      "end": 4.2667
+    },
+    {
+      "word": "misma",
+      "start": 4.309,
+      "end": 4.523
+    },
+    {
+      "word": "red",
+      "start": 4.608,
+      "end": 4.736
+    },
+    {
+      "word": "y",
+      "start": 4.907,
+      "end": 4.992
+    },
+    {
+      "word": "las",
+      "start": 5.035,
+      "end": 5.12
+    },
+    {
+      "word": "mismas",
+      "start": 5.163,
+      "end": 5.4187
+    },
+    {
+      "word": "conexiones.",
+      "start": 5.461,
+      "end": 6.217
+    },
+    {
+      "word": "El",
+      "start": 6.418,
+      "end": 6.5038
+    },
+    {
+      "word": "propósito",
+      "start": 6.546,
+      "end": 7.0158
+    },
+    {
+      "word": "de",
+      "start": 7.058,
+      "end": 7.144
+    },
+    {
+      "word": "la",
+      "start": 7.186,
+      "end": 7.229
+    },
+    {
+      "word": "comparación",
+      "start": 7.272,
+      "end": 7.826
+    },
+    {
+      "word": "es",
+      "start": 7.954,
+      "end": 8.21
+    },
+    {
+      "word": "observar",
+      "start": 8.253,
+      "end": 8.637
+    },
+    {
+      "word": "cómo",
+      "start": 8.722,
+      "end": 9.0638
+    },
+    {
+      "word": "cambian",
+      "start": 9.106,
+      "end": 9.4478
+    },
+    {
+      "word": "las",
+      "start": 9.49,
+      "end": 9.618
+    },
+    {
+      "word": "ondas",
+      "start": 9.661,
+      "end": 10.002
+    },
+    {
+      "word": "cuando",
+      "start": 10.045,
+      "end": 10.258
+    },
+    {
+      "word": "modificamos",
+      "start": 10.301,
+      "end": 10.8558
+    },
+    {
+      "word": "una",
+      "start": 10.941,
+      "end": 11.069
+    },
+    {
+      "word": "condición",
+      "start": 11.112,
+      "end": 11.538
+    },
+    {
+      "word": "del",
+      "start": 11.581,
+      "end": 11.6238
+    },
+    {
+      "word": "modelo.",
+      "start": 11.709,
+      "end": 11.969
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 11.969,
+      "end": 12.869
+    },
+    {
+      "word": "Sigue",
+      "start": 12.869,
+      "end": 13.21
+    },
+    {
+      "word": "un",
+      "start": 13.253,
+      "end": 13.295
+    },
+    {
+      "word": "ciclo",
+      "start": 13.338000000000001,
+      "end": 13.594000000000001
+    },
+    {
+      "word": "de",
+      "start": 13.637,
+      "end": 13.722
+    },
+    {
+      "word": "este",
+      "start": 13.765,
+      "end": 13.893
+    },
+    {
+      "word": "perfil.",
+      "start": 13.935,
+      "end": 14.464
+    },
+    {
+      "word": "La",
+      "start": 14.695,
+      "end": 14.908
+    },
+    {
+      "word": "amplitud",
+      "start": 14.951,
+      "end": 15.292
+    },
+    {
+      "word": "y",
+      "start": 15.377,
+      "end": 15.463000000000001
+    },
+    {
+      "word": "la",
+      "start": 15.505,
+      "end": 15.548
+    },
+    {
+      "word": "distribución",
+      "start": 15.591000000000001,
+      "end": 16.102999999999998
+    },
+    {
+      "word": "temporal",
+      "start": 16.145,
+      "end": 16.487000000000002
+    },
+    {
+      "word": "del",
+      "start": 16.572,
+      "end": 16.657
+    },
+    {
+      "word": "flujo",
+      "start": 16.7,
+      "end": 16.999
+    },
+    {
+      "word": "deben",
+      "start": 17.127,
+      "end": 17.596
+    },
+    {
+      "word": "leerse",
+      "start": 17.639,
+      "end": 18.023
+    },
+    {
+      "word": "en",
+      "start": 18.065,
+      "end": 18.108
+    },
+    {
+      "word": "la",
+      "start": 18.151,
+      "end": 18.193
+    },
+    {
+      "word": "curva,",
+      "start": 18.236,
+      "end": 18.641000000000002
+    },
+    {
+      "word": "junto",
+      "start": 18.748,
+      "end": 19.089
+    },
+    {
+      "word": "al",
+      "start": 19.132,
+      "end": 19.175
+    },
+    {
+      "word": "movimiento.",
+      "start": 19.217,
+      "end": 19.985
+    },
+    {
+      "word": "Una",
+      "start": 20.241,
+      "end": 20.668
+    },
+    {
+      "word": "imagen",
+      "start": 20.711000000000002,
+      "end": 20.967
+    },
+    {
+      "word": "detenida",
+      "start": 21.009,
+      "end": 21.393
+    },
+    {
+      "word": "de",
+      "start": 21.436,
+      "end": 21.521
+    },
+    {
+      "word": "un",
+      "start": 21.564,
+      "end": 21.607
+    },
+    {
+      "word": "vaso",
+      "start": 21.649,
+      "end": 21.905
+    },
+    {
+      "word": "no",
+      "start": 21.991,
+      "end": 22.204
+    },
+    {
+      "word": "permite",
+      "start": 22.247,
+      "end": 22.545
+    },
+    {
+      "word": "deducir",
+      "start": 22.673000000000002,
+      "end": 23.057
+    },
+    {
+      "word": "la",
+      "start": 23.143,
+      "end": 23.185
+    },
+    {
+      "word": "eficacia",
+      "start": 23.228,
+      "end": 23.740000000000002
+    },
+    {
+      "word": "funcional",
+      "start": 23.783,
+      "end": 24.124
+    },
+    {
+      "word": "de",
+      "start": 24.337,
+      "end": 24.423000000000002
+    },
+    {
+      "word": "la",
+      "start": 24.465,
+      "end": 24.508
+    },
+    {
+      "word": "bomba",
+      "start": 24.551000000000002,
+      "end": 24.764
+    },
+    {
+      "word": "de",
+      "start": 24.807,
+      "end": 24.849
+    },
+    {
+      "word": "una",
+      "start": 24.892,
+      "end": 25.02
+    },
+    {
+      "word": "persona.",
+      "start": 25.02,
+      "end": 25.458000000000002
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 25.458000000000002,
+      "end": 26.326
+    },
+    {
+      "word": "Mostramos",
+      "start": 26.326,
+      "end": 26.881
+    },
+    {
+      "word": "ahora",
+      "start": 26.924,
+      "end": 27.222
+    },
+    {
+      "word": "la",
+      "start": 27.35,
+      "end": 27.521
+    },
+    {
+      "word": "bomba",
+      "start": 27.564,
+      "end": 27.905
+    },
+    {
+      "word": "más",
+      "start": 28.033,
+      "end": 28.374
+    },
+    {
+      "word": "activa.",
+      "start": 28.502,
+      "end": 29.206
+    },
+    {
+      "word": "La",
+      "start": 29.569,
+      "end": 29.739
+    },
+    {
+      "word": "curva",
+      "start": 29.782,
+      "end": 30.081
+    },
+    {
+      "word": "y",
+      "start": 30.123,
+      "end": 30.166
+    },
+    {
+      "word": "la",
+      "start": 30.209,
+      "end": 30.294
+    },
+    {
+      "word": "escena",
+      "start": 30.337,
+      "end": 30.678
+    },
+    {
+      "word": "se",
+      "start": 30.721,
+      "end": 30.892
+    },
+    {
+      "word": "reconstruyen",
+      "start": 30.934,
+      "end": 31.617
+    },
+    {
+      "word": "con",
+      "start": 31.66,
+      "end": 31.788
+    },
+    {
+      "word": "las",
+      "start": 31.830000000000002,
+      "end": 31.916
+    },
+    {
+      "word": "condiciones",
+      "start": 31.958000000000002,
+      "end": 32.555
+    },
+    {
+      "word": "de",
+      "start": 32.598,
+      "end": 32.726
+    },
+    {
+      "word": "este",
+      "start": 32.769,
+      "end": 33.067
+    },
+    {
+      "word": "segundo",
+      "start": 33.11,
+      "end": 33.494
+    },
+    {
+      "word": "perfil.",
+      "start": 33.537,
+      "end": 34.145999999999994
+    },
+    {
+      "word": "Compara",
+      "start": 34.415,
+      "end": 34.799
+    },
+    {
+      "word": "sus",
+      "start": 34.840999999999994,
+      "end": 34.968999999999994
+    },
+    {
+      "word": "formas;",
+      "start": 35.01199999999999,
+      "end": 35.608999999999995
+    },
+    {
+      "word": "no",
+      "start": 35.82299999999999,
+      "end": 36.07899999999999
+    },
+    {
+      "word": "interpretes",
+      "start": 36.120999999999995,
+      "end": 36.590999999999994
+    },
+    {
+      "word": "el",
+      "start": 36.632999999999996,
+      "end": 36.718999999999994
+    },
+    {
+      "word": "retorno",
+      "start": 36.760999999999996,
+      "end": 37.187999999999995
+    },
+    {
+      "word": "medio",
+      "start": 37.230999999999995,
+      "end": 37.528999999999996
+    },
+    {
+      "word": "como",
+      "start": 37.571999999999996,
+      "end": 37.742999999999995
+    },
+    {
+      "word": "una",
+      "start": 37.827999999999996,
+      "end": 37.955999999999996
+    },
+    {
+      "word": "medida",
+      "start": 37.998999999999995,
+      "end": 38.297
+    },
+    {
+      "word": "clínica,",
+      "start": 38.339999999999996,
+      "end": 38.873
+    },
+    {
+      "word": "porque",
+      "start": 39.108,
+      "end": 39.321
+    },
+    {
+      "word": "las",
+      "start": 39.364,
+      "end": 39.449
+    },
+    {
+      "word": "entradas",
+      "start": 39.492,
+      "end": 39.919
+    },
+    {
+      "word": "del",
+      "start": 39.961,
+      "end": 40.047
+    },
+    {
+      "word": "modelo",
+      "start": 40.132,
+      "end": 40.345
+    },
+    {
+      "word": "permanecen",
+      "start": 40.473,
+      "end": 40.943
+    },
+    {
+      "word": "constantes.",
+      "start": 40.985,
+      "end": 41.724
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 41.724,
+      "end": 42.624
+    },
+    {
+      "word": "Volvemos",
+      "start": 42.624,
+      "end": 43.008
+    },
+    {
+      "word": "a",
+      "start": 43.05,
+      "end": 43.136
+    },
+    {
+      "word": "la",
+      "start": 43.178,
+      "end": 43.264
+    },
+    {
+      "word": "activación",
+      "start": 43.306,
+      "end": 43.733
+    },
+    {
+      "word": "reducida.",
+      "start": 43.776,
+      "end": 44.473
+    },
+    {
+      "word": "Identifica",
+      "start": 44.701,
+      "end": 45.256
+    },
+    {
+      "word": "el",
+      "start": 45.384,
+      "end": 45.426
+    },
+    {
+      "word": "cambio",
+      "start": 45.469,
+      "end": 45.768
+    },
+    {
+      "word": "observable",
+      "start": 45.81,
+      "end": 46.237
+    },
+    {
+      "word": "antes",
+      "start": 46.45,
+      "end": 46.834
+    },
+    {
+      "word": "de",
+      "start": 46.877,
+      "end": 47.005
+    },
+    {
+      "word": "añadir",
+      "start": 47.048,
+      "end": 47.304
+    },
+    {
+      "word": "otras",
+      "start": 47.346000000000004,
+      "end": 47.56
+    },
+    {
+      "word": "variables.",
+      "start": 47.602,
+      "end": 48.2
+    },
+    {
+      "word": "La",
+      "start": 48.498,
+      "end": 48.626
+    },
+    {
+      "word": "exploración",
+      "start": 48.669,
+      "end": 49.266
+    },
+    {
+      "word": "permite",
+      "start": 49.352,
+      "end": 49.608
+    },
+    {
+      "word": "repetir",
+      "start": 49.736,
+      "end": 50.205
+    },
+    {
+      "word": "la",
+      "start": 50.248,
+      "end": 50.333
+    },
+    {
+      "word": "comparación",
+      "start": 50.376,
+      "end": 51.016
+    },
+    {
+      "word": "y",
+      "start": 51.144,
+      "end": 51.272
+    },
+    {
+      "word": "ver",
+      "start": 51.314,
+      "end": 51.442
+    },
+    {
+      "word": "cómo",
+      "start": 51.528,
+      "end": 51.784
+    },
+    {
+      "word": "intervienen",
+      "start": 51.826,
+      "end": 52.296
+    },
+    {
+      "word": "también",
+      "start": 52.338,
+      "end": 52.68
+    },
+    {
+      "word": "las",
+      "start": 52.722,
+      "end": 52.808
+    },
+    {
+      "word": "conexiones,",
+      "start": 52.85,
+      "end": 53.576
+    },
+    {
+      "word": "la",
+      "start": 53.661,
+      "end": 53.746
+    },
+    {
+      "word": "salida",
+      "start": 53.789,
+      "end": 54.173
+    },
+    {
+      "word": "y",
+      "start": 54.258,
+      "end": 54.386
+    },
+    {
+      "word": "la",
+      "start": 54.429,
+      "end": 54.557
+    },
+    {
+      "word": "conductancia",
+      "start": 54.6,
+      "end": 55.24
+    },
+    {
+      "word": "inversa.",
+      "start": 55.24,
+      "end": 55.82355555555556
+    },
+    {
+      "word": "<end>",
+      "start": 56.05877551020408,
+      "end": 56.05877551020408
+    }
+  ],
+  "review": "Exact normalized transcript and provider timestamps checked; independent auditory and medical approval are separate."
+}

@@ -12,6 +12,8 @@ const Dus = lazy(() => import("./labs/dus/Dus"));
 const Vision = lazy(() => import("./labs/vision/Vision"));
 const Bibliography = lazy(() => import("./pages/Bibliography"));
 const Library = lazy(() => import("./pages/Library"));
+const LearningLibrary = lazy(() => import("./learning/LearningLibrary"));
+const GuidedLesson = lazy(() => import("./learning/GuidedLesson"));
 function Scroll() {
   const l = useLocation();
   useEffect(() => {
@@ -27,6 +29,7 @@ function Scroll() {
       "/creditos": "Créditos",
       "/glosario": "Glosario",
       "/novedades": "Versión y alcance",
+      "/aprender": "Aula visual",
     };
     document.title = `${names[l.pathname] ? names[l.pathname] + " · " : ""}FLEBO LAB IMF`;
     if (l.hash)
@@ -54,6 +57,8 @@ appRoot.render(
       >
         <Routes>
           <Route path="/*" element={<App />}>
+            <Route path="aprender" element={<LearningLibrary />} />
+            <Route path="aprender/:id" element={<GuidedLesson />} />
             <Route path="flebotwin/*" element={<Twin />} />
             <Route path="flebodus/*" element={<Dus />} />
             <Route path="flebovision/*" element={<Vision />} />

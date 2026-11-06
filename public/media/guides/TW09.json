@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW09",
+  "group": "twin",
+  "title": "Resistencia a la salida",
+  "objective": "Reconoce una condición de frontera sin confundirla con una estenosis reconstruida.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Sitúa la salida",
+      "spoken": "El marcador de salida representa mayor resistencia en la red. No dibuja una estenosis anatómica ni mide el porcentaje de obstrucción de una vena. Localiza primero el trayecto al que se aplica esa condición.",
+      "scenario": "TW09",
+      "view": "flow",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "outflow"
+    },
+    {
+      "title": "Lee la consecuencia",
+      "spoken": "La presión y la forma de las ondas cambian durante el ciclo. El modelo estabiliza sus volúmenes antes de mostrar la solución. Mira la curva correspondiente y evita deducir una presión de paciente a partir de sus unidades relativas.",
+      "scenario": "TW09",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "deep"
+    },
+    {
+      "title": "Comprueba los nodos",
+      "spoken": "En el circuito, cada salida y conexión puede seguirse sin ocultamientos. La conservación permite comprobar el balance de la red. Una mayor resistencia no se traduce automáticamente en un diagnóstico o una indicación de intervención.",
+      "scenario": "TW09",
+      "view": "circuit",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Añade una pregunta",
+      "spoken": "Regresamos al conjunto: ¿qué podría cambiar si existiera una vía adicional? El experimento de colaterales permite explorar esa pregunta con otra solución, manteniendo explícitas las condiciones que se comparan.",
+      "scenario": "TW09",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW09"
+}

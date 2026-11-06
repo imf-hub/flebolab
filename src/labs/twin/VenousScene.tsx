@@ -6,6 +6,7 @@ import {
   useEffect,
   useLayoutEffect,
   useId,
+  useState,
 } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -16,6 +17,10 @@ import { integratedFlow, phaseAt, sampleAt, type FlowKey } from "./transport";
 import type { Focus } from "./scenarioConfig";
 import ReferenceAnatomy from "./ReferenceAnatomy";
 import FitCamera from "./FitCamera";
+import WallLayers from "./WallLayers";
+import GuidedCamera from "../../learning/GuidedCamera";
+import type { CameraGuide } from "../../learning/types";
+import "./valve-pieces.css";
 export type CameraPose = {
   owner: string;
   position: [number, number, number];
@@ -206,9 +211,9 @@ function Chamber({
         <cylinderGeometry args={[1, 1, 2, 32, 1, true]} />
         <meshPhysicalMaterial
           color={color}
-          metalness={0.38}
-          roughness={0.18}
-          clearcoat={1}
+          metalness={0.04}
+          roughness={0.42}
+          clearcoat={0.3}
           transparent
           opacity={0.28}
           side={THREE.DoubleSide}
@@ -302,12 +307,14 @@ function Valve({
   large = false,
   x = 0.45,
   branch = "flow",
+  piece = "all",
 }: {
   solution: Solution;
   timeRef: React.RefObject<number>;
   large?: boolean;
   x?: number;
   branch?: "flow" | "superficialFlow";
+  piece?: "all" | "wall" | "leaflets";
 }) {
   return (
     <group
@@ -316,33 +323,23 @@ function Valve({
       }
       scale={large ? 4.2 : 0.63}
     >
-      <mesh position={[0, 0.18, 0]}>
-        <cylinderGeometry
-          args={[0.27, 0.27, 1.25, 48, 1, true, Math.PI / 4, Math.PI * 1.5]}
+      <group visible={piece !== "leaflets"}>
+        <WallLayers large={large} />
+      </group>
+      <group visible={piece !== "wall"}>
+        <Leaflet
+          solution={solution}
+          timeRef={timeRef}
+          branch={branch}
+          side={-1}
         />
-        <meshPhysicalMaterial
-          color="#497891"
-          metalness={0.2}
-          roughness={0.28}
-          transparent
-          opacity={0.22}
-          side={THREE.DoubleSide}
-          depthWrite={false}
+        <Leaflet
+          solution={solution}
+          timeRef={timeRef}
+          branch={branch}
+          side={1}
         />
-      </mesh>
-      {[-0.445, 0.805].map((y) => (
-        <mesh key={y} position={[0, y, 0]} rotation={[Math.PI / 2, 0, 0]}>
-          <torusGeometry args={[0.27, 0.006, 8, 48, Math.PI * 1.5]} />
-          <meshBasicMaterial color="#497086" />
-        </mesh>
-      ))}
-      <Leaflet
-        solution={solution}
-        timeRef={timeRef}
-        branch={branch}
-        side={-1}
-      />
-      <Leaflet solution={solution} timeRef={timeRef} branch={branch} side={1} />
+      </group>
     </group>
   );
 }
@@ -356,41 +353,50 @@ function Muscle({
   focus: Focus;
 }) {
   const group = useRef<THREE.Group>(null),
-    material = useRef<THREE.MeshStandardMaterial>(null);
+    pressure = useRef<THREE.Group>(null);
   useFrame(() => {
     const a =
       sampleAt(solution, timeRef.current).pump * solution.parameters.pump;
     if (group.current)
-      group.current.scale.set(
-        1 - Math.min(1.6, a) * 0.2,
-        1,
-        1 - Math.min(1.6, a) * 0.2,
-      );
-    if (material.current) material.current.emissiveIntensity = 0.1 + a * 0.6;
+      group.current.scale.set(1 + a * 0.055, 1 - a * 0.09, 1 + a * 0.055);
+    if (pressure.current)
+      pressure.current.visible = focus === "pump" && a > 0.12;
   });
   return (
-    <group position={[0.45, -1.2, 0]} ref={group}>
-      <mesh>
-        <cylinderGeometry args={[0.34, 0.39, 1.65, 12, 4, true]} />
-        <meshStandardMaterial
-          ref={material}
-          color="#956984"
-          emissive="#a7798d"
-          wireframe
-          transparent
-          opacity={focus === "pump" ? 0.35 : 0.12}
-        />
-      </mesh>
-      {[-0.65, -0.3, 0.05, 0.4, 0.7].map((y) => (
-        <mesh key={y} position={[0, y, 0]} rotation={[Math.PI / 2, 0, 0]}>
-          <torusGeometry args={[0.37, 0.012, 6, 40]} />
-          <meshBasicMaterial
-            color={theme.superficial}
-            transparent
-            opacity={focus === "pump" ? 0.7 : 0.2}
-          />
-        </mesh>
-      ))}
+    <group position={[0.45, -1.2, 0]}>
+      <group ref={group}>
+        {Array.from({ length: 9 }, (_, i) => {
+          const a = Math.PI * 0.3 + (i / 8) * Math.PI * 1.4;
+          return (
+            <mesh
+              key={i}
+              position={[Math.sin(a) * 0.3, 0, Math.cos(a) * 0.3]}
+              scale={[0.075, 0.82, 0.075]}
+            >
+              <sphereGeometry args={[1, 16, 24]} />
+              <meshStandardMaterial
+                color={i % 2 ? "#bd8a90" : "#cea0a3"}
+                roughness={0.78}
+                transparent
+                opacity={focus === "pump" ? 0.55 : 0.18}
+                depthWrite={false}
+              />
+            </mesh>
+          );
+        })}
+      </group>
+      <group ref={pressure}>
+        {[-1, 1].map((side) => (
+          <mesh
+            key={side}
+            position={[side * 0.53, 0, 0]}
+            rotation={[0, 0, (side * Math.PI) / 2]}
+          >
+            <coneGeometry args={[0.045, 0.16, 12]} />
+            <meshBasicMaterial color="#b04451" />
+          </mesh>
+        ))}
+      </group>
     </group>
   );
 }
@@ -398,20 +404,24 @@ function Network({
   solution,
   timeRef,
   focus,
+  deterministic = false,
 }: {
   solution: Solution;
   timeRef: React.RefObject<number>;
   focus: Focus;
+  deterministic?: boolean;
 }) {
   const group = useRef<THREE.Group>(null);
   useFrame((_, delta) => {
     if (group.current)
-      group.current.rotation.z = THREE.MathUtils.damp(
-        group.current.rotation.z,
-        (-(90 - solution.parameters.posture) * Math.PI) / 180,
-        4,
-        delta,
-      );
+      group.current.rotation.z = deterministic
+        ? (-(90 - solution.parameters.posture) * Math.PI) / 180
+        : THREE.MathUtils.damp(
+            group.current.rotation.z,
+            (-(90 - solution.parameters.posture) * Math.PI) / 180,
+            4,
+            delta,
+          );
   });
   return (
     <group ref={group} position={[0, -0.15, 0]}>
@@ -559,6 +569,10 @@ export default function VenousScene({
   cameraPose,
   focus = "integrated",
   hero = false,
+  guidance,
+  onCameraInput,
+  tissues,
+  onTissuesChange,
 }: {
   mode: string;
   solution: Solution;
@@ -566,9 +580,14 @@ export default function VenousScene({
   cameraPose?: React.RefObject<CameraPose>;
   focus?: Focus;
   hero?: boolean;
+  guidance?: React.RefObject<CameraGuide>;
+  onCameraInput?: () => void;
+  tissues?: string[];
+  onTissuesChange?: (tissues: string[]) => void;
 }) {
   const controls = useRef<any>(null),
-    id = useId();
+    id = useId(),
+    [piece, setPiece] = useState<"all" | "wall" | "leaflets">("all");
   const now = sampleAt(solution, timeRef.current);
   const reading =
     focus === "posture"
@@ -604,6 +623,10 @@ export default function VenousScene({
         solution={solution}
         timeRef={timeRef}
         cameraPose={cameraPose}
+        guidance={guidance}
+        onCameraInput={onCameraInput}
+        guidedTissues={tissues}
+        onTissuesChange={onTissuesChange}
       />
     );
   return (
@@ -650,18 +673,30 @@ export default function VenousScene({
         <Suspense fallback={null}>
           {mode === "valve" ? (
             <>
-              <Valve solution={solution} timeRef={timeRef} large />
-              <Transport
+              <Valve
                 solution={solution}
                 timeRef={timeRef}
-                branch="flow"
-                color={colors.deep}
-                count={18}
-                path={largePath}
+                large
+                piece={piece}
               />
+              <group visible={piece !== "wall"}>
+                <Transport
+                  solution={solution}
+                  timeRef={timeRef}
+                  branch="flow"
+                  color={colors.deep}
+                  count={18}
+                  path={largePath}
+                />
+              </group>
             </>
           ) : (
-            <Network solution={solution} timeRef={timeRef} focus={focus} />
+            <Network
+              solution={solution}
+              timeRef={timeRef}
+              focus={focus}
+              deterministic={Boolean(guidance)}
+            />
           )}
         </Suspense>
         <OrbitControls
@@ -672,10 +707,14 @@ export default function VenousScene({
           maxDistance={15}
           enablePan={!hero}
           onStart={() => {
+            onCameraInput?.();
             if (cameraPose) cameraPose.current.owner = id;
           }}
         />
         {!hero && <FitCamera mode={mode} controls={controls} />}
+        {guidance && (
+          <GuidedCamera guide={guidance} mode={mode} controls={controls} />
+        )}
         {cameraPose && (
           <CameraSync pose={cameraPose} id={id} controls={controls} />
         )}
@@ -725,6 +764,39 @@ export default function VenousScene({
               Colateral
             </span>
           )}
+        </div>
+      )}
+      {!hero && mode === "valve" && (
+        <div
+          className="valve-pieces"
+          role="group"
+          aria-label="Piezas de la válvula"
+        >
+          {(
+            [
+              ["all", "Conjunto"],
+              ["wall", "Pared"],
+              ["leaflets", "Valvas"],
+            ] as const
+          ).map(([value, label]) => (
+            <button
+              key={value}
+              aria-pressed={piece === value}
+              onClick={() => {
+                onCameraInput?.();
+                setPiece(value);
+              }}
+            >
+              {label}
+            </button>
+          ))}
+          <small>
+            {piece === "all"
+              ? "Corte abierto para observar"
+              : piece === "wall"
+                ? "Capas ilustrativas · sin escala histológica"
+                : "Valvas aisladas · inserción conservada"}
+          </small>
         </div>
       )}
       {!hero && (

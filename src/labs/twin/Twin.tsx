@@ -225,6 +225,14 @@ export default function Twin() {
           </select>
         </label>
         <div className="button-row">
+          <Link
+            className="button secondary"
+            to={`/aprender/${scenario}`}
+            aria-label="Explicación guiada de este experimento"
+          >
+            <Play size={14} />
+            <span>Explicar</span>
+          </Link>
           <ShareButton />
           <button
             className="icon-button"

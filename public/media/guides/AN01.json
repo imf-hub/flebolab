@@ -1,0 +1,75 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "AN01",
+  "group": "anatomy",
+  "title": "Anatomía por planos",
+  "objective": "Localiza huesos, músculos y venas sin confundir referencia anatómica con el modelo funcional.",
+  "sourceIds": [
+    "uipnomenclature",
+    "uipduplex2",
+    "bodyparts3d"
+  ],
+  "stages": [
+    {
+      "title": "Referencias óseas",
+      "spoken": "El modelo procede de BodyParts tres de y representa una selección de estructuras del miembro inferior izquierdo. Comenzamos con los huesos para situar el eje y reconocer el contexto espacial antes de añadir otras capas.",
+      "tissues": [
+        "bone"
+      ],
+      "view": "anatomy",
+      "scenario": "TW03",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Plano muscular",
+      "spoken": "Añadimos músculos de la pantorrilla. Su relación con las venas es importante para comprender la bomba muscular. Esta referencia anatómica no se deforma ni calcula la contracción de un paciente; ese mecanismo se explica en el esquema funcional.",
+      "tissues": [
+        "bone",
+        "muscle"
+      ],
+      "view": "anatomy",
+      "scenario": "TW03",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "section"
+    },
+    {
+      "title": "Territorios venosos",
+      "spoken": "Las venas se incorporan al contexto. Reconoce superficial, profundo y sus relaciones, teniendo presente que la selección no incluye todas las ramas ni las variantes. La nomenclatura se consulta en las fuentes flebológicas.",
+      "tissues": [
+        "bone",
+        "muscle",
+        "vein"
+      ],
+      "view": "anatomy",
+      "scenario": "TW03",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Vuelve al conjunto",
+      "spoken": "Aislamos visualmente las venas conservando el encuadre. Puedes girar y recuperar los planos para comprender las relaciones. La referencia anatómica y el modelo hemodinámico cumplen funciones diferentes; sus formas no constituyen una calibración individual.",
+      "tissues": [
+        "vein"
+      ],
+      "view": "anatomy",
+      "scenario": "TW03",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "detail"
+    }
+  ],
+  "explore": "/flebotwin?view=anatomy"
+}

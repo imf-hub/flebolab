@@ -1,0 +1,64 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "CEAP-C3",
+  "group": "vision",
+  "title": "Edema y contexto clínico",
+  "objective": "Reconoce por qué el edema requiere exploración y evaluación de causa.",
+  "sourceIds": [
+    "ceap2020",
+    "esvs2022",
+    "tricvi"
+  ],
+  "stages": [
+    {
+      "title": "La clase del depósito",
+      "spoken": "La clase tres describe edema en el contexto de la clasificación venosa. Estos ejemplos conservan esa etiqueta. El contorno en una fotografía no permite confirmar por sí solo edema ni demostrar su causa.",
+      "clinicalClass": "C3",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Observa sin concluir de más",
+      "spoken": "Describe simetría, distribución y lo que queda fuera del encuadre. La presencia de aumento de volumen puede requerir historia, exploración y estudio de otras causas; no todos los miembros hinchados tienen la misma etiología.",
+      "clinicalClass": "C3",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Exploración necesaria",
+      "spoken": "La evaluación directa permite comprobar hallazgos y relacionarlos con su evolución. Los datos venosos se interpretan junto al resto del contexto. La imagen no contiene esa entrevista ni sustituye una exploración física.",
+      "clinicalClass": "C3",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Una pregunta clínica",
+      "spoken": "Antes de atribuir el edema a enfermedad venosa, identifica qué información falta. La tarea educativa es formular una descripción y una necesidad de evaluación; no asignar una causa automática desde el aspecto de la fotografía.",
+      "clinicalClass": "C3",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebovision?class=C3"
+}

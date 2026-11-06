@@ -1,0 +1,789 @@
+{
+  "id": "TW03",
+  "request": {
+    "id": "TW03",
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "language": "es",
+    "inputType": "ssml",
+    "text": "<speak>Localiza la rama profunda y la envoltura muscular ilustrativa. El modelo conserva sangre dentro de sus compartimentos. Las partículas son trazadores simbólicos: hacen visible el transporte sin representar la velocidad real de cada célula.<break time=\"0.9s\"/>La activación de la bomba aumenta. Mira la envoltura y sigue el ascenso de la curva de flujo. El cursor señala el mismo instante que utiliza la escena. La contracción visual y la lectura numérica pertenecen a una única solución.<break time=\"0.9s\"/>Al disminuir la activación, cambian las presiones y los flujos entre compartimentos. Observa la conexión entre los sistemas y evita asumir que todas las ramas se mueven siempre en el mismo sentido. La dirección está determinada por este cálculo.<break time=\"0.9s\"/>Revisamos un ciclo completo. Compara amplitud y forma de la onda, y después prueba una activación menor en Explorar. La contracción y las valvas son esquemas docentes; esta pieza no reproduce una biomecánica individual validada.</speak>",
+    "stages": [
+      "Localiza la rama profunda y la envoltura muscular ilustrativa. El modelo conserva sangre dentro de sus compartimentos. Las partículas son trazadores simbólicos: hacen visible el transporte sin representar la velocidad real de cada célula.",
+      "La activación de la bomba aumenta. Mira la envoltura y sigue el ascenso de la curva de flujo. El cursor señala el mismo instante que utiliza la escena. La contracción visual y la lectura numérica pertenecen a una única solución.",
+      "Al disminuir la activación, cambian las presiones y los flujos entre compartimentos. Observa la conexión entre los sistemas y evita asumir que todas las ramas se mueven siempre en el mismo sentido. La dirección está determinada por este cálculo.",
+      "Revisamos un ciclo completo. Compara amplitud y forma de la onda, y después prueba una activación menor en Explorar. La contracción y las valvas son esquemas docentes; esta pieza no reproduce una biomecánica individual validada."
+    ]
+  },
+  "requestId": "86ce1fa24ce74728b4de069582b8d0be",
+  "voice": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "duration": 59.376327,
+  "sha256": "6a60ad3316b48c3e0df0a8578b8041800182778355a058c98c94df4347e9fe59",
+  "word_timestamps": [
+    {
+      "word": "<start>",
+      "start": 0.0,
+      "end": 0.0
+    },
+    {
+      "word": "Localiza",
+      "start": 0.299,
+      "end": 0.8107
+    },
+    {
+      "word": "la",
+      "start": 0.853,
+      "end": 0.9387
+    },
+    {
+      "word": "rama",
+      "start": 0.981,
+      "end": 1.1947
+    },
+    {
+      "word": "profunda",
+      "start": 1.237,
+      "end": 1.749
+    },
+    {
+      "word": "y",
+      "start": 1.792,
+      "end": 1.877
+    },
+    {
+      "word": "la",
+      "start": 1.92,
+      "end": 1.9627
+    },
+    {
+      "word": "envoltura",
+      "start": 2.005,
+      "end": 2.432
+    },
+    {
+      "word": "muscular",
+      "start": 2.475,
+      "end": 2.7307
+    },
+    {
+      "word": "ilustrativa.",
+      "start": 2.901,
+      "end": 3.648
+    },
+    {
+      "word": "El",
+      "start": 3.797,
+      "end": 4.1387
+    },
+    {
+      "word": "modelo",
+      "start": 4.224,
+      "end": 4.437
+    },
+    {
+      "word": "conserva",
+      "start": 4.523,
+      "end": 4.992
+    },
+    {
+      "word": "sangre",
+      "start": 5.035,
+      "end": 5.4187
+    },
+    {
+      "word": "dentro",
+      "start": 5.504,
+      "end": 5.888
+    },
+    {
+      "word": "de",
+      "start": 5.931,
+      "end": 6.016
+    },
+    {
+      "word": "sus",
+      "start": 6.059,
+      "end": 6.144
+    },
+    {
+      "word": "compartimentos.",
+      "start": 6.187,
+      "end": 7.084
+    },
+    {
+      "word": "Las",
+      "start": 7.255,
+      "end": 7.383
+    },
+    {
+      "word": "partículas",
+      "start": 7.469,
+      "end": 7.938
+    },
+    {
+      "word": "son",
+      "start": 7.981,
+      "end": 8.066
+    },
+    {
+      "word": "trazadores",
+      "start": 8.109,
+      "end": 8.578
+    },
+    {
+      "word": "simbólicos:",
+      "start": 8.664,
+      "end": 9.325
+    },
+    {
+      "word": "hacen",
+      "start": 9.474,
+      "end": 9.9008
+    },
+    {
+      "word": "visible",
+      "start": 9.944,
+      "end": 10.1995
+    },
+    {
+      "word": "el",
+      "start": 10.328,
+      "end": 10.37
+    },
+    {
+      "word": "transporte",
+      "start": 10.413,
+      "end": 10.967
+    },
+    {
+      "word": "sin",
+      "start": 11.053,
+      "end": 11.266
+    },
+    {
+      "word": "representar",
+      "start": 11.309,
+      "end": 11.8208
+    },
+    {
+      "word": "la",
+      "start": 11.864,
+      "end": 11.9488
+    },
+    {
+      "word": "velocidad",
+      "start": 11.992,
+      "end": 12.418
+    },
+    {
+      "word": "real",
+      "start": 12.461,
+      "end": 12.6315
+    },
+    {
+      "word": "de",
+      "start": 12.845,
+      "end": 12.887
+    },
+    {
+      "word": "cada",
+      "start": 12.93,
+      "end": 13.1008
+    },
+    {
+      "word": "célula.",
+      "start": 13.186,
+      "end": 13.651
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 13.651,
+      "end": 14.551
+    },
+    {
+      "word": "La",
+      "start": 14.551,
+      "end": 14.85
+    },
+    {
+      "word": "activación",
+      "start": 14.892,
+      "end": 15.361
+    },
+    {
+      "word": "de",
+      "start": 15.404,
+      "end": 15.489
+    },
+    {
+      "word": "la",
+      "start": 15.532,
+      "end": 15.575000000000001
+    },
+    {
+      "word": "bomba",
+      "start": 15.617,
+      "end": 15.873000000000001
+    },
+    {
+      "word": "aumenta.",
+      "start": 15.959,
+      "end": 16.785
+    },
+    {
+      "word": "Mira",
+      "start": 17.055999999999997,
+      "end": 17.269
+    },
+    {
+      "word": "la",
+      "start": 17.311999999999998,
+      "end": 17.397
+    },
+    {
+      "word": "envoltura",
+      "start": 17.439999999999998,
+      "end": 17.909
+    },
+    {
+      "word": "y",
+      "start": 17.994999999999997,
+      "end": 18.165
+    },
+    {
+      "word": "sigue",
+      "start": 18.208,
+      "end": 18.549
+    },
+    {
+      "word": "el",
+      "start": 18.592,
+      "end": 18.634999999999998
+    },
+    {
+      "word": "ascenso",
+      "start": 18.677,
+      "end": 19.019
+    },
+    {
+      "word": "de",
+      "start": 19.104,
+      "end": 19.189999999999998
+    },
+    {
+      "word": "la",
+      "start": 19.232,
+      "end": 19.275
+    },
+    {
+      "word": "curva",
+      "start": 19.317999999999998,
+      "end": 19.573999999999998
+    },
+    {
+      "word": "de",
+      "start": 19.616,
+      "end": 19.701999999999998
+    },
+    {
+      "word": "flujo.",
+      "start": 19.744,
+      "end": 20.235
+    },
+    {
+      "word": "El",
+      "start": 20.427,
+      "end": 20.767999999999997
+    },
+    {
+      "word": "cursor",
+      "start": 20.811,
+      "end": 21.151999999999997
+    },
+    {
+      "word": "señala",
+      "start": 21.237,
+      "end": 21.621
+    },
+    {
+      "word": "el",
+      "start": 21.706999999999997,
+      "end": 21.877
+    },
+    {
+      "word": "mismo",
+      "start": 21.962999999999997,
+      "end": 22.261
+    },
+    {
+      "word": "instante",
+      "start": 22.304,
+      "end": 22.602999999999998
+    },
+    {
+      "word": "que",
+      "start": 22.773999999999997,
+      "end": 22.858999999999998
+    },
+    {
+      "word": "utiliza",
+      "start": 22.901999999999997,
+      "end": 23.157999999999998
+    },
+    {
+      "word": "la",
+      "start": 23.328,
+      "end": 23.371
+    },
+    {
+      "word": "escena.",
+      "start": 23.413999999999998,
+      "end": 23.883
+    },
+    {
+      "word": "La",
+      "start": 24.096,
+      "end": 24.438
+    },
+    {
+      "word": "contracción",
+      "start": 24.479999999999997,
+      "end": 24.948999999999998
+    },
+    {
+      "word": "visual",
+      "start": 24.991999999999997,
+      "end": 25.290999999999997
+    },
+    {
+      "word": "y",
+      "start": 25.461,
+      "end": 25.546999999999997
+    },
+    {
+      "word": "la",
+      "start": 25.589,
+      "end": 25.674999999999997
+    },
+    {
+      "word": "lectura",
+      "start": 25.717,
+      "end": 26.016
+    },
+    {
+      "word": "numérica",
+      "start": 26.058999999999997,
+      "end": 26.528
+    },
+    {
+      "word": "pertenecen",
+      "start": 26.570999999999998,
+      "end": 27.211
+    },
+    {
+      "word": "a",
+      "start": 27.253999999999998,
+      "end": 27.467
+    },
+    {
+      "word": "una",
+      "start": 27.509999999999998,
+      "end": 27.723
+    },
+    {
+      "word": "única",
+      "start": 27.766,
+      "end": 27.979
+    },
+    {
+      "word": "solución.",
+      "start": 28.107,
+      "end": 28.633999999999997
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 28.633999999999997,
+      "end": 29.534
+    },
+    {
+      "word": "Al",
+      "start": 29.534,
+      "end": 29.961
+    },
+    {
+      "word": "disminuir",
+      "start": 30.004,
+      "end": 30.473
+    },
+    {
+      "word": "la",
+      "start": 30.516,
+      "end": 30.601
+    },
+    {
+      "word": "activación,",
+      "start": 30.644,
+      "end": 31.412
+    },
+    {
+      "word": "cambian",
+      "start": 31.625,
+      "end": 31.881
+    },
+    {
+      "word": "las",
+      "start": 31.924,
+      "end": 32.052
+    },
+    {
+      "word": "presiones",
+      "start": 32.094,
+      "end": 32.649
+    },
+    {
+      "word": "y",
+      "start": 32.733999999999995,
+      "end": 32.948
+    },
+    {
+      "word": "los",
+      "start": 32.99,
+      "end": 33.076
+    },
+    {
+      "word": "flujos",
+      "start": 33.118,
+      "end": 33.46
+    },
+    {
+      "word": "entre",
+      "start": 33.545,
+      "end": 33.758
+    },
+    {
+      "word": "compartimentos.",
+      "start": 33.758,
+      "end": 34.782
+    },
+    {
+      "word": "Observa",
+      "start": 35.079,
+      "end": 35.463
+    },
+    {
+      "word": "la",
+      "start": 35.506,
+      "end": 35.549
+    },
+    {
+      "word": "conexión",
+      "start": 35.591,
+      "end": 36.018
+    },
+    {
+      "word": "entre",
+      "start": 36.061,
+      "end": 36.231
+    },
+    {
+      "word": "los",
+      "start": 36.274,
+      "end": 36.359
+    },
+    {
+      "word": "sistemas",
+      "start": 36.402,
+      "end": 36.829
+    },
+    {
+      "word": "y",
+      "start": 36.914,
+      "end": 37.085
+    },
+    {
+      "word": "evita",
+      "start": 37.127,
+      "end": 37.426
+    },
+    {
+      "word": "asumir",
+      "start": 37.469,
+      "end": 37.767
+    },
+    {
+      "word": "que",
+      "start": 37.853,
+      "end": 38.023
+    },
+    {
+      "word": "todas",
+      "start": 38.066,
+      "end": 38.45
+    },
+    {
+      "word": "las",
+      "start": 38.493,
+      "end": 38.621
+    },
+    {
+      "word": "ramas",
+      "start": 38.663,
+      "end": 38.962
+    },
+    {
+      "word": "se",
+      "start": 39.047,
+      "end": 39.133
+    },
+    {
+      "word": "mueven",
+      "start": 39.175,
+      "end": 39.303
+    },
+    {
+      "word": "siempre",
+      "start": 39.474,
+      "end": 39.943
+    },
+    {
+      "word": "en",
+      "start": 40.028999999999996,
+      "end": 40.157
+    },
+    {
+      "word": "el",
+      "start": 40.199,
+      "end": 40.242
+    },
+    {
+      "word": "mismo",
+      "start": 40.327,
+      "end": 40.541
+    },
+    {
+      "word": "sentido.",
+      "start": 40.583,
+      "end": 41.351
+    },
+    {
+      "word": "La",
+      "start": 41.693,
+      "end": 41.821
+    },
+    {
+      "word": "dirección",
+      "start": 41.863,
+      "end": 42.205
+    },
+    {
+      "word": "está",
+      "start": 42.247,
+      "end": 42.418
+    },
+    {
+      "word": "determinada",
+      "start": 42.461,
+      "end": 42.887
+    },
+    {
+      "word": "por",
+      "start": 43.015,
+      "end": 43.143
+    },
+    {
+      "word": "este",
+      "start": 43.186,
+      "end": 43.357
+    },
+    {
+      "word": "cálculo.",
+      "start": 43.399,
+      "end": 43.826
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 43.826,
+      "end": 44.726
+    },
+    {
+      "word": "Revisamos",
+      "start": 44.726,
+      "end": 45.238
+    },
+    {
+      "word": "un",
+      "start": 45.323,
+      "end": 45.409
+    },
+    {
+      "word": "ciclo",
+      "start": 45.451,
+      "end": 45.707
+    },
+    {
+      "word": "completo.",
+      "start": 45.75,
+      "end": 46.312
+    },
+    {
+      "word": "Compara",
+      "start": 46.576,
+      "end": 47.044999999999995
+    },
+    {
+      "word": "amplitud",
+      "start": 47.088,
+      "end": 47.513999999999996
+    },
+    {
+      "word": "y",
+      "start": 47.728,
+      "end": 47.812999999999995
+    },
+    {
+      "word": "forma",
+      "start": 47.855999999999995,
+      "end": 48.153999999999996
+    },
+    {
+      "word": "de",
+      "start": 48.196999999999996,
+      "end": 48.282
+    },
+    {
+      "word": "la",
+      "start": 48.324999999999996,
+      "end": 48.41
+    },
+    {
+      "word": "onda,",
+      "start": 48.452999999999996,
+      "end": 48.836999999999996
+    },
+    {
+      "word": "y",
+      "start": 48.964999999999996,
+      "end": 49.221
+    },
+    {
+      "word": "después",
+      "start": 49.263999999999996,
+      "end": 49.605
+    },
+    {
+      "word": "prueba",
+      "start": 49.647999999999996,
+      "end": 49.989
+    },
+    {
+      "word": "una",
+      "start": 50.032,
+      "end": 50.202
+    },
+    {
+      "word": "activación",
+      "start": 50.245,
+      "end": 50.714
+    },
+    {
+      "word": "menor",
+      "start": 50.8,
+      "end": 51.056
+    },
+    {
+      "word": "en",
+      "start": 51.184,
+      "end": 51.269
+    },
+    {
+      "word": "Explorar.",
+      "start": 51.312,
+      "end": 52.144
+    },
+    {
+      "word": "La",
+      "start": 52.506,
+      "end": 52.72
+    },
+    {
+      "word": "contracción",
+      "start": 52.762,
+      "end": 53.317
+    },
+    {
+      "word": "y",
+      "start": 53.36,
+      "end": 53.402
+    },
+    {
+      "word": "las",
+      "start": 53.445,
+      "end": 53.53
+    },
+    {
+      "word": "valvas",
+      "start": 53.573,
+      "end": 53.957
+    },
+    {
+      "word": "son",
+      "start": 54.042,
+      "end": 54.213
+    },
+    {
+      "word": "esquemas",
+      "start": 54.256,
+      "end": 54.64
+    },
+    {
+      "word": "docentes;",
+      "start": 54.681999999999995,
+      "end": 55.257999999999996
+    },
+    {
+      "word": "esta",
+      "start": 55.364999999999995,
+      "end": 55.833999999999996
+    },
+    {
+      "word": "pieza",
+      "start": 55.876999999999995,
+      "end": 56.175999999999995
+    },
+    {
+      "word": "no",
+      "start": 56.260999999999996,
+      "end": 56.474
+    },
+    {
+      "word": "reproduce",
+      "start": 56.516999999999996,
+      "end": 56.943999999999996
+    },
+    {
+      "word": "una",
+      "start": 57.114,
+      "end": 57.285
+    },
+    {
+      "word": "biomecánica",
+      "start": 57.327999999999996,
+      "end": 57.839999999999996
+    },
+    {
+      "word": "individual",
+      "start": 57.967999999999996,
+      "end": 58.394
+    },
+    {
+      "word": "validada.",
+      "start": 58.522,
+      "end": 59.14575736961451
+    },
+    {
+      "word": "<end>",
+      "start": 59.376326530612246,
+      "end": 59.376326530612246
+    }
+  ],
+  "review": "Exact normalized transcript and provider timestamps checked; independent auditory and medical approval are separate."
+}

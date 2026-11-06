@@ -1,0 +1,824 @@
+{
+  "id": "TW01",
+  "request": {
+    "id": "TW01",
+    "voiceId": "84854979e66846989bc6c5855f53268f",
+    "language": "es",
+    "inputType": "ssml",
+    "text": "<speak>En decúbito, el eje de esta red se aproxima a la horizontal. El azul representa la rama profunda y el violeta la superficial. Son cuatro compartimentos de un modelo docente; las separaciones y los colores permiten reconocer sus conexiones.<break time=\"0.9s\"/>Para interpretar el flujo debemos considerar tanto la presión como la altura. La curva muestra la presión distal calculada mientras actúa la bomba. La lectura cambia con el ciclo; una presión aislada no describe toda la dinámica de la red.<break time=\"0.9s\"/>Pasamos al perfil de bipedestación. La orientación y la carga gravitacional cambian; las unidades continúan siendo relativas. Mira la nueva curva y conserva la misma referencia antes de comparar. El resultado representa estas ecuaciones, no la presión de una persona.<break time=\"0.9s\"/>Regresamos al decúbito. Identifica qué cambió con la postura y qué permanece: las conexiones y la activación de la bomba. Al explorar, modifica una sola condición cada vez y relaciona la escena con la curva correspondiente.</speak>",
+    "stages": [
+      "En decúbito, el eje de esta red se aproxima a la horizontal. El azul representa la rama profunda y el violeta la superficial. Son cuatro compartimentos de un modelo docente; las separaciones y los colores permiten reconocer sus conexiones.",
+      "Para interpretar el flujo debemos considerar tanto la presión como la altura. La curva muestra la presión distal calculada mientras actúa la bomba. La lectura cambia con el ciclo; una presión aislada no describe toda la dinámica de la red.",
+      "Pasamos al perfil de bipedestación. La orientación y la carga gravitacional cambian; las unidades continúan siendo relativas. Mira la nueva curva y conserva la misma referencia antes de comparar. El resultado representa estas ecuaciones, no la presión de una persona.",
+      "Regresamos al decúbito. Identifica qué cambió con la postura y qué permanece: las conexiones y la activación de la bomba. Al explorar, modifica una sola condición cada vez y relaciona la escena con la curva correspondiente."
+    ]
+  },
+  "requestId": "3249f3c4071b47b7ad35f0d265b96d93",
+  "voice": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "duration": 59.924898,
+  "sha256": "0af8f78bcc1b15a3bdfeb3359e95b7b353caaf1a8beebbfad4f64bc7db44909c",
+  "word_timestamps": [
+    {
+      "word": "<start>",
+      "start": 0.0,
+      "end": 0.0
+    },
+    {
+      "word": "En",
+      "start": 0.299,
+      "end": 0.4267
+    },
+    {
+      "word": "decúbito,",
+      "start": 0.469,
+      "end": 1.024
+    },
+    {
+      "word": "el",
+      "start": 1.152,
+      "end": 1.365
+    },
+    {
+      "word": "eje",
+      "start": 1.408,
+      "end": 1.621
+    },
+    {
+      "word": "de",
+      "start": 1.664,
+      "end": 1.749
+    },
+    {
+      "word": "esta",
+      "start": 1.792,
+      "end": 1.9627
+    },
+    {
+      "word": "red",
+      "start": 2.005,
+      "end": 2.133
+    },
+    {
+      "word": "se",
+      "start": 2.219,
+      "end": 2.3467
+    },
+    {
+      "word": "aproxima",
+      "start": 2.389,
+      "end": 2.7307
+    },
+    {
+      "word": "a",
+      "start": 2.816,
+      "end": 2.859
+    },
+    {
+      "word": "la",
+      "start": 2.901,
+      "end": 2.944
+    },
+    {
+      "word": "horizontal.",
+      "start": 2.987,
+      "end": 3.669
+    },
+    {
+      "word": "El",
+      "start": 3.925,
+      "end": 4.1387
+    },
+    {
+      "word": "azul",
+      "start": 4.181,
+      "end": 4.437
+    },
+    {
+      "word": "representa",
+      "start": 4.565,
+      "end": 4.9067
+    },
+    {
+      "word": "la",
+      "start": 5.035,
+      "end": 5.077
+    },
+    {
+      "word": "rama",
+      "start": 5.12,
+      "end": 5.333
+    },
+    {
+      "word": "profunda",
+      "start": 5.376,
+      "end": 5.845
+    },
+    {
+      "word": "y",
+      "start": 5.931,
+      "end": 6.229
+    },
+    {
+      "word": "el",
+      "start": 6.272,
+      "end": 6.3147
+    },
+    {
+      "word": "violeta",
+      "start": 6.357,
+      "end": 6.656
+    },
+    {
+      "word": "la",
+      "start": 6.784,
+      "end": 6.8267
+    },
+    {
+      "word": "superficial.",
+      "start": 6.869,
+      "end": 7.551
+    },
+    {
+      "word": "Son",
+      "start": 7.72,
+      "end": 7.933
+    },
+    {
+      "word": "cuatro",
+      "start": 7.976,
+      "end": 8.2319
+    },
+    {
+      "word": "compartimentos",
+      "start": 8.275,
+      "end": 8.9146
+    },
+    {
+      "word": "de",
+      "start": 8.957,
+      "end": 9.043
+    },
+    {
+      "word": "un",
+      "start": 9.085,
+      "end": 9.1279
+    },
+    {
+      "word": "modelo",
+      "start": 9.171,
+      "end": 9.3839
+    },
+    {
+      "word": "docente;",
+      "start": 9.469,
+      "end": 10.067
+    },
+    {
+      "word": "las",
+      "start": 10.237,
+      "end": 10.4079
+    },
+    {
+      "word": "separaciones",
+      "start": 10.451,
+      "end": 11.0479
+    },
+    {
+      "word": "y",
+      "start": 11.091,
+      "end": 11.133
+    },
+    {
+      "word": "los",
+      "start": 11.176,
+      "end": 11.261
+    },
+    {
+      "word": "colores",
+      "start": 11.347,
+      "end": 11.7306
+    },
+    {
+      "word": "permiten",
+      "start": 11.859,
+      "end": 12.3706
+    },
+    {
+      "word": "reconocer",
+      "start": 12.413,
+      "end": 12.8826
+    },
+    {
+      "word": "sus",
+      "start": 12.925,
+      "end": 13.053
+    },
+    {
+      "word": "conexiones.",
+      "start": 13.096,
+      "end": 13.668
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 13.668,
+      "end": 14.568
+    },
+    {
+      "word": "Para",
+      "start": 14.568,
+      "end": 14.738999999999999
+    },
+    {
+      "word": "interpretar",
+      "start": 14.782,
+      "end": 15.251
+    },
+    {
+      "word": "el",
+      "start": 15.293999999999999,
+      "end": 15.336
+    },
+    {
+      "word": "flujo",
+      "start": 15.379,
+      "end": 15.719999999999999
+    },
+    {
+      "word": "debemos",
+      "start": 15.891,
+      "end": 16.317999999999998
+    },
+    {
+      "word": "considerar",
+      "start": 16.36,
+      "end": 16.744
+    },
+    {
+      "word": "tanto",
+      "start": 16.915,
+      "end": 17.128
+    },
+    {
+      "word": "la",
+      "start": 17.214,
+      "end": 17.299
+    },
+    {
+      "word": "presión",
+      "start": 17.342,
+      "end": 17.726
+    },
+    {
+      "word": "como",
+      "start": 17.854,
+      "end": 18.152
+    },
+    {
+      "word": "la",
+      "start": 18.195,
+      "end": 18.28
+    },
+    {
+      "word": "altura.",
+      "start": 18.323,
+      "end": 18.864
+    },
+    {
+      "word": "La",
+      "start": 19.105999999999998,
+      "end": 19.277
+    },
+    {
+      "word": "curva",
+      "start": 19.319,
+      "end": 19.575
+    },
+    {
+      "word": "muestra",
+      "start": 19.618,
+      "end": 19.959
+    },
+    {
+      "word": "la",
+      "start": 20.002,
+      "end": 20.087
+    },
+    {
+      "word": "presión",
+      "start": 20.13,
+      "end": 20.471
+    },
+    {
+      "word": "distal",
+      "start": 20.514,
+      "end": 20.855
+    },
+    {
+      "word": "calculada",
+      "start": 20.941,
+      "end": 21.367
+    },
+    {
+      "word": "mientras",
+      "start": 21.538,
+      "end": 21.837
+    },
+    {
+      "word": "actúa",
+      "start": 21.922,
+      "end": 22.262999999999998
+    },
+    {
+      "word": "la",
+      "start": 22.306,
+      "end": 22.349
+    },
+    {
+      "word": "bomba.",
+      "start": 22.391,
+      "end": 22.881999999999998
+    },
+    {
+      "word": "La",
+      "start": 23.117,
+      "end": 23.245
+    },
+    {
+      "word": "lectura",
+      "start": 23.287,
+      "end": 23.586
+    },
+    {
+      "word": "cambia",
+      "start": 23.628999999999998,
+      "end": 23.927
+    },
+    {
+      "word": "con",
+      "start": 23.97,
+      "end": 24.098
+    },
+    {
+      "word": "el",
+      "start": 24.141,
+      "end": 24.183
+    },
+    {
+      "word": "ciclo;",
+      "start": 24.226,
+      "end": 24.631
+    },
+    {
+      "word": "una",
+      "start": 24.695,
+      "end": 25.25
+    },
+    {
+      "word": "presión",
+      "start": 25.293,
+      "end": 25.591
+    },
+    {
+      "word": "aislada",
+      "start": 25.634,
+      "end": 26.061
+    },
+    {
+      "word": "no",
+      "start": 26.102999999999998,
+      "end": 26.230999999999998
+    },
+    {
+      "word": "describe",
+      "start": 26.274,
+      "end": 26.658
+    },
+    {
+      "word": "toda",
+      "start": 26.743,
+      "end": 27.085
+    },
+    {
+      "word": "la",
+      "start": 27.127,
+      "end": 27.169999999999998
+    },
+    {
+      "word": "dinámica",
+      "start": 27.213,
+      "end": 27.639
+    },
+    {
+      "word": "de",
+      "start": 27.682,
+      "end": 27.81
+    },
+    {
+      "word": "la",
+      "start": 27.852999999999998,
+      "end": 27.895
+    },
+    {
+      "word": "red.",
+      "start": 27.895,
+      "end": 28.12
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 28.12,
+      "end": 28.988
+    },
+    {
+      "word": "Pasamos",
+      "start": 28.988,
+      "end": 29.415
+    },
+    {
+      "word": "al",
+      "start": 29.458,
+      "end": 29.5
+    },
+    {
+      "word": "perfil",
+      "start": 29.543,
+      "end": 29.884
+    },
+    {
+      "word": "de",
+      "start": 29.97,
+      "end": 30.012
+    },
+    {
+      "word": "bipedestación.",
+      "start": 30.055,
+      "end": 30.994
+    },
+    {
+      "word": "La",
+      "start": 31.291999999999998,
+      "end": 31.463
+    },
+    {
+      "word": "orientación",
+      "start": 31.505,
+      "end": 32.016999999999996
+    },
+    {
+      "word": "y",
+      "start": 32.059999999999995,
+      "end": 32.144999999999996
+    },
+    {
+      "word": "la",
+      "start": 32.187999999999995,
+      "end": 32.230999999999995
+    },
+    {
+      "word": "carga",
+      "start": 32.272999999999996,
+      "end": 32.487
+    },
+    {
+      "word": "gravitacional",
+      "start": 32.528999999999996,
+      "end": 33.041
+    },
+    {
+      "word": "cambian;",
+      "start": 33.211999999999996,
+      "end": 33.788
+    },
+    {
+      "word": "las",
+      "start": 33.98,
+      "end": 34.150999999999996
+    },
+    {
+      "word": "unidades",
+      "start": 34.194,
+      "end": 34.45
+    },
+    {
+      "word": "continúan",
+      "start": 34.62,
+      "end": 35.089999999999996
+    },
+    {
+      "word": "siendo",
+      "start": 35.132,
+      "end": 35.388
+    },
+    {
+      "word": "relativas.",
+      "start": 35.431,
+      "end": 36.237
+    },
+    {
+      "word": "Mira",
+      "start": 36.531,
+      "end": 36.744
+    },
+    {
+      "word": "la",
+      "start": 36.787,
+      "end": 36.915
+    },
+    {
+      "word": "nueva",
+      "start": 36.958,
+      "end": 37.128
+    },
+    {
+      "word": "curva",
+      "start": 37.171,
+      "end": 37.47
+    },
+    {
+      "word": "y",
+      "start": 37.555,
+      "end": 37.64
+    },
+    {
+      "word": "conserva",
+      "start": 37.683,
+      "end": 38.067
+    },
+    {
+      "word": "la",
+      "start": 38.11,
+      "end": 38.238
+    },
+    {
+      "word": "misma",
+      "start": 38.28,
+      "end": 38.579
+    },
+    {
+      "word": "referencia",
+      "start": 38.664,
+      "end": 39.219
+    },
+    {
+      "word": "antes",
+      "start": 39.262,
+      "end": 39.646
+    },
+    {
+      "word": "de",
+      "start": 39.688,
+      "end": 39.731
+    },
+    {
+      "word": "comparar.",
+      "start": 39.774,
+      "end": 40.307
+    },
+    {
+      "word": "El",
+      "start": 40.456,
+      "end": 40.542
+    },
+    {
+      "word": "resultado",
+      "start": 40.583999999999996,
+      "end": 41.096
+    },
+    {
+      "word": "representa",
+      "start": 41.139,
+      "end": 41.566
+    },
+    {
+      "word": "estas",
+      "start": 41.694,
+      "end": 42.078
+    },
+    {
+      "word": "ecuaciones,",
+      "start": 42.12,
+      "end": 42.782
+    },
+    {
+      "word": "no",
+      "start": 42.931,
+      "end": 43.272
+    },
+    {
+      "word": "la",
+      "start": 43.315,
+      "end": 43.4
+    },
+    {
+      "word": "presión",
+      "start": 43.443,
+      "end": 43.742
+    },
+    {
+      "word": "de",
+      "start": 43.784,
+      "end": 43.87
+    },
+    {
+      "word": "una",
+      "start": 43.912,
+      "end": 44.04
+    },
+    {
+      "word": "persona.",
+      "start": 44.083,
+      "end": 44.45
+    },
+    {
+      "word": "<break time=\"0.9s\"/>",
+      "start": 44.45,
+      "end": 45.35
+    },
+    {
+      "word": "Regresamos",
+      "start": 45.35,
+      "end": 45.905
+    },
+    {
+      "word": "al",
+      "start": 45.948,
+      "end": 46.033
+    },
+    {
+      "word": "decúbito.",
+      "start": 46.118,
+      "end": 46.769
+    },
+    {
+      "word": "Identifica",
+      "start": 46.992000000000004,
+      "end": 47.504
+    },
+    {
+      "word": "qué",
+      "start": 47.632,
+      "end": 47.846000000000004
+    },
+    {
+      "word": "cambió",
+      "start": 47.888,
+      "end": 48.187
+    },
+    {
+      "word": "con",
+      "start": 48.230000000000004,
+      "end": 48.315
+    },
+    {
+      "word": "la",
+      "start": 48.358000000000004,
+      "end": 48.443
+    },
+    {
+      "word": "postura",
+      "start": 48.486000000000004,
+      "end": 48.955
+    },
+    {
+      "word": "y",
+      "start": 48.998,
+      "end": 49.169000000000004
+    },
+    {
+      "word": "qué",
+      "start": 49.211,
+      "end": 49.425000000000004
+    },
+    {
+      "word": "permanece:",
+      "start": 49.467,
+      "end": 50.171
+    },
+    {
+      "word": "las",
+      "start": 50.406,
+      "end": 50.534
+    },
+    {
+      "word": "conexiones",
+      "start": 50.577,
+      "end": 51.217
+    },
+    {
+      "word": "y",
+      "start": 51.302,
+      "end": 51.387
+    },
+    {
+      "word": "la",
+      "start": 51.43,
+      "end": 51.473
+    },
+    {
+      "word": "activación",
+      "start": 51.515,
+      "end": 51.985
+    },
+    {
+      "word": "de",
+      "start": 52.027,
+      "end": 52.113
+    },
+    {
+      "word": "la",
+      "start": 52.155,
+      "end": 52.198
+    },
+    {
+      "word": "bomba.",
+      "start": 52.241,
+      "end": 52.945
+    },
+    {
+      "word": "Al",
+      "start": 53.435,
+      "end": 53.52
+    },
+    {
+      "word": "explorar,",
+      "start": 53.563,
+      "end": 54.246
+    },
+    {
+      "word": "modifica",
+      "start": 54.459,
+      "end": 54.843
+    },
+    {
+      "word": "una",
+      "start": 55.014,
+      "end": 55.355000000000004
+    },
+    {
+      "word": "sola",
+      "start": 55.398,
+      "end": 55.611000000000004
+    },
+    {
+      "word": "condición",
+      "start": 55.654,
+      "end": 56.123
+    },
+    {
+      "word": "cada",
+      "start": 56.208,
+      "end": 56.379
+    },
+    {
+      "word": "vez",
+      "start": 56.507,
+      "end": 56.678000000000004
+    },
+    {
+      "word": "y",
+      "start": 56.849000000000004,
+      "end": 57.147
+    },
+    {
+      "word": "relaciona",
+      "start": 57.19,
+      "end": 57.702
+    },
+    {
+      "word": "la",
+      "start": 57.745,
+      "end": 57.787
+    },
+    {
+      "word": "escena",
+      "start": 57.83,
+      "end": 58.129
+    },
+    {
+      "word": "con",
+      "start": 58.171,
+      "end": 58.299
+    },
+    {
+      "word": "la",
+      "start": 58.342,
+      "end": 58.385
+    },
+    {
+      "word": "curva",
+      "start": 58.427,
+      "end": 58.683
+    },
+    {
+      "word": "correspondiente.",
+      "start": 58.726,
+      "end": 59.682
+    },
+    {
+      "word": "<end>",
+      "start": 59.924897959183674,
+      "end": 59.924897959183674
+    }
+  ],
+  "review": "Exact normalized transcript and provider timestamps checked; independent auditory and medical approval are separate."
+}

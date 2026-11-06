@@ -1,0 +1,67 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP03",
+  "group": "doppler",
+  "title": "Encuentra la línea base",
+  "objective": "Encuentra la referencia cero antes de leer una onda.",
+  "sourceIds": [
+    "dicom",
+    "dopplerphysics"
+  ],
+  "stages": [
+    {
+      "title": "Una referencia común",
+      "spoken": "La línea base indica la referencia cero del registro. El trazo sintético se muestra sobre una cuadrícula temporal. Antes de comparar signos o amplitudes, identifica el cero y las unidades de presentación.",
+      "values": {
+        "baseline": 0,
+        "scale": 50
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Desplaza la línea base",
+      "spoken": "Ahora cambia la posición de esa referencia en pantalla. La demostración desplaza el conjunto de la presentación; no añade una nueva alteración fisiológica. Sigue la onda respecto del cero, no respecto del borde del visor.",
+      "values": {
+        "baseline": 30,
+        "scale": 50
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Otra posición",
+      "spoken": "Situamos la línea base en el otro sentido. La lectura debe seguir utilizando la referencia visible. La forma de una captura y su encuadre pueden modificar la impresión que produce una misma señal.",
+      "values": {
+        "baseline": -25,
+        "scale": 50
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Interpretación completa",
+      "spoken": "Regresamos al centro. En un registro clínico, conserva metadatos, escala y referencia antes de comparar con otro estudio. Esta curva es sintética y no representa una medición de un paciente.",
+      "values": {
+        "baseline": 0,
+        "scale": 50
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP03"
+}

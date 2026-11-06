@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW06",
+  "group": "twin",
+  "title": "Cómo se representa una fuga",
+  "objective": "Relaciona conductancia inversa, defecto ilustrativo de coaptación y flujo con signo.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Una condición diferente",
+      "spoken": "Este perfil permite conductancia inversa en la rama. El defecto de coaptación representa esa condición del modelo. No es una medida de lesión anatómica ni un grado clínico de insuficiencia. Mira cómo se conserva la inserción de las valvas.",
+      "scenario": "TW06",
+      "view": "valve",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "section"
+    },
+    {
+      "title": "Durante la eyección",
+      "spoken": "Primero observamos el flujo positivo. La apertura acompaña la onda, igual que en el perfil competente. La diferencia entre ambos perfiles no debe juzgarse únicamente por una imagen de las valvas abiertas.",
+      "scenario": "TW06",
+      "view": "valve",
+      "phase": [
+        0,
+        0.25
+      ],
+      "shot": "detail"
+    },
+    {
+      "title": "Inversión calculada",
+      "spoken": "Durante la fase siguiente aparece flujo negativo. La curva pasa bajo cero y los trazadores invierten el sentido. Esos tres elementos describen el mismo instante. Una inversión del modelo no sustituye la medición clínica de duración y condiciones de provocación.",
+      "scenario": "TW06",
+      "view": "valve",
+      "phase": [
+        0.38,
+        0.5
+      ],
+      "shot": "detail"
+    },
+    {
+      "title": "Referencia competente",
+      "spoken": "Compara ahora con la rama competente: bajo estas condiciones el flujo inverso queda bloqueado. Conserva la misma orientación y observa el ciclo completo. En Explorar puedes abrir la comparación simultánea para contrastar ambos resultados.",
+      "scenario": "TW05",
+      "view": "valve",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW06"
+}

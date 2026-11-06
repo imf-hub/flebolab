@@ -1,0 +1,66 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP06",
+  "group": "doppler",
+  "title": "Aliasing: un límite del muestreo",
+  "objective": "Reconoce el límite de Nyquist y el plegamiento de una señal pulsada.",
+  "sourceIds": [
+    "dopplerphysics"
+  ],
+  "stages": [
+    {
+      "title": "Señal y muestreo",
+      "spoken": "El Doppler pulsado representa una señal dentro de un intervalo determinado por la frecuencia de repetición de pulsos. Las líneas señalan el límite de Nyquist. Distinguimos la señal impuesta de la que puede mostrarse dentro de ese intervalo.",
+      "values": {
+        "prf": 2000,
+        "shift": 800
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Aparece el plegamiento",
+      "spoken": "Reducimos la frecuencia de repetición manteniendo el desplazamiento original. La señal supera el límite y se representa plegada al otro lado. Ese signo mostrado no demuestra por sí mismo una inversión física del flujo.",
+      "values": {
+        "prf": 1000,
+        "shift": 800
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Recupera el intervalo",
+      "spoken": "Al aumentar de nuevo el rango de muestreo, la misma señal puede representarse sin ese plegamiento. En una adquisición real existen restricciones relacionadas con profundidad y configuración; no todo ajuste puede modificarse libremente.",
+      "values": {
+        "prf": 3000,
+        "shift": 800
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Distingue los fenómenos",
+      "spoken": "Compara la señal original, el límite y el valor representado. Aliasing, inversión del mapa y cambio verdadero de dirección son fenómenos diferentes. Este ejemplo usa valores sintéticos para hacer visible esa distinción.",
+      "values": {
+        "prf": 1000,
+        "shift": 800
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP06"
+}

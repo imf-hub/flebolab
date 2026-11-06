@@ -1,4 +1,8 @@
-# Iteración ejecutada 0.11 — 6 noviembre 2026
+# Iteración actual 0.12 — 6 noviembre 2026
+
+Se implementó el aula visual de 31 piezas y 124 tomas, con mejoras de geometría, cámara, curvas y lectura de medios. Once tienen voz aceptada y veinte funcionan como guías visuales animadas sin voz; la continuación de la síntesis requiere resolver la confirmación solicitada tras un fallo del proveedor. La cobertura y los pendientes están en [AUDITORIA_ANIMACIONES_0.12.md](AUDITORIA_ANIMACIONES_0.12.md) y el método de mantenimiento en [GUIA_PRODUCCION_ANIMACIONES.md](GUIA_PRODUCCION_ANIMACIONES.md).
+
+## Iteración anterior 0.11
 
 Se añadieron la disposición de Twin con 3D/curvas/ajustes simultáneos y el recorrido educativo CEAP 2020 de Vision. El alcance, la secuencia, el contraste médico y las verificaciones están en [UX_0.11.md](UX_0.11.md). Se mantiene GitHub Pages y la identidad blanca/roja IMF.
 

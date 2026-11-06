@@ -1,0 +1,64 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "CEAP-C6",
+  "group": "vision",
+  "title": "Úlcera activa y recurrencia",
+  "objective": "Distingue herida visible, atribución venosa y antecedentes de recurrencia.",
+  "sourceIds": [
+    "ceap2020",
+    "esvs2022",
+    "tricvi"
+  ],
+  "stages": [
+    {
+      "title": "La herida y su causa",
+      "spoken": "La clase seis corresponde a úlcera venosa activa. La pérdida de continuidad de la piel puede verse en una imagen, pero su causa venosa exige evaluación. No toda herida del tobillo tiene la misma etiología.",
+      "clinicalClass": "C6",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Describe lo observable",
+      "spoken": "Observa distribución y características visibles sin deducir la causa desde el color. Las fotografías conservan sus etiquetas de origen y no incluyen una valoración clínica completa ni un plan de tratamiento.",
+      "clinicalClass": "C6",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Recurrencia documentada",
+      "spoken": "El modificador de recurrencia requiere antecedentes. No puede inferirse automáticamente por el tamaño o aspecto de la herida. La revisión de dos mil veinte distingue esa información del hallazgo de una úlcera activa.",
+      "clinicalClass": "C6",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Integra el caso",
+      "spoken": "La descripción clínica se completa con historia, exploración y los estudios correspondientes. Los ejemplos sirven para aprender a observar y preguntar. No permiten indicar un tratamiento ni predecir cicatrización desde la pantalla.",
+      "clinicalClass": "C6",
+      "subclass": null,
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebovision?class=C6"
+}

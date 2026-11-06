@@ -1,0 +1,69 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP07",
+  "group": "doppler",
+  "title": "Tiempo, evento y maniobra",
+  "objective": "Relaciona una señal temporal con el evento que la provoca.",
+  "sourceIds": [
+    "uipduplex1",
+    "ksp2023",
+    "dicom",
+    "asa"
+  ],
+  "stages": [
+    {
+      "title": "Sitúa el evento",
+      "spoken": "Una onda temporal necesita una referencia del evento que la acompaña. El marcador señala una maniobra ilustrativa y el área destaca el intervalo que queremos observar. El tiempo se lee en el eje horizontal.",
+      "values": {
+        "eventTime": 2,
+        "duration": 0.8
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "El momento importa",
+      "spoken": "Desplazamos el evento y conservamos la duración del intervalo. No hemos creado una nueva velocidad de la sangre; estamos mostrando cómo cambia la relación temporal dentro del registro docente.",
+      "values": {
+        "eventTime": 3.5,
+        "duration": 0.8
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Delimita el intervalo",
+      "spoken": "Ahora cambia la duración representada. El inicio y el final deben colocarse según el fenómeno y su adquisición, no por la anchura aparente de una captura. Esta demostración no asigna una clase clínica.",
+      "values": {
+        "eventTime": 2,
+        "duration": 1.2
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Documenta condiciones",
+      "spoken": "Recuperamos la referencia inicial. Un informe útil relaciona señal, segmento, postura y maniobra. La interpretación de reflujo requiere el protocolo y el territorio correspondientes, además de medir correctamente el tiempo.",
+      "values": {
+        "eventTime": 2,
+        "duration": 0.8
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP07"
+}

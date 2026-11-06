@@ -1,0 +1,72 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DP05",
+  "group": "doppler",
+  "title": "El papel del ángulo Doppler",
+  "objective": "Comprende la dependencia angular de la ecuación Doppler ideal.",
+  "sourceIds": [
+    "uipduplex1",
+    "dopplerphysics",
+    "asa"
+  ],
+  "stages": [
+    {
+      "title": "Ángulo y proyección",
+      "spoken": "La ecuación Doppler incluye el coseno del ángulo entre haz y movimiento. El esquema muestra esa relación geométrica y una señal ilustrativa. No es una medición cuantitativa de un vaso adquirido.",
+      "values": {
+        "angle": 30,
+        "frequency": 5,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Hacia la perpendicular",
+      "spoken": "Al aproximar el haz a la perpendicular, disminuye la componente proyectada. Esa dependencia también aumenta la sensibilidad de una estimación a errores de orientación. La corrección angular requiere definir adecuadamente el eje del flujo.",
+      "values": {
+        "angle": 85,
+        "frequency": 5,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Frecuencia de emisión",
+      "spoken": "Cambiamos la frecuencia de emisión en la ecuación ideal y mantenemos la velocidad. Varía el desplazamiento Doppler, no la velocidad física impuesta. Frecuencia, ángulo y velocidad tienen papeles distintos.",
+      "values": {
+        "angle": 45,
+        "frequency": 8,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    },
+    {
+      "title": "Lee la adquisición",
+      "spoken": "Recuperamos las condiciones iniciales. Antes de usar una cifra clínica, revisa orientación, volumen de muestra y ajustes pertinentes. Esta demostración explica una relación matemática, no certifica la calibración de un equipo.",
+      "values": {
+        "angle": 30,
+        "frequency": 5,
+        "velocity": 20
+      },
+      "shot": "overview",
+      "phase": [
+        0,
+        1
+      ]
+    }
+  ],
+  "explore": "/flebodus?tab=doppler&lesson=DP05"
+}

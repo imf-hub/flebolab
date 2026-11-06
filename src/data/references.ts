@@ -37,10 +37,10 @@ export const controversies = [
     id: "perforantes",
     title:
       "Perforantes: dirección, duración y diámetro son criterios distintos",
-    text: "ESVS recoge la variación entre >0,35 y >0,5 s para flujo hacia afuera. SVS/AVF/AVLS define una perforante patológica en pacientes C2 por flujo exterior >0,5 s y diámetro >3,5 mm. No son definiciones universales de toda perforante ni una indicación de tratamiento por sí solas.",
+    text: "ESVS recoge la variación entre >0,35 y >0,5 s para flujo hacia afuera. SVS/AVF/AVLS Parte II (2023) emplea flujo exterior >0,5 s y diámetro >3,5 mm para una perforante patológica en C2. La Parte I (2022) redactó este criterio con ≥0,5 s y ≥3,5 mm; esta app adopta la notación de 2023 y explicita la diferencia en el límite. No son definiciones universales de toda perforante ni una indicación de tratamiento por sí solas.",
     consequence:
       "Declarar el protocolo usado, la clase clínica y las condiciones de medición; no aplicar estos cortes a una fotografía ni a un esquema sin calibración.",
-    refs: ["esvs2022", "svs2023"],
+    refs: ["esvs2022", "svs2022", "svs2023"],
   },
   {
     id: "ceap",

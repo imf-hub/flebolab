@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW03",
+  "group": "twin",
+  "title": "La bomba muscular en acción",
+  "objective": "Relaciona contracción, desplazamiento y curva temporal del mismo cálculo.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Antes de contraer",
+      "spoken": "Localiza la rama profunda y la envoltura muscular ilustrativa. El modelo conserva sangre dentro de sus compartimentos. Las partículas son trazadores simbólicos: hacen visible el transporte sin representar la velocidad real de cada célula.",
+      "scenario": "TW03",
+      "view": "flow",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Eyección",
+      "spoken": "La activación de la bomba aumenta. Mira la envoltura y sigue el ascenso de la curva de flujo. El cursor señala el mismo instante que utiliza la escena. La contracción visual y la lectura numérica pertenecen a una única solución.",
+      "scenario": "TW03",
+      "view": "flow",
+      "phase": [
+        0,
+        0.25
+      ],
+      "shot": "deep"
+    },
+    {
+      "title": "Relajación y relleno",
+      "spoken": "Al disminuir la activación, cambian las presiones y los flujos entre compartimentos. Observa la conexión entre los sistemas y evita asumir que todas las ramas se mueven siempre en el mismo sentido. La dirección está determinada por este cálculo.",
+      "scenario": "TW03",
+      "view": "flow",
+      "phase": [
+        0.25,
+        0.8
+      ],
+      "shot": "superficial"
+    },
+    {
+      "title": "Ciclo completo",
+      "spoken": "Revisamos un ciclo completo. Compara amplitud y forma de la onda, y después prueba una activación menor en Explorar. La contracción y las valvas son esquemas docentes; esta pieza no reproduce una biomecánica individual validada.",
+      "scenario": "TW03",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW03"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "TW04",
+  "audio": "/media/narration/tw04-edf0f09aeb44.mp3",
+  "vtt": "/media/narration/tw04-edf0f09aeb44.vtt",
+  "duration": 56.058776,
+  "sha256": "edf0f09aeb44c6cc73c7f8db90283e834ecfc87ecb22f8139d1c924c6a8d55c5",
+  "originalSha256": "d8713f397a8d81ad76d08e308fbd722ce6ac1d027d4eeed3abfd4c5ecd0b4ed1",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 11.969,
+      "end": 12.869
+    },
+    {
+      "index": 1,
+      "start": 12.869,
+      "speechEnd": 25.458000000000002,
+      "end": 26.326
+    },
+    {
+      "index": 2,
+      "start": 26.326,
+      "speechEnd": 41.724,
+      "end": 42.624
+    },
+    {
+      "index": 3,
+      "start": 42.624,
+      "speechEnd": 55.82355555555556,
+      "end": 56.058776
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 3.073,
+      "text": "El perfil utiliza una activación muscular reducida."
+    },
+    {
+      "start": 3.115,
+      "end": 6.367,
+      "text": "Reconoce primero la misma red y las mismas conexiones."
+    },
+    {
+      "start": 6.418,
+      "end": 12.119,
+      "text": "El propósito de la comparación es observar cómo cambian las ondas cuando modificamos una condición del modelo."
+    },
+    {
+      "start": 12.869,
+      "end": 14.614,
+      "text": "Sigue un ciclo de este perfil."
+    },
+    {
+      "start": 14.695,
+      "end": 20.134999999999998,
+      "text": "La amplitud y la distribución temporal del flujo deben leerse en la curva, junto al movimiento."
+    },
+    {
+      "start": 20.241,
+      "end": 25.608,
+      "text": "Una imagen detenida de un vaso no permite deducir la eficacia funcional de la bomba de una persona."
+    },
+    {
+      "start": 26.326,
+      "end": 29.355999999999998,
+      "text": "Mostramos ahora la bomba más activa."
+    },
+    {
+      "start": 29.569,
+      "end": 34.29599999999999,
+      "text": "La curva y la escena se reconstruyen con las condiciones de este segundo perfil."
+    },
+    {
+      "start": 34.415,
+      "end": 41.873999999999995,
+      "text": "Compara sus formas; no interpretes el retorno medio como una medida clínica, porque las entradas del modelo permanecen constantes."
+    },
+    {
+      "start": 42.624,
+      "end": 44.623,
+      "text": "Volvemos a la activación reducida."
+    },
+    {
+      "start": 44.701,
+      "end": 48.35,
+      "text": "Identifica el cambio observable antes de añadir otras variables."
+    },
+    {
+      "start": 48.498,
+      "end": 55.973555555555556,
+      "text": "La exploración permite repetir la comparación y ver cómo intervienen también las conexiones, la salida y la conductancia inversa."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Activación menor",
+      "text": "El perfil utiliza una activación muscular reducida. Reconoce primero la misma red y las mismas conexiones. El propósito de la comparación es observar cómo cambian las ondas cuando modificamos una condición del modelo."
+    },
+    {
+      "title": "Observa la onda",
+      "text": "Sigue un ciclo de este perfil. La amplitud y la distribución temporal del flujo deben leerse en la curva, junto al movimiento. Una imagen detenida de un vaso no permite deducir la eficacia funcional de la bomba de una persona."
+    },
+    {
+      "title": "Perfil de contraste",
+      "text": "Mostramos ahora la bomba más activa. La curva y la escena se reconstruyen con las condiciones de este segundo perfil. Compara sus formas; no interpretes el retorno medio como una medida clínica, porque las entradas del modelo permanecen constantes."
+    },
+    {
+      "title": "Compara con propósito",
+      "text": "Volvemos a la activación reducida. Identifica el cambio observable antes de añadir otras variables. La exploración permite repetir la comparación y ver cómo intervienen también las conexiones, la salida y la conductancia inversa."
+    }
+  ]
+}

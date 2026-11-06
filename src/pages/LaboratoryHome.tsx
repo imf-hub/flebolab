@@ -255,6 +255,10 @@ export default function LaboratoryHome() {
         </div>
       </section>
       <div className="home-footnote">
+        <Link className="button secondary" to="/aprender">
+          <Play size={14} />
+          Aula visual · 31 explicaciones guiadas
+        </Link>
         <span>DISEÑADO PARA EXPLORAR. FUNDAMENTADO PARA APRENDER.</span>
         <Link to="/bibliografia">
           La evidencia detrás de cada experiencia <MoveUpRight size={13} />

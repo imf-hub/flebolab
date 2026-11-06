@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW11",
+  "group": "twin",
+  "title": "Presión exterior y volumen",
+  "objective": "Relaciona presión transmural y respuesta del compartimento superficial.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Soporte externo",
+      "spoken": "Este perfil modifica la presión exterior del compartimento superficial. La representación señala el lugar de aplicación. El control es una condición docente sin calibración clínica y no prescribe una presión de compresión.",
+      "scenario": "TW11",
+      "view": "flow",
+      "phase": [
+        0,
+        0
+      ],
+      "shot": "superficial"
+    },
+    {
+      "title": "Mira el volumen",
+      "spoken": "Al cambiar la diferencia entre presión interna y externa, cambia el volumen calculado. La curva muestra el mismo compartimento que la escena. El calibre se utiliza para representar volumen a longitud fija, no como una medición ecográfica.",
+      "scenario": "TW11",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "superficial"
+    },
+    {
+      "title": "Presión no es receta",
+      "spoken": "El circuito permite separar presión, volumen y flujo. El soporte externo forma parte del contexto mecánico, pero la selección clínica de compresión requiere valoración y guías. Este modelo no calcula tallas, dosis de presión ni seguridad arterial.",
+      "scenario": "TW11",
+      "view": "circuit",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Explora una relación",
+      "spoken": "Recupera la red y observa otra vez el ciclo. Antes de mover el ajuste, predice la dirección del cambio de volumen. Contrasta luego tu predicción con la curva, manteniendo las demás condiciones.",
+      "scenario": "TW11",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW11"
+}

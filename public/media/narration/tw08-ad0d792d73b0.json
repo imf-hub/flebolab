@@ -1,0 +1,121 @@
+{
+  "id": "TW08",
+  "audio": "/media/narration/tw08-ad0d792d73b0.mp3",
+  "vtt": "/media/narration/tw08-ad0d792d73b0.vtt",
+  "duration": 50.703673,
+  "sha256": "ad0d792d73b0129b3c14e23b9833bc07bcad00d9aab88e411787d0bbdff02b82",
+  "originalSha256": "f352925565afb484b6b2d568b000ac487130d47aaa333f4d3b872be16d38b4d7",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 11.096,
+      "end": 11.996
+    },
+    {
+      "index": 1,
+      "start": 11.996,
+      "speechEnd": 24.488999999999997,
+      "end": 25.389
+    },
+    {
+      "index": 2,
+      "start": 25.389,
+      "speechEnd": 37.318999999999996,
+      "end": 38.219
+    },
+    {
+      "index": 3,
+      "start": 38.219,
+      "speechEnd": 50.47359410430838,
+      "end": 50.703673
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 3.5629999999999997,
+      "text": "La conexión verde tiene una conductancia menor en este perfil."
+    },
+    {
+      "start": 3.669,
+      "end": 7.124,
+      "text": "Su presencia sigue visible porque no estamos eliminando la anatomía."
+    },
+    {
+      "start": 7.124,
+      "end": 11.246,
+      "text": "Hemos cambiado una propiedad funcional de la red para observar sus consecuencias."
+    },
+    {
+      "start": 11.996,
+      "end": 16.04,
+      "text": "Sigue el intercambio calculado durante la contracción y la relajación."
+    },
+    {
+      "start": 16.156,
+      "end": 20.678999999999995,
+      "text": "El tamaño aparente de la línea no debe utilizarse como una medición de la vena."
+    },
+    {
+      "start": 20.720999999999997,
+      "end": 24.638999999999996,
+      "text": "La lectura numérica representa flujo relativo dentro de las ecuaciones."
+    },
+    {
+      "start": 25.389,
+      "end": 27.876999999999995,
+      "text": "Mostramos el perfil con mayor conexión."
+    },
+    {
+      "start": 27.974999999999998,
+      "end": 32.32699999999999,
+      "text": "Escena, lecturas y curva pertenecen ahora a esa solución."
+    },
+    {
+      "start": 32.412,
+      "end": 37.468999999999994,
+      "text": "Compara las condiciones y la onda, sin atribuir al cambio una mejoría clínica automática."
+    },
+    {
+      "start": 38.218999999999994,
+      "end": 40.833999999999996,
+      "text": "Volvemos a la conexión menos conductora."
+    },
+    {
+      "start": 40.92999999999999,
+      "end": 44.556999999999995,
+      "text": "Los compartimentos y la regla de conservación siguen presentes."
+    },
+    {
+      "start": 44.769999999999996,
+      "end": 50.62359410430838,
+      "text": "En la exploración, cambia una condición y formula una predicción antes de observar el resultado."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Menor conductancia",
+      "text": "La conexión verde tiene una conductancia menor en este perfil. Su presencia sigue visible porque no estamos eliminando la anatomía. Hemos cambiado una propiedad funcional de la red para observar sus consecuencias."
+    },
+    {
+      "title": "Resultado del ciclo",
+      "text": "Sigue el intercambio calculado durante la contracción y la relajación. El tamaño aparente de la línea no debe utilizarse como una medición de la vena. La lectura numérica representa flujo relativo dentro de las ecuaciones."
+    },
+    {
+      "title": "Contraste controlado",
+      "text": "Mostramos el perfil con mayor conexión. Escena, lecturas y curva pertenecen ahora a esa solución. Compara las condiciones y la onda, sin atribuir al cambio una mejoría clínica automática."
+    },
+    {
+      "title": "Qué permanece",
+      "text": "Volvemos a la conexión menos conductora. Los compartimentos y la regla de conservación siguen presentes. En la exploración, cambia una condición y formula una predicción antes de observar el resultado."
+    }
+  ]
+}

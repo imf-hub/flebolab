@@ -1,0 +1,121 @@
+{
+  "id": "TW11",
+  "audio": "/media/narration/tw11-7db54fd4ae2e.mp3",
+  "vtt": "/media/narration/tw11-7db54fd4ae2e.vtt",
+  "duration": 55.536327,
+  "sha256": "7db54fd4ae2eb821d1014017409fc4f90ed0e6139e9718799429225dd6ccdf0c",
+  "originalSha256": "79823468217b2aab609c66121770ce11912213f98f1315d58c955664212ecb08",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 12.86,
+      "end": 13.76
+    },
+    {
+      "index": 1,
+      "start": 13.76,
+      "speechEnd": 27.217,
+      "end": 27.929
+    },
+    {
+      "index": 2,
+      "start": 27.929,
+      "speechEnd": 43.127,
+      "end": 44.027
+    },
+    {
+      "index": 3,
+      "start": 44.027,
+      "speechEnd": 55.307,
+      "end": 55.536327
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 4.3740000000000006,
+      "text": "Este perfil modifica la presión exterior del compartimento superficial."
+    },
+    {
+      "start": 4.565,
+      "end": 7.223,
+      "text": "La representación señala el lugar de aplicación."
+    },
+    {
+      "start": 7.223,
+      "end": 13.01,
+      "text": "El control es una condición docente sin calibración clínica y no prescribe una presión de compresión."
+    },
+    {
+      "start": 13.76,
+      "end": 18.550999999999995,
+      "text": "Al cambiar la diferencia entre presión interna y externa, cambia el volumen calculado."
+    },
+    {
+      "start": 18.604,
+      "end": 21.719999999999995,
+      "text": "La curva muestra el mismo compartimento que la escena."
+    },
+    {
+      "start": 21.846999999999998,
+      "end": 27.366999999999997,
+      "text": "El calibre se utiliza para representar volumen a longitud fija, no como una medición ecográfica."
+    },
+    {
+      "start": 27.929,
+      "end": 31.961999999999996,
+      "text": "El circuito permite separar presión, volumen y flujo."
+    },
+    {
+      "start": 32.025,
+      "end": 39.096000000000004,
+      "text": "El soporte externo forma parte del contexto mecánico, pero la selección clínica de compresión requiere valoración y guías."
+    },
+    {
+      "start": 39.211,
+      "end": 43.277,
+      "text": "Este modelo no calcula tallas, dosis de presión ni seguridad arterial."
+    },
+    {
+      "start": 44.027,
+      "end": 47.185,
+      "text": "Recupera la red y observa otra vez el ciclo."
+    },
+    {
+      "start": 47.227,
+      "end": 51.076,
+      "text": "Antes de mover el ajuste, predice la dirección del cambio de volumen."
+    },
+    {
+      "start": 51.127,
+      "end": 55.457,
+      "text": "Contrasta luego tu predicción con la curva, manteniendo las demás condiciones."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Soporte externo",
+      "text": "Este perfil modifica la presión exterior del compartimento superficial. La representación señala el lugar de aplicación. El control es una condición docente sin calibración clínica y no prescribe una presión de compresión."
+    },
+    {
+      "title": "Mira el volumen",
+      "text": "Al cambiar la diferencia entre presión interna y externa, cambia el volumen calculado. La curva muestra el mismo compartimento que la escena. El calibre se utiliza para representar volumen a longitud fija, no como una medición ecográfica."
+    },
+    {
+      "title": "Presión no es receta",
+      "text": "El circuito permite separar presión, volumen y flujo. El soporte externo forma parte del contexto mecánico, pero la selección clínica de compresión requiere valoración y guías. Este modelo no calcula tallas, dosis de presión ni seguridad arterial."
+    },
+    {
+      "title": "Explora una relación",
+      "text": "Recupera la red y observa otra vez el ciclo. Antes de mover el ajuste, predice la dirección del cambio de volumen. Contrasta luego tu predicción con la curva, manteniendo las demás condiciones."
+    }
+  ]
+}

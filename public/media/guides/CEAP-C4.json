@@ -1,0 +1,64 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "CEAP-C4",
+  "group": "vision",
+  "title": "Cambios cutáneos: las tres subclases",
+  "objective": "Distingue C4a, C4b y C4c conservando los límites de las fotos generales C4.",
+  "sourceIds": [
+    "ceap2020",
+    "esvs2022",
+    "tricvi"
+  ],
+  "stages": [
+    {
+      "title": "Cambios con contexto",
+      "spoken": "La clase cuatro reúne cambios cutáneos o subcutáneos secundarios a enfermedad venosa crónica. El banco conserva etiquetas generales de clase cuatro. Sus fotos no están reclasificadas como una subclase por esta aplicación.",
+      "clinicalClass": "C4",
+      "subclass": null,
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Pigmentación y eccema",
+      "spoken": "La subclase cuatro a incluye pigmentación o eccema. Describe localización, superficie y color, y conserva el contexto causal. El aspecto por sí solo no reemplaza la valoración que atribuye el cambio a enfermedad venosa.",
+      "clinicalClass": "C4",
+      "subclass": "C4a",
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Induración y atrofia blanca",
+      "spoken": "La subclase cuatro be incluye lipodermatosclerosis o atrofia blanca. Parte de la evaluación requiere exploración, como la induración. Una fotografía general del depósito no documenta automáticamente todos los criterios de esa subclase.",
+      "clinicalClass": "C4",
+      "subclass": "C4b",
+      "example": 0,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Corona flebectásica",
+      "spoken": "La revisión de dos mil veinte incorpora la corona flebectásica como cuatro ce. Es un patrón de pequeñas venas en abanico en tobillo y pie, distinto de una telangiectasia aislada. Conserva estas distinciones sin adjudicarlas automáticamente a los ejemplos.",
+      "clinicalClass": "C4",
+      "subclass": "C4c",
+      "example": 1,
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebovision?class=C4"
+}

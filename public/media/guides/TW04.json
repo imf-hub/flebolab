@@ -1,0 +1,60 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "TW04",
+  "group": "twin",
+  "title": "Qué cambia al reducir la bomba",
+  "objective": "Compara perfiles manteniendo explícita la condición que cambia.",
+  "sourceIds": [
+    "uiphemodynamics",
+    "esvs2022",
+    "keijsers2015"
+  ],
+  "stages": [
+    {
+      "title": "Activación menor",
+      "spoken": "El perfil utiliza una activación muscular reducida. Reconoce primero la misma red y las mismas conexiones. El propósito de la comparación es observar cómo cambian las ondas cuando modificamos una condición del modelo.",
+      "scenario": "TW04",
+      "view": "flow",
+      "phase": [
+        0,
+        0.2
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Observa la onda",
+      "spoken": "Sigue un ciclo de este perfil. La amplitud y la distribución temporal del flujo deben leerse en la curva, junto al movimiento. Una imagen detenida de un vaso no permite deducir la eficacia funcional de la bomba de una persona.",
+      "scenario": "TW04",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "deep"
+    },
+    {
+      "title": "Perfil de contraste",
+      "spoken": "Mostramos ahora la bomba más activa. La curva y la escena se reconstruyen con las condiciones de este segundo perfil. Compara sus formas; no interpretes el retorno medio como una medida clínica, porque las entradas del modelo permanecen constantes.",
+      "scenario": "TW03",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "deep"
+    },
+    {
+      "title": "Compara con propósito",
+      "spoken": "Volvemos a la activación reducida. Identifica el cambio observable antes de añadir otras variables. La exploración permite repetir la comparación y ver cómo intervienen también las conexiones, la salida y la conductancia inversa.",
+      "scenario": "TW04",
+      "view": "flow",
+      "phase": [
+        0,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebotwin?scenario=TW04"
+}

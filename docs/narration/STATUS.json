@@ -1,0 +1,21 @@
+{
+  "release": "0.12.0",
+  "date": "2026-11-06",
+  "planned": 31,
+  "accepted": 11,
+  "acceptedIds": ["TW01", "TW02", "TW03", "TW04", "TW05", "TW06", "TW07", "TW08", "TW09", "TW10", "TW11"],
+  "pending": ["TW12", "DP01", "DP02", "DP03", "DP04", "DP05", "DP06", "DP07", "DP08", "DP09", "DP10", "CEAP-C0", "CEAP-C1", "CEAP-C2", "CEAP-C3", "CEAP-C4", "CEAP-C5", "CEAP-C6", "AN01", "DC01"],
+  "incident": {
+    "lessonId": "TW12",
+    "result": "Transport failure without audio URL, provider request ID or timing response.",
+    "providerOutcome": "unknown",
+    "automaticRetries": 0,
+    "continuation": "Confirmation requested after the failure to avoid duplicate quota. No further synthesis without an answer."
+  },
+  "review": {
+    "exactTranscriptAndTimings": "verified for accepted responses",
+    "ffprobeDurationAndAudioStream": "verified for accepted files",
+    "completeHumanListening": "pending",
+    "independentClinicalApproval": "pending"
+  }
+}

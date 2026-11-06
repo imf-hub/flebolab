@@ -213,7 +213,10 @@ export default function CEAPExplorer() {
                     />
                     <span>
                       <b>Ejemplo {examples.indexOf(image) + 1}</b>
-                      <small>Etiqueta de origen {selected}</small>
+                      <small>
+                        {image.sourceCaseId} · vista {image.viewIndex} · origen{" "}
+                        {selected}
+                      </small>
                       <ArrowRight size={15} />
                     </span>
                   </Link>
@@ -227,8 +230,12 @@ export default function CEAPExplorer() {
                 <ArrowRight size={16} />
               </Link>
               <small className="ceap-origin-note">
-                TRICVI–C · Etiquetas conservadas del depósito. Abre una imagen
-                para ampliar, comparar o anotar.
+                TRICVI–C ·{" "}
+                {new Set(examples.map((i) => i.sourceCaseId)).size === 1
+                  ? "Dos vistas del mismo registro. "
+                  : ""}
+                Etiquetas conservadas del depósito. Abre una imagen para
+                ampliar, comparar o anotar.
               </small>
             </div>
           </section>

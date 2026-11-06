@@ -38,10 +38,13 @@ describe("recorrido docente CEAP 2020", () => {
     for (const lesson of clinicalClasses) {
       const examples = classExamples(lesson.id);
       expect(examples.length).toBe(2);
-      expect(new Set(examples.map((i) => i.sourceCaseId)).size).toBe(2);
+      expect(new Set(examples.map((i) => i.sourceCaseId)).size).toBe(
+        ["C5", "C6"].includes(lesson.id) ? 1 : 2,
+      );
+      expect(new Set(examples.map((i) => i.id)).size).toBe(2);
       for (const image of examples) {
         expect(image.ceap).toBe(lesson.id);
-        expect(image.viewIndex).toBe(1);
+        expect(image.viewIndex).toBeGreaterThan(0);
         expect(images.find((i) => i.id === image.id)).toBe(image);
       }
     }

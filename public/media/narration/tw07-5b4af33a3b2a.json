@@ -1,0 +1,121 @@
+{
+  "id": "TW07",
+  "audio": "/media/narration/tw07-5b4af33a3b2a.mp3",
+  "vtt": "/media/narration/tw07-5b4af33a3b2a.vtt",
+  "duration": 57.6,
+  "sha256": "5b4af33a3b2a715f945b9ce5df27bb171c484d5f8a74f264d0d48e05facf91c6",
+  "originalSha256": "c7f567aadf4c5a60c1a8d663becf711c158afbb8c46b16cf9d2e83bb93df3bf1",
+  "webPreparation": "MP3 mono 96 kbps; no speed or pitch processing",
+  "stages": [
+    {
+      "index": 0,
+      "start": 0,
+      "speechEnd": 14.774,
+      "end": 15.674
+    },
+    {
+      "index": 1,
+      "start": 15.674,
+      "speechEnd": 29.35,
+      "end": 30.068
+    },
+    {
+      "index": 2,
+      "start": 30.068,
+      "speechEnd": 42.452,
+      "end": 43.352
+    },
+    {
+      "index": 3,
+      "start": 43.352,
+      "speechEnd": 57.35671882086168,
+      "end": 57.6
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.299,
+      "end": 4.545,
+      "text": "La rama verde conecta los compartimentos distales superficial y profundo."
+    },
+    {
+      "start": 4.736,
+      "end": 10.452,
+      "text": "En anatomía, una vena perforante atraviesa la fascia; este circuito simplifica esa relación."
+    },
+    {
+      "start": 10.452,
+      "end": 14.924,
+      "text": "El color identifica la conexión y no establece por sí mismo su función clínica."
+    },
+    {
+      "start": 15.674,
+      "end": 19.892,
+      "text": "A lo largo del ciclo cambia la diferencia de potencial entre ambos lados."
+    },
+    {
+      "start": 20.012,
+      "end": 24.747999999999998,
+      "text": "La dirección del trazador y el valor con signo muestran el intercambio calculado."
+    },
+    {
+      "start": 24.876,
+      "end": 29.5,
+      "text": "No asumas que una flecha fija describe todas las fases o todas las perforantes."
+    },
+    {
+      "start": 30.068,
+      "end": 32.90599999999999,
+      "text": "El circuito hace explícita esa conexión."
+    },
+    {
+      "start": 32.968999999999994,
+      "end": 36.678999999999995,
+      "text": "Relaciona su valor con las presiones y los volúmenes de los nodos."
+    },
+    {
+      "start": 36.803,
+      "end": 42.602,
+      "text": "La comunicación está representada como un elemento de la red, sin reconstruir trayectos fasciales individuales."
+    },
+    {
+      "start": 43.352000000000004,
+      "end": 46.204,
+      "text": "Regresa a la vista espacial y repite el ciclo."
+    },
+    {
+      "start": 46.281000000000006,
+      "end": 51.999,
+      "text": "Para evaluar una perforante en clínica hacen falta localización, maniobras y dúplex."
+    },
+    {
+      "start": 52.254000000000005,
+      "end": 57.50671882086168,
+      "text": "Su existencia o su diámetro aislados no justifican una interpretación terapéutica."
+    }
+  ],
+  "voiceId": "84854979e66846989bc6c5855f53268f",
+  "voiceName": "Rocío - Calm & Trustworthy",
+  "engine": "orca",
+  "language": "es",
+  "playbackRate": 1,
+  "transcriptVerified": true,
+  "script": [
+    {
+      "title": "Localiza la conexión",
+      "text": "La rama verde conecta los compartimentos distales superficial y profundo. En anatomía, una vena perforante atraviesa la fascia; este circuito simplifica esa relación. El color identifica la conexión y no establece por sí mismo su función clínica."
+    },
+    {
+      "title": "Sigue el intercambio",
+      "text": "A lo largo del ciclo cambia la diferencia de potencial entre ambos lados. La dirección del trazador y el valor con signo muestran el intercambio calculado. No asumas que una flecha fija describe todas las fases o todas las perforantes."
+    },
+    {
+      "title": "Confirma en el circuito",
+      "text": "El circuito hace explícita esa conexión. Relaciona su valor con las presiones y los volúmenes de los nodos. La comunicación está representada como un elemento de la red, sin reconstruir trayectos fasciales individuales."
+    },
+    {
+      "title": "Del esquema a la evaluación",
+      "text": "Regresa a la vista espacial y repite el ciclo. Para evaluar una perforante en clínica hacen falta localización, maniobras y dúplex. Su existencia o su diámetro aislados no justifican una interpretación terapéutica."
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import { Link, useSearchParams } from "react-router-dom";
 import { BookOpen, Images, ArrowLeftRight } from "lucide-react";
 import { LabHeader } from "../../shared/UI";
 import CEAPExplorer from "./CEAPExplorer";
+import { clinicalClass } from "../../data/ceap";
 import "./learning.css";
 const Bank = lazy(() => import("./VisionBank"));
 export default function Vision() {
@@ -23,7 +24,15 @@ export default function Vision() {
             : "Comprende la clasificación. Observa con un propósito."
         }
         color="gold"
-      />
+      >
+        <Link
+          className="button secondary"
+          to={`/aprender/CEAP-${clinicalClass(query.get("class"))}`}
+        >
+          <BookOpen size={14} />
+          Explicación guiada
+        </Link>
+      </LabHeader>
       <nav
         className="container vision-mode-nav"
         aria-label="Actividad de FleboVision"

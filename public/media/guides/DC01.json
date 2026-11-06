@@ -1,0 +1,57 @@
+{
+  "version": "0.12",
+  "nature": "Guion y storyboard docente; no es una simulación clínicamente validada.",
+  "id": "DC01",
+  "group": "cine",
+  "title": "Observar una compresión real",
+  "objective": "Relaciona cuadros, maniobra, etiqueta de origen y alcance del estudio.",
+  "sourceIds": [
+    "uipduplex1",
+    "aium2026",
+    "esvsthrombosis2021",
+    "thrombus"
+  ],
+  "stages": [
+    {
+      "title": "Una adquisición real",
+      "spoken": "Este cine de compresión procede del conjunto público ThrombUS. Conservamos sus cuadros, dimensiones y tiempo de adquisición. La etiqueta del proveedor describe ese recurso; no equivale a una revisión diagnóstica independiente realizada por la aplicación.",
+      "clipId": "dus-cfv-001",
+      "phase": [
+        0,
+        0.15
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Sigue la maniobra",
+      "spoken": "Observa la respuesta de la estructura durante la compresión con el transductor. El segmento y el lado documentados ayudan a situar el recurso. La postura y la orientación no deben inventarse cuando el depósito no las informa.",
+      "clipId": "dus-cfv-001",
+      "phase": [
+        0.15,
+        0.65
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Pausa con propósito",
+      "spoken": "Detenemos un cuadro para describir lo visible. Una sola imagen no representa toda la maniobra ni un protocolo completo. El avance por cuadros permite volver a examinar la secuencia sin crear imágenes intermedias sintéticas.",
+      "clipId": "dus-cfv-001",
+      "phase": [
+        0.65,
+        0.65
+      ],
+      "shot": "overview"
+    },
+    {
+      "title": "Alcance y registro",
+      "spoken": "Revisamos el final del extracto. El estudio clínico integra anatomía, compresibilidad y otros hallazgos según el protocolo. Aquí el tiempo está documentado; las distancias y velocidades permanecen limitadas por la calibración espacial disponible.",
+      "clipId": "dus-cfv-001",
+      "phase": [
+        0.65,
+        1
+      ],
+      "shot": "overview"
+    }
+  ],
+  "explore": "/flebodus?case=dus-cfv-001"
+}
