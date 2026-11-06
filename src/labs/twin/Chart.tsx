@@ -17,6 +17,8 @@ export default function Chart({
   channel?: "deep" | "superficial";
 }) {
   const ref = useRef<HTMLDivElement>(null);
+  const click = useRef(onTime);
+  click.current = onTime;
   const field =
     channel === "superficial"
       ? metric === "flow"
@@ -28,6 +30,7 @@ export default function Chart({
   useEffect(() => {
     let active = true;
     let plot: any;
+    let observer: ResizeObserver | undefined;
     import("plotly.js-basic-dist-min").then((m) => {
       plot = m.default;
       if (!active || !ref.current) return;
@@ -53,7 +56,7 @@ export default function Chart({
             ]
           : []),
       ];
-      plot.newPlot(
+      const rendering = plot.newPlot(
         ref.current,
         data,
         {
@@ -66,8 +69,7 @@ export default function Chart({
             bordercolor: theme.line,
             font: { color: theme.ink },
           },
-          showlegend: !!b,
-          legend: { orientation: "h", x: 0, y: 1.18 },
+          showlegend: false,
           xaxis: {
             title: { text: "Tiempo del modelo (s)" },
             range: [0, a.period * 2],
@@ -80,15 +82,24 @@ export default function Chart({
             zerolinecolor: "#a5b0b8",
           },
           hovermode: "x unified",
+          autosize: true,
         },
         { responsive: true, displayModeBar: false },
       );
-      (ref.current as any).on("plotly_click", (e: any) =>
-        onTime(e.points[0].x),
-      );
+      Promise.resolve(rendering).then(() => {
+        if (!active || !ref.current) return;
+        (ref.current as any).on("plotly_click", (e: any) =>
+          click.current(e.points[0].x),
+        );
+        observer = new ResizeObserver(() => {
+          if (active && ref.current) plot.Plots.resize(ref.current);
+        });
+        observer.observe(ref.current);
+      });
     });
     return () => {
       active = false;
+      observer?.disconnect();
       if (plot && ref.current) plot.purge(ref.current);
     };
   }, [a, b, metric, channel]);

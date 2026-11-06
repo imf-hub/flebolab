@@ -6,6 +6,7 @@ import * as THREE from "three";
 import type { Solution } from "./model";
 import { integratedFlow, phaseAt, type FlowKey } from "./transport";
 import assets from "../../data/assets";
+import FitCamera from "./FitCamera";
 export type CameraPose = {
   owner: string;
   position: [number, number, number];
@@ -162,6 +163,7 @@ export default function ReferenceAnatomy({
             if (cameraPose) cameraPose.current.owner = sceneId;
           }}
         />
+        <FitCamera mode="anatomy" controls={controls} />
         {cameraPose && (
           <CameraSync pose={cameraPose} id={sceneId} controls={controls} />
         )}

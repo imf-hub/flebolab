@@ -46,7 +46,13 @@ export function useSolution(parameters: Parameters, enabled = true) {
     }, 70);
     return () => clearTimeout(pending);
   }, [parameters, enabled]);
-  return { solution, busy, error };
+  // Hide old readouts in the same render that receives new conditions.
+  const pending =
+    enabled &&
+    (Object.keys(parameters) as (keyof Parameters)[]).some(
+      (key) => solution.parameters[key] !== parameters[key],
+    );
+  return { solution, busy: busy || pending, error };
 }
 export function useModelClock(period: number, start = true) {
   const reduced =
@@ -54,6 +60,7 @@ export function useModelClock(period: number, start = true) {
     matchMedia("(prefers-reduced-motion: reduce)").matches;
   const [playing, setPlaying] = useState(start && !reduced),
     [time, setTime] = useState(0);
+  const [speed, setSpeed] = useState(1);
   const timeRef = useRef(0);
   const seek = useCallback(
     (value: number) => {
@@ -71,7 +78,7 @@ export function useModelClock(period: number, start = true) {
       const dt = Math.min(0.08, (now - last) / 1000);
       last = now;
       if (!document.hidden) {
-        timeRef.current = (timeRef.current + dt) % (period * 2);
+        timeRef.current = (timeRef.current + dt * speed) % (period * 2);
         if (now - draw > 45) {
           setTime(timeRef.current);
           draw = now;
@@ -81,6 +88,6 @@ export function useModelClock(period: number, start = true) {
     };
     frame = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(frame);
-  }, [period, playing]);
-  return { time, timeRef, seek, playing, setPlaying };
+  }, [period, playing, speed]);
+  return { time, timeRef, seek, playing, setPlaying, speed, setSpeed };
 }

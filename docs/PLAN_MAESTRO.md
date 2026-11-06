@@ -1,4 +1,8 @@
-> Versión vigente 0.10: [plan ejecutado](PLAN_INTERACTIVO_0.10.md) y [auditoría con publicación y pendientes](AUDITORIA_INTERACTIVA_0.10.md). La web se sirve desde GitHub Pages; el plan amplio siguiente conserva el alcance original y sus metas.
+# Iteración ejecutada 0.11 — 6 noviembre 2026
+
+Se añadieron la disposición de Twin con 3D/curvas/ajustes simultáneos y el recorrido educativo CEAP 2020 de Vision. El alcance, la secuencia, el contraste médico y las verificaciones están en [UX_0.11.md](UX_0.11.md). Se mantiene GitHub Pages y la identidad blanca/roja IMF.
+
+> Antecedente 0.10: [plan ejecutado](PLAN_INTERACTIVO_0.10.md) y [auditoría con publicación y pendientes](AUDITORIA_INTERACTIVA_0.10.md). La web se sirve desde GitHub Pages; el plan amplio siguiente conserva el alcance original y sus metas.
 
 # Plan maestro de FLEBO LAB para lanzamiento público
 

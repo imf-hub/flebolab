@@ -616,8 +616,9 @@ function Credits() {
           mantenimiento.
         </p>
         <p>
-          Identidad gráfica de la aplicación: marca tipográfica y símbolo
-          propios para este proyecto; no se presenta un sello de acreditación.
+          Identidad institucional: logotipos originales del Instituto Mexicano
+          de Flebología, en cabecera y pie. La marca del laboratorio no implica
+          acreditación ni validación clínica independiente del modelo.
         </p>
       </section>
     </>
@@ -636,7 +637,7 @@ function Guide() {
           [
             "01",
             "FleboTwin",
-            "Elige uno de los doce escenarios. Alterna anatomía, red de flujo, válvula y circuito. Reproduce el ciclo y observa el cursor en las curvas. En Parámetros puedes variar una condición; Comparar añade un segundo escenario.",
+            "Elige un experimento y alterna Red y flujo, Válvula, Anatomía o Circuito. En escritorio el 3D, las curvas y los Ajustes permanecen juntos. Usa Contracción, Relajación o Flujo inverso para detener el ciclo; Comparar A/B añade un segundo perfil.",
             "/flebotwin",
           ],
           [
@@ -648,7 +649,7 @@ function Guide() {
           [
             "03",
             "FleboVision",
-            "Filtra fotografías por clase del depósito. Amplía con rueda o controles, mueve la imagen y compara dos o cuatro vistas. Las flechas y puntos de anotación se mantienen asociados al recurso.",
+            "Empieza en Aprender CEAP 2020: elige C0–C6, distingue los dominios C/E/A/P y comprueba lo aprendido. Abre los ejemplos en el Banco de imágenes para ampliar, anotar y comparar dos o cuatro vistas. Las etiquetas de origen se conservan.",
             "/flebovision",
           ],
         ].map(([n, t, p, u]) => (
@@ -705,7 +706,7 @@ function Release() {
   return (
     <>
       <PageHead
-        eyebrow="VERSIÓN 0.10.1 / 6 DE NOVIEMBRE DE 2026"
+        eyebrow="VERSIÓN 0.11.0 / 6 DE NOVIEMBRE DE 2026"
         title="Un laboratorio abierto, con alcance explícito."
         body="Versión de revisión profesional publicada desde GitHub. Tres laboratorios interactivos con fuentes visibles."
       />
@@ -717,6 +718,11 @@ function Release() {
               Doce escenarios de FleboTwin que abren su vista correspondiente:
               red de flujo, válvula, anatomía independiente o circuito; curvas,
               parámetros y comparación sincronizados.
+            </li>
+            <li>
+              Twin reúne 3D, curvas y ajustes en una pantalla de escritorio;
+              paradas en contracción, relajación y flujo inverso calculados,
+              velocidad ajustable y encuadre según el tamaño del visor.
             </li>
             <li>
               Anatomía BodyParts3D con 12 estructuras y diez ilustraciones
@@ -733,6 +739,11 @@ function Release() {
             <li>
               96 fotografías,71 carpetas de caso y12 parejas térmicas;
               comparación de dos o cuatro imágenes y anotaciones.
+            </li>
+            <li>
+              Vision abre una guía interactiva CEAP 2020: C0–C6, C4a/b/c,
+              recurrencia, dominios C/E/A/P y seis preguntas con explicación y
+              referencia documental.
             </li>
             <li>
               Doce recorridos, 33 conceptos, 18 láminas y seis animaciones

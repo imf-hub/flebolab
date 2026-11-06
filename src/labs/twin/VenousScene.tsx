@@ -15,6 +15,7 @@ import type { Solution } from "./model";
 import { integratedFlow, phaseAt, sampleAt, type FlowKey } from "./transport";
 import type { Focus } from "./scenarioConfig";
 import ReferenceAnatomy from "./ReferenceAnatomy";
+import FitCamera from "./FitCamera";
 export type CameraPose = {
   owner: string;
   position: [number, number, number];
@@ -121,6 +122,9 @@ function Transport({
 }) {
   const mesh = useRef<THREE.InstancedMesh>(null),
     material = useRef<THREE.MeshBasicMaterial>(null);
+  const arrow = useRef<THREE.Mesh>(null);
+  const tangent = useMemo(() => new THREE.Vector3(), []);
+  const up = useMemo(() => new THREE.Vector3(0, 1, 0), []);
   const phases = useMemo(
     () => integratedFlow(solution.samples, branch),
     [solution, branch],
@@ -139,16 +143,32 @@ function Transport({
     }
     mesh.current.instanceMatrix.needsUpdate = true;
     material.current?.color.set(q < -0.00001 ? theme.reverse : color);
+    if (arrow.current) {
+      const at = ((phase % 1) + 1) % 1;
+      path.getPoint(at, arrow.current.position);
+      path.getTangent(at, tangent).multiplyScalar(q < 0 ? -1 : 1);
+      arrow.current.quaternion.setFromUnitVectors(up, tangent.normalize());
+      arrow.current.visible = Math.abs(q) > 1e-5;
+      (arrow.current.material as THREE.MeshBasicMaterial).color.set(
+        q < 0 ? theme.reverse : color,
+      );
+    }
   });
   return (
-    <instancedMesh
-      ref={mesh}
-      args={[undefined, undefined, count]}
-      frustumCulled={false}
-    >
-      <sphereGeometry args={[0.032, 8, 8]} />
-      <meshBasicMaterial ref={material} color={color} toneMapped={false} />
-    </instancedMesh>
+    <group>
+      <instancedMesh
+        ref={mesh}
+        args={[undefined, undefined, count]}
+        frustumCulled={false}
+      >
+        <sphereGeometry args={[0.032, 8, 8]} />
+        <meshBasicMaterial ref={material} color={color} toneMapped={false} />
+      </instancedMesh>
+      <mesh ref={arrow}>
+        <coneGeometry args={[0.075, 0.2, 12]} />
+        <meshBasicMaterial color={color} />
+      </mesh>
+    </group>
   );
 }
 function Chamber({
@@ -340,7 +360,12 @@ function Muscle({
   useFrame(() => {
     const a =
       sampleAt(solution, timeRef.current).pump * solution.parameters.pump;
-    if (group.current) group.current.scale.set(1 - a * 0.12, 1, 1 - a * 0.12);
+    if (group.current)
+      group.current.scale.set(
+        1 - Math.min(1.6, a) * 0.2,
+        1,
+        1 - Math.min(1.6, a) * 0.2,
+      );
     if (material.current) material.current.emissiveIntensity = 0.1 + a * 0.6;
   });
   return (
@@ -356,6 +381,16 @@ function Muscle({
           opacity={focus === "pump" ? 0.35 : 0.12}
         />
       </mesh>
+      {[-0.65, -0.3, 0.05, 0.4, 0.7].map((y) => (
+        <mesh key={y} position={[0, y, 0]} rotation={[Math.PI / 2, 0, 0]}>
+          <torusGeometry args={[0.37, 0.012, 6, 40]} />
+          <meshBasicMaterial
+            color={theme.superficial}
+            transparent
+            opacity={focus === "pump" ? 0.7 : 0.2}
+          />
+        </mesh>
+      ))}
     </group>
   );
 }
@@ -534,6 +569,34 @@ export default function VenousScene({
 }) {
   const controls = useRef<any>(null),
     id = useId();
+  const now = sampleAt(solution, timeRef.current);
+  const reading =
+    focus === "posture"
+      ? ["Postura", `${solution.parameters.posture}°`]
+      : focus === "pump"
+        ? [
+            "Bomba muscular",
+            now.pump * solution.parameters.pump > 0.02
+              ? "Contracción"
+              : "Relajación",
+          ]
+        : focus === "valve"
+          ? ["Flujo en la válvula", `${now.flow.toFixed(3)} u.r.`]
+          : focus === "perforator"
+            ? ["Conexión perforante", `${now.perforator.toFixed(3)} u.r.`]
+            : focus === "collateral"
+              ? ["Rama colateral", `${now.collateral.toFixed(3)} u.r.`]
+              : focus === "obstruction"
+                ? [
+                    "Resistencia de salida",
+                    `${solution.parameters.obstruction.toFixed(1)} u.r.`,
+                  ]
+                : focus === "compression"
+                  ? [
+                      "Presión exterior",
+                      `${solution.parameters.compression.toFixed(2)} u.r.`,
+                    ]
+                  : ["Flujo profundo", `${now.flow.toFixed(3)} u.r.`];
   if (mode === "anatomy")
     return (
       <ReferenceAnatomy
@@ -612,10 +675,17 @@ export default function VenousScene({
             if (cameraPose) cameraPose.current.owner = id;
           }}
         />
+        {!hero && <FitCamera mode={mode} controls={controls} />}
         {cameraPose && (
           <CameraSync pose={cameraPose} id={id} controls={controls} />
         )}
       </Canvas>
+      {!hero && (
+        <div className="scene-reading">
+          <small>{reading[0]}</small>
+          <b>{reading[1]}</b>
+        </div>
+      )}
       <div className="scene-top">
         <span className="nature-badge">
           <i />{" "}

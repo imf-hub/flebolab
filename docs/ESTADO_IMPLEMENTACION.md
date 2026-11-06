@@ -1,3 +1,5 @@
+> Vigente 0.11.0: Twin con 3D/curvas/ajustes en escritorio y Vision con guía interactiva CEAP 2020. Ver [UX_0.11.md](UX_0.11.md). Los apartados de versiones previas se conservan como antecedentes.
+
 > Actualización 0.10, 6 noviembre 2026: el plan y la auditoría vigentes están en [PLAN_INTERACTIVO_0.10.md](PLAN_INTERACTIVO_0.10.md) y [AUDITORIA_INTERACTIVA_0.10.md](AUDITORIA_INTERACTIVA_0.10.md). El alojamiento vigente es GitHub Pages. El detalle siguiente se conserva como trazabilidad de 0.9 y no describe por sí solo la versión actual.
 
 # Estado de implementación — FLEBO LAB 0.9

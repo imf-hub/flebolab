@@ -1,0 +1,872 @@
+/* The desktop workbench keeps model, curves and controls in one viewport. */
+.twin-workbench {
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  padding: 12px 16px;
+}
+.twin-workbench .studio-heading {
+  padding: 0 0 12px;
+  min-height: 44px;
+  gap: 14px;
+}
+.workbench-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.twin-workbench .workbench-brand h1 {
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.1;
+}
+.workbench-brand > span:last-child {
+  font-size: 12px;
+  color: var(--muted);
+}
+.compact-scenario {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--muted);
+  margin-left: auto;
+}
+.compact-scenario select {
+  min-width: 190px;
+  padding: 7px 9px;
+  font-size: 12px;
+  border-color: var(--line);
+}
+.twin-workbench .studio-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 226px;
+  gap: 12px;
+  align-items: stretch;
+}
+.twin-workbench .experiment-rail {
+  display: none;
+  position: static;
+  min-height: 0;
+}
+.twin-workbench .experiment-stage {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: 44px 64px minmax(0, 1fr) 34px;
+  gap: 9px;
+  min-height: 0;
+}
+.twin-workbench .experiment-title {
+  min-height: 0;
+  gap: 10px;
+}
+.twin-workbench .experiment-title h2 {
+  font-size: 21px;
+  margin: 4px 0 0;
+  line-height: 1.15;
+}
+.twin-workbench .experiment-title .eyebrow {
+  font-size: 9px;
+  line-height: 1;
+}
+.twin-workbench .model-live {
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  white-space: nowrap;
+}
+.twin-workbench .experiment-view-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  padding: 0;
+}
+.twin-workbench .experiment-view-tabs > button {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 9px 11px;
+  background: #fff;
+  gap: 9px;
+  display: flex;
+  align-items: center;
+  color: var(--muted);
+  text-align: left;
+}
+.twin-workbench .experiment-view-tabs > button.active {
+  border-color: #d68c96;
+  background: #fcf0f2;
+  color: var(--red);
+  box-shadow: inset 0 0 0 1px #bd292e15;
+}
+.twin-workbench .experiment-view-tabs > button > svg {
+  width: 21px;
+  height: 21px;
+  display: block;
+  flex: none;
+}
+.twin-workbench .experiment-view-tabs b {
+  display: block;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.2;
+}
+.twin-workbench .experiment-view-tabs small {
+  display: block;
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--muted);
+}
+.live-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(270px, 0.95fr);
+  gap: 12px;
+  min-height: 0;
+}
+.model-column {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.twin-workbench .experiment-viewport {
+  flex: 1;
+  min-height: 0;
+  border-radius: 12px 12px 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.twin-workbench .experiment-viewport.is-comparing {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px;
+}
+.twin-workbench .viewport-cell {
+  min-height: 0;
+  overflow: hidden;
+}
+.twin-workbench .viewport-cell > .scene-wrap,
+.twin-workbench .kinetic-scene,
+.twin-workbench .circuit-panel {
+  height: 100%;
+  min-height: 0;
+  width: 100%;
+}
+.twin-workbench .scene-top {
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  gap: 5px;
+}
+.twin-workbench .scene-top .nature-badge {
+  font-size: 8px;
+  max-width: 65%;
+  white-space: normal;
+  line-height: 1.5;
+}
+.twin-workbench .dark-button {
+  font-size: 10px;
+  padding: 6px 7px;
+}
+.twin-workbench .scene-bottom {
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  font-size: 8px;
+  line-height: 1.4;
+}
+.twin-workbench .scene-bottom span:last-child {
+  display: none;
+}
+.twin-workbench .scene-legend {
+  left: 12px;
+  bottom: 32px;
+  font-size: 9px;
+  gap: 9px;
+}
+.twin-workbench .is-comparing .scene-top {
+  top: 32px;
+}
+.twin-workbench .is-comparing .scene-top .nature-badge,
+.twin-workbench .is-comparing .scene-bottom,
+.twin-workbench .is-comparing .scene-legend {
+  display: none;
+}
+.twin-workbench .comparison-label {
+  font-size: 9px;
+  top: 7px;
+  left: 7px;
+  padding: 3px 5px;
+}
+.twin-workbench .experiment-playback {
+  flex: none;
+  padding: 9px 10px;
+  gap: 8px;
+  min-height: 49px;
+  border-radius: 0 0 10px 10px;
+}
+.twin-workbench .experiment-playback output {
+  font-size: 11px;
+  min-width: 68px;
+}
+.twin-workbench .experiment-playback output small {
+  font-size: 9px;
+  color: var(--muted);
+}
+.twin-workbench .experiment-playback select {
+  padding: 4px;
+  width: 53px;
+  font-size: 11px;
+  background: #fff;
+  color: var(--ink);
+}
+.twin-workbench .experiment-playback .play-button {
+  width: 32px;
+  height: 32px;
+}
+.twin-workbench .experiment-playback .icon-button {
+  width: 27px;
+  height: 27px;
+}
+.model-moments {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  padding: 8px 0 0;
+}
+.model-moments > span {
+  font: 8px var(--mono);
+  color: var(--muted);
+}
+.model-moments button {
+  font-size: 10px;
+  padding: 5px;
+  color: var(--red);
+  border: 1px solid #e6c7cc;
+  border-radius: 5px;
+  background: #fff;
+}
+.model-moments button:hover {
+  background: #fbf0f1;
+}
+.analysis-column {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.analysis-heading {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--red);
+  min-height: 22px;
+  flex: none;
+}
+.analysis-heading h3 {
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+.analysis-heading > span {
+  margin-left: auto;
+  font-size: 10px;
+  color: var(--muted);
+}
+.twin-workbench .experiment-readouts {
+  flex: none;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  border-radius: 9px;
+}
+.twin-workbench .experiment-readouts > div {
+  padding: 9px 10px;
+}
+.twin-workbench .experiment-readouts > div:nth-child(2) {
+  border-right: 0;
+}
+.twin-workbench .experiment-readouts > div:nth-child(-n + 2) {
+  border-bottom: 1px solid var(--line);
+}
+.twin-workbench .experiment-readouts small {
+  font-size: 10px;
+  line-height: 1.2;
+  margin: 0 0 5px;
+}
+.twin-workbench .experiment-readouts output {
+  font-size: 17px;
+}
+.twin-workbench .experiment-readouts output span {
+  font-size: 9px;
+}
+.twin-workbench .experiment-readouts .comparison-readout {
+  margin: 5px 0 0;
+  font-size: 10px;
+}
+.twin-workbench .experiment-chart {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+}
+.twin-workbench .chart-heading {
+  flex: none;
+  margin: 0 0 5px;
+}
+.twin-workbench .experiment-chart .segmented button {
+  font-size: 11px;
+  padding: 6px 8px;
+}
+.twin-workbench .experiment-chart .icon-button {
+  width: 28px;
+  height: 28px;
+}
+.twin-workbench .chart-channel {
+  flex: none;
+  padding: 3px 0 6px;
+  font-size: 9px;
+  gap: 5px;
+}
+.twin-workbench .chart-channel button {
+  font-size: 10px;
+  padding: 5px 7px;
+}
+.twin-workbench .chart-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100px;
+  margin: 0;
+}
+.twin-workbench .plot-chart {
+  flex: 1;
+  height: 0;
+  min-height: 0;
+}
+.twin-workbench .chart-tip {
+  flex: none;
+  line-height: 17px;
+  font-size: 9px;
+}
+.twin-workbench .chart-cursor {
+  top: 16px;
+  bottom: 60px;
+}
+.comparison-command {
+  flex: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 6px;
+  margin-top: 7px;
+}
+.twin-workbench .comparison-command .button {
+  min-height: 30px;
+  font-size: 11px;
+  width: 100%;
+}
+.comparison-command select {
+  font-size: 11px;
+  padding: 6px;
+  width: 100%;
+  background: #fff;
+  color: var(--ink);
+  min-width: 0;
+}
+.comparison-command:has(select) {
+  grid-template-columns: 132px minmax(0, 1fr);
+  align-items: center;
+}
+.curve-keys {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  font: 9px var(--mono);
+  color: var(--muted);
+}
+.curve-keys i {
+  display: inline-block;
+  width: 13px;
+  border-top: 2px solid var(--red);
+  margin-left: 3px;
+}
+.curve-keys i:last-of-type {
+  border-color: #356d98;
+  border-top-style: dotted;
+}
+@media (min-width: 900px) and (max-height: 800px) {
+  .twin-workbench .studio-heading {
+    min-height: 36px;
+    padding-bottom: 8px;
+  }
+  .twin-workbench .experiment-stage {
+    grid-template-rows: 40px 52px minmax(0, 1fr) 30px;
+    gap: 8px;
+  }
+  .twin-workbench .experiment-readouts {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .twin-workbench .experiment-readouts > div {
+    padding: 9px 7px;
+    border-bottom: 0 !important;
+  }
+  .twin-workbench .experiment-readouts > div:nth-child(2) {
+    border-right: 1px solid var(--line);
+  }
+  .twin-workbench .experiment-readouts small {
+    font-size: 9px;
+    min-height: 22px;
+  }
+  .twin-workbench .experiment-readouts output {
+    font-size: 14px;
+  }
+  .twin-workbench .experiment-readouts output span {
+    display: none;
+  }
+  .twin-workbench .experiment-readouts .comparison-readout {
+    min-height: 0;
+    font-size: 9px;
+  }
+  .analysis-heading > span:after {
+    content: " · u.r.";
+  }
+}
+.twin-adjustments {
+  padding: 14px;
+  border: 1px solid #e4bdc3;
+  border-top: 3px solid var(--red);
+  border-radius: 11px;
+  background: #fff;
+  min-height: 0;
+  overflow: auto;
+  align-self: stretch;
+}
+.adjustments-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.adjustments-heading > div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--red);
+}
+.adjustments-heading h2 {
+  font-size: 16px;
+  letter-spacing: -0.025em;
+}
+.adjustments-toggle {
+  display: none;
+}
+.adjustments-intro {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 8px 0 17px;
+}
+.adjustment-fields {
+  display: grid;
+  gap: 13px;
+}
+.twin-adjustments .range-field {
+  margin: 0;
+}
+.twin-adjustments .range-field > span {
+  font-size: 11px;
+  color: var(--ink);
+  gap: 7px;
+  line-height: 1.4;
+}
+.twin-adjustments .range-field > span b {
+  color: var(--red);
+  font: 10px var(--mono);
+  white-space: nowrap;
+}
+.twin-adjustments .range-field input {
+  margin: 8px 0 0;
+  height: 5px;
+}
+.collateral-switch {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  padding: 7px 0;
+}
+.collateral-switch b {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: auto;
+}
+.adjustments-reset {
+  font-size: 11px;
+  min-height: 32px;
+  width: 100%;
+}
+.adjustment-units {
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.6;
+  margin: 0;
+}
+.twin-workbench .experiment-cue {
+  padding: 0 2px;
+  gap: 6px;
+  flex-wrap: nowrap;
+  align-items: center;
+  min-height: 0;
+}
+.twin-workbench .experiment-cue > p {
+  font-size: 10px;
+  line-height: 1.4;
+}
+.twin-workbench .workbench-method {
+  margin: 0 0 0 auto;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+  flex: none;
+}
+.workbench-method summary {
+  color: var(--red);
+  white-space: nowrap;
+  font-size: 10px;
+}
+.twin-workbench .workbench-method[open] {
+  flex-basis: auto;
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+.twin-workbench .workbench-method[open] summary {
+  margin: 0;
+}
+.workbench-method > div {
+  position: fixed;
+  z-index: 80;
+  right: 22px;
+  bottom: 24px;
+  width: 430px;
+  max-width: calc(100vw - 35px);
+  max-height: 65vh;
+  overflow: auto;
+  padding: 22px;
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 10px 60px #24374628;
+  border-radius: 13px;
+}
+.workbench-method h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.workbench-method p {
+  font-size: 13px;
+  line-height: 1.65;
+}
+.workbench-method .source-link {
+  font-size: 11px;
+}
+@media (min-width: 900px) {
+  .main-workbench {
+    height: calc(100dvh - var(--app-header-height, 77px));
+    overflow: hidden;
+  }
+  .workbench-footer {
+    display: none;
+  }
+  .twin-workbench {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .twin-workbench .studio-heading {
+    flex: none;
+  }
+  .twin-workbench .studio-layout {
+    flex: 1;
+    min-height: 0;
+  }
+  .twin-workbench .twin-adjustments {
+    height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .compact-scenario {
+    display: none;
+  }
+  .twin-workbench .studio-layout {
+    grid-template-columns: 154px minmax(0, 1fr) 236px;
+  }
+  .twin-workbench .experiment-rail {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    height: 100%;
+  }
+  .twin-workbench .rail-heading {
+    padding: 7px 6px 12px;
+    font-size: 10px;
+    flex: none;
+  }
+  .twin-workbench .experiment-list {
+    max-height: none;
+    flex: 1;
+    min-height: 0;
+    gap: 3px;
+    padding: 0;
+  }
+  .twin-workbench .experiment-list button {
+    min-height: 0;
+    flex: 1;
+    padding: 7px 8px;
+    gap: 8px;
+  }
+  .twin-workbench .experiment-list button > span {
+    font-size: 10px;
+  }
+  .twin-workbench .experiment-list button small {
+    font-size: 9px;
+    margin-bottom: 3px;
+  }
+  .twin-workbench .experiment-list button b {
+    font-size: 11px;
+    white-space: normal;
+    line-height: 1.3;
+  }
+  .twin-workbench .rail-reference {
+    font-size: 10px;
+    padding: 12px 5px 1px;
+    justify-content: start;
+    gap: 7px;
+  }
+}
+@media (min-width: 1600px) {
+  .twin-workbench {
+    padding: 14px 24px;
+  }
+  .twin-workbench .studio-layout {
+    grid-template-columns: 180px minmax(0, 1fr) 270px;
+    gap: 16px;
+  }
+  .twin-workbench .experiment-list button b {
+    font-size: 13px;
+  }
+  .twin-adjustments {
+    padding: 18px;
+  }
+  .twin-adjustments .range-field > span {
+    font-size: 13px;
+  }
+  .adjustment-fields {
+    gap: 19px;
+  }
+  .live-workspace {
+    gap: 16px;
+  }
+  .twin-workbench .experiment-readouts output {
+    font-size: 21px;
+  }
+}
+@media (max-width: 1199px) {
+  .workbench-brand > span:last-child {
+    display: none;
+  }
+  .twin-workbench .experiment-view-tabs small {
+    display: none;
+  }
+  .twin-workbench .experiment-view-tabs b {
+    font-size: 12px;
+  }
+  .twin-workbench .experiment-view-tabs > button {
+    padding: 9px;
+  }
+  .twin-workbench .experiment-view-tabs > button > svg {
+    width: 18px;
+  }
+}
+@media (max-width: 899px) {
+  .twin-workbench {
+    padding: 14px 16px;
+  }
+  .twin-workbench .studio-heading {
+    flex-wrap: wrap;
+  }
+  .workbench-brand {
+    flex: 1;
+  }
+  .compact-scenario {
+    order: 3;
+    flex-basis: 100%;
+    margin: 3px 0 0;
+  }
+  .compact-scenario select {
+    flex: 1;
+    min-width: 0;
+  }
+  .twin-workbench .studio-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .twin-workbench .experiment-stage {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    order: 1;
+  }
+  .twin-adjustments {
+    order: 0;
+    overflow: visible;
+  }
+  .adjustments-toggle {
+    display: flex;
+  }
+  .twin-adjustments.is-collapsed .adjustment-fields,
+  .twin-adjustments.is-collapsed .adjustments-intro {
+    display: none;
+  }
+  .adjustment-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px 20px;
+  }
+  .twin-workbench .experiment-title {
+    margin: 0;
+    min-height: 45px;
+  }
+  .twin-workbench .experiment-view-tabs {
+    min-height: 60px;
+  }
+  .live-workspace {
+    display: flex;
+    flex-direction: column;
+  }
+  .model-column {
+    height: 440px;
+  }
+  .analysis-column {
+    min-height: 460px;
+  }
+  .twin-workbench .experiment-chart {
+    min-height: 330px;
+  }
+  .twin-workbench .experiment-readouts {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .twin-workbench .experiment-readouts > div:nth-child(-n + 2) {
+    border-bottom: 0;
+  }
+  .twin-workbench .experiment-readouts > div:nth-child(2) {
+    border-right: 1px solid var(--line);
+  }
+  .twin-workbench .experiment-cue {
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+  .twin-workbench .experiment-cue > p {
+    font-size: 12px;
+  }
+  .twin-workbench .workbench-method {
+    flex-basis: 100%;
+    margin-top: 7px;
+  }
+  .workbench-method summary {
+    font-size: 12px;
+  }
+  .model-moments button {
+    min-height: 32px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 520px) {
+  .twin-workbench .studio-heading .button span {
+    display: none;
+  }
+  .workbench-brand h1 {
+    font-size: 21px;
+  }
+  .twin-workbench .experiment-view-tabs {
+    gap: 5px;
+  }
+  .twin-workbench .experiment-view-tabs > button {
+    display: grid;
+    gap: 5px;
+    justify-items: center;
+    padding: 8px 4px;
+    text-align: center;
+  }
+  .twin-workbench .experiment-view-tabs b {
+    font-size: 10px;
+  }
+  .twin-workbench .experiment-title h2 {
+    font-size: 21px;
+  }
+  .twin-workbench .experiment-readouts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .twin-workbench .experiment-readouts > div:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line);
+  }
+  .twin-workbench .experiment-readouts > div:nth-child(2) {
+    border-right: 0;
+  }
+  .model-moments > span {
+    display: none;
+  }
+  .model-column {
+    height: 420px;
+  }
+  .twin-adjustments .range-field > span {
+    display: block;
+  }
+  .twin-adjustments .range-field > span b {
+    display: block;
+    margin-top: 4px;
+  }
+}
+
+.scene-reading {
+  position: absolute;
+  top: 49px;
+  left: 12px;
+  display: grid;
+  gap: 3px;
+  padding: 7px 9px;
+  border: 1px solid #dce3e8;
+  background: #ffffffdb;
+  backdrop-filter: blur(8px);
+  border-radius: 7px;
+  pointer-events: none;
+  max-width: 65%;
+  color: var(--ink);
+}
+.scene-reading small {
+  font-size: 9px;
+  color: var(--muted);
+}
+.scene-reading b {
+  font: 12px var(--mono);
+}
+.is-comparing .scene-reading {
+  top: auto;
+  bottom: 10px;
+  left: 8px;
+  padding: 4px 6px;
+}
+.is-comparing .scene-reading small {
+  font-size: 8px;
+}
+.is-comparing .scene-reading b {
+  font-size: 10px;
+}

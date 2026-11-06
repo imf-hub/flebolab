@@ -1,5 +1,11 @@
 # Arquitectura y operación
 
+## Iteración 0.11
+
+Twin divide presentación, controles (`ControlsPanel`), paradas calculadas (`moments`) y encuadre (`FitCamera`). `workbench.css` adapta 3D, curva y ajustes a la altura real de escritorio, con flujo apilado en móvil. El reloj compartido permite cambiar velocidad sin cambiar los tiempos o las ecuaciones de la solución.
+
+Vision separa `CEAPExplorer` de `VisionBank`. La ruta predeterminada enseña clasificación; `view=bank`, `view=compare` o un `case` abre las herramientas de medios. `src/data/ceap.ts` reúne la taxonomía, preguntas y selección de ejemplos de carpetas distintas, conservando etiquetas de origen. Ver [revisión UX y médica 0.11](UX_0.11.md).
+
 ## Decisiones
 
 1. Aplicación estática React/TypeScript con rutas hash, sin acoplar contenido a un proveedor de backend. El repositorio y el directorio `dist` son portables a cualquier alojamiento con HTTPS, sin fallback de SPA.

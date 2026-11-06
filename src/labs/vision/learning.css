@@ -1,0 +1,662 @@
+.vision-mode-nav {
+  display: flex;
+  gap: 8px;
+  margin-top: 0;
+  margin-bottom: 26px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 15px;
+}
+.vision-mode-nav a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  font-size: 13px;
+  color: var(--muted);
+  background: #fff;
+}
+.vision-mode-nav a.active {
+  background: #fcf0f2;
+  border-color: #d68c96;
+  color: var(--red);
+  font-weight: 650;
+}
+.ceap-explorer {
+  padding-bottom: 50px;
+}
+.ceap-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 26px;
+}
+.ceap-intro h2 {
+  font-size: clamp(26px, 3vw, 39px);
+  letter-spacing: -0.05em;
+  margin: 8px 0 10px;
+}
+.ceap-intro p,
+.ceap-step-heading p,
+.ceap-examples-title p,
+.practice-heading p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+.ceap-standard {
+  display: grid;
+  grid-template-columns: 22px auto;
+  gap: 5px 10px;
+  border-left: 1px solid var(--line);
+  padding: 10px 0 10px 24px;
+  flex: none;
+}
+.ceap-standard svg {
+  grid-row: span 2;
+  color: var(--red);
+  margin-top: 2px;
+}
+.ceap-standard b {
+  font-size: 14px;
+}
+.ceap-standard span {
+  font-size: 11px;
+  color: var(--muted);
+}
+.ceap-domain-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.ceap-domain-tabs button {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 17px;
+  text-align: left;
+  color: var(--ink);
+}
+.ceap-domain-tabs button > b {
+  font-size: 29px;
+  font-weight: 500;
+  color: var(--muted);
+  line-height: 1;
+}
+.ceap-domain-tabs button > span {
+  font-size: 14px;
+  font-weight: 650;
+}
+.ceap-domain-tabs small {
+  display: block;
+  font-size: 10px;
+  color: var(--muted);
+  font-weight: 400;
+  margin-top: 5px;
+}
+.ceap-domain-tabs button.active {
+  border-color: #cf7b86;
+  background: #fdf3f4;
+  box-shadow: inset 0 0 0 1px #bd292e12;
+}
+.ceap-domain-tabs button.active > b {
+  color: var(--red);
+}
+.ceap-step-heading,
+.ceap-examples-title,
+.practice-heading {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.ceap-step-heading {
+  margin-bottom: 16px;
+}
+.ceap-step-heading h3,
+.ceap-examples-title h3,
+.practice-heading h3 {
+  font-size: 17px;
+  margin: 1px 0 5px;
+  letter-spacing: -0.02em;
+}
+.step-number {
+  display: grid;
+  place-items: center;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #e0bbc1;
+  border-radius: 50%;
+  color: var(--red);
+  font: 12px var(--mono);
+  flex: none;
+  background: #fff;
+}
+.ceap-class-map {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.ceap-class-map button {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  text-align: left;
+  padding: 16px 12px;
+  min-height: 92px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--ink);
+}
+.ceap-class-map b {
+  font: 22px var(--mono);
+  color: var(--muted);
+}
+.ceap-class-map span {
+  font-size: 11px;
+  line-height: 1.45;
+}
+.ceap-class-map button.active {
+  border-color: var(--red);
+  background: #bd292e;
+  color: #fff;
+  box-shadow: 0 4px 14px #bd292e20;
+}
+.ceap-class-map button.active b {
+  color: #fff;
+}
+.ceap-class-lesson {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 35px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: #fff;
+  padding: 29px;
+  margin-bottom: 32px;
+}
+.clinical-code {
+  font: 12px var(--mono);
+  color: var(--red);
+  background: #fcf0f2;
+  padding: 5px 9px;
+  border-radius: 5px;
+}
+.ceap-description h2 {
+  font-size: 27px;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+  margin: 15px 0 22px;
+}
+.observation-prompt {
+  display: flex;
+  gap: 10px;
+}
+.observation-prompt svg {
+  color: var(--red);
+  flex: none;
+  margin-top: 1px;
+}
+.observation-prompt b,
+.clinical-context-prompt b,
+.recurrence-note b {
+  font-size: 12px;
+}
+.ceap-description p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--muted);
+  margin: 5px 0 0;
+}
+.clinical-context-prompt {
+  border-left: 2px solid #d8e0e6;
+  padding-left: 13px;
+  margin-top: 17px;
+}
+.recurrence-note {
+  margin-top: 18px;
+  padding: 12px 14px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+.ceap-reporting {
+  margin-top: 20px;
+  border-top: 1px solid var(--line);
+  padding-top: 13px;
+}
+.ceap-reporting summary {
+  font-size: 11px;
+  color: var(--red);
+  cursor: pointer;
+  line-height: 1.6;
+}
+.ceap-reporting .references {
+  margin-top: 12px;
+}
+.ceap-example-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 17px 0 13px;
+}
+.ceap-example-grid a {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  display: block;
+  background: #f7f8fa;
+}
+.ceap-example-grid img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: contain;
+  background: #f3f5f7;
+}
+.ceap-example-grid a > span {
+  display: grid;
+  grid-template-columns: 1fr 17px;
+  gap: 5px;
+  padding: 11px;
+  background: #fff;
+}
+.ceap-example-grid b {
+  font-size: 12px;
+}
+.ceap-example-grid small {
+  grid-row: 2;
+  font-size: 10px;
+  color: var(--muted);
+}
+.ceap-example-grid svg {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  color: var(--red);
+}
+.ceap-open-bank {
+  width: 100%;
+  justify-content: center;
+  font-size: 12px;
+}
+.ceap-origin-note {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+.c4-update {
+  border: 1px solid #e5c8cd;
+  background: #fdf6f7;
+  padding: 14px;
+  border-radius: 9px;
+  margin-top: 18px;
+}
+.c4-update > .eyebrow {
+  font-size: 9px;
+}
+.c4-update [role="group"] {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+}
+.c4-update button {
+  padding: 7px 11px;
+  background: #fff;
+  border: 1px solid #e2c9ce;
+  border-radius: 5px;
+  font: 11px var(--mono);
+  color: var(--muted);
+}
+.c4-update button.active {
+  background: var(--red);
+  color: #fff;
+  border-color: var(--red);
+}
+.c4-update h3 {
+  font-size: 14px;
+  margin: 13px 0 0;
+  letter-spacing: -0.02em;
+}
+.ceap-domain-lesson {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  padding: 30px;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 14px;
+  margin-bottom: 32px;
+}
+.ceap-domain-lesson h2 {
+  font-size: 29px;
+  line-height: 1.25;
+  margin: 12px 0 15px;
+  letter-spacing: -0.04em;
+}
+.ceap-domain-lesson p {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.ceap-domain-lesson .button {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.ceap-code-list > div {
+  display: flex;
+  gap: 15px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+}
+.ceap-code-list b {
+  font: 12px var(--mono);
+  color: var(--red);
+  min-width: 39px;
+}
+.ceap-code-list p {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+.ceap-practice {
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  padding: 27px;
+  background: #fff;
+}
+.practice-heading {
+  align-items: center;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+.practice-score {
+  margin-left: auto;
+  font-size: 10px;
+  line-height: 1.7;
+  color: var(--muted);
+  text-align: right;
+}
+.practice-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 35px;
+  padding: 25px 0;
+}
+.practice-body h3 {
+  font-size: 20px;
+  line-height: 1.45;
+  letter-spacing: -0.025em;
+  margin: 10px 0 17px;
+}
+.practice-options {
+  display: grid;
+  gap: 8px;
+}
+.practice-options button {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 11px 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+}
+.practice-options button > span {
+  font: 10px var(--mono);
+  color: var(--muted);
+  border: 1px solid var(--line);
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  flex: none;
+  border-radius: 4px;
+}
+.practice-options button.selected {
+  border-color: var(--red);
+  background: #fcf1f2;
+}
+.practice-options button.selected > span {
+  background: var(--red);
+  color: #fff;
+  border-color: var(--red);
+}
+.practice-feedback {
+  padding: 24px;
+  border-radius: 11px;
+  background: #f5f7f9;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 190px;
+}
+.practice-feedback > svg {
+  color: var(--muted);
+}
+.practice-feedback h4 {
+  font-size: 16px;
+  margin: 14px 0 7px;
+}
+.practice-feedback p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 0;
+}
+.practice-feedback.is-correct {
+  background: #eef6f2;
+  border: 1px solid #c5dfd1;
+}
+.practice-feedback.is-correct > svg {
+  color: #267e6d;
+}
+.practice-feedback.is-review {
+  background: #fff6ec;
+  border: 1px solid #eed8bd;
+}
+.practice-feedback.is-review > svg {
+  color: #9a6a2d;
+}
+.practice-feedback .source-link {
+  font-size: 10px;
+}
+.practice-navigation {
+  display: flex;
+  justify-content: flex-end;
+  gap: 9px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.practice-navigation .button {
+  font-size: 12px;
+}
+.practice-navigation .button:first-child {
+  margin-right: auto;
+}
+.ceap-evidence {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-top: 22px;
+}
+.ceap-evidence > p {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.75;
+  flex: 1;
+}
+.ceap-evidence .source-link {
+  font-size: 10px;
+}
+.bank-purpose {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  justify-content: space-between;
+  padding: 15px 17px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.bank-purpose p {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+.bank-purpose a {
+  font-size: 11px;
+  color: var(--red);
+  flex: none;
+}
+@media (max-width: 1000px) {
+  .ceap-class-lesson {
+    gap: 22px;
+    padding: 23px;
+  }
+  .ceap-example-grid img {
+    height: 200px;
+  }
+  .ceap-class-map button {
+    padding: 12px 8px;
+  }
+  .ceap-class-map span {
+    font-size: 10px;
+  }
+  .ceap-domain-tabs button {
+    padding: 14px 12px;
+  }
+  .ceap-domain-tabs small {
+    font-size: 9px;
+  }
+  .ceap-standard {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .vision-mode-nav {
+    gap: 6px;
+    margin-bottom: 22px;
+  }
+  .vision-mode-nav a {
+    font-size: 11px;
+    padding: 10px;
+    gap: 6px;
+  }
+  .vision-mode-nav a svg {
+    width: 15px;
+  }
+  .ceap-intro {
+    margin-bottom: 21px;
+  }
+  .ceap-intro h2 {
+    font-size: 29px;
+  }
+  .ceap-domain-tabs {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+  .ceap-domain-tabs button {
+    gap: 10px;
+  }
+  .ceap-domain-tabs button > span {
+    font-size: 12px;
+  }
+  .ceap-domain-tabs button > b {
+    font-size: 24px;
+  }
+  .ceap-class-map {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+  }
+  .ceap-class-map button {
+    min-height: 87px;
+  }
+  .ceap-class-map b {
+    font-size: 20px;
+  }
+  .ceap-class-lesson {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 27px;
+  }
+  .ceap-description h2 {
+    font-size: 25px;
+  }
+  .ceap-example-grid img {
+    height: 210px;
+  }
+  .ceap-domain-lesson {
+    grid-template-columns: 1fr;
+    padding: 22px;
+    gap: 20px;
+  }
+  .ceap-domain-lesson h2 {
+    font-size: 25px;
+  }
+  .ceap-practice {
+    padding: 20px;
+  }
+  .practice-heading {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .practice-heading > div {
+    flex: 1;
+  }
+  .practice-score {
+    flex-basis: 100%;
+    text-align: left;
+    padding-left: 37px;
+  }
+  .practice-body {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .practice-body h3 {
+    font-size: 19px;
+  }
+  .practice-feedback {
+    padding: 20px;
+    min-height: 160px;
+  }
+  .practice-navigation {
+    gap: 5px;
+  }
+  .practice-navigation .button {
+    font-size: 11px;
+    padding: 9px;
+  }
+  .ceap-evidence {
+    display: block;
+  }
+  .bank-purpose {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .ceap-evidence .source-links {
+    margin-top: 12px;
+  }
+}

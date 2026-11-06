@@ -1,4 +1,4 @@
-import { useState, lazy, Suspense } from "react";
+import { useState, useLayoutEffect, useRef, lazy, Suspense } from "react";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { MotionConfig, motion, AnimatePresence } from "motion/react";
 import { assetUrl } from "./shared/assets";
@@ -69,6 +69,21 @@ export default function App() {
   const [menu, setMenu] = useState(false),
     location = useLocation(),
     home = ["/", "/laboratorios"].includes(location.pathname);
+  const isTwin = location.pathname.startsWith("/flebotwin");
+  const headerRef = useRef<HTMLElement>(null);
+  useLayoutEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+    const measure = () =>
+      document.documentElement.style.setProperty(
+        "--app-header-height",
+        `${header.offsetHeight}px`,
+      );
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
   return (
     <MotionConfig reducedMotion="user">
       <a
@@ -81,7 +96,7 @@ export default function App() {
       >
         Ir al contenido
       </a>
-      <header className="site-header">
+      <header className="site-header" ref={headerRef}>
         <div className="header-inner">
           <Brand />
           <nav
@@ -108,7 +123,11 @@ export default function App() {
           </button>
         </div>
       </header>
-      <main id="main-content" tabIndex={-1}>
+      <main
+        id="main-content"
+        className={isTwin ? "main-workbench" : ""}
+        tabIndex={-1}
+      >
         {home ? (
           <Suspense
             fallback={
@@ -124,7 +143,7 @@ export default function App() {
           <Outlet />
         )}
       </main>
-      <footer className="site-footer">
+      <footer className={`site-footer ${isTwin ? "workbench-footer" : ""}`}>
         <div className="container lab-footer">
           <div className="footer-institution">
             <img

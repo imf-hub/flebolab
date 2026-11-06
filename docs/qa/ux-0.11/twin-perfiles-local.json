@@ -1,0 +1,158 @@
+[
+  {
+    "canvases": 1,
+    "id": "TW01",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.002 u.r.",
+      "1.371 u.r.",
+      "13.766 u.r.",
+      "0.052 u.r."
+    ],
+    "title": "Decúbito",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW02",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.002 u.r.",
+      "5.690 u.r.",
+      "35.765 u.r.",
+      "0.052 u.r."
+    ],
+    "title": "Bipedestación",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW03",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.005 u.r.",
+      "5.380 u.r.",
+      "34.740 u.r.",
+      "0.083 u.r."
+    ],
+    "title": "Bomba activa",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW04",
+    "mainOverflow": 0,
+    "readouts": [
+      "0.364 u.r.",
+      "6.050 u.r.",
+      "35.253 u.r.",
+      "-0.002 u.r."
+    ],
+    "title": "Bomba reducida",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW05",
+    "mainOverflow": 0,
+    "readouts": [
+      "0.000 u.r.",
+      "5.546 u.r.",
+      "34.995 u.r.",
+      "0.050 u.r."
+    ],
+    "title": "Válvula competente",
+    "view": "valve"
+  },
+  {
+    "canvases": 1,
+    "id": "TW06",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.094 u.r.",
+      "5.407 u.r.",
+      "35.929 u.r.",
+      "0.143 u.r."
+    ],
+    "title": "Fuga valvular",
+    "view": "valve"
+  },
+  {
+    "canvases": 1,
+    "id": "TW07",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.002 u.r.",
+      "5.543 u.r.",
+      "35.016 u.r.",
+      "0.052 u.r."
+    ],
+    "title": "Comunicación",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW08",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.002 u.r.",
+      "5.525 u.r.",
+      "35.161 u.r.",
+      "0.007 u.r."
+    ],
+    "title": "Menor conexión",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW09",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.003 u.r.",
+      "8.409 u.r.",
+      "35.620 u.r.",
+      "-0.015 u.r."
+    ],
+    "title": "Resistencia de salida",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW10",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.013 u.r.",
+      "5.711 u.r.",
+      "35.218 u.r.",
+      "0.016 u.r."
+    ],
+    "title": "Vía colateral",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW11",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.002 u.r.",
+      "5.543 u.r.",
+      "29.016 u.r.",
+      "0.052 u.r."
+    ],
+    "title": "Presión exterior",
+    "view": "flow"
+  },
+  {
+    "canvases": 1,
+    "id": "TW12",
+    "mainOverflow": 0,
+    "readouts": [
+      "-0.098 u.r.",
+      "5.317 u.r.",
+      "31.496 u.r.",
+      "0.144 u.r."
+    ],
+    "title": "Mecanismos combinados",
+    "view": "flow"
+  }
+]
