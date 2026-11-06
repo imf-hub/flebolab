@@ -1,0 +1,846 @@
+[
+  {
+    "id": "bodyparts-bp9042",
+    "title": "Fémur izquierdo",
+    "path": "/media/anatomy/BP9042.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Fémur izquierdo"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP9042",
+    "fmaId": "FMA24475",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "bone",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "d291cc3619c32c68edb9d29e0b755634c2cb85e3db89f0d0b63a316f879ef86d",
+    "sha256": "b35d24aaef08d2f444de8f7124b463b407079e4242409cbad78ec14066b244e6",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0319662,
+          0.368056,
+          0.0494822
+        ],
+        "max": [
+          0.15023699999999998,
+          0.8342390000000001,
+          0.112276
+        ]
+      },
+      "vertices": 1623,
+      "triangles": 3204,
+      "bytes": 78564
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ3259"
+    ]
+  },
+  {
+    "id": "bodyparts-bp9202",
+    "title": "Tibia izquierda",
+    "path": "/media/anatomy/BP9202.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Tibia izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP9202",
+    "fmaId": "FMA24478",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "bone",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "40e55d7d28f060be61815603ee5eb1c0ba4c2e93af6fed6b5db7ca88d4ed82ef",
+    "sha256": "f7edb47654358879cc65abfb24ddefbd1590cd60c411589a21398e8974dfd9f0",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0350342,
+          -0.0060953299999999995,
+          0.0519821
+        ],
+        "max": [
+          0.109455,
+          0.373862,
+          0.114515
+        ]
+      },
+      "vertices": 880,
+      "triangles": 1692,
+      "bytes": 42580
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ3282"
+    ]
+  },
+  {
+    "id": "bodyparts-bp8251",
+    "title": "Fíbula izquierda",
+    "path": "/media/anatomy/BP8251.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Fíbula izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP8251",
+    "fmaId": "FMA24481",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "bone",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "b5fbb694e1d881033ec8318b97c41e9d9bedc89a8df9845573b1aac528829331",
+    "sha256": "d81f6c0aa51b72ea9a042b901b3bb4f6aa888443881d6eb42a79c95db3291e0f",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.08452899999999999,
+          -0.0251906,
+          0.048534
+        ],
+        "max": [
+          0.120108,
+          0.359131,
+          0.078119
+        ]
+      },
+      "vertices": 577,
+      "triangles": 1124,
+      "bytes": 28488
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ3260"
+    ]
+  },
+  {
+    "id": "bodyparts-bp8819",
+    "title": "Sóleo izquierdo",
+    "path": "/media/anatomy/BP8819.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Sóleo izquierdo"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP8819",
+    "fmaId": "FMA22559",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "muscle",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "66d10b2e0d114158a9b2aa8751b5967ca24f1231f2e2905ebde4755cab62902c",
+    "sha256": "eed58164410b5896a93b9084a18c5b53959d0d134cc44ce0a62d09fb3e9d465b",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.035600099999999996,
+          0.032464,
+          0.0321986
+        ],
+        "max": [
+          0.115785,
+          0.358617,
+          0.0911189
+        ]
+      },
+      "vertices": 2674,
+      "triangles": 4418,
+      "bytes": 118376
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ1437M"
+    ]
+  },
+  {
+    "id": "bodyparts-bp9217",
+    "title": "Cabeza medial del gastrocnemio izquierdo",
+    "path": "/media/anatomy/BP9217.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Cabeza medial del gastrocnemio izquierdo"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP9217",
+    "fmaId": "FMA45958",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "muscle",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "43545b226adb517579273570e6bcb30943c5f22a1687aba6e11d6e1634175f05",
+    "sha256": "b135a9729e51b2ed428f3e95740d3ac63b9c323bce0bdc4c7a13d3881d8a2bdd",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0217597,
+          0.122833,
+          0.0136614
+        ],
+        "max": [
+          0.07423579999999999,
+          0.432102,
+          0.0926934
+        ]
+      },
+      "vertices": 2264,
+      "triangles": 3842,
+      "bytes": 101668
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ1397M"
+    ]
+  },
+  {
+    "id": "bodyparts-bp7939",
+    "title": "Cabeza lateral del gastrocnemio izquierdo",
+    "path": "/media/anatomy/BP7939.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Cabeza lateral del gastrocnemio izquierdo"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP7939",
+    "fmaId": "FMA45961",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "muscle",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "18df6c6fe718aa0d60f4a98ad9ed3dab7d95c1da0aacd641a498b97ddf31ceb6",
+    "sha256": "19906c2170fc3474f6f033e3e9b4c7c1dd600004361c589d0c7b19b7008f46a3",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.061167,
+          0.13280099999999997,
+          0.00580911
+        ],
+        "max": [
+          0.116992,
+          0.423261,
+          0.0806506
+        ]
+      },
+      "vertices": 1746,
+      "triangles": 3052,
+      "bytes": 79756
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ1394M"
+    ]
+  },
+  {
+    "id": "bodyparts-bp5880",
+    "title": "Vena femoral izquierda",
+    "path": "/media/anatomy/BP5880.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Vena femoral izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP5880",
+    "fmaId": "FMA21189",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "vein",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "07776c248a8f8ddd3007f652c7bcafc60af3ab23edd678cc2da37615359c4abc",
+    "sha256": "332c7b3fffb12ea5fa9cba91ca76dfc1bd263891966746235c256a8624cfc29b",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0318721,
+          0.48357100000000003,
+          0.08395050000000001
+        ],
+        "max": [
+          0.073948,
+          0.806842,
+          0.15481399999999998
+        ]
+      },
+      "vertices": 332,
+      "triangles": 658,
+      "bytes": 17044
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ2102"
+    ]
+  },
+  {
+    "id": "bodyparts-bp5871",
+    "title": "Vena safena magna izquierda",
+    "path": "/media/anatomy/BP5871.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Vena safena magna izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP5871",
+    "fmaId": "FMA21380",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "vein",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "5aef9c656f07538f2a7c9dee150b00d93e98e567f083dec2c5e924b0ad9c377b",
+    "sha256": "c8e5efcb7ff8aa2f3f921802bc998446d9079d9a5ac98f4208a2d83b2e926692",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0134205,
+          -0.0263853,
+          0.0480824
+        ],
+        "max": [
+          0.0948874,
+          0.795846,
+          0.153947
+        ]
+      },
+      "vertices": 15199,
+      "triangles": 30040,
+      "bytes": 726440
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ2103"
+    ]
+  },
+  {
+    "id": "bodyparts-bp5862",
+    "title": "Vena poplítea izquierda",
+    "path": "/media/anatomy/BP5862.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Vena poplítea izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP5862",
+    "fmaId": "FMA44329",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "vein",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "92082063ece4916d1b8c3a17b6d135c36edf3ab75dd5b7e9604e71a6d58fa2ee",
+    "sha256": "bd4aa9a2808a951b139ab90dd8b0de8adbc2abd83849c1369f814cbbf6ed79f2",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0641626,
+          0.319486,
+          0.0550572
+        ],
+        "max": [
+          0.101762,
+          0.49614400000000003,
+          0.09425929999999999
+        ]
+      },
+      "vertices": 8433,
+      "triangles": 16592,
+      "bytes": 402684
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ2117"
+    ]
+  },
+  {
+    "id": "bodyparts-bp5853",
+    "title": "Vena safena menor izquierda",
+    "path": "/media/anatomy/BP5853.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Vena safena menor izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP5853",
+    "fmaId": "FMA44335",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "vein",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "e95be7db2162c51e3024e4fb8549221f29f1e24ad86aca9f3b6999bfd4cae9ec",
+    "sha256": "3c0bc52b551eb8a7782cda7dcbf77e6be900a66859313e413eef3e4792ab03cf",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0623118,
+          -0.04424090000000001,
+          0.011066000000000001
+        ],
+        "max": [
+          0.112438,
+          0.410171,
+          0.08639100000000001
+        ]
+      },
+      "vertices": 8170,
+      "triangles": 16336,
+      "bytes": 393324
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ2121"
+    ]
+  },
+  {
+    "id": "bodyparts-bp5874",
+    "title": "Vena femoral profunda izquierda",
+    "path": "/media/anatomy/BP5874.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Vena femoral profunda izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP5874",
+    "fmaId": "FMA51043",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "vein",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "7ce931eee500efd0c796c2b29ee29000ad55c9b4c31784bec72dd23b5defa3f3",
+    "sha256": "7ab722e67ad53ccb590dfbdfe5845785eb3e5ca7cd62f2b7317a5eafa4ac4a4f",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0328831,
+          0.5083380000000001,
+          0.105041
+        ],
+        "max": [
+          0.0787628,
+          0.818499,
+          0.143428
+        ]
+      },
+      "vertices": 3171,
+      "triangles": 6338,
+      "bytes": 153340
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ2099"
+    ]
+  },
+  {
+    "id": "bodyparts-bp5847",
+    "title": "Vena tibial posterior izquierda",
+    "path": "/media/anatomy/BP5847.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Vena tibial posterior izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "sourceCatalogUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+    "sourceIdentifier": "BP5847",
+    "fmaId": "FMA44339",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "tissue": "vein",
+    "notes": "Modelo anatómico de referencia. No contiene por sí solo un modelo hemodinámico ni parámetros individuales.",
+    "sourceSha256": "06d0d03da663cc3c83f8efd7dd1cc99ea0cfb912f6ee01c3ed89d51212605db8",
+    "sha256": "14e7c92082e119b043cabeb7e7ba51c9be1f1fb272af90ea2842df7b83e71fff",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0397763,
+          -0.0456661,
+          0.0491917
+        ],
+        "max": [
+          0.102381,
+          0.283848,
+          0.08789490000000001
+        ]
+      },
+      "vertices": 6982,
+      "triangles": 13826,
+      "bytes": 334672
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "elementFileIds": [
+      "FJ2118"
+    ]
+  },
+  {
+    "id": "bodyparts-left-leg-reference",
+    "title": "Pierna izquierda: referencia anatómica",
+    "path": "/media/anatomy/left-leg-reference.glb",
+    "type": "model/gltf-binary",
+    "structures": [
+      "Fémur izquierdo",
+      "Tibia izquierda",
+      "Fíbula izquierda",
+      "Sóleo izquierdo",
+      "Cabeza medial del gastrocnemio izquierdo",
+      "Cabeza lateral del gastrocnemio izquierdo",
+      "Vena femoral izquierda",
+      "Vena safena magna izquierda",
+      "Vena poplítea izquierda",
+      "Vena safena menor izquierda",
+      "Vena femoral profunda izquierda",
+      "Vena tibial posterior izquierda"
+    ],
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "author": "The Database Center for Life Science",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International. Adaptación FLEBOLAB: selección de estructuras, conversión OBJ → glTF 2.0, rotación a Y-up y escala de milímetros a metros. Coordenadas relativas conservadas.",
+    "nature": "anatomical-reference",
+    "notes": "Subconjunto de 12 estructuras del modelo de referencia BodyParts3D; no una anatomía exhaustiva ni un paciente. Nodes preserve tissue/bodypartsId extras for filtering.",
+    "coordinateSystem": "Y-up, metres; [x,z,-y] from original millimetres",
+    "metrics": {
+      "bounds": {
+        "min": [
+          0.0134205,
+          -0.0456661,
+          0.00580911
+        ],
+        "max": [
+          0.15023699999999998,
+          0.8342390000000001,
+          0.15481399999999998
+        ]
+      },
+      "vertices": 52051,
+      "triangles": 101122,
+      "bytes": 2473688
+    },
+    "sourceLabel": "BodyParts3D · DBCLS · versión 4.0",
+    "datasetVersion": "4.0",
+    "referencePopulation": "Modelo de referencia de un varón adulto; anatomía no exhaustiva, sin variabilidad individual.",
+    "sourceMappingUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+    "sha256": "778f47ad09048cb71ad433681d3af72bdf5013f5333eb5e4ac4b6edc9732d467"
+  },
+  {
+    "id": "servier-deep-venous-system",
+    "title": "Sistema venoso profundo",
+    "path": "/media/illustrations/deep-venous-system.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/leg-venous-circulation/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/Circu_veineuse_profonde_face.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Ilustración de referencia del sistema venoso de la extremidad inferior.",
+    "sha256": "037320a6fd329133aa3d1cab137031177b23b3b394e29cbd163a2b1b61bcd13a",
+    "dimensions": {
+      "width": 440,
+      "height": 1573
+    },
+    "bytes": 70148,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-foot-pump",
+    "title": "Bomba del pie",
+    "path": "/media/illustrations/foot-pump.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/foot-pump/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/Pompe_pied_1.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Esquema de la bomba venosa del pie; material ilustrativo.",
+    "sha256": "ffffabd6f6408bfb35f7bac120ac4c435cf9683306c598184717e417868925e2",
+    "dimensions": {
+      "width": 442,
+      "height": 699
+    },
+    "bytes": 37032,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-edema",
+    "title": "Edema",
+    "path": "/media/illustrations/edema.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/oedema/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/veine1.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Esquema de edema; no representa un caso clínico ni determina su etiología.",
+    "sha256": "023b2738355ff8cbf8448a74a1e8ec38d1a0b830a590292cc0707e014df28fb7",
+    "dimensions": {
+      "width": 590,
+      "height": 227
+    },
+    "bytes": 46076,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-edema-formation",
+    "title": "Formación de edema",
+    "path": "/media/illustrations/edema-formation.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/edema-formation/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/Capillaire_oedeme.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Esquema explicativo de intercambio y acumulación de líquido.",
+    "sha256": "96f2bc77310e604940d3374d879fd7b5ffc17162eed9996471bbaa215f786e8c",
+    "dimensions": {
+      "width": 651,
+      "height": 442
+    },
+    "bytes": 171704,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-vascular-wall",
+    "title": "Capas de la pared vascular",
+    "path": "/media/illustrations/vascular-wall.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/vascular-tunics-cross-sectional/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/tuniques_veines.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Representación de las túnicas de un vaso; contexto estructural.",
+    "sha256": "1c927e4cc426ea56ccb662f5a505899d3391ddafac07348c3cfd385087c6eda6",
+    "dimensions": {
+      "width": 203,
+      "height": 490
+    },
+    "bytes": 85935,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-venous-valve",
+    "title": "Vena en sección longitudinal",
+    "path": "/media/illustrations/venous-valve.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/vein-cross-sagittal/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/veine4.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Esquema de vaso venoso y valvas; no corresponde a una simulación física.",
+    "sha256": "e32360a5b674e419bb5b4afb19719277b0c93f3acfabf7eab1dcd794c34402a8",
+    "dimensions": {
+      "width": 106,
+      "height": 397
+    },
+    "bytes": 23378,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-venous-return",
+    "title": "Retorno venoso",
+    "path": "/media/illustrations/venous-return.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/venous-return/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/Retour_veineux1.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Ilustración de retorno venoso para explicación de mecanismos.",
+    "sha256": "9a8a6343cb9d885d696c9567d56daf02d226481135fb178ccd034a6cbb138357",
+    "dimensions": {
+      "width": 295,
+      "height": 823
+    },
+    "bytes": 89038,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-superficial-venous-system",
+    "title": "Circulación venosa de la pierna",
+    "path": "/media/illustrations/superficial-venous-system.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/venous-circulation-leg-ov/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/Circu_veineuse_superficielle_dos1.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Esquema de circulación de la pierna, con la vista indicada por el original. El nombre del archivo local no determina la identificación de cada vaso.",
+    "sha256": "3895c2b87473dde6d6be21603f88fd9ded7a34d2cd8cb02450d7682b0f332e2a",
+    "dimensions": {
+      "width": 302,
+      "height": 1477
+    },
+    "bytes": 49222,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-venous-disease",
+    "title": "Enfermedad venosa",
+    "path": "/media/illustrations/venous-disease.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/venous-disease/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/Maladie_veineuse_hypodermite.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Ilustración didáctica de cambios venosos, diferenciada de las fotografías clínicas.",
+    "sha256": "5ddd6d8545e957076785f4ac78ddff238802c18eecac98ab7196d84c4141b543",
+    "dimensions": {
+      "width": 162,
+      "height": 723
+    },
+    "bytes": 26518,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  },
+  {
+    "id": "servier-venous-thrombosis",
+    "title": "Trombosis venosa",
+    "path": "/media/illustrations/venous-thrombosis.png",
+    "type": "image/png",
+    "structures": [],
+    "sourceUrl": "https://smart.servier.com/smart_image/venous-thrombosis/",
+    "downloadUrl": "https://smart.servier.com/wp-content/uploads/2016/10/veine_02.png",
+    "author": "Servier Medical Art",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Image provided by Servier Medical Art (https://smart.servier.com/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).",
+    "nature": "illustration",
+    "notes": "Ilustración de trombosis; no equivale a una imagen diagnóstica.",
+    "sha256": "46828681b00399bb094cd09e09fe1a826b4b58353b9416a0d3ed057379fd99b9",
+    "dimensions": {
+      "width": 672,
+      "height": 188
+    },
+    "bytes": 88878,
+    "transformations": [],
+    "sourceLabel": "Servier Medical Art · CC BY 4.0"
+  }
+]

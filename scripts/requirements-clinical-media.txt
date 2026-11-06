@@ -1,0 +1,7 @@
+# Versions used for the 2026-11-06 bounded public media acquisition.
+# FFmpeg and FFprobe are external command-line dependencies.
+Pillow==13.0.0
+numpy==2.5.4
+pydicom==3.0.2
+pylibjpeg==2.1.0
+pylibjpeg-libjpeg==2.5.0

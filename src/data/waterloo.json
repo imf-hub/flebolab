@@ -1,0 +1,168 @@
+{
+  "available": true,
+  "id": "uw-femveinrf-acq0-preview",
+  "title": "UW-FemVeinRF: vista experimental de vena femoral",
+  "sourceUrl": "https://github.com/open-h/Open-H-RF/blob/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/README.md",
+  "sourceLabel": "UW-FemVeinRF · University of Waterloo · Open-H-RF",
+  "sourceCommit": "5eae31257f55391129c5aadb178659948448da5d",
+  "accessedAt": "2026-11-06",
+  "license": "CC BY 4.0",
+  "licenseEvidence": "La ficha oficial fija license: cc-by-4.0 y declara CC BY 4.0 en License / Terms of Use. La licencia del código de reconstrucción es independiente (Apache-2.0).",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "localLicensePath": "/media/waterloo/LICENSE-CC-BY-4.0.txt",
+  "author": "Hassan Nahas, Jeremy N. Cohen, Eudoxia Zafiris, Skye H. T. Ling, Alfred C. H. Yu y Jason S. Au; VORTEX / LITMUS, University of Waterloo",
+  "attribution": "UW-FemVeinRF, VORTEX / LITMUS, University of Waterloo, publicado en Open-H-RF. Nahas, Cohen, Zafiris, Ling, Yu y Au (2026). CC BY 4.0. FLEBOLAB: transcodificación del GIF original a MP4 y selección de un cuadro como portada; figura PNG sin modificaciones.",
+  "nature": "experimental-human-ultrasound-rendering",
+  "quantitativeDataAvailable": false,
+  "videoPath": "/media/waterloo/uw-femvein-acq0.mp4",
+  "posterPath": "/media/waterloo/uw-femvein-acq0-poster.png",
+  "figurePath": "/media/waterloo/uw-femvein-reconstruction.png",
+  "caption": "Cine publicado de una adquisición in vivo de vena femoral. Incluye B-mode y una superposición de vectores de flujo estimados por los autores. El tiempo indicado corresponde a la reproducción del recurso.",
+  "anatomy": "Vena femoral, vista longitudinal, según ficha del dataset.",
+  "protocol": "El conjunto describe contracción isométrica de flexión plantar con carga de 8 kg e inclinación cefálica de 40°. No se importaron metadatos individuales de Acq0.",
+  "dataset": {
+    "acquisitions": 15,
+    "participants": 15,
+    "storedBytes": 941958804227,
+    "rfFilesDownloaded": 0,
+    "rawDataImported": false,
+    "dataUrl": "https://huggingface.co/datasets/nvidia/Open-H-RF/tree/main/waterloo-femoralvein"
+  },
+  "calibration": {
+    "physicalMeasurementSupported": false,
+    "display": {
+      "frames": 61,
+      "durationSeconds": 6.1,
+      "fps": 10,
+      "posterFrameIndex": 54,
+      "vectorOverlayObservedFromFrameIndex": 48,
+      "sourceWidth": 761,
+      "sourceHeight": 1002
+    },
+    "acquisitionFrameRateHz": null,
+    "temporalNote": "61 cuadros GIF, cada uno con demora codificada de 100 ms. No equivalen a cuadros RF consecutivos ni prueban una duración física de 6.1 s.",
+    "spatial": {
+      "videoHasEmbeddedAxes": false,
+      "figureHasEmbeddedAxes": true,
+      "figureAxisUnit": "mm",
+      "sourceReconstructionGrid": {
+        "xRangeMm": [
+          -19,
+          19
+        ],
+        "zRangeMm": [
+          10,
+          60
+        ],
+        "xPoints": 381,
+        "zPoints": 501
+      },
+      "note": "El grid procede del script oficial; no se aplica automáticamente al video renderizado ni habilita un calibrador clínico."
+    },
+    "velocity": {
+      "sourceArrayUnit": "m/s",
+      "arraysImported": false,
+      "rasterVelocityMeasurementSupported": false,
+      "sourceScriptVmaxMPerS": 1,
+      "sourceScriptPowerThresholdDb": 58,
+      "note": "Los valores describen el script de referencia; el GIF no ofrece una leyenda cuantitativa que permita verificar su escala de color. No se recuperaron velocidades del raster ni se generó una curva experimental."
+    }
+  },
+  "limitations": [
+    "Vista renderizada pública, no un archivo DICOM ni las matrices RF/vectoriales originales.",
+    "Los vectores son estimaciones procesadas de los autores, no trayectorias individuales observadas de eritrocitos.",
+    "La ficha advierte ruido Doppler, vistas subóptimas y sensibilidad del dealiasing al ruido con baja potencia.",
+    "Un cine de una adquisición no constituye una colección de patologías ni valida diagnóstico o decisiones clínicas.",
+    "No usar la reproducción para medir reflujo, diámetro, velocidad, caudal ni tiempos fisiológicos."
+  ],
+  "ethicsSourceStatement": "El README declara aprobación ORE #46018 de University of Waterloo y consentimiento escrito y verbal para compartir datos públicamente; se conserva esta declaración de los autores, sin una auditoría independiente por FLEBOLAB.",
+  "originalPreview": {
+    "sourceUrl": "https://raw.githubusercontent.com/open-h/Open-H-RF/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/assets/Acq0.gif",
+    "bytes": 15173953,
+    "sha256": "c82f220cada475b0fb384c1b34b173cf18ccf7bb45e5b28d81879edb4aa279e8",
+    "gitBlobSha": "c40d7c1ef9541e11d5f3008eb242732a447736e2",
+    "localCacheOnly": true
+  },
+  "assets": [
+    {
+      "id": "waterloo-acq0-cine",
+      "title": "Vena femoral: cine experimental y flujo vectorial",
+      "path": "/media/waterloo/uw-femvein-acq0.mp4",
+      "type": "video/mp4",
+      "nature": "experimental-human-ultrasound-rendering",
+      "sourceUrl": "https://raw.githubusercontent.com/open-h/Open-H-RF/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/assets/Acq0.gif",
+      "sourcePageUrl": "https://github.com/open-h/Open-H-RF/blob/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/README.md",
+      "author": "Hassan Nahas, Jeremy N. Cohen, Eudoxia Zafiris, Skye H. T. Ling, Alfred C. H. Yu y Jason S. Au; VORTEX / LITMUS, University of Waterloo",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "UW-FemVeinRF, VORTEX / LITMUS, University of Waterloo, publicado en Open-H-RF. Nahas, Cohen, Zafiris, Ling, Yu y Au (2026). CC BY 4.0. FLEBOLAB: transcodificación del GIF original a MP4 y selección de un cuadro como portada; figura PNG sin modificaciones.",
+      "bytes": 4683689,
+      "sha256": "e725eebbbf5bf3041312186ac2aa912d07395d303e677332671f7e6e656136f6",
+      "dimensions": {
+        "width": 762,
+        "height": 1002
+      },
+      "modifications": [
+        "GIF → H.264/MP4, CRF 20, yuv420p, sin audio, sin recorte ni cambio de velocidad; compresión con pérdidas.",
+        "Se añadió una columna de relleno a la derecha para obtener ancho par (761 → 762 px)."
+      ]
+    },
+    {
+      "id": "waterloo-acq0-poster",
+      "title": "Cuadro 54 del cine experimental",
+      "path": "/media/waterloo/uw-femvein-acq0-poster.png",
+      "type": "image/png",
+      "nature": "experimental-human-ultrasound-rendering",
+      "sourceUrl": "https://raw.githubusercontent.com/open-h/Open-H-RF/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/assets/Acq0.gif",
+      "sourcePageUrl": "https://github.com/open-h/Open-H-RF/blob/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/README.md",
+      "author": "Hassan Nahas, Jeremy N. Cohen, Eudoxia Zafiris, Skye H. T. Ling, Alfred C. H. Yu y Jason S. Au; VORTEX / LITMUS, University of Waterloo",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "UW-FemVeinRF, VORTEX / LITMUS, University of Waterloo, publicado en Open-H-RF. Nahas, Cohen, Zafiris, Ling, Yu y Au (2026). CC BY 4.0. FLEBOLAB: transcodificación del GIF original a MP4 y selección de un cuadro como portada; figura PNG sin modificaciones.",
+      "bytes": 280559,
+      "sha256": "df109741ff89a6cd102af76a889b18764e84fb8db91c1ef376b4851498b3439d",
+      "dimensions": {
+        "width": 761,
+        "height": 1002
+      },
+      "modifications": [
+        "Selección del cuadro de índice 54 (contando desde cero), conversión RGB y guardado PNG; sin anotaciones nuevas."
+      ]
+    },
+    {
+      "id": "waterloo-reconstruction",
+      "title": "Reconstrucción y vectores de velocidad publicados",
+      "path": "/media/waterloo/uw-femvein-reconstruction.png",
+      "type": "image/png",
+      "nature": "experimental-human-ultrasound-rendering",
+      "sourceUrl": "https://raw.githubusercontent.com/open-h/Open-H-RF/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/assets/reconstruct_output.png",
+      "sourcePageUrl": "https://github.com/open-h/Open-H-RF/blob/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/README.md",
+      "author": "Hassan Nahas, Jeremy N. Cohen, Eudoxia Zafiris, Skye H. T. Ling, Alfred C. H. Yu y Jason S. Au; VORTEX / LITMUS, University of Waterloo",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "UW-FemVeinRF, VORTEX / LITMUS, University of Waterloo, publicado en Open-H-RF. Nahas, Cohen, Zafiris, Ling, Yu y Au (2026). CC BY 4.0. FLEBOLAB: transcodificación del GIF original a MP4 y selección de un cuadro como portada; figura PNG sin modificaciones.",
+      "bytes": 351975,
+      "sha256": "3dc4bdffde2f27ffae2aa7115e806195d5aefff7614a49d207d15ff0d1933cae",
+      "dimensions": {
+        "width": 587,
+        "height": 740
+      },
+      "modifications": []
+    }
+  ],
+  "references": [
+    {
+      "title": "UW-FemVeinRF dataset card",
+      "url": "https://github.com/open-h/Open-H-RF/blob/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/README.md"
+    },
+    {
+      "title": "Official reference reconstruction script",
+      "url": "https://github.com/open-h/Open-H-RF/blob/5eae31257f55391129c5aadb178659948448da5d/datasets/waterloo-femoralvein/reconstruct.py"
+    },
+    {
+      "title": "The influence of aging on graded peripheral venous return and complex blood flow features through human veins",
+      "doi": "10.1007/s11357-026-02378-6",
+      "url": "https://doi.org/10.1007/s11357-026-02378-6"
+    }
+  ]
+}

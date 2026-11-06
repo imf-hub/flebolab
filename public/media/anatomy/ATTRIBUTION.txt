@@ -1,0 +1,4 @@
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International.
+Original: https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip
+License: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+Adaptation: selected OBJ structures converted into glTF 2.0, axis rotation to Y-up and mm-to-metre scaling. Relative coordinates preserved.

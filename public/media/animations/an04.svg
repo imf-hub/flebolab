@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Presión y volumen</title><desc id="desc">Una representación de respuesta de pared; no es una medida real.. Esquema educativo original de FLEBO LAB; no representa una adquisición clínica.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.static{display:none}@media(prefers-reduced-motion:reduce){.moving{display:none}.static{display:inline}}</style>
+<rect width="1200" height="800" fill="#fff"/><rect width="1200" height="9" fill="#b7213c"/>
+<text x="55" y="60" fill="#7a91a4" font-size="18" font-weight="700" text-anchor="start">FLEBO LAB IMF · AN04</text>
+<text x="55" y="115" fill="#203647" font-size="38" font-weight="700" text-anchor="start">Presión y volumen</text>
+<text x="55" y="153" fill="#617b8d" font-size="22" font-weight="400" text-anchor="start">Una representación de respuesta de pared; no es una medida real.</text>
+<circle class="static" cx="370" cy="420" r="100" fill="#dcecf7" stroke="#2c769a" stroke-width="8"/><circle class="moving" cx="370" cy="420" r="100" fill="#dcecf7" stroke="#2c769a" stroke-width="8"><animate attributeName="r" values="70;120;70" dur="5s" repeatCount="indefinite"/></circle><text x="700" y="340" fill="#203647" font-size="28" font-weight="400" text-anchor="start">Interior − exterior</text><text x="700" y="395" fill="#203647" font-size="25" font-weight="400" text-anchor="start">Presión transmural</text><text x="700" y="455" fill="#203647" font-size="25" font-weight="400" text-anchor="start">Volumen representado</text>
+<line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
+<text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Animación conceptual</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Referencia: Modelo de la bomba muscular de pantorrilla · FLEBO LAB IMF, 2026</text>
+</svg>

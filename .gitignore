@@ -1,0 +1,12 @@
+node_modules/
+*.tsbuildinfo
+dist/
+.sites-runtime/
+.env
+.env.*.local
+media-workspace/
+*.log
+artifacts/
+.venv/
+__pycache__/
+scripts/.deps/

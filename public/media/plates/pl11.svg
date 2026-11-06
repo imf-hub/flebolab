@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">El color necesita una leyenda</title><desc id="desc">Invertir el mapa no cambia el movimiento real.. Esquema educativo original de FLEBO LAB; no representa una adquisición clínica.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.static{display:none}@media(prefers-reduced-motion:reduce){.moving{display:none}.static{display:inline}}</style>
+<rect width="1200" height="800" fill="#fff"/><rect width="1200" height="9" fill="#b7213c"/>
+<text x="55" y="60" fill="#7a91a4" font-size="18" font-weight="700" text-anchor="start">FLEBO LAB IMF · PL11</text>
+<text x="55" y="115" fill="#203647" font-size="38" font-weight="700" text-anchor="start">El color necesita una leyenda</text>
+<text x="55" y="153" fill="#617b8d" font-size="22" font-weight="400" text-anchor="start">Invertir el mapa no cambia el movimiento real.</text>
+<rect x="170" y="310" width="330" height="120" rx="16" fill="#f7e5e9" stroke="none" /><line x1="210" y1="370" x2="460" y2="370" stroke="#c42946" stroke-width="9" marker-end="url(#arrow)"/><rect x="700" y="310" width="330" height="120" rx="16" fill="#dcecf7" stroke="none" /><line x1="740" y1="370" x2="990" y2="370" stroke="#2c769a" stroke-width="9" marker-end="url(#arrow)"/><text x="335" y="485" fill="#203647" font-size="28" font-weight="400" text-anchor="middle">Mapa A</text><text x="865" y="485" fill="#203647" font-size="28" font-weight="400" text-anchor="middle">Mapa invertido</text><text x="600" y="610" fill="#203647" font-size="29" font-weight="400" text-anchor="middle">Misma dirección · distinta codificación</text>
+<line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
+<text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Ilustración conceptual</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Referencia: ASA · FLEBO LAB IMF, 2026</text>
+</svg>

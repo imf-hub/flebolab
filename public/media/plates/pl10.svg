@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Vista transversal y longitudinal</title><desc id="desc">Conserva orientación, lado y segmento al comparar.. Esquema educativo original de FLEBO LAB; no representa una adquisición clínica.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.static{display:none}@media(prefers-reduced-motion:reduce){.moving{display:none}.static{display:inline}}</style>
+<rect width="1200" height="800" fill="#fff"/><rect width="1200" height="9" fill="#b7213c"/>
+<text x="55" y="60" fill="#7a91a4" font-size="18" font-weight="700" text-anchor="start">FLEBO LAB IMF · PL10</text>
+<text x="55" y="115" fill="#203647" font-size="38" font-weight="700" text-anchor="start">Vista transversal y longitudinal</text>
+<text x="55" y="153" fill="#617b8d" font-size="22" font-weight="400" text-anchor="start">Conserva orientación, lado y segmento al comparar.</text>
+<rect x="150" y="260" width="390" height="320" rx="16" fill="#edf3f7" stroke="none" /><circle cx="345" cy="420" r="90" fill="#dcecf7" stroke="#2c769a" stroke-width="7" /><rect x="660" y="260" width="390" height="320" rx="16" fill="#edf3f7" stroke="none" /><rect x="695" y="385" width="320" height="75" rx="30" fill="#dcecf7" stroke="#2c769a" /><text x="345" y="635" fill="#203647" font-size="26" font-weight="400" text-anchor="middle">Sección transversal</text><text x="855" y="635" fill="#203647" font-size="26" font-weight="400" text-anchor="middle">Eje longitudinal</text>
+<line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
+<text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Ilustración conceptual</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Referencia: ASA · FLEBO LAB IMF, 2026</text>
+</svg>

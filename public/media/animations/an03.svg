@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">Dos fases de la bomba</title><desc id="desc">Esquema de contracción y relajación, sin unidades clínicas.. Esquema educativo original de FLEBO LAB; no representa una adquisición clínica.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif}.static{display:none}@media(prefers-reduced-motion:reduce){.moving{display:none}.static{display:inline}}</style>
+<rect width="1200" height="800" fill="#fff"/><rect width="1200" height="9" fill="#b7213c"/>
+<text x="55" y="60" fill="#7a91a4" font-size="18" font-weight="700" text-anchor="start">FLEBO LAB IMF · AN03</text>
+<text x="55" y="115" fill="#203647" font-size="38" font-weight="700" text-anchor="start">Dos fases de la bomba</text>
+<text x="55" y="153" fill="#617b8d" font-size="22" font-weight="400" text-anchor="start">Esquema de contracción y relajación, sin unidades clínicas.</text>
+<rect x="210" y="260" width="370" height="320" rx="16" fill="#edf3f7" stroke="none" /><ellipse class="static" cx="395" cy="420" rx="55" ry="135" fill="#dcecf7" stroke="#2c769a" stroke-width="6"/><ellipse class="moving" cx="395" cy="420" rx="55" ry="135" fill="#dcecf7" stroke="#2c769a" stroke-width="6"><animate attributeName="rx" values="55;24;24;55;55" dur="5s" repeatCount="indefinite"/></ellipse><line x1="145" y1="420" x2="270" y2="420" stroke="#c42946" stroke-width="5" marker-end="url(#arrow)"/><line x1="645" y1="420" x2="520" y2="420" stroke="#c42946" stroke-width="5" marker-end="url(#arrow)"/><text x="745" y="340" fill="#203647" font-size="28" font-weight="400" text-anchor="start">Contracción</text><text x="745" y="400" fill="#203647" font-size="28" font-weight="400" text-anchor="start">Relajación</text><text x="745" y="465" fill="#203647" font-size="24" font-weight="400" text-anchor="start">Observa el ciclo</text>
+<line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
+<text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Animación conceptual</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Referencia: Modelo de la bomba muscular de pantorrilla · FLEBO LAB IMF, 2026</text>
+</svg>

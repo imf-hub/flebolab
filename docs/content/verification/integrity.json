@@ -1,0 +1,13 @@
+{
+  "review": "Integridad editorial y XML; no validación clínica",
+  "counts": {
+    "sources": 15,
+    "glossary": 32,
+    "dopplerLessons": 10,
+    "pathways": 12,
+    "observationGuides": 7,
+    "plates": 18,
+    "animations": 6
+  },
+  "errors": []
+}
