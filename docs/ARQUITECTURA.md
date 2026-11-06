@@ -5,8 +5,8 @@
 1. Aplicación estática React/TypeScript con rutas del navegador, sin acoplar contenido a un proveedor de backend. El repositorio y el directorio `dist` son portables a cualquier alojamiento con HTTPS y fallback de SPA.
 2. Catálogo versionado: la fuente, licencia y relación de caso se conservan junto a cada recurso. No se emplea una base de datos remota para estos contenidos de lectura.
 3. Los tres laboratorios se cargan por ruta. Three.js/React Three Fiber, Plotly y OpenSeadragon se cargan bajo demanda. La portada no descarga cines, atlas de cuadros ni modelos3D.
-4. Los72cines tienen MP4, portada y atlas4×4. El cuadro detenido usa el índice original, no una captura aproximada del decodificador de video. Cada atlas se solicita al necesitarlo; el banco completo de aproximadamente300MB no se descarga al entrar.
-5. FleboTwin ejecuta un solver educativo en Worker. Cada petición lleva un ID; una respuesta anterior no puede sustituir el último resultado. La escena, valva, métricas y cursor consumen una solución común y un reloj compartido. La comparación3D comparte cámara y tiempo; los parámetros de B proceden del perfil elegido y usan el período de A.
+4. Los72 cines tienen MP4, portada y atlas4×4. El cuadro detenido usa el índice original, no una captura aproximada del decodificador de video. Cada atlas se solicita al necesitarlo; el banco completo de aproximadamente300MB no se descarga al entrar.
+5. FleboTwin ejecuta un solver educativo en Worker. Cada petición lleva un ID; una respuesta anterior no puede sustituir el último resultado. La escena, valva, métricas y cursor consumen una solución común y un reloj compartido. La comparación 3D comparte cámara y tiempo; los parámetros de B proceden del perfil elegido y usan el período de A.
 6. OpenSeadragon conserva la proporción del medio y transforma una capaSVG anclada a coordenadas de imagen. Las anotaciones se guardan como coordenadas normalizadas, nunca modifican el original. En cine, marcas y cuadros comparten la transformación de ampliación y desplazamiento.
 7. Persistencia local por recurso y laboratorio. Sin datos identificables, cargas de pacientes, cuentas ni claves de servicio. Las exportaciones las solicita el visitante.
 8. Cada recurso declara su naturaleza: clínico, experimental, anatomía de referencia o ilustración. Sin interpolación generativa de lesiones o cuadros de ultrasonido.
@@ -35,4 +35,7 @@ La conexión de DNS queda diferida. En el dominio definitivo se deberán comprob
 
 ## Recursos instalados para el desarrollo
 
-Trece guías especializadas deThree.js de `CloudAI-X/threejs-skills`: fundamentos, geometría, materiales, iluminación, texturas, animación, carga, shaders, postprocesado, interacción, rendimiento, React Three Fiber y preparación de activos. Se consultaron como apoyo; no forman parte del código que ejecuta el visitante ni validan la exactitud médica de los activos.
+Trece guías especializadas de Three.js de `CloudAI-X/threejs-skills`: fundamentos, geometría, materiales, iluminación, texturas, animación, carga, shaders, postprocesado, interacción, rendimiento, React Three Fiber y preparación de activos. Se consultaron como apoyo; no forman parte del código que ejecuta el visitante ni validan la exactitud médica de los activos.
+
+
+El modelo1.1 aplica estabilización periódica adaptativa, mínimo12ciclos y tres cierres consecutivos con residuo relativo por compartimento≤1e-5 (máximo1.800s de modelo). Conserva los cuatro volúmenes positivos en el dominio auditado y limita presión exterior a1,5unidades relativas. La entrada constante implica retorno medio0,7 en régimen; la comparación estudia presión, forma y flujo inverso. Véasecontent/MODEL_DOMAIN_AUDIT.md.

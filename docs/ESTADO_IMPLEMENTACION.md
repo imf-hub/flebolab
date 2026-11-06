@@ -1,25 +1,25 @@
-# Estado de implementación — FLEBO LAB0.9
+# Estado de implementación — FLEBO LAB 0.9
 
-Fecha:6 de noviembre de2026. Referencia: plan maestro v3. Esta acta distingue implementación técnica, pruebas observadas y validación médica. No expresa un porcentaje de exactitud clínica.
+Fecha: 6 de noviembre de 2026. Referencia: plan maestro v3. Esta acta distingue implementación técnica, pruebas observadas y validación médica. No expresa un porcentaje de exactitud clínica.
 
 ## Resultado construido
 
-Tres laboratorios funcionales:12 escenariosTwin con modelo0D y Worker, anatomía de12 estructuras, comparación3D y curvas;72cines de72participantes con12.830cuadros indexados;96fotografías de71carpetas y12parejas térmicas;12recorridos,32términos,18láminas,6animaciones y10ilustracionesServier. Un cine y una figura Waterloo reales complementan DP09.
+Tres laboratorios funcionales:12 escenariosTwin con modelo 0D y Worker, anatomía de 12 estructuras, comparación 3D y curvas;72 cines de 72 participantes con 12.830 cuadros indexados;96 fotografías de 71 carpetas y 12 parejas térmicas;12 recorridos,32 términos,18 láminas,6 animaciones y 10 ilustracionesServier. Un cine y una figura Waterloo reales complementan DP09.
 
 La aplicación es React/TypeScript/Vite, estática y portable. Los medios completos no se descargan al entrar. Los favoritos, anotaciones y progreso son locales. No hay cuentas, datos de pacientes cargados por visitantes ni diagnóstico automático.
 
 ## Comprobaciones terminadas
 
--31pruebas del motor: conservación, válvula, repetibilidad, gravedad, resistencia y convergencia en los12escenarios.
--Comprobación de todo el catálogo: IDs únicos, rutas existentes, cobertura real,12.830índices continuos y tiempos coherentes.
--72/72MP4 verificados frente aFrameTimeDICOM;13GLB validados porKhronos sin errores ni advertencias.
--Revisión editorial y renderizado de24SVG; fuentes y atribuciones cotejadas.
--Compilación de producción y auditoría de dependencias: cero vulnerabilidades reportadas en la revisión del6nov.
--Pruebas de navegador y exportación documentadas en VERIFICACION_WEB.md.
+- 34 pruebas del motor: conservación, válvula, repetibilidad, gravedad, resistencia y convergencia en los12 escenarios.
+- Comprobación de todo el catálogo: IDs únicos, rutas existentes, cobertura real,12.830 índices continuos y tiempos coherentes.
+- 72/72 MP4 verificados frente aFrameTime DICOM;13 GLB validados por Khronos sin errores ni advertencias.
+- Revisión editorial y renderizado de24 SVG; fuentes y atribuciones cotejadas.
+- Compilación de producción y auditoría de dependencias: cero vulnerabilidades reportadas en la revisión del6nov.
+- Pruebas de navegador y exportación documentadas en VERIFICACION_WEB.md.
 
 ## Trazabilidad con el plan
 
-Implementado indica que existe la función o entrega; no implica validación clínica independiente. Parcial indica un límite concreto que se conserva para la versión1.0.
+Implementado indica que existe la función o entrega; no implica validación clínica independiente. Parcial indica un límite concreto que se conserva para la versión 1.0.
 
 | ID | Estado | Entrega del plan | Evidencia o límite |
 |---|---|---|---|
@@ -90,7 +90,7 @@ Implementado indica que existe la función o entrega; no implica validación cl�
 | P65 | Implementado | Completar guía, fuentes, créditos, modelo y novedades | educational.ts, pages/Library.tsx, public/media/plates y animations. |
 | P66 | Implementado | Implementar búsqueda, favoritos y enlaces compartidos | educational.ts, pages/Library.tsx, public/media/plates y animations. |
 | P67 | Parcial | Revisar los recorridos de escritorio y proyección | Revisión funcional de los tres laboratorios en Edge de escritorio; falta prueba en proyección física. |
-| P68 | Parcial | Revisar tableta, móvil y teclado | Portada y Twin revisados a390px sin desbordamiento, menú y controles operativos; falta prueba física de tableta/tacto y accesibilidad completa. |
+| P68 | Parcial | Revisar tableta, móvil y teclado | Portada y Twin revisados a 390 px sin desbordamiento, menú y controles operativos; falta prueba física de tableta/tacto y accesibilidad completa. |
 | P69 | Parcial | Medir portada, escenas, cines y comparación | Compilación por bloques y medios bajo demanda; falta medición de campo en redes/dispositivos representativos. |
 | P70 | Parcial | Verificar liberación de memoria y cancelación | Worker, RAF, visores y geometrías se liberan al desmontar; falta ensayo de memoria de larga duración con perfilador. |
 | P71 | Parcial | Probar errores, enlaces antiguos y recursos no disponibles | Fallback de rutas/IDs, estado de carga, error de video y recuperación global; faltan pruebas extensivas de fallos de red/almacenamiento. |
@@ -102,9 +102,9 @@ Implementado indica que existe la función o entrega; no implica validación cl�
 | P77 | Pendiente | Asociar el subdominio real y completar DNS/TLS cuando el candidato esté listo | Diferido expresamente por el usuario: conexión de subdominio/DNS en Hostinger después de revisión. |
 | P78 | Pendiente | Revisar el recorrido final bajo el dominio definitivo y habilitar indexación | Diferido hasta dominio definitivo y cierre editorial. La versión temporal conserva noindex y robots de exclusión. |
 | P79 | Parcial | Conservar versión de recuperación y procedimiento de corrección | Código versionado y procedimiento de recuperación documentado; la primera publicación será el primer punto de recuperación. |
-| P80 | Parcial | Registrar el lanzamiento y la cobertura real publicada | Inventario y alcance de0.9 documentados; acta final se añadirá tras publicación. |
+| P80 | Parcial | Registrar el lanzamiento y la cobertura real publicada | Inventario y alcance de 0.9 documentados; acta final se añadirá tras publicación. |
 
-## Pendientes principales de1.0
+## Pendientes principales de 1.0
 
 1. Revisión médica independiente del producto integrado y acta de aprobación editorial.
 2. Pruebas con médicos, proyección y dispositivos físicos, accesibilidad asistiva y memoria de larga duración.

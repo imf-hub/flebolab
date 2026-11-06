@@ -1,0 +1,17 @@
+const {measure,defaults,scenarios,modelVersion,hash}=require('./audit_model_domain.cjs');
+const fs=require('node:fs');
+const path=require('node:path');
+const runs=[];
+for(const posture of [0,90])for(const pump of [0,1.6])for(const leak of [0,.02,1])for(const obstruction of [1,8])for(const compression of [0,1.5])for(const perforator of [0,1.6])for(const collateral of [false,true])for(const period of [2,10])runs.push(measure({posture,pump,leak,obstruction,compression,perforator,collateral,period},.01,120));
+let seed=15412026;
+const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+const interior=[];
+for(let k=0;k<500;k++)interior.push(measure({posture:90*random(),pump:1.6*random(),leak:random(),obstruction:1+7*random(),compression:1.5*random(),perforator:1.6*random(),collateral:random()>.5,period:2+Math.floor(random()*17)*.5},.01,60));
+const all=[...runs,...interior];
+const byMin=[...all].sort((a,b)=>Math.min(...a.minVolume)-Math.min(...b.minVolume));
+const worst=byMin[0];
+const half=measure(worst.parameters,.005,120);
+const reference=scenarios.map(s=>({id:s.id,...measure({...defaults,...s.params},.01,120)}));
+const report={modelVersion,sourceHash:hash,cap:1.5,cornerCases:runs.length,interiorCases:interior.length,negativeVolume:all.filter(x=>Math.min(...x.minVolume)<0).length,nonFinite:all.filter(x=>!x.finite).length,minVolume:Math.min(...worst.minVolume),minTransmural:Math.min(...all.flatMap(x=>x.minTransmural)),negativeTransmural:all.filter(x=>Math.min(...x.minTransmural)<0).length,worst,half,worstVolumes:byMin.slice(0,12),nominalLongWarmup:reference};
+fs.writeFileSync(path.resolve(__dirname,'../../docs/content/verification/model-cap15-audit.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify({modelVersion,sourceHash:hash,cap:1.5,cornerCases:runs.length,interiorCases:interior.length,negativeVolume:report.negativeVolume,nonFinite:report.nonFinite,minVolume:report.minVolume,minTransmural:report.minTransmural,negativeTransmural:report.negativeTransmural,worst,half},null,2));

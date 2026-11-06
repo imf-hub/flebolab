@@ -1,3 +1,91 @@
-import {useEffect,useRef} from 'react';
-import type {Solution} from './model';
-export default function Chart({a,b,metric,time,onTime}:{a:Solution;b?:Solution;metric:'flow'|'pressure'|'volume';time:number;onTime:(n:number)=>void}){const ref=useRef<HTMLDivElement>(null);useEffect(()=>{let active=true;let plot:any;import('plotly.js-basic-dist-min').then(m=>{plot=m.default;if(!active||!ref.current)return;const data=[{x:a.samples.map(s=>s.t),y:a.samples.map(s=>s[metric]),name:'Escenario A',type:'scatter',mode:'lines',line:{color:'#ac2442',width:2.5}},...(b?[{x:b.samples.map(s=>s.t),y:b.samples.map(s=>s[metric]),name:'Escenario B',type:'scatter',mode:'lines',line:{color:'#198880',width:2,dash:'dot'}}]:[])];plot.newPlot(ref.current,data,{margin:{l:48,r:12,t:15,b:45},paper_bgcolor:'transparent',plot_bgcolor:'transparent',font:{family:'system-ui',color:'#655d5c',size:11},showlegend:!!b,legend:{orientation:'h',x:0,y:1.18},xaxis:{title:{text:'Tiempo del modelo (s)'},range:[0,a.period*2],gridcolor:'#eee9e5',zerolinecolor:'#ccc'},yaxis:{title:{text:'Unidades relativas'},gridcolor:'#eee9e5',zerolinecolor:'#ccc'},hovermode:'x unified'},{responsive:true,displayModeBar:false});(ref.current as any).on('plotly_click',(e:any)=>onTime(e.points[0].x));});return()=>{active=false;if(plot&&ref.current)plot.purge(ref.current)};},[a,b,metric]);return <div className="chart-wrap"><div ref={ref} className="plot-chart"/><div className="chart-cursor" style={{left:`calc(48px + (100% - 60px) * ${time/(a.period*2)})`}}/><span className="chart-tip">Pulsa la curva para situar el ciclo</span></div>}
+import { useEffect, useRef } from "react";
+import type { Solution } from "./model";
+export default function Chart({
+  a,
+  b,
+  metric,
+  time,
+  onTime,
+}: {
+  a: Solution;
+  b?: Solution;
+  metric: "flow" | "pressure" | "volume";
+  time: number;
+  onTime: (n: number) => void;
+}) {
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    let active = true;
+    let plot: any;
+    import("plotly.js-basic-dist-min").then((m) => {
+      plot = m.default;
+      if (!active || !ref.current) return;
+      const data = [
+        {
+          x: a.samples.map((s) => s.t),
+          y: a.samples.map((s) => s[metric]),
+          name: "Escenario A",
+          type: "scatter",
+          mode: "lines",
+          line: { color: "#ac2442", width: 2.5 },
+        },
+        ...(b
+          ? [
+              {
+                x: b.samples.map((s) => s.t),
+                y: b.samples.map((s) => s[metric]),
+                name: "Escenario B",
+                type: "scatter",
+                mode: "lines",
+                line: { color: "#198880", width: 2, dash: "dot" },
+              },
+            ]
+          : []),
+      ];
+      plot.newPlot(
+        ref.current,
+        data,
+        {
+          margin: { l: 48, r: 12, t: 15, b: 45 },
+          paper_bgcolor: "transparent",
+          plot_bgcolor: "transparent",
+          font: { family: "system-ui", color: "#655d5c", size: 11 },
+          showlegend: !!b,
+          legend: { orientation: "h", x: 0, y: 1.18 },
+          xaxis: {
+            title: { text: "Tiempo del modelo (s)" },
+            range: [0, a.period * 2],
+            gridcolor: "#eee9e5",
+            zerolinecolor: "#ccc",
+          },
+          yaxis: {
+            title: { text: "Unidades relativas" },
+            gridcolor: "#eee9e5",
+            zerolinecolor: "#ccc",
+          },
+          hovermode: "x unified",
+        },
+        { responsive: true, displayModeBar: false },
+      );
+      (ref.current as any).on("plotly_click", (e: any) =>
+        onTime(e.points[0].x),
+      );
+    });
+    return () => {
+      active = false;
+      if (plot && ref.current) plot.purge(ref.current);
+    };
+  }, [a, b, metric]);
+  return (
+    <div className="chart-wrap">
+      <div ref={ref} className="plot-chart" />
+      <div
+        className="chart-cursor"
+        style={{
+          left: `calc(48px + (100% - 60px) * ${time / (a.period * 2)})`,
+        }}
+      />
+      <span className="chart-tip">Pulsa la curva para situar el ciclo</span>
+    </div>
+  );
+}

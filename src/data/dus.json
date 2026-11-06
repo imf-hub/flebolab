@@ -72,9 +72,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -215,7 +214,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-002",
@@ -290,9 +298,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -433,7 +440,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-003",
@@ -508,9 +524,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -651,7 +666,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-004",
@@ -722,9 +746,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -856,7 +879,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 50.0
+    "sourceCineRate": 50.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-005",
@@ -927,9 +959,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -1025,7 +1056,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 43.0
+    "sourceCineRate": 43.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-006",
@@ -1096,9 +1136,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -1203,7 +1242,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-007",
@@ -1274,9 +1322,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -1381,7 +1428,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-008",
@@ -1456,9 +1512,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -1509,7 +1564,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": null
+    "sourceCineRate": null,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-009",
@@ -1584,9 +1648,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -1637,7 +1700,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": null
+    "sourceCineRate": null,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-010",
@@ -1712,9 +1784,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -1801,7 +1872,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 30.0
+    "sourceCineRate": 30.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-011",
@@ -1876,9 +1956,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -1974,7 +2053,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-012",
@@ -2049,9 +2137,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -2147,7 +2234,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-013",
@@ -2222,9 +2318,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -2365,7 +2460,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-014",
@@ -2440,9 +2544,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -2583,7 +2686,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-015",
@@ -2658,9 +2770,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -2801,7 +2912,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-016",
@@ -2876,9 +2996,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -3001,7 +3120,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-017",
@@ -3076,9 +3204,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -3138,7 +3265,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 26.0
+    "sourceCineRate": 26.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-cfv-018",
@@ -3213,9 +3349,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -3311,7 +3446,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 46.0
+    "sourceCineRate": 46.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-037",
@@ -3382,9 +3526,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -3516,7 +3659,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 50.0
+    "sourceCineRate": 50.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-038",
@@ -3587,9 +3739,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -3694,7 +3845,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-039",
@@ -3765,9 +3925,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -3872,7 +4031,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-040",
@@ -3943,9 +4111,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -4077,7 +4244,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 50.0
+    "sourceCineRate": 50.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-041",
@@ -4148,9 +4324,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -4264,7 +4439,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 43.0
+    "sourceCineRate": 43.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-042",
@@ -4335,9 +4519,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -4469,7 +4652,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 50.0
+    "sourceCineRate": 50.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-043",
@@ -4540,9 +4732,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -4674,7 +4865,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 50.0
+    "sourceCineRate": 50.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-044",
@@ -4745,9 +4945,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -4852,7 +5051,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-045",
@@ -4923,9 +5131,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -5012,7 +5219,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": null
+    "sourceCineRate": null,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-046",
@@ -5087,9 +5303,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -5230,7 +5445,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-047",
@@ -5305,9 +5529,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -5448,7 +5671,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-048",
@@ -5523,9 +5755,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -5666,7 +5897,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-049",
@@ -5741,9 +5981,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -5857,7 +6096,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-050",
@@ -5932,9 +6180,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -6075,7 +6322,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-051",
@@ -6150,9 +6406,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -6248,7 +6503,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-052",
@@ -6323,9 +6587,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -6466,7 +6729,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-053",
@@ -6541,9 +6813,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -6684,7 +6955,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-fv-054",
@@ -6759,9 +7039,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -6902,7 +7181,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-019",
@@ -6977,9 +7265,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -7120,7 +7407,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-020",
@@ -7191,9 +7487,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -7280,7 +7575,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-021",
@@ -7351,9 +7655,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -7458,7 +7761,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 50.0
+    "sourceCineRate": 50.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-022",
@@ -7529,9 +7841,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -7636,7 +7947,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-023",
@@ -7707,9 +8027,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -7814,7 +8133,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-024",
@@ -7885,9 +8213,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -7992,7 +8319,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-025",
@@ -8063,9 +8399,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -8197,7 +8532,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 50.0
+    "sourceCineRate": 50.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-026",
@@ -8268,9 +8612,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -8384,7 +8727,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 43.0
+    "sourceCineRate": 43.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-027",
@@ -8455,9 +8807,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -8562,7 +8913,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-028",
@@ -8637,9 +8997,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -8780,7 +9139,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-029",
@@ -8855,9 +9223,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -8998,7 +9365,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-030",
@@ -9073,9 +9449,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -9216,7 +9591,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-031",
@@ -9291,9 +9675,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -9434,7 +9817,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-032",
@@ -9509,9 +9901,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -9652,7 +10043,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-033",
@@ -9727,9 +10127,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -9870,7 +10269,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-034",
@@ -9945,9 +10353,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -10088,7 +10495,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-035",
@@ -10163,9 +10579,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -10306,7 +10721,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-gs-036",
@@ -10381,9 +10805,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -10524,7 +10947,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-055",
@@ -10595,9 +11027,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -10702,7 +11133,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-056",
@@ -10773,9 +11213,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -10880,7 +11319,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-057",
@@ -10951,9 +11399,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -11058,7 +11505,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-058",
@@ -11129,9 +11585,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -11245,7 +11700,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 43.0
+    "sourceCineRate": 43.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-059",
@@ -11316,9 +11780,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -11405,7 +11868,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-060",
@@ -11476,9 +11948,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -11583,7 +12054,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 39.0
+    "sourceCineRate": 39.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-061",
@@ -11658,9 +12138,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -11711,7 +12190,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": null
+    "sourceCineRate": null,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-062",
@@ -11786,9 +12274,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -11974,7 +12461,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 30.0
+    "sourceCineRate": 30.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-063",
@@ -12049,9 +12545,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -12120,7 +12615,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 30.0
+    "sourceCineRate": 30.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-064",
@@ -12195,9 +12699,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -12338,7 +12841,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-065",
@@ -12413,9 +12925,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -12556,7 +13067,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-066",
@@ -12631,9 +13151,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -12756,7 +13275,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-067",
@@ -12831,9 +13359,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -12974,7 +13501,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-068",
@@ -13049,9 +13585,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -13192,7 +13727,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-069",
@@ -13267,9 +13811,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -13401,7 +13944,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-070",
@@ -13476,9 +14028,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -13619,7 +14170,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-071",
@@ -13694,9 +14254,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -13837,7 +14396,16 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   },
   {
     "id": "dus-pv-072",
@@ -13912,9 +14480,8 @@
       "DICOM pixel decode using pydicom",
       "MONOCHROME1 inversion only if required",
       "8-bit scaling from BitsStored only if necessary",
-      "Each native frame exported as WebP for indexed inspection",
-      "Native-dimension frames packed 4x4 into WebP quality68 atlases for lazy indexed inspection; original frame index preserved",
-      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed"
+      "H.264 CRF25 YUV420 playback encoded directly from source DICOM at precise FrameTime; padding up to 1 px right/bottom if needed",
+      "Native-dimension source DICOM frames packed directly into 4x4 WebP quality52 method6 atlases; lossy educational derivative, no resizing, no generative enhancement; every original frame index preserved"
     ],
     "review": {
       "technical": "DICOM decode, frame count, dimensions and playback derivative checked",
@@ -14055,6 +14622,15 @@
       }
     ],
     "indexedFrames": true,
-    "sourceCineRate": 35.0
+    "sourceCineRate": 35.0,
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    }
   }
 ]

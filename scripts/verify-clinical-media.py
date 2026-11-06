@@ -94,6 +94,14 @@ if __name__=='__main__':
             cine_tiles.append((indexed_frame(r,index),f'{r["id"]} frame {index+1}/{r["frameCount"]}'))
     contacts+=sheets(cine_tiles,'dus-final',columns=3,rows=12,size=(300,240))
     files=[p for folder in ['vision','dus'] for p in (PUB/'media'/folder).rglob('*') if p.is_file()]
+    all_public_media=[p for p in (PUB/'media').rglob('*') if p.is_file()]
+    protected=WORK/'atlas-protected-original-checksums.json'
+    protected_count=0
+    if protected.exists():
+        checks=json.loads(protected.read_text(encoding='utf-8'))
+        for name,expected in checks.items():
+            assert hashlib.sha256((PUB/name).read_bytes()).hexdigest()==expected,name
+        protected_count=len(checks)
     summary={'verifiedOn':'2026-11-06','vision':{'records':len(vision),'sourceCaseFolders':len({r['sourceCaseId'] for r in vision}),
         'byClass':dict(collections.Counter(r['ceap'] for r in vision)),'thermalPairs':sum(bool(r['thermal']) for r in vision)},
         'dus':{'records':len(dus),'subjects':len({r['participantId'] for r in dus}),'bySite':dict(collections.Counter(r['site'] for r in dus)),
@@ -101,6 +109,9 @@ if __name__=='__main__':
         'frameCount':sum(r['frameCount'] for r in dus),'timingVerified':sum(r['timingVerified'] for r in dus),
         'atlasFiles':sum(len(r['frameAtlases']) for r in dus),'calibratedClips':sum(r['calibration'] is not None for r in dus)},
         'publicMediaBytes':sum(p.stat().st_size for p in files),'publicFileCount':len(files),'largestPublicFileBytes':max(p.stat().st_size for p in files),
+        'allPublicMediaBytes':sum(p.stat().st_size for p in all_public_media),'allPublicMediaFileCount':len(all_public_media),
+        'publicMediaByteScope':'publicMediaBytes covers vision+dus; allPublicMediaBytes covers the complete public/media directory',
+        'atlasEncoding':dus[0].get('atlasEncoding'),'protectedVideoPhotoPosterFilesUnchanged':protected_count or None,
         'originalDicomBytes':sum(a['originalBytes'] for a in audits),'allPathsExist':True,'allOriginalChecksumsVerified':True,
         'allCineFramesAndDurationVerified':True,'allSelectedDicomIdentityFieldsCleared':True,
         'sourceFrameTimePreferredToRoundedCineRate':True,

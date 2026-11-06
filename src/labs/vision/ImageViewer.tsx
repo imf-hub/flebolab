@@ -1,6 +1,97 @@
-import {useEffect,useRef,useState} from 'react';
-import {createPortal} from 'react-dom';
-import OpenSeadragon from 'openseadragon';
-import {Plus,Minus,RotateCcw} from 'lucide-react';
-import {AnnotationLayer,type Mark} from '../../shared/Annotations';
-export default function ImageViewer({src,width,height,tool,marks,onAdd}:{src:string;width:number;height:number;tool:string;marks:Mark[];onAdd:(m:Mark)=>void}){const ref=useRef<HTMLDivElement>(null),viewer=useRef<OpenSeadragon.Viewer|null>(null);const[overlay,setOverlay]=useState<HTMLDivElement|null>(null);useEffect(()=>{if(!ref.current)return;const v=OpenSeadragon({element:ref.current,tileSources:{type:'image',url:src},showNavigationControl:false,showNavigator:true,navigatorPosition:'BOTTOM_RIGHT',animationTime:.5,blendTime:.15,maxZoomPixelRatio:4,minZoomImageRatio:.6,visibilityRatio:.8,constrainDuringPan:true,gestureSettingsTouch:{pinchToZoom:true,flickEnabled:true},crossOriginPolicy:'Anonymous'});viewer.current=v;const el=document.createElement('div');el.style.width='100%';el.style.height='100%';v.addHandler('open',()=>{v.addOverlay({element:el,location:new OpenSeadragon.Rect(0,0,1,height/width),checkResize:false});setOverlay(el)});return()=>{setOverlay(null);v.destroy();viewer.current=null}},[src,width,height]);useEffect(()=>{viewer.current?.setMouseNavEnabled(tool==='pan')},[tool,overlay]);return <div className="image-viewer"><div ref={ref} className="osd-surface"/>{overlay&&createPortal(<AnnotationLayer marks={marks} tool={tool} onAdd={onAdd} viewBox={`0 0 ${width} ${height}`}/>,overlay)}<div className="zoom-tools"><button aria-label="Ampliar imagen" onClick={()=>viewer.current?.viewport.zoomBy(1.5)}><Plus size={18}/></button><button aria-label="Reducir imagen" onClick={()=>viewer.current?.viewport.zoomBy(1/1.5)}><Minus size={18}/></button><button aria-label="Restablecer imagen" onClick={()=>viewer.current?.viewport.goHome()}><RotateCcw size={16}/></button></div></div>}
+import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
+import OpenSeadragon from "openseadragon";
+import { Plus, Minus, RotateCcw } from "lucide-react";
+import { AnnotationLayer, type Mark } from "../../shared/Annotations";
+export default function ImageViewer({
+  src,
+  width,
+  height,
+  tool,
+  marks,
+  onAdd,
+}: {
+  src: string;
+  width: number;
+  height: number;
+  tool: string;
+  marks: Mark[];
+  onAdd: (m: Mark) => void;
+}) {
+  const ref = useRef<HTMLDivElement>(null),
+    viewer = useRef<OpenSeadragon.Viewer | null>(null);
+  const [overlay, setOverlay] = useState<HTMLDivElement | null>(null);
+  useEffect(() => {
+    if (!ref.current) return;
+    const v = OpenSeadragon({
+      element: ref.current,
+      tileSources: { type: "image", url: src },
+      showNavigationControl: false,
+      showNavigator: true,
+      navigatorPosition: "BOTTOM_RIGHT",
+      animationTime: 0.5,
+      blendTime: 0.15,
+      maxZoomPixelRatio: 4,
+      minZoomImageRatio: 0.6,
+      visibilityRatio: 0.8,
+      constrainDuringPan: true,
+      gestureSettingsTouch: { pinchToZoom: true, flickEnabled: true },
+      crossOriginPolicy: "Anonymous",
+    });
+    viewer.current = v;
+    const el = document.createElement("div");
+    el.style.width = "100%";
+    el.style.height = "100%";
+    v.addHandler("open", () => {
+      v.addOverlay({
+        element: el,
+        location: new OpenSeadragon.Rect(0, 0, 1, height / width),
+        checkResize: false,
+      });
+      setOverlay(el);
+    });
+    return () => {
+      setOverlay(null);
+      v.destroy();
+      viewer.current = null;
+    };
+  }, [src, width, height]);
+  useEffect(() => {
+    viewer.current?.setMouseNavEnabled(tool === "pan");
+  }, [tool, overlay]);
+  return (
+    <div className="image-viewer">
+      <div ref={ref} className="osd-surface" />
+      {overlay &&
+        createPortal(
+          <AnnotationLayer
+            marks={marks}
+            tool={tool}
+            onAdd={onAdd}
+            viewBox={`0 0 ${width} ${height}`}
+          />,
+          overlay,
+        )}
+      <div className="zoom-tools">
+        <button
+          aria-label="Ampliar imagen"
+          onClick={() => viewer.current?.viewport.zoomBy(1.5)}
+        >
+          <Plus size={18} />
+        </button>
+        <button
+          aria-label="Reducir imagen"
+          onClick={() => viewer.current?.viewport.zoomBy(1 / 1.5)}
+        >
+          <Minus size={18} />
+        </button>
+        <button
+          aria-label="Restablecer imagen"
+          onClick={() => viewer.current?.viewport.goHome()}
+        >
+          <RotateCcw size={16} />
+        </button>
+      </div>
+    </div>
+  );
+}

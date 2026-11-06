@@ -4,7 +4,7 @@ Aplicación educativa profesional del Instituto Mexicano de Flebología. Tres la
 
 ## Ejecutar
 
-Requiere Node.js24 y npm. Desde esta carpeta:
+Requiere Node.js 24 y npm. Desde esta carpeta:
 
 ```sh
 npm ci
@@ -18,7 +18,7 @@ npm run dev
 ## Arquitectura
 
 - `src/App.tsx`: portada y navegación.
-- `src/labs/twin`: motor0D independiente, Worker, escena3D y curvas Plotly cargadas al entrar.
+- `src/labs/twin`: motor 0D independiente, Worker, escena 3D y curvas Plotly cargadas al entrar.
 - `src/labs/dus`: explorador, cine indexado, comparación y demostraciones Doppler.
 - `src/labs/vision`: biblioteca, OpenSeadragon, comparación y anotaciones.
 - `src/pages`: recorridos, método, glosario, guía y créditos.
@@ -28,7 +28,7 @@ npm run dev
 - `scripts`: validación de contenido y reproducción de preparación de medios.
 - `docs`: arquitectura, evidencia técnica, revisión editorial y alcance de la versión.
 
-React19, TypeScript5.9, Vite7, Three.js, React Three Fiber9, Drei10, Plotly.js y OpenSeadragon. Las versiones exactas están fijadas por `package-lock.json`. La aplicación no necesita base de datos remota, autenticación ni secretos de ejecución. Anotaciones, favoritos y progreso se guardan únicamente en el navegador.
+React 19, TypeScript 5.9, Vite 7, Three.js, React Three Fiber 9, Drei 10, Plotly.js y OpenSeadragon. Las versiones exactas están fijadas por `package-lock.json`. La aplicación no necesita base de datos remota, autenticación ni secretos de ejecución. Anotaciones, favoritos y progreso se guardan únicamente en el navegador.
 
 ## Contenido distribuido
 
@@ -37,12 +37,12 @@ React19, TypeScript5.9, Vite7, Three.js, React Three Fiber9, Drei10, Plotly.js y
 | Escenarios Twin | 12 perfiles educativos |
 | Anatomía | 12 estructuras izquierdas BodyParts3D |
 | Cine de compresión | 72 clips /72 participantes /4 sitios |
-| Inspección exacta | 12.830cuadros en838atlas |
-| Fotografía | 96vistas /71carpetas de caso |
-| Termografía | 12parejas de vista |
+| Inspección exacta | 12.830 cuadros en838atlas |
+| Fotografía | 96vistas /71 carpetas de caso |
+| Termografía | 12 parejas de vista |
 | Waterloo | Un renderizado experimental publicado; sin matrices RF importadas |
 | Recorridos /glosario | 12 /32 |
-| Material visual | 18láminas,6animaciones,10ilustraciones Servier |
+| Material visual | 18 láminas,6 animaciones,10 ilustraciones Servier |
 
 Los números no indican prevalencia ni cobertura exhaustiva. Las etiquetas del proveedor no equivalen a una revisión diagnóstica independiente.
 
@@ -53,7 +53,7 @@ Los números no indican prevalencia ni cobertura exhaustiva. Las etiquetas del p
 - `npm run build`: comprobación de tipos y compilación de producción.
 - `.github/workflows/verify.yml`: los mismos controles en GitHub Actions.
 - `docs/CLINICAL_MEDIA_VERIFICATION.json`: verificación de DICOM y derivados.
-- `scripts/assets/validation-report.json`: validación Khronos de los13GLB.
+- `scripts/assets/validation-report.json`: validación Khronos de los13 GLB.
 
 ## Naturaleza y límites
 
@@ -65,7 +65,7 @@ Quedan revisión médica independiente del producto integrado, pruebas con usuar
 
 ## Licencias y actualización
 
-Cada medio conserva su autoría y licencia en el catálogo y en la página Créditos. BodyParts3D, Servier, TRICVI–C, ThrombUS+ y el recurso Waterloo seleccionado se distribuyen según CC BY4.0 con atribución y transformaciones documentadas. Las bibliotecas conservan sus licencias. La documentación del código no concede derechos sobre figuras de artículos científicos enlazados.
+Cada medio conserva su autoría y licencia en el catálogo y en la página Créditos. BodyParts3D, Servier, TRICVI–C, ThrombUS+ y el recurso Waterloo seleccionado se distribuyen según CC BY 4.0 con atribución y transformaciones documentadas. Las bibliotecas conservan sus licencias. La documentación del código no concede derechos sobre figuras de artículos científicos enlazados.
 
 Para actualizar: preparar archivos fuera de `public/`, verificar licencia y procedencia, generar derivados y metadatos, validar contenido y compilación, revisar la presentación integrada y publicar una versión nueva. No sobrescribir un recurso con otro caso manteniendo suID.
 

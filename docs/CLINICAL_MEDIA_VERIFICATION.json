@@ -34,9 +34,22 @@
       "atlasFiles": 838,
       "calibratedClips": 0
     },
-    "publicMediaBytes": 296526446,
+    "publicMediaBytes": 251157806,
     "publicFileCount": 1186,
     "largestPublicFileBytes": 1973045,
+    "allPublicMediaBytes": 262210655,
+    "allPublicMediaFileCount": 1240,
+    "publicMediaByteScope": "publicMediaBytes covers vision+dus; allPublicMediaBytes covers the complete public/media directory",
+    "atlasEncoding": {
+      "format": "WebP",
+      "quality": 52,
+      "method": 6,
+      "input": "source DICOM pixels",
+      "lossy": true,
+      "resized": false,
+      "purpose": "educational visual comparison; not for clinical measurements"
+    },
+    "protectedVideoPhotoPosterFilesUnchanged": 348,
     "originalDicomBytes": 585581350,
     "allPathsExist": true,
     "allOriginalChecksumsVerified": true,
@@ -47,15 +60,17 @@
     "contactSheetCount": 11,
     "manualVisualReview": {
       "date": "2026-11-06",
-      "rgbPhotographs": 96,
-      "thermalPairs": 12,
-      "cineSamples": 72,
-      "framesPerCine": [
-        "first",
-        "middle",
-        "last"
+      "unchangedRgbPhotographsReviewed": 96,
+      "unchangedThermalPairsReviewed": 12,
+      "sourceCinesReviewedFirstMiddleLast": 72,
+      "nativeSourceAtlasCompressionComparisonSamples": 6,
+      "comparisonQualities": [
+        58,
+        54,
+        52
       ],
-      "observations": "No personally identifying text or faces observed in reviewed samples. Source variability, partial field of view, and occasional acquisition-start blank frames preserved. This is a technical presentation review, not an independent clinical interpretation."
+      "finalAtlasQuality": 52,
+      "observations": "Native source DICOM crops compared against encoded atlas samples for contours and texture. Fine-detail smoothing remains from lossy encoding. Photo, thermal, thumbnail, MP4 and poster delivery files remain unchanged by SHA-256. Independent clinical review remains pending."
     }
   },
   "dusAudit": [
@@ -73,7 +88,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 11168766,
       "videoBytes": 1189947,
-      "atlasBytes": 4005662
+      "atlasBytes": 3184356
     },
     {
       "id": "dus-cfv-002",
@@ -89,7 +104,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 12422966,
       "videoBytes": 1291575,
-      "atlasBytes": 5219810
+      "atlasBytes": 4143802
     },
     {
       "id": "dus-cfv-003",
@@ -105,7 +120,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 18380602,
       "videoBytes": 1681769,
-      "atlasBytes": 6437134
+      "atlasBytes": 5381884
     },
     {
       "id": "dus-cfv-004",
@@ -121,7 +136,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 3612560,
       "videoBytes": 265318,
-      "atlasBytes": 1548040
+      "atlasBytes": 1231366
     },
     {
       "id": "dus-cfv-005",
@@ -137,7 +152,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 3056702,
       "videoBytes": 224047,
-      "atlasBytes": 1419858
+      "atlasBytes": 1123080
     },
     {
       "id": "dus-cfv-006",
@@ -153,7 +168,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 3717148,
       "videoBytes": 283376,
-      "atlasBytes": 1427922
+      "atlasBytes": 1070588
     },
     {
       "id": "dus-cfv-007",
@@ -169,7 +184,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4070354,
       "videoBytes": 324930,
-      "atlasBytes": 1641742
+      "atlasBytes": 1226858
     },
     {
       "id": "dus-cfv-008",
@@ -185,7 +200,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 2422292,
       "videoBytes": 477124,
-      "atlasBytes": 1019870
+      "atlasBytes": 784532
     },
     {
       "id": "dus-cfv-009",
@@ -201,7 +216,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 2432442,
       "videoBytes": 502506,
-      "atlasBytes": 1046840
+      "atlasBytes": 823140
     },
     {
       "id": "dus-cfv-010",
@@ -217,7 +232,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 8240834,
       "videoBytes": 931311,
-      "atlasBytes": 3082634
+      "atlasBytes": 2531648
     },
     {
       "id": "dus-cfv-011",
@@ -233,7 +248,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 6553288,
       "videoBytes": 735720,
-      "atlasBytes": 2162474
+      "atlasBytes": 1716056
     },
     {
       "id": "dus-cfv-012",
@@ -249,7 +264,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 7556732,
       "videoBytes": 967127,
-      "atlasBytes": 2556908
+      "atlasBytes": 2082842
     },
     {
       "id": "dus-cfv-013",
@@ -265,7 +280,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 12704158,
       "videoBytes": 1111269,
-      "atlasBytes": 4709240
+      "atlasBytes": 3755866
     },
     {
       "id": "dus-cfv-014",
@@ -281,7 +296,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 10429036,
       "videoBytes": 995620,
-      "atlasBytes": 3420156
+      "atlasBytes": 2712268
     },
     {
       "id": "dus-cfv-015",
@@ -297,7 +312,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 14759592,
       "videoBytes": 1296102,
-      "atlasBytes": 5786918
+      "atlasBytes": 4766696
     },
     {
       "id": "dus-cfv-016",
@@ -313,7 +328,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 10531006,
       "videoBytes": 1143061,
-      "atlasBytes": 4102992
+      "atlasBytes": 3354576
     },
     {
       "id": "dus-cfv-017",
@@ -329,7 +344,7 @@
       "burnedInAnnotationField": "",
       "originalBytes": 3071984,
       "videoBytes": 333273,
-      "atlasBytes": 1241198
+      "atlasBytes": 1024020
     },
     {
       "id": "dus-cfv-018",
@@ -345,7 +360,7 @@
       "burnedInAnnotationField": "",
       "originalBytes": 3355558,
       "videoBytes": 267377,
-      "atlasBytes": 1103088
+      "atlasBytes": 905402
     },
     {
       "id": "dus-fv-037",
@@ -361,7 +376,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 7262886,
       "videoBytes": 388119,
-      "atlasBytes": 2966762
+      "atlasBytes": 2341732
     },
     {
       "id": "dus-fv-038",
@@ -377,7 +392,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4238212,
       "videoBytes": 281062,
-      "atlasBytes": 1710544
+      "atlasBytes": 1292650
     },
     {
       "id": "dus-fv-039",
@@ -393,7 +408,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4225288,
       "videoBytes": 313191,
-      "atlasBytes": 1700852
+      "atlasBytes": 1264912
     },
     {
       "id": "dus-fv-040",
@@ -409,7 +424,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 5090182,
       "videoBytes": 260786,
-      "atlasBytes": 1985178
+      "atlasBytes": 1556132
     },
     {
       "id": "dus-fv-041",
@@ -425,7 +440,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4635064,
       "videoBytes": 292251,
-      "atlasBytes": 1886116
+      "atlasBytes": 1478714
     },
     {
       "id": "dus-fv-042",
@@ -441,7 +456,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 5003196,
       "videoBytes": 268325,
-      "atlasBytes": 1936766
+      "atlasBytes": 1492600
     },
     {
       "id": "dus-fv-043",
@@ -457,7 +472,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 5208298,
       "videoBytes": 245791,
-      "atlasBytes": 2100804
+      "atlasBytes": 1650996
     },
     {
       "id": "dus-fv-044",
@@ -473,7 +488,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4343832,
       "videoBytes": 300428,
-      "atlasBytes": 1787986
+      "atlasBytes": 1353302
     },
     {
       "id": "dus-fv-045",
@@ -489,7 +504,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 6929998,
       "videoBytes": 775726,
-      "atlasBytes": 3010042
+      "atlasBytes": 2354452
     },
     {
       "id": "dus-fv-046",
@@ -505,7 +520,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 11826614,
       "videoBytes": 1405770,
-      "atlasBytes": 4680708
+      "atlasBytes": 3757990
     },
     {
       "id": "dus-fv-047",
@@ -521,7 +536,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 8060802,
       "videoBytes": 914339,
-      "atlasBytes": 3277094
+      "atlasBytes": 2522292
     },
     {
       "id": "dus-fv-048",
@@ -537,7 +552,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 10759840,
       "videoBytes": 1001421,
-      "atlasBytes": 3992284
+      "atlasBytes": 3165084
     },
     {
       "id": "dus-fv-049",
@@ -553,7 +568,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 12181060,
       "videoBytes": 1272869,
-      "atlasBytes": 4359848
+      "atlasBytes": 3624022
     },
     {
       "id": "dus-fv-050",
@@ -569,7 +584,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 13285160,
       "videoBytes": 1425658,
-      "atlasBytes": 5694354
+      "atlasBytes": 4578268
     },
     {
       "id": "dus-fv-051",
@@ -585,7 +600,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 8414232,
       "videoBytes": 740412,
-      "atlasBytes": 3616296
+      "atlasBytes": 2907642
     },
     {
       "id": "dus-fv-052",
@@ -601,7 +616,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 10860302,
       "videoBytes": 1305113,
-      "atlasBytes": 4670498
+      "atlasBytes": 3656316
     },
     {
       "id": "dus-fv-053",
@@ -617,7 +632,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 10646814,
       "videoBytes": 1138503,
-      "atlasBytes": 4473380
+      "atlasBytes": 3518798
     },
     {
       "id": "dus-fv-054",
@@ -633,7 +648,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 14581790,
       "videoBytes": 1626274,
-      "atlasBytes": 5558654
+      "atlasBytes": 4588794
     },
     {
       "id": "dus-gs-019",
@@ -649,7 +664,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 12309564,
       "videoBytes": 1492358,
-      "atlasBytes": 5114296
+      "atlasBytes": 4191892
     },
     {
       "id": "dus-gs-020",
@@ -665,7 +680,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 2733074,
       "videoBytes": 266301,
-      "atlasBytes": 1257518
+      "atlasBytes": 980688
     },
     {
       "id": "dus-gs-021",
@@ -681,7 +696,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 3194564,
       "videoBytes": 259625,
-      "atlasBytes": 1237854
+      "atlasBytes": 979974
     },
     {
       "id": "dus-gs-022",
@@ -697,7 +712,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4260778,
       "videoBytes": 350941,
-      "atlasBytes": 1724564
+      "atlasBytes": 1281924
     },
     {
       "id": "dus-gs-023",
@@ -713,7 +728,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4168654,
       "videoBytes": 301134,
-      "atlasBytes": 1654292
+      "atlasBytes": 1228510
     },
     {
       "id": "dus-gs-024",
@@ -729,7 +744,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4283468,
       "videoBytes": 269416,
-      "atlasBytes": 1705796
+      "atlasBytes": 1279570
     },
     {
       "id": "dus-gs-025",
@@ -745,7 +760,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 5215434,
       "videoBytes": 297268,
-      "atlasBytes": 2139588
+      "atlasBytes": 1658608
     },
     {
       "id": "dus-gs-026",
@@ -761,7 +776,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4352964,
       "videoBytes": 257523,
-      "atlasBytes": 1705320
+      "atlasBytes": 1325304
     },
     {
       "id": "dus-gs-027",
@@ -777,7 +792,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 3573960,
       "videoBytes": 253594,
-      "atlasBytes": 1365530
+      "atlasBytes": 1027524
     },
     {
       "id": "dus-gs-028",
@@ -793,7 +808,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 9688154,
       "videoBytes": 1032448,
-      "atlasBytes": 3480496
+      "atlasBytes": 2746848
     },
     {
       "id": "dus-gs-029",
@@ -809,7 +824,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 14808080,
       "videoBytes": 1940339,
-      "atlasBytes": 5396338
+      "atlasBytes": 4501770
     },
     {
       "id": "dus-gs-030",
@@ -825,7 +840,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 12738446,
       "videoBytes": 1184275,
-      "atlasBytes": 4917092
+      "atlasBytes": 4003216
     },
     {
       "id": "dus-gs-031",
@@ -841,7 +856,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 11707746,
       "videoBytes": 1431827,
-      "atlasBytes": 4641642
+      "atlasBytes": 3734484
     },
     {
       "id": "dus-gs-032",
@@ -857,7 +872,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 11110518,
       "videoBytes": 1346163,
-      "atlasBytes": 3849282
+      "atlasBytes": 3130598
     },
     {
       "id": "dus-gs-033",
@@ -873,7 +888,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 10532112,
       "videoBytes": 1238341,
-      "atlasBytes": 3942770
+      "atlasBytes": 3105678
     },
     {
       "id": "dus-gs-034",
@@ -889,7 +904,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 15492324,
       "videoBytes": 1973045,
-      "atlasBytes": 5661562
+      "atlasBytes": 4700196
     },
     {
       "id": "dus-gs-035",
@@ -905,7 +920,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 11423530,
       "videoBytes": 1506934,
-      "atlasBytes": 4421640
+      "atlasBytes": 3530070
     },
     {
       "id": "dus-gs-036",
@@ -921,7 +936,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 12789014,
       "videoBytes": 1122483,
-      "atlasBytes": 5417730
+      "atlasBytes": 4367120
     },
     {
       "id": "dus-pv-055",
@@ -937,7 +952,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4288190,
       "videoBytes": 299346,
-      "atlasBytes": 1759648
+      "atlasBytes": 1335726
     },
     {
       "id": "dus-pv-056",
@@ -953,7 +968,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4034216,
       "videoBytes": 294174,
-      "atlasBytes": 1551968
+      "atlasBytes": 1167030
     },
     {
       "id": "dus-pv-057",
@@ -969,7 +984,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4042502,
       "videoBytes": 298121,
-      "atlasBytes": 1549304
+      "atlasBytes": 1155420
     },
     {
       "id": "dus-pv-058",
@@ -985,7 +1000,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4065524,
       "videoBytes": 251958,
-      "atlasBytes": 1509802
+      "atlasBytes": 1167608
     },
     {
       "id": "dus-pv-059",
@@ -1001,7 +1016,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 3039604,
       "videoBytes": 214292,
-      "atlasBytes": 1201680
+      "atlasBytes": 887608
     },
     {
       "id": "dus-pv-060",
@@ -1017,7 +1032,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 4123742,
       "videoBytes": 299575,
-      "atlasBytes": 1671870
+      "atlasBytes": 1225266
     },
     {
       "id": "dus-pv-061",
@@ -1033,7 +1048,7 @@
       "burnedInAnnotationField": "NO",
       "originalBytes": 1904458,
       "videoBytes": 405278,
-      "atlasBytes": 813802
+      "atlasBytes": 614900
     },
     {
       "id": "dus-pv-062",
@@ -1049,7 +1064,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 8230252,
       "videoBytes": 590849,
-      "atlasBytes": 3578690
+      "atlasBytes": 2793676
     },
     {
       "id": "dus-pv-063",
@@ -1065,7 +1080,7 @@
       "burnedInAnnotationField": "",
       "originalBytes": 2457972,
       "videoBytes": 249113,
-      "atlasBytes": 753600
+      "atlasBytes": 611204
     },
     {
       "id": "dus-pv-064",
@@ -1081,7 +1096,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 12881550,
       "videoBytes": 1400743,
-      "atlasBytes": 4709244
+      "atlasBytes": 3868074
     },
     {
       "id": "dus-pv-065",
@@ -1097,7 +1112,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 12189694,
       "videoBytes": 1442539,
-      "atlasBytes": 4495978
+      "atlasBytes": 3674494
     },
     {
       "id": "dus-pv-066",
@@ -1113,7 +1128,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 9965818,
       "videoBytes": 1401373,
-      "atlasBytes": 4033460
+      "atlasBytes": 3311238
     },
     {
       "id": "dus-pv-067",
@@ -1129,7 +1144,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 13210536,
       "videoBytes": 1765976,
-      "atlasBytes": 4824274
+      "atlasBytes": 3947462
     },
     {
       "id": "dus-pv-068",
@@ -1145,7 +1160,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 14231796,
       "videoBytes": 1778427,
-      "atlasBytes": 5413626
+      "atlasBytes": 4466300
     },
     {
       "id": "dus-pv-069",
@@ -1161,7 +1176,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 10315456,
       "videoBytes": 1279935,
-      "atlasBytes": 4109460
+      "atlasBytes": 3341534
     },
     {
       "id": "dus-pv-070",
@@ -1177,7 +1192,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 13527376,
       "videoBytes": 1666800,
-      "atlasBytes": 5533724
+      "atlasBytes": 4548802
     },
     {
       "id": "dus-pv-071",
@@ -1193,7 +1208,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 10783270,
       "videoBytes": 1340140,
-      "atlasBytes": 4919392
+      "atlasBytes": 3978728
     },
     {
       "id": "dus-pv-072",
@@ -1209,7 +1224,7 @@
       "burnedInAnnotationField": "YES",
       "originalBytes": 11867420,
       "videoBytes": 1479874,
-      "atlasBytes": 4303452
+      "atlasBytes": 3545576
     }
   ]
 }

@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-06",
+  "encoding": {
+    "format": "WebP",
+    "quality": 52,
+    "method": 6,
+    "input": "source DICOM pixels",
+    "lossy": true,
+    "resized": false,
+    "purpose": "educational visual comparison; not for clinical measurements"
+  },
+  "preserved": {
+    "cineCount": 72,
+    "frameCount": 12830,
+    "atlasCount": 838,
+    "dimensionsUrlsLabelsAndTiming": true,
+    "mp4AndVisionPixels": "protected by 348 pre-optimization SHA-256 checksums"
+  },
+  "sizes": {
+    "quality": 52,
+    "method": 6,
+    "records": 72,
+    "frameCount": 12830,
+    "atlasFiles": 838,
+    "atlasBytes": 182338296,
+    "previousAtlasBytes": 227706936,
+    "previousAllMediaBytes": 307579295,
+    "projectedAllMediaBytes": 262210655
+  },
+  "archiveProjection": {
+    "baselineArchiveBytes": 306188012,
+    "savingsBytes": 45368640,
+    "projectedArchiveBytes": 260819372,
+    "projectedWithAdditional4MB": 264819372,
+    "hostingHardLimitBytes": 268435456,
+    "measurement": "Projection from supplied baseline; the final built archive must be measured by the publishing workflow."
+  },
+  "technicalVisualComparison": {
+    "samples": [
+      {
+        "id": "dus-cfv-001",
+        "originalDeliveryBytes": 301478,
+        "q58": 254744,
+        "psnrQ58": 37.48,
+        "q54": 244324,
+        "psnrQ54": 37.28,
+        "q52": 238758,
+        "psnrQ52": 37.2
+      },
+      {
+        "id": "dus-fv-045",
+        "originalDeliveryBytes": 416466,
+        "q58": 347352,
+        "psnrQ58": 36.24,
+        "q54": 332516,
+        "psnrQ54": 35.97,
+        "q52": 325528,
+        "psnrQ52": 35.84
+      },
+      {
+        "id": "dus-gs-027",
+        "originalDeliveryBytes": 129204,
+        "q58": 106416,
+        "psnrQ58": 37.48,
+        "q54": 101676,
+        "psnrQ54": 37.23,
+        "q52": 99254,
+        "psnrQ52": 37.14
+      },
+      {
+        "id": "dus-pv-062",
+        "originalDeliveryBytes": 198282,
+        "q58": 167210,
+        "psnrQ58": 35.29,
+        "q54": 159124,
+        "psnrQ54": 34.92,
+        "q52": 154466,
+        "psnrQ52": 34.83
+      },
+      {
+        "id": "dus-pv-063",
+        "originalDeliveryBytes": 122706,
+        "q58": 106036,
+        "psnrQ58": 40.89,
+        "q54": 101370,
+        "psnrQ54": 40.63,
+        "q52": 99210,
+        "psnrQ52": 40.52
+      },
+      {
+        "id": "dus-pv-068",
+        "originalDeliveryBytes": 411966,
+        "q58": 364272,
+        "psnrQ58": 38.25,
+        "q54": 348390,
+        "psnrQ54": 37.71,
+        "q52": 340290,
+        "psnrQ52": 37.67
+      }
+    ],
+    "inspection": "Compared source DICOM native crops against Q58/Q54/Q52 WebP. Qualitative contour and texture presentation checked; fine-detail smoothing from lossy encoding remains. These metrics and visual checks do not validate diagnostic interpretation or clinical measurement."
+  }
+}

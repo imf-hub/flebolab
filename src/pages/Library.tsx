@@ -1,21 +1,788 @@
-import {useMemo,useState} from 'react';
-import {Link,useSearchParams} from 'react-router-dom';
-import {ArrowUpRight,ArrowRight,BookOpen,Clock,Check,ChevronLeft,Search,Download,X,Layers3,ScanLine,Eye,ExternalLink,ShieldCheck} from 'lucide-react';
-import {sources,glossary,pathways,plates,animations} from '../data/educational';
-import assets from '../data/assets.json';
-import photos from '../data/vision.json';
-import clips from '../data/dus.json';
-import waterloo from '../data/waterloo.json';
-import {Note,SourceLink} from '../shared/UI';
-import {readLocal,saveLocal,download} from '../shared/utils';
-function PageHead({eyebrow,title,body}:{eyebrow:string;title:string;body:string}){return <div className="library-heading"><div className="eyebrow">{eyebrow}</div><h1>{title}</h1><p>{body}</p></div>}
-function SourcesFor({ids}:{ids:string[]}){return <div className="source-row">{ids.map(id=>{const s=sources.find(s=>s.id===id);return s?<SourceLink key={id} href={s.url} label={s.title}/>:null})}</div>}
-const targetLink=(s:{lab:string;target?:string})=>s.lab==='twin'?`/flebotwin?scenario=${s.target??'TW01'}`:s.lab==='dus'?`/flebodus${s.target?'?lesson='+s.target:''}`:`/flebovision${s.target?'?class='+s.target:''}`;
-function Pathways(){const[query,setQuery]=useSearchParams();const selected=pathways.find(p=>p.id===query.get('id'));const[progress,setProgress]=useState<Record<string,number[]>>(readLocal('flebo-pathway-progress',{}));const toggle=(id:string,index:number)=>{const old=progress[id]??[];const next={...progress,[id]:old.includes(index)?old.filter(i=>i!==index):[...old,index]};setProgress(next);saveLocal('flebo-pathway-progress',next)};return <><PageHead eyebrow="RECORRIDOS / APRENDER EN CONTEXTO" title={selected?selected.title:'Una idea. Distintas perspectivas.'} body={selected?selected.description:'Doce recorridos para conectar mecanismo, adquisición y observación. Para el estudio personal o para acompañar una clase.'}/>{selected?<><button className="back-link" onClick={()=>setQuery({})}><ChevronLeft size={14}/>Todos los recorridos</button><div className="pathway-detail"><aside><span className="route-number">{selected.id.slice(2)}</span><p><Clock size={15}/>{selected.minutes} min aproximadamente</p><div className="progress-track"><i style={{width:`${(progress[selected.id]?.length??0)/selected.steps.length*100}%`}}/></div><small>{progress[selected.id]?.length??0} / {selected.steps.length} pasos marcados</small><p>Abre cada laboratorio, explora la propuesta y vuelve para marcar tu avance. Se guarda en este navegador.</p><SourcesFor ids={selected.sourceIds}/></aside><div className="pathway-steps">{selected.steps.map((step,i)=><article key={i} className={progress[selected.id]?.includes(i)?'done':''}><button className="step-check" aria-label={`Marcar paso ${i+1}`} onClick={()=>toggle(selected.id,i)}>{progress[selected.id]?.includes(i)?<Check size={20}/>:String(i+1).padStart(2,'0')}</button><div><span className="eyebrow">{step.lab==='twin'?'FLEBOTWIN':step.lab==='dus'?'FLEBODUS':'FLEBOVISION'} {step.target&&`/ ${step.target}`}</span><h3>{step.title}</h3><p>{step.body}</p><Link to={targetLink(step)} target="_blank" className="text-link">Abrir laboratorio <ArrowUpRight size={15}/></Link></div></article>)}</div></div></>:<div className="pathways-grid">{pathways.map((p,i)=><button className="pathway-card" key={p.id} onClick={()=>setQuery({id:p.id})}><div className="pathway-card-top"><span>{String(i+1).padStart(2,'0')}</span><small><Clock size={12}/>{p.minutes} min</small></div><h2>{p.title}</h2><p>{p.description}</p><div className="pathway-labs">{Array.from(new Set(p.steps.map(s=>s.lab))).map(l=><span key={l}>{l==='twin'?<Layers3 size={14}/>:l==='dus'?<ScanLine size={14}/>:<Eye size={14}/>} {l==='twin'?'Twin':l==='dus'?'DUS':'Vision'}</span>)}</div><div className="card-cta">{progress[p.id]?.length?`${progress[p.id].length}/${p.steps.length} pasos marcados`:'Comenzar recorrido'}<ArrowUpRight size={19}/></div></button>)}</div>}</>}
-function MediaGallery(){const[chosen,setChosen]=useState<any>(null),[tab,setTab]=useState('plates');const list=tab==='plates'?plates:tab==='animations'?animations:assets.filter(a=>a.type==='image/png');return <section className="media-library"><div className="section-heading"><div><span className="eyebrow">RECURSOS PARA EXPLICAR</span><h2>Una imagen para cada idea.</h2></div><div className="segmented"><button className={tab==='plates'?'active':''} onClick={()=>setTab('plates')}>18 láminas</button><button className={tab==='animations'?'active':''} onClick={()=>setTab('animations')}>6 animaciones</button><button className={tab==='servier'?'active':''} onClick={()=>setTab('servier')}>Servier</button></div></div><div className="plate-grid">{list.map(p=><button key={p.id} onClick={()=>setChosen(p)}><img src={p.path} alt={p.title} loading="lazy"/><span>{p.title}</span></button>)}</div>{chosen&&<div className="modal-backdrop" onClick={()=>setChosen(null)} role="presentation"><section className="media-modal" role="dialog" aria-modal="true" aria-label={chosen.title} onClick={e=>e.stopPropagation()}><button className="modal-close icon-button" aria-label="Cerrar lámina" onClick={()=>setChosen(null)} autoFocus><X/></button><h2>{chosen.title}</h2><img src={chosen.path} alt={chosen.title}/><p>{chosen.description??chosen.notes}</p><p className="muted">{chosen.credit??chosen.attribution}</p>{chosen.sourceIds&&<SourcesFor ids={chosen.sourceIds}/>}<a href={chosen.path} download className="button quiet"><Download size={15}/>Descargar recurso</a></section></div>}</section>}
-function SourcesPage(){return <><PageHead eyebrow="CIENCIA / PROCEDENCIA / MÉTODO" title="Saber qué estás viendo." body="Fuentes, naturaleza de los recursos y supuestos del modelo. La procedencia acompaña a cada experiencia."/><div className="provenance-strip"><div><b>{clips.length}</b><span>Cines reales de compresión</span></div><div><b>{photos.length}</b><span>Fotografías clínicas</span></div><div><b>12</b><span>Estructuras anatómicas</span></div><div><b>15</b><span>Referencias principales</span></div></div><div className="nature-grid">{[['Imagen clínica','ThrombUS+ y TRICVI–C','Adquisiciones y fotografías reales. Se conservan etiquetas del proveedor y relaciones entre archivos; no se realiza un nuevo diagnóstico.'],['Anatomía de referencia','BodyParts3D','Mallas de un modelo anatómico de referencia. Doce estructuras de pierna izquierda; no cubren toda la variabilidad anatómica.'],['Modelo educativo','FleboTwin / IMF','Formulación propia de compartimentos con unidades relativas. Sirve para comparar mecanismos dentro de los supuestos publicados.'],['Cine experimental','Waterloo / Open-H-RF','Renderizado publicado de adquisición in vivo con vectores estimados. Se preserva su naturaleza de resultado procesado.']].map(([a,b,c])=><article key={a}><small>{a}</small><h3>{b}</h3><p>{c}</p></article>)}</div><section className="method-section" id="modelo"><div><span className="eyebrow">MODELO FLEBOTWIN / IMF-0D-RELATIVE-1.0</span><h2>Un mecanismo explícito.<br/>Resultados trazables.</h2><p>Cuatro compartimentos representan territorios profundo y superficial, distal y proximal. La conservación de volumen enlaza sus entradas y salidas. Una ley de pared lineal relaciona volumen, presión interior y presión exterior.</p><p>El flujo depende de la diferencia de potencial y de una resistencia asimétrica. Postura, activación de bomba, conductancia inversa, conexión perforante y resistencia de salida son parámetros visibles.</p></div><div><div className="formula">dVᵢ/dt = ΣQ entrada − ΣQ salida<br/>Pᵢ = P₀ + (Vᵢ − V₀)/Cᵢ + P exterior<br/>Hᵢ = Pᵢ + G · zᵢ<br/>Qᵢⱼ = (Hᵢ − Hⱼ) / Rᵢⱼ</div><p className="muted">Doce ciclos de estabilización, dos ciclos registrados e integración explícita con paso nominal 0,01 s. Los coeficientes son educativos y no se presentan como parámetros fisiológicos calibrados.</p><details><summary>Condiciones de contorno y límites</summary><p>Entrada constante profunda 0,48 y superficial 0,22 (unidades relativas); referencia proximal y término gravitacional definidos en el código versionado. Se comprueba conservación numérica y convergencia al reducir el paso temporal.</p><p>No resuelve colapso venoso, viscoelasticidad, propagación de ondas, interacción fluido-estructura de valvas ni una anatomía individual. La animación funcional usa una geometría esquemática distinta de las mallas anatómicas.</p><p>La comparación permite observar respuestas del modelo; no predice resultados de compresión o procedimientos en pacientes.</p></details><SourcesFor ids={['keijsers2015','ferlito2026']}/></div></section><section className="method-section"><div><span className="eyebrow">SELECCIÓN Y PREPARACIÓN DE MEDIOS</span><h2>El archivo conserva<br/>su historia.</h2></div><div><p>ThrombUS+: 72 cines, 72 participantes de origen, 18 por cada uno de los cuatro sitios. La selección incluye 24 registros no compresibles, 12 parciales y 36 compresibles. Está enriquecida para docencia y no estima prevalencia.</p><p>Los 12.830 cuadros se conservan indexados en atlas de distribución con dimensiones nativas. El tiempo procede de metadatos DICOM verificados. El video de reproducción es una derivación H.264; las imágenes de cuadro son WebP. No se aplica mejora generativa.</p><p>TRICVI–C:96 fotografías de71 carpetas de caso y12 parejas térmicas. Se conserva la clase C original. La cantidad de carpetas no se equipara a una cantidad confirmada de pacientes.</p><p>Los campos DICOM de identificación inspeccionados estaban vacíos y se revisaron visualmente portadas y cuadros de control. La revisión técnica y editorial de esta versión está documentada; queda pendiente la revisión médica independiente del contenido integrado.</p></div></section><div className="section-heading"><div><span className="eyebrow">REFERENCIAS PRINCIPALES</span><h2>Consulta el origen.</h2></div></div><div className="sources-list">{sources.map((s,i)=><article key={s.id} id={s.id}><span className="source-number">{String(i+1).padStart(2,'0')}</span><div><small className="eyebrow">{s.type}</small><h3><a href={s.url} target="_blank" rel="noreferrer">{s.title}<ArrowUpRight size={16}/></a></h3><p>{s.summary}</p><small>{s.credit} · {s.license}</small></div></article>)}</div><MediaGallery/></>}
-function Glossary(){const[search,set]=useState('');const list=glossary.filter(g=>`${g.term} ${g.english} ${g.aliases.join(' ')}`.toLowerCase().includes(search.toLowerCase()));return <><PageHead eyebrow="GLOSARIO / 32 CONCEPTOS" title="Un lenguaje compartido." body="Conceptos breves para acompañar la observación. Cada término enlaza con sus fuentes de referencia."/><div className="search-field glossary-search"><Search size={18}/><input aria-label="Buscar concepto" placeholder="Buscar término, sigla o nombre en inglés…" value={search} onChange={e=>set(e.target.value)}/></div><div className="glossary-grid">{list.map(g=><article key={g.id}><small>{g.english}</small><h2>{g.term}</h2>{g.aliases.length>0&&<span className="alias-list">{g.aliases.join(' · ')}</span>}<p>{g.definition}</p><SourcesFor ids={g.sourceIds}/></article>)}</div>{!list.length&&<p>No se encontraron conceptos con esa búsqueda.</p>}</>}
-function Credits(){return <><PageHead eyebrow="CRÉDITOS / REUTILIZACIÓN" title="Construido sobre conocimiento abierto." body="Atribuciones, licencias y transformaciones de los recursos que hacen posible FLEBO LAB."/><div className="credits-intro"><ShieldCheck size={32}/><p>La licencia de cada recurso se conserva por separado. Las referencias bibliográficas no transfieren derechos sobre las figuras de sus publicaciones. Los medios seleccionados aquí proceden de depósitos o autores con condiciones de reutilización documentadas.</p></div><div className="credits-main">{[['ThrombUS+',clips[0].attribution,'https://zenodo.org/records/17659415'],['TRICVI–C v2',photos[0].attribution,'https://data.mendeley.com/datasets/rf5m97cmm3/2'],['Waterloo / Open-H-RF',waterloo.attribution,waterloo.sourceUrl],['BodyParts3D','BodyParts3D, © The Database Center for Life Science, CC Attribution4.0 International. Selección, conversiónOBJ→glTF, escala y orientación para la web. La base actualizó su licencia a CC BY4.0 en febrero2025.','https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html'],['Servier Medical Art','Imágenes de Servier Medical Art, Servier, CC BY4.0. Se distribuyen PNG originales con título y procedencia individual.','https://smart.servier.com/using-smart-images-what-you-can-do/'],['Contenido original IMF','Motor educativo, esquemas, dieciocho láminas y seis animaciones vectoriales desarrolladas para FLEBO LAB IMF. Cada explicación identifica sus fuentes científicas.','/fuentes']].map(([title,body,url])=><article key={title}><h2>{title}</h2><p>{body}</p><SourceLink href={url} label="Fuente y condiciones"/></article>)}</div><details className="assets-details"><summary>Inventario de anatomía e ilustración ({assets.length} recursos)</summary><div className="asset-list">{assets.map(a=><div key={a.id}><b>{a.title}</b><span>{a.license}</span><SourceLink href={a.sourceUrl} label="Origen"/></div>)}</div></details><section className="software-credits"><h2>Bibliotecas de la aplicación</h2><p>React, TypeScript, Vite, Three.js, React Three Fiber, Drei, OpenSeadragon, Plotly.js y Lucide. El archivo de dependencias y el informe de licencias acompañan al código para su revisión y mantenimiento.</p><p>Identidad gráfica de la aplicación: marca tipográfica y símbolo propios para este proyecto; no se presenta un sello de acreditación.</p></section></>}
-function Guide(){return <><PageHead eyebrow="GUÍA / DE LA PRIMERA VISITA A LA CLASE" title="Explorar es el primer paso." body="Acceso directo, sin cuenta. Elige un laboratorio o sigue un recorrido temático."/><div className="guide-featured">{[['01','FleboTwin','Elige uno de los doce escenarios. Alterna anatomía, red de flujo, válvula y circuito. Reproduce el ciclo y observa el cursor en las curvas. En Parámetros puedes variar una condición; Comparar añade un segundo escenario.','/flebotwin'],['02','FleboDUS','Filtra por segmento, lado o compresibilidad. Abre un cine y usa las flechas para avanzar cuadros reales indexados. Sitúa A y B para un intervalo temporal. Compara dos cines o explora los principios Doppler.','/flebodus'],['03','FleboVision','Filtra fotografías por clase del depósito. Amplía con rueda o controles, mueve la imagen y compara dos o cuatro vistas. Las flechas y puntos de anotación se mantienen asociados al recurso.','/flebovision']].map(([n,t,p,u])=><article key={n}><span>{n}</span><div><h2>{t}</h2><p>{p}</p><Link to={u} className="text-link">Entrar <ArrowUpRight size={15}/></Link></div></article>)}</div><div className="guide-grid">{[['Compartir una selección','El enlace incluye el caso o escenario seleccionado. En FleboTwin también incluye los parámetros actuales; quien lo abra reconstruirá esa configuración.'],['Presentar una clase','El botón Presentar solicita pantalla completa. Usa etiquetas ocultas para comenzar una discusión de observación y muéstralas después para contrastar con el depósito.'],['Guardar y exportar','Favoritos, progreso y anotaciones se guardan solo en este navegador. Las curvas se exportan como CSV; las anotaciones como JSON con coordenadas normalizadas.'],['Controles y accesibilidad','Usa Tab para recorrer controles. En un cine con foco, Espacio reproduce/pausa y ←/→ avanzan un cuadro. Todos los visores incluyen botones de ampliación y restauración.'],['Aprender por recorridos','Cada recorrido enlaza pasos entre laboratorios y permite marcar el avance. Los laboratorios abren en otra pestaña para conservar la guía.'],['Privacidad y uso','No se solicitan datos de pacientes ni se permiten cargas de expedientes. La aplicación no necesita una cuenta; los datos personales de estudio permanecen en almacenamiento local.']].map(([t,p])=><article key={t}><h3>{t}</h3><p>{p}</p></article>)}</div><MediaGallery/></>}
-function Release(){return <><PageHead eyebrow="VERSIÓN 0.9 / 6 DE NOVIEMBRE DE 2026" title="Un laboratorio abierto, con alcance explícito." body="Primera versión pública de revisión profesional. Tres experiencias completas conectadas con recursos reales y fuentes visibles."/><div className="release-grid"><section><h2>Disponible en esta versión</h2><ul><li>Doce escenarios de FleboTwin, motor educativo reproducible, curvas sincronizadas, parámetros y comparación.</li><li>Anatomía BodyParts3D con 12 estructuras y diez ilustraciones Servier.</li><li>72 cines reales de72 participantes, cuatro sitios y 12.830 cuadros indexados.</li><li>Diez apartados Doppler; DP09 incorpora el cine experimental de Waterloo.</li><li>96 fotografías,71 carpetas de caso y12 parejas térmicas; comparación de dos o cuatro imágenes y anotaciones.</li><li>Doce recorridos,32 conceptos,18 láminas y seis animaciones conceptuales.</li><li>Enlaces directos, fuentes, atribución, exportación y almacenamiento personal local.</li></ul></section><section className="release-pending"><h2>Para llegar a la versión1.0</h2><ul><li>Revisión médica independiente del producto integrado y registro de aprobación editorial.</li><li>Prueba de uso con médicos y pruebas en dispositivos físicos representativos.</li><li>Validación de las regiones espaciales DICOM antes de habilitar distancias; espectros clínicos de reflujo con calibración verificada.</li><li>Importación de una señal cuantitativa experimental Waterloo para DP09, con ROI y tiempo físico validados.</li><li>Mayor diversidad de población, condiciones de captura, patología y maniobras; documentación de cobertura.</li><li>Un modelo hemodinámico calibrado y validado requeriría un desarrollo científico separado; esta versión conserva su finalidad docente.</li><li>Conexión posterior del subdominio propio mediante DNS en Hostinger.</li></ul></section></div><Note>La revisión técnica y editorial no equivale a validación clínica. Las etiquetas clínicas se atribuyen al proveedor original y las demostraciones sintéticas se identifican en pantalla.</Note><Link to="/fuentes" className="button primary">Consultar método y fuentes <ArrowRight size={16}/></Link></>}
-export default function Library({mode}:{mode:string}){return <div className="container library-page">{mode==='pathways'?<Pathways/>:mode==='sources'?<SourcesPage/>:mode==='credits'?<Credits/>:mode==='guide'?<Guide/>:mode==='glossary'?<Glossary/>:<Release/>}</div>}
+import { useMemo, useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
+import {
+  ArrowUpRight,
+  ArrowRight,
+  BookOpen,
+  Clock,
+  Check,
+  ChevronLeft,
+  Search,
+  Download,
+  X,
+  Layers3,
+  ScanLine,
+  Eye,
+  ExternalLink,
+  ShieldCheck,
+} from "lucide-react";
+import {
+  sources,
+  glossary,
+  pathways,
+  plates,
+  animations,
+} from "../data/educational";
+import assets from "../data/assets.json";
+import photos from "../data/vision.json";
+import clips from "../data/dus.json";
+import waterloo from "../data/waterloo.json";
+import { Note, SourceLink } from "../shared/UI";
+import { readLocal, saveLocal, download } from "../shared/utils";
+function PageHead({
+  eyebrow,
+  title,
+  body,
+}: {
+  eyebrow: string;
+  title: string;
+  body: string;
+}) {
+  return (
+    <div className="library-heading">
+      <div className="eyebrow">{eyebrow}</div>
+      <h1>{title}</h1>
+      <p>{body}</p>
+    </div>
+  );
+}
+function SourcesFor({ ids }: { ids: string[] }) {
+  return (
+    <div className="source-row">
+      {ids.map((id) => {
+        const s = sources.find((s) => s.id === id);
+        return s ? <SourceLink key={id} href={s.url} label={s.title} /> : null;
+      })}
+    </div>
+  );
+}
+const targetLink = (s: { lab: string; target?: string }) =>
+  s.lab === "twin"
+    ? `/flebotwin?scenario=${s.target ?? "TW01"}`
+    : s.lab === "dus"
+      ? `/flebodus${s.target ? "?lesson=" + s.target : ""}`
+      : `/flebovision${s.target ? "?class=" + s.target : ""}`;
+function Pathways() {
+  const [query, setQuery] = useSearchParams();
+  const selected = pathways.find((p) => p.id === query.get("id"));
+  const [progress, setProgress] = useState<Record<string, number[]>>(
+    readLocal("flebo-pathway-progress", {}),
+  );
+  const toggle = (id: string, index: number) => {
+    const old = progress[id] ?? [];
+    const next = {
+      ...progress,
+      [id]: old.includes(index)
+        ? old.filter((i) => i !== index)
+        : [...old, index],
+    };
+    setProgress(next);
+    saveLocal("flebo-pathway-progress", next);
+  };
+  return (
+    <>
+      <PageHead
+        eyebrow="RECORRIDOS / APRENDER EN CONTEXTO"
+        title={selected ? selected.title : "Una idea. Distintas perspectivas."}
+        body={
+          selected
+            ? selected.description
+            : "Doce recorridos para conectar mecanismo, adquisición y observación. Para el estudio personal o para acompañar una clase."
+        }
+      />
+      {selected ? (
+        <>
+          <button className="back-link" onClick={() => setQuery({})}>
+            <ChevronLeft size={14} />
+            Todos los recorridos
+          </button>
+          <div className="pathway-detail">
+            <aside>
+              <span className="route-number">{selected.id.slice(2)}</span>
+              <p>
+                <Clock size={15} />
+                {selected.minutes} min aproximadamente
+              </p>
+              <div className="progress-track">
+                <i
+                  style={{
+                    width: `${((progress[selected.id]?.length ?? 0) / selected.steps.length) * 100}%`,
+                  }}
+                />
+              </div>
+              <small>
+                {progress[selected.id]?.length ?? 0} / {selected.steps.length}{" "}
+                pasos marcados
+              </small>
+              <p>
+                Abre cada laboratorio, explora la propuesta y vuelve para marcar
+                tu avance. Se guarda en este navegador.
+              </p>
+              <SourcesFor ids={selected.sourceIds} />
+            </aside>
+            <div className="pathway-steps">
+              {selected.steps.map((step, i) => (
+                <article
+                  key={i}
+                  className={progress[selected.id]?.includes(i) ? "done" : ""}
+                >
+                  <button
+                    className="step-check"
+                    aria-label={`Marcar paso ${i + 1}`}
+                    onClick={() => toggle(selected.id, i)}
+                  >
+                    {progress[selected.id]?.includes(i) ? (
+                      <Check size={20} />
+                    ) : (
+                      String(i + 1).padStart(2, "0")
+                    )}
+                  </button>
+                  <div>
+                    <span className="eyebrow">
+                      {step.lab === "twin"
+                        ? "FLEBOTWIN"
+                        : step.lab === "dus"
+                          ? "FLEBODUS"
+                          : "FLEBOVISION"}{" "}
+                      {step.target && `/ ${step.target}`}
+                    </span>
+                    <h3>{step.title}</h3>
+                    <p>{step.body}</p>
+                    <Link
+                      to={targetLink(step)}
+                      target="_blank"
+                      className="text-link"
+                    >
+                      Abrir laboratorio <ArrowUpRight size={15} />
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        </>
+      ) : (
+        <div className="pathways-grid">
+          {pathways.map((p, i) => (
+            <button
+              className="pathway-card"
+              key={p.id}
+              onClick={() => setQuery({ id: p.id })}
+            >
+              <div className="pathway-card-top">
+                <span>{String(i + 1).padStart(2, "0")}</span>
+                <small>
+                  <Clock size={12} />
+                  {p.minutes} min
+                </small>
+              </div>
+              <h2>{p.title}</h2>
+              <p>{p.description}</p>
+              <div className="pathway-labs">
+                {Array.from(new Set(p.steps.map((s) => s.lab))).map((l) => (
+                  <span key={l}>
+                    {l === "twin" ? (
+                      <Layers3 size={14} />
+                    ) : l === "dus" ? (
+                      <ScanLine size={14} />
+                    ) : (
+                      <Eye size={14} />
+                    )}{" "}
+                    {l === "twin" ? "Twin" : l === "dus" ? "DUS" : "Vision"}
+                  </span>
+                ))}
+              </div>
+              <div className="card-cta">
+                {progress[p.id]?.length
+                  ? `${progress[p.id].length}/${p.steps.length} pasos marcados`
+                  : "Comenzar recorrido"}
+                <ArrowUpRight size={19} />
+              </div>
+            </button>
+          ))}
+        </div>
+      )}
+    </>
+  );
+}
+function MediaGallery() {
+  const [chosen, setChosen] = useState<any>(null),
+    [tab, setTab] = useState("plates");
+  const list =
+    tab === "plates"
+      ? plates
+      : tab === "animations"
+        ? animations
+        : assets.filter((a) => a.type === "image/png");
+  return (
+    <section className="media-library">
+      <div className="section-heading">
+        <div>
+          <span className="eyebrow">RECURSOS PARA EXPLICAR</span>
+          <h2>Una imagen para cada idea.</h2>
+        </div>
+        <div className="segmented">
+          <button
+            className={tab === "plates" ? "active" : ""}
+            onClick={() => setTab("plates")}
+          >
+            18 láminas
+          </button>
+          <button
+            className={tab === "animations" ? "active" : ""}
+            onClick={() => setTab("animations")}
+          >
+            6 animaciones
+          </button>
+          <button
+            className={tab === "servier" ? "active" : ""}
+            onClick={() => setTab("servier")}
+          >
+            Servier
+          </button>
+        </div>
+      </div>
+      <div className="plate-grid">
+        {list.map((p) => (
+          <button key={p.id} onClick={() => setChosen(p)}>
+            <img src={p.path} alt={p.title} loading="lazy" />
+            <span>{p.title}</span>
+          </button>
+        ))}
+      </div>
+      {chosen && (
+        <div
+          className="modal-backdrop"
+          onClick={() => setChosen(null)}
+          role="presentation"
+        >
+          <section
+            className="media-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-label={chosen.title}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              className="modal-close icon-button"
+              aria-label="Cerrar lámina"
+              onClick={() => setChosen(null)}
+              autoFocus
+            >
+              <X />
+            </button>
+            <h2>{chosen.title}</h2>
+            <img src={chosen.path} alt={chosen.title} />
+            <p>{chosen.description ?? chosen.notes}</p>
+            <p className="muted">{chosen.credit ?? chosen.attribution}</p>
+            {chosen.sourceIds && <SourcesFor ids={chosen.sourceIds} />}
+            <a href={chosen.path} download className="button quiet">
+              <Download size={15} />
+              Descargar recurso
+            </a>
+          </section>
+        </div>
+      )}
+    </section>
+  );
+}
+function SourcesPage() {
+  return (
+    <>
+      <PageHead
+        eyebrow="CIENCIA / PROCEDENCIA / MÉTODO"
+        title="Saber qué estás viendo."
+        body="Fuentes, naturaleza de los recursos y supuestos del modelo. La procedencia acompaña a cada experiencia."
+      />
+      <div className="provenance-strip">
+        <div>
+          <b>{clips.length}</b>
+          <span>Cines reales de compresión</span>
+        </div>
+        <div>
+          <b>{photos.length}</b>
+          <span>Fotografías clínicas</span>
+        </div>
+        <div>
+          <b>12</b>
+          <span>Estructuras anatómicas</span>
+        </div>
+        <div>
+          <b>15</b>
+          <span>Referencias principales</span>
+        </div>
+      </div>
+      <div className="nature-grid">
+        {[
+          [
+            "Imagen clínica",
+            "ThrombUS+ y TRICVI–C",
+            "Adquisiciones y fotografías reales. Se conservan etiquetas del proveedor y relaciones entre archivos; no se realiza un nuevo diagnóstico.",
+          ],
+          [
+            "Anatomía de referencia",
+            "BodyParts3D",
+            "Mallas de un modelo anatómico de referencia. Doce estructuras de pierna izquierda; no cubren toda la variabilidad anatómica.",
+          ],
+          [
+            "Modelo educativo",
+            "FleboTwin / IMF",
+            "Formulación propia de compartimentos con unidades relativas. Sirve para comparar mecanismos dentro de los supuestos publicados.",
+          ],
+          [
+            "Cine experimental",
+            "Waterloo / Open-H-RF",
+            "Renderizado publicado de adquisición in vivo con vectores estimados. Se preserva su naturaleza de resultado procesado.",
+          ],
+        ].map(([a, b, c]) => (
+          <article key={a}>
+            <small>{a}</small>
+            <h3>{b}</h3>
+            <p>{c}</p>
+          </article>
+        ))}
+      </div>
+      <section className="method-section" id="modelo">
+        <div>
+          <span className="eyebrow">
+            MODELO FLEBOTWIN / IMF-0D-RELATIVE-1.1
+          </span>
+          <h2>
+            Un mecanismo explícito.
+            <br />
+            Resultados trazables.
+          </h2>
+          <p>
+            Cuatro compartimentos representan territorios profundo y
+            superficial, distal y proximal. La conservación de volumen enlaza
+            sus entradas y salidas. Una ley de pared lineal relaciona volumen,
+            presión interior y presión exterior.
+          </p>
+          <p>
+            El flujo depende de la diferencia de potencial y de una resistencia
+            asimétrica. Postura, activación de bomba, conductancia inversa,
+            conexión perforante y resistencia de salida son parámetros visibles.
+          </p>
+        </div>
+        <div>
+          <div className="formula">
+            dVᵢ/dt = ΣQ entrada − ΣQ salida
+            <br />
+            Pᵢ = P₀ + (Vᵢ − V₀)/Cᵢ + P exterior
+            <br />
+            Hᵢ = Pᵢ + G · zᵢ
+            <br />
+            Qᵢⱼ = (Hᵢ − Hⱼ) / Rᵢⱼ
+          </div>
+          <p className="muted">
+            Estabilización adaptativa por ciclos completos (mínimo doce), dos
+            ciclos registrados e integración explícita con paso nominal 0,01 s.
+            Los coeficientes son educativos y no se presentan como parámetros
+            fisiológicos calibrados.
+          </p>
+          <details>
+            <summary>Condiciones de contorno y límites</summary>
+            <p>
+              Entrada constante profunda 0,48 y superficial 0,22 (unidades
+              relativas); referencia proximal y término gravitacional definidos
+              en el código versionado. Se comprueba conservación numérica y
+              convergencia al reducir el paso temporal.
+            </p>
+            <p>
+              La entrada constante fija el retorno medio del régimen periódico
+              en 0,7 unidades relativas; la comparación estudia presión, forma
+              de onda y flujo inverso, no una predicción de eficiencia de bomba.
+              La presión exterior se limita a 1,5 unidades relativas para
+              conservar el dominio de la pared lineal. No resuelve colapso
+              venoso, viscoelasticidad, propagación de ondas, interacción
+              fluido-estructura de valvas ni una anatomía individual. La
+              animación funcional usa una geometría esquemática distinta de las
+              mallas anatómicas.
+            </p>
+            <p>
+              La comparación permite observar respuestas del modelo; no predice
+              resultados de compresión o procedimientos en pacientes.
+            </p>
+          </details>
+          <SourcesFor ids={["keijsers2015", "ferlito2026"]} />
+        </div>
+      </section>
+      <section className="method-section">
+        <div>
+          <span className="eyebrow">SELECCIÓN Y PREPARACIÓN DE MEDIOS</span>
+          <h2>
+            El archivo conserva
+            <br />
+            su historia.
+          </h2>
+        </div>
+        <div>
+          <p>
+            ThrombUS+: 72 cines, 72 participantes de origen, 18 por cada uno de
+            los cuatro sitios. La selección incluye 24 registros no
+            compresibles, 12 parciales y 36 compresibles. Está enriquecida para
+            docencia y no estima prevalencia.
+          </p>
+          <p>
+            Los 12.830 cuadros se conservan indexados en atlas de distribución
+            con dimensiones nativas. El tiempo procede de metadatos DICOM
+            verificados. El video de reproducción es una derivación H.264; las
+            imágenes de cuadro son WebP. Son derivados comprimidos para
+            docencia; los cuadros WebP conservan las dimensiones nativas y
+            presentan pérdida de textura fina respecto al DICOM original. No se
+            aplica mejora generativa.
+          </p>
+          <p>
+            TRICVI–C:96 fotografías de71 carpetas de caso y12 parejas térmicas.
+            Se conserva la clase C original. La cantidad de carpetas no se
+            equipara a una cantidad confirmada de pacientes.
+          </p>
+          <p>
+            Los campos DICOM de identificación inspeccionados estaban vacíos y
+            se revisaron visualmente portadas y cuadros de control. La revisión
+            técnica y editorial de esta versión está documentada; queda
+            pendiente la revisión médica independiente del contenido integrado.
+          </p>
+        </div>
+      </section>
+      <div className="section-heading">
+        <div>
+          <span className="eyebrow">REFERENCIAS PRINCIPALES</span>
+          <h2>Consulta el origen.</h2>
+        </div>
+      </div>
+      <div className="sources-list">
+        {sources.map((s, i) => (
+          <article key={s.id} id={s.id}>
+            <span className="source-number">
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <div>
+              <small className="eyebrow">{s.type}</small>
+              <h3>
+                <a href={s.url} target="_blank" rel="noreferrer">
+                  {s.title}
+                  <ArrowUpRight size={16} />
+                </a>
+              </h3>
+              <p>{s.summary}</p>
+              <small>
+                {s.credit} · {s.license}
+              </small>
+            </div>
+          </article>
+        ))}
+      </div>
+      <MediaGallery />
+    </>
+  );
+}
+function Glossary() {
+  const [search, set] = useState("");
+  const list = glossary.filter((g) =>
+    `${g.term} ${g.english} ${g.aliases.join(" ")}`
+      .toLowerCase()
+      .includes(search.toLowerCase()),
+  );
+  return (
+    <>
+      <PageHead
+        eyebrow="GLOSARIO / 32 CONCEPTOS"
+        title="Un lenguaje compartido."
+        body="Conceptos breves para acompañar la observación. Cada término enlaza con sus fuentes de referencia."
+      />
+      <div className="search-field glossary-search">
+        <Search size={18} />
+        <input
+          aria-label="Buscar concepto"
+          placeholder="Buscar término, sigla o nombre en inglés…"
+          value={search}
+          onChange={(e) => set(e.target.value)}
+        />
+      </div>
+      <div className="glossary-grid">
+        {list.map((g) => (
+          <article key={g.id}>
+            <small>{g.english}</small>
+            <h2>{g.term}</h2>
+            {g.aliases.length > 0 && (
+              <span className="alias-list">{g.aliases.join(" · ")}</span>
+            )}
+            <p>{g.definition}</p>
+            <SourcesFor ids={g.sourceIds} />
+          </article>
+        ))}
+      </div>
+      {!list.length && <p>No se encontraron conceptos con esa búsqueda.</p>}
+    </>
+  );
+}
+function Credits() {
+  return (
+    <>
+      <PageHead
+        eyebrow="CRÉDITOS / REUTILIZACIÓN"
+        title="Construido sobre conocimiento abierto."
+        body="Atribuciones, licencias y transformaciones de los recursos que hacen posible FLEBO LAB."
+      />
+      <div className="credits-intro">
+        <ShieldCheck size={32} />
+        <p>
+          La licencia de cada recurso se conserva por separado. Las referencias
+          bibliográficas no transfieren derechos sobre las figuras de sus
+          publicaciones. Los medios seleccionados aquí proceden de depósitos o
+          autores con condiciones de reutilización documentadas.
+        </p>
+      </div>
+      <div className="credits-main">
+        {[
+          [
+            "ThrombUS+",
+            clips[0].attribution,
+            "https://zenodo.org/records/17659415",
+          ],
+          [
+            "TRICVI–C v2",
+            photos[0].attribution,
+            "https://data.mendeley.com/datasets/rf5m97cmm3/2",
+          ],
+          ["Waterloo / Open-H-RF", waterloo.attribution, waterloo.sourceUrl],
+          [
+            "BodyParts3D",
+            "BodyParts3D, © The Database Center for Life Science, CC Attribution4.0 International. Selección, conversiónOBJ→glTF, escala y orientación para la web. La base actualizó su licencia a CC BY4.0 en febrero2025.",
+            "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+          ],
+          [
+            "Servier Medical Art",
+            "Imágenes de Servier Medical Art, Servier, CC BY4.0. Se distribuyen PNG originales con título y procedencia individual.",
+            "https://smart.servier.com/using-smart-images-what-you-can-do/",
+          ],
+          [
+            "Contenido original IMF",
+            "Motor educativo, esquemas, dieciocho láminas y seis animaciones vectoriales desarrolladas para FLEBO LAB IMF. Cada explicación identifica sus fuentes científicas.",
+            "/fuentes",
+          ],
+        ].map(([title, body, url]) => (
+          <article key={title}>
+            <h2>{title}</h2>
+            <p>{body}</p>
+            <SourceLink href={url} label="Fuente y condiciones" />
+          </article>
+        ))}
+      </div>
+      <details className="assets-details">
+        <summary>
+          Inventario de anatomía e ilustración ({assets.length} recursos)
+        </summary>
+        <div className="asset-list">
+          {assets.map((a) => (
+            <div key={a.id}>
+              <b>{a.title}</b>
+              <span>{a.license}</span>
+              <SourceLink href={a.sourceUrl} label="Origen" />
+            </div>
+          ))}
+        </div>
+      </details>
+      <section className="software-credits">
+        <h2>Bibliotecas de la aplicación</h2>
+        <p>
+          React, TypeScript, Vite, Three.js, React Three Fiber, Drei,
+          OpenSeadragon, Plotly.js y Lucide. El archivo de dependencias y el
+          informe de licencias acompañan al código para su revisión y
+          mantenimiento.
+        </p>
+        <p>
+          Identidad gráfica de la aplicación: marca tipográfica y símbolo
+          propios para este proyecto; no se presenta un sello de acreditación.
+        </p>
+      </section>
+    </>
+  );
+}
+function Guide() {
+  return (
+    <>
+      <PageHead
+        eyebrow="GUÍA / DE LA PRIMERA VISITA A LA CLASE"
+        title="Explorar es el primer paso."
+        body="Acceso directo, sin cuenta. Elige un laboratorio o sigue un recorrido temático."
+      />
+      <div className="guide-featured">
+        {[
+          [
+            "01",
+            "FleboTwin",
+            "Elige uno de los doce escenarios. Alterna anatomía, red de flujo, válvula y circuito. Reproduce el ciclo y observa el cursor en las curvas. En Parámetros puedes variar una condición; Comparar añade un segundo escenario.",
+            "/flebotwin",
+          ],
+          [
+            "02",
+            "FleboDUS",
+            "Filtra por segmento, lado o compresibilidad. Abre un cine y usa las flechas para avanzar cuadros reales indexados. Sitúa A y B para un intervalo temporal. Compara dos cines o explora los principios Doppler.",
+            "/flebodus",
+          ],
+          [
+            "03",
+            "FleboVision",
+            "Filtra fotografías por clase del depósito. Amplía con rueda o controles, mueve la imagen y compara dos o cuatro vistas. Las flechas y puntos de anotación se mantienen asociados al recurso.",
+            "/flebovision",
+          ],
+        ].map(([n, t, p, u]) => (
+          <article key={n}>
+            <span>{n}</span>
+            <div>
+              <h2>{t}</h2>
+              <p>{p}</p>
+              <Link to={u} className="text-link">
+                Entrar <ArrowUpRight size={15} />
+              </Link>
+            </div>
+          </article>
+        ))}
+      </div>
+      <div className="guide-grid">
+        {[
+          [
+            "Compartir una selección",
+            "El enlace incluye el caso o escenario seleccionado. En FleboTwin también incluye los parámetros actuales; quien lo abra reconstruirá esa configuración.",
+          ],
+          [
+            "Presentar una clase",
+            "El botón Presentar solicita pantalla completa. Usa etiquetas ocultas para comenzar una discusión de observación y muéstralas después para contrastar con el depósito.",
+          ],
+          [
+            "Guardar y exportar",
+            "Favoritos, progreso y anotaciones se guardan solo en este navegador. Las curvas se exportan como CSV; las anotaciones como JSON con coordenadas normalizadas.",
+          ],
+          [
+            "Controles y accesibilidad",
+            "Usa Tab para recorrer controles. En un cine con foco, Espacio reproduce/pausa y ←/→ avanzan un cuadro. Todos los visores incluyen botones de ampliación y restauración.",
+          ],
+          [
+            "Aprender por recorridos",
+            "Cada recorrido enlaza pasos entre laboratorios y permite marcar el avance. Los laboratorios abren en otra pestaña para conservar la guía.",
+          ],
+          [
+            "Privacidad y uso",
+            "No se solicitan datos de pacientes ni se permiten cargas de expedientes. La aplicación no necesita una cuenta; los datos personales de estudio permanecen en almacenamiento local.",
+          ],
+        ].map(([t, p]) => (
+          <article key={t}>
+            <h3>{t}</h3>
+            <p>{p}</p>
+          </article>
+        ))}
+      </div>
+      <MediaGallery />
+    </>
+  );
+}
+function Release() {
+  return (
+    <>
+      <PageHead
+        eyebrow="VERSIÓN 0.9 / 6 DE NOVIEMBRE DE 2026"
+        title="Un laboratorio abierto, con alcance explícito."
+        body="Primera versión pública de revisión profesional. Tres experiencias completas conectadas con recursos reales y fuentes visibles."
+      />
+      <div className="release-grid">
+        <section>
+          <h2>Disponible en esta versión</h2>
+          <ul>
+            <li>
+              Doce escenarios de FleboTwin, motor educativo reproducible, curvas
+              sincronizadas, parámetros y comparación.
+            </li>
+            <li>
+              Anatomía BodyParts3D con 12 estructuras y diez ilustraciones
+              Servier.
+            </li>
+            <li>
+              72 cines reales de72 participantes, cuatro sitios y 12.830 cuadros
+              indexados.
+            </li>
+            <li>
+              Diez apartados Doppler; DP09 incorpora el cine experimental de
+              Waterloo.
+            </li>
+            <li>
+              96 fotografías,71 carpetas de caso y12 parejas térmicas;
+              comparación de dos o cuatro imágenes y anotaciones.
+            </li>
+            <li>
+              Doce recorridos,32 conceptos,18 láminas y seis animaciones
+              conceptuales.
+            </li>
+            <li>
+              Enlaces directos, fuentes, atribución, exportación y
+              almacenamiento personal local.
+            </li>
+          </ul>
+        </section>
+        <section className="release-pending">
+          <h2>Para llegar a la versión1.0</h2>
+          <ul>
+            <li>
+              Revisión médica independiente del producto integrado y registro de
+              aprobación editorial.
+            </li>
+            <li>
+              Prueba de uso con médicos y pruebas en dispositivos físicos
+              representativos.
+            </li>
+            <li>
+              Validación de las regiones espaciales DICOM antes de habilitar
+              distancias; espectros clínicos de reflujo con calibración
+              verificada.
+            </li>
+            <li>
+              Importación de una señal cuantitativa experimental Waterloo para
+              DP09, con ROI y tiempo físico validados.
+            </li>
+            <li>
+              Mayor diversidad de población, condiciones de captura, patología y
+              maniobras; documentación de cobertura.
+            </li>
+            <li>
+              Un modelo hemodinámico calibrado y validado requeriría un
+              desarrollo científico separado; esta versión conserva su finalidad
+              docente.
+            </li>
+            <li>
+              Conexión posterior del subdominio propio mediante DNS en
+              Hostinger.
+            </li>
+          </ul>
+        </section>
+      </div>
+      <Note>
+        La revisión técnica y editorial no equivale a validación clínica. Las
+        etiquetas clínicas se atribuyen al proveedor original y las
+        demostraciones sintéticas se identifican en pantalla.
+      </Note>
+      <Link to="/fuentes" className="button primary">
+        Consultar método y fuentes <ArrowRight size={16} />
+      </Link>
+    </>
+  );
+}
+export default function Library({ mode }: { mode: string }) {
+  return (
+    <div className="container library-page">
+      {mode === "pathways" ? (
+        <Pathways />
+      ) : mode === "sources" ? (
+        <SourcesPage />
+      ) : mode === "credits" ? (
+        <Credits />
+      ) : mode === "guide" ? (
+        <Guide />
+      ) : mode === "glossary" ? (
+        <Glossary />
+      ) : (
+        <Release />
+      )}
+    </div>
+  );
+}
