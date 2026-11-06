@@ -4,7 +4,7 @@ import { dopplerLessons } from "../../data/educational";
 import { Note, Range, SourceLink } from "../../shared/UI";
 import { RotateCcw } from "lucide-react";
 import { wrapDoppler, projectedVelocity } from "./physics";
-import waterloo from "../../data/waterloo.json";
+import waterloo from "../../data/waterloo";
 function Experimental() {
   const asset = waterloo;
   return (
@@ -366,12 +366,15 @@ export default function Doppler({
         <div className="explanation-box">
           <div className="eyebrow">PARA LLEVAR A LA EXPLORACIÓN</div>
           <h3>{lesson.takeaway}</h3>
-          <ul>
-            {lesson.keyPoints.map((p) => (
-              <li key={p}>{p}</li>
-            ))}
-          </ul>
-          <References ids={lesson.sourceIds} />
+          <details>
+            <summary>Explicación y fuentes</summary>
+            <ul>
+              {lesson.keyPoints.map((p) => (
+                <li key={p}>{p}</li>
+              ))}
+            </ul>
+            <References ids={lesson.sourceIds} />
+          </details>
         </div>
       </section>
     </div>

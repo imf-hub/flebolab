@@ -168,7 +168,7 @@ def frame(id,title,subtitle,body,sourcelabel,animated=False):
 {body}
 {line(55,723,1145,723,"#dce5eb",2)}
 {text(55,754,"Esquema educativo original · "+("Animación conceptual" if animated else "Ilustración conceptual"),18,"#617b8d")}
-{text(55,781,"Refs: "+sourcelabel+" · flebolab-imf.ferver.chatgpt.site/bibliografia",15,"#617b8d")}
+{text(55,781,"Refs: "+sourcelabel+" · imf-hub.github.io/flebolab/#/bibliografia",15,"#617b8d")}
 </svg>'''
 
 # Contenido canónico revisado; no perder correcciones al regenerar.
@@ -252,7 +252,8 @@ for id,title,subtitle,body,refs in anim_specs:
     (ANIMATIONS/f'{id.lower()}.svg').write_text(frame(id,title,subtitle,body,label,True),encoding="utf-8")
     animations.append(dict(id=id,title=title,description=subtitle,path=f"/media/animations/{id.lower()}.svg",sourceIds=refs,nature="illustration",credit="Animación vectorial original de FLEBO LAB IMF, 2026"))
 
-ts='''// Contenido editorial original de FLEBO LAB IMF. No es un clasificador ni una evaluación clínica individual.
+ts='''import {withAssetBase} from "../shared/assets";
+// Contenido editorial original de FLEBO LAB IMF. No es un clasificador ni una evaluación clínica individual.
 export type EducationalSource = { id: string; title: string; url: string; type: string; summary: string; credit: string; license: string };
 export type GlossaryTerm = { id: string; term: string; english: string; aliases: string[]; definition: string; sourceIds: string[] };
 export type LessonControl = { id: string; label: string; min: number; max: number; step: number; defaultValue: number; unit: string };
@@ -263,7 +264,9 @@ export type ObservationGuide = { id: string; title: string; visibleFindings: str
 export type EducationalPlate = { id: string; title: string; description: string; path: string; sourceIds: string[]; nature: string; credit: string };
 '''
 for name,typ,value in [('sources','EducationalSource',sources),('glossary','GlossaryTerm',glossary),('dopplerLessons','DopplerLesson',dopplerLessons),('pathways','Pathway',pathways),('observationGuides','ObservationGuide',observationGuides),('plates','EducationalPlate',plates),('animations','EducationalPlate',animations)]:
-    ts+=f'\nexport const {name}: {typ}[] = '+json.dumps(value,ensure_ascii=False,indent=2)+';\n'
+    serialized=json.dumps(value,ensure_ascii=False,indent=2)
+    if name in ['plates','animations']:serialized='withAssetBase('+serialized+')'
+    ts+=f'\nexport const {name}: {typ}[] = '+serialized+';\n'
 (DATA/'educational.ts').write_text(ts,encoding='utf-8')
 
 doc='''# Contenido editorial de FLEBO LAB

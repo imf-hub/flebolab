@@ -9,5 +9,5 @@
 <rect x="170" y="310" width="330" height="120" rx="16" fill="#f7e5e9" stroke="none" /><line x1="210" y1="370" x2="460" y2="370" stroke="#c42946" stroke-width="9" marker-end="url(#arrow)"/><rect x="700" y="310" width="330" height="120" rx="16" fill="#dcecf7" stroke="none" /><line x1="740" y1="370" x2="990" y2="370" stroke="#2c769a" stroke-width="9" marker-end="url(#arrow)"/><text x="335" y="485" fill="#203647" font-size="23" font-weight="400" text-anchor="middle">Rojo: hacia el transductor</text><text x="865" y="485" fill="#203647" font-size="23" font-weight="400" text-anchor="middle">Azul: hacia el transductor</text><text x="600" y="610" fill="#203647" font-size="29" font-weight="400" text-anchor="middle">Misma dirección · distinta codificación</text>
 <line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
 <text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Ilustración conceptual</text>
-<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: uipduplex1, uipduplex2, asa · flebolab-imf.ferver.chatgpt.site/bibliografia</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: uipduplex1, uipduplex2, asa · imf-hub.github.io/flebolab/#/bibliografia</text>
 </svg>

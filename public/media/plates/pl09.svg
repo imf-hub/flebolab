@@ -9,5 +9,5 @@
 <rect x="185" y="270" width="270" height="65" rx="16" fill="#7a91a4" stroke="none" /><ellipse cx="320" cy="460" rx="100" ry="70" fill="#dcecf7" stroke="#2c769a" stroke-width="7"/><line x1="320" y1="350" x2="320" y2="385" stroke="#c42946" stroke-width="5" marker-end="url(#arrow)"/><rect x="730" y="330" width="270" height="65" rx="16" fill="#7a91a4" stroke="none" /><ellipse cx="865" cy="490" rx="100" ry="15" fill="#dcecf7" stroke="#2c769a" stroke-width="7"/><text x="320" y="625" fill="#203647" font-size="28" font-weight="400" text-anchor="middle">Antes</text><text x="865" y="625" fill="#203647" font-size="28" font-weight="400" text-anchor="middle">Durante</text>
 <line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
 <text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Ilustración conceptual</text>
-<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: uipduplex1, uipduplex2, thrombus, asa · flebolab-imf.ferver.chatgpt.site/bibliografia</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: uipduplex1, uipduplex2, thrombus, asa · imf-hub.github.io/flebolab/#/bibliografia</text>
 </svg>

@@ -9,5 +9,5 @@
 <rect x="320" y="235" width="100" height="400" rx="50.0" fill="#dcecf7" stroke="#2c769a" /><line x1="370.0" y1="247" x2="370.0" y2="623" stroke="#a7c8dc" stroke-width="2" /><path d="M335,470 Q365,460 350,432" fill="none" stroke="#a8203c" stroke-width="5" stroke-linecap="round" /><path d="M405,470 Q375,460 390,432" fill="none" stroke="#a8203c" stroke-width="5" stroke-linecap="round" /><text x="650" y="345" fill="#203647" font-size="25" font-weight="400" text-anchor="start">Válvula abierta: flujo hacia proximal</text><text x="650" y="395" fill="#203647" font-size="24" font-weight="400" text-anchor="start">Apertura conceptual; no biomecánica.</text><g class="moving"><circle r="12" fill="#c42946"><animateMotion dur="4s" repeatCount="indefinite" path="M370,600 L370,270"/></circle></g>
 <line x1="55" y1="723" x2="1145" y2="723" stroke="#dce5eb" stroke-width="2" />
 <text x="55" y="754" fill="#617b8d" font-size="18" font-weight="400" text-anchor="start">Esquema educativo original · Animación conceptual</text>
-<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: keijsers2015 · flebolab-imf.ferver.chatgpt.site/bibliografia</text>
+<text x="55" y="781" fill="#617b8d" font-size="15" font-weight="400" text-anchor="start">Refs: keijsers2015 · imf-hub.github.io/flebolab/#/bibliografia</text>
 </svg>

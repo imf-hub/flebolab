@@ -1,0 +1,134 @@
+[
+  {
+    "scenario": "TW01",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW02",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW03",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW04",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW05",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW06",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW07",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW08",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW09",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW10",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW11",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  },
+  {
+    "scenario": "TW12",
+    "correctView": true,
+    "time": "1.00 / 10.0 s",
+    "metrics": {
+      "flow": true,
+      "pressure": true,
+      "volume": true,
+      "perforator": true
+    }
+  }
+]

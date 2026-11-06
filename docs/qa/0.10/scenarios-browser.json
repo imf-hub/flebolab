@@ -1,0 +1,122 @@
+[
+  {
+    "name": "01 Postura Decúbito",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.912 u.r.",
+    "pressure": "4.233 u.r.",
+    "volume": "13.755 u.r.",
+    "perforator": "-0.015 u.r."
+  },
+  {
+    "name": "02 Postura Bipedestación",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.912 u.r.",
+    "pressure": "8.553 u.r.",
+    "volume": "35.755 u.r.",
+    "perforator": "-0.015 u.r."
+  },
+  {
+    "name": "03 Bomba muscular Bomba activa",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "2.264 u.r.",
+    "pressure": "8.960 u.r.",
+    "volume": "34.719 u.r.",
+    "perforator": "-0.019 u.r."
+  },
+  {
+    "name": "04 Bomba muscular Bomba reducida",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "0.763 u.r.",
+    "pressure": "6.622 u.r.",
+    "volume": "35.252 u.r.",
+    "perforator": "-0.005 u.r."
+  },
+  {
+    "name": "05 Válvulas Válvula competente",
+    "view": "Válvula",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.914 u.r.",
+    "pressure": "8.408 u.r.",
+    "volume": "34.987 u.r.",
+    "perforator": "-0.008 u.r."
+  },
+  {
+    "name": "06 Válvulas Fuga valvular",
+    "view": "Válvula",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.866 u.r.",
+    "pressure": "8.296 u.r.",
+    "volume": "35.798 u.r.",
+    "perforator": "-0.448 u.r."
+  },
+  {
+    "name": "07 Conexiones Comunicación",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.912 u.r.",
+    "pressure": "8.405 u.r.",
+    "volume": "35.005 u.r.",
+    "perforator": "-0.015 u.r."
+  },
+  {
+    "name": "08 Conexiones Menor conexión",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.907 u.r.",
+    "pressure": "8.386 u.r.",
+    "volume": "35.159 u.r.",
+    "perforator": "-0.002 u.r."
+  },
+  {
+    "name": "09 Salida Resistencia de salida",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.891 u.r.",
+    "pressure": "11.268 u.r.",
+    "volume": "35.616 u.r.",
+    "perforator": "-0.031 u.r."
+  },
+  {
+    "name": "10 Salida Vía colateral",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.370 u.r.",
+    "pressure": "8.573 u.r.",
+    "volume": "35.212 u.r.",
+    "perforator": "-0.016 u.r."
+  },
+  {
+    "name": "11 Presión exterior Presión exterior",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "1.912 u.r.",
+    "pressure": "8.405 u.r.",
+    "volume": "29.005 u.r.",
+    "perforator": "-0.015 u.r."
+  },
+  {
+    "name": "12 Presión exterior Mecanismos combinados",
+    "view": "Red y flujo",
+    "selected": "true",
+    "time": "1.00 / 10.0 s",
+    "flow": "2.164 u.r.",
+    "pressure": "8.774 u.r.",
+    "volume": "31.386 u.r.",
+    "perforator": "-0.340 u.r."
+  }
+]

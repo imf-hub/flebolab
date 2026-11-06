@@ -6,14 +6,24 @@ export default function Chart({
   metric,
   time,
   onTime,
+  channel = "deep",
 }: {
   a: Solution;
   b?: Solution;
   metric: "flow" | "pressure" | "volume";
   time: number;
   onTime: (n: number) => void;
+  channel?: "deep" | "superficial";
 }) {
   const ref = useRef<HTMLDivElement>(null);
+  const field =
+    channel === "superficial"
+      ? metric === "flow"
+        ? "superficialFlow"
+        : metric === "pressure"
+          ? "superficialPressure"
+          : "superficialVolume"
+      : metric;
   useEffect(() => {
     let active = true;
     let plot: any;
@@ -23,21 +33,21 @@ export default function Chart({
       const data = [
         {
           x: a.samples.map((s) => s.t),
-          y: a.samples.map((s) => s[metric]),
+          y: a.samples.map((s) => s[field]),
           name: "Escenario A",
           type: "scatter",
           mode: "lines",
-          line: { color: "#ac2442", width: 2.5 },
+          line: { color: "#8ee7ff", width: 2.5 },
         },
         ...(b
           ? [
               {
                 x: b.samples.map((s) => s.t),
-                y: b.samples.map((s) => s[metric]),
+                y: b.samples.map((s) => s[field]),
                 name: "Escenario B",
                 type: "scatter",
                 mode: "lines",
-                line: { color: "#198880", width: 2, dash: "dot" },
+                line: { color: "#e0a3ff", width: 2, dash: "dot" },
               },
             ]
           : []),
@@ -49,19 +59,19 @@ export default function Chart({
           margin: { l: 48, r: 12, t: 15, b: 45 },
           paper_bgcolor: "transparent",
           plot_bgcolor: "transparent",
-          font: { family: "system-ui", color: "#655d5c", size: 11 },
+          font: { family: "system-ui", color: "#8598aa", size: 11 },
           showlegend: !!b,
           legend: { orientation: "h", x: 0, y: 1.18 },
           xaxis: {
             title: { text: "Tiempo del modelo (s)" },
             range: [0, a.period * 2],
-            gridcolor: "#eee9e5",
-            zerolinecolor: "#ccc",
+            gridcolor: "#ffffff0c",
+            zerolinecolor: "#ffffff20",
           },
           yaxis: {
             title: { text: "Unidades relativas" },
-            gridcolor: "#eee9e5",
-            zerolinecolor: "#ccc",
+            gridcolor: "#ffffff0c",
+            zerolinecolor: "#ffffff20",
           },
           hovermode: "x unified",
         },
@@ -75,7 +85,7 @@ export default function Chart({
       active = false;
       if (plot && ref.current) plot.purge(ref.current);
     };
-  }, [a, b, metric]);
+  }, [a, b, metric, channel]);
   return (
     <div className="chart-wrap">
       <div ref={ref} className="plot-chart" />

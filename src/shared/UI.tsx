@@ -32,16 +32,17 @@ export function LabHeader({
           <ArrowLeft size={14} /> Todos los laboratorios
         </Link>
         <div className="eyebrow">{tag}</div>
-        <h1>
-          {name}
-          <span>{title}</span>
-        </h1>
+        <h1 title={title}>{name}</h1>
         <p>{description}</p>
       </div>
       <div className="lab-actions">
         {children}
         <ShareButton />
-        <button className="button quiet" onClick={() => fullscreen()}>
+        <button
+          className="button quiet"
+          aria-label="Presentar a pantalla completa"
+          onClick={() => fullscreen()}
+        >
           <Maximize2 size={16} />
           <span>Presentar</span>
         </button>
@@ -56,6 +57,7 @@ export function ShareButton() {
     <>
       <button
         className="button quiet"
+        aria-label={done ? "Enlace copiado" : "Compartir laboratorio"}
         onClick={async () => {
           const copied = await share();
           setDone(copied);

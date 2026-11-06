@@ -1,10 +1,11 @@
+import { assetUrl } from "../../shared/assets";
 import { Suspense, useMemo, useRef, useState, useEffect, useId } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Line } from "@react-three/drei";
 import * as THREE from "three";
 import type { Solution } from "./model";
 import { integratedFlow, phaseAt, type FlowKey } from "./transport";
-import assets from "../../data/assets.json";
+import assets from "../../data/assets";
 export type CameraPose = {
   owner: string;
   position: [number, number, number];
@@ -35,232 +36,6 @@ function CameraSync({
   return null;
 }
 
-const curve = (points: number[][]) =>
-  new THREE.CatmullRomCurve3(
-    points.map((p) => new THREE.Vector3(...(p as [number, number, number]))),
-  );
-const paths = [
-  curve([
-    [-0.25, -2.7, 0],
-    [-0.38, -1.1, 0],
-    [-0.1, 0.3, 0],
-    [0, 1.6, 0],
-    [0.2, 2.8, 0],
-  ]),
-  curve([
-    [-0.8, -2.7, 0.35],
-    [-1, -1.3, 0.35],
-    [-0.8, 0.2, 0.35],
-    [-0.7, 1.5, 0.3],
-    [0.15, 2.6, 0],
-  ]),
-  curve([
-    [-0.85, -0.8, 0.35],
-    [-0.6, -0.6, 0.2],
-    [-0.3, -0.5, 0],
-  ]),
-];
-const collateralPath = curve([
-  [-0.3, -1, 0],
-  [0.8, -0.5, 0],
-  [1, 1.2, 0],
-  [0.3, 2.8, 0],
-]);
-function Vessel({
-  path,
-  color,
-  radius = 0.07,
-}: {
-  path: THREE.CatmullRomCurve3;
-  color: string;
-  radius?: number;
-}) {
-  const geo = useMemo(
-    () => new THREE.TubeGeometry(path, 80, radius, 10, false),
-    [path, radius],
-  );
-  useEffect(() => () => geo.dispose(), [geo]);
-  return (
-    <mesh geometry={geo}>
-      <meshPhysicalMaterial
-        color={color}
-        roughness={0.28}
-        metalness={0.05}
-        transparent
-        opacity={0.72}
-        side={THREE.DoubleSide}
-      />
-    </mesh>
-  );
-}
-function Tracer({
-  path,
-  offset,
-  solution,
-  timeRef,
-  index,
-}: {
-  path: THREE.CatmullRomCurve3;
-  offset: number;
-  solution: Solution;
-  timeRef: React.RefObject<number>;
-  index: number;
-}) {
-  const ref = useRef<THREE.Mesh>(null);
-  const point = useMemo(() => new THREE.Vector3(), []);
-  const key: FlowKey =
-    index === 1
-      ? "superficialFlow"
-      : index === 2
-        ? "perforator"
-        : index === 3
-          ? "collateral"
-          : "flow";
-  const phases = useMemo(
-    () => integratedFlow(solution.samples, key),
-    [solution, key],
-  );
-  useFrame(() => {
-    if (!ref.current) return;
-    const displacement = phaseAt(solution.samples, phases, timeRef.current);
-    const u = (((displacement + offset) % 1) + 1) % 1;
-    path.getPoint(u, point);
-    ref.current.position.copy(point);
-  });
-  return (
-    <mesh ref={ref}>
-      <sphereGeometry args={[0.035, 8, 8]} />
-      <meshBasicMaterial color="#fff5df" />
-    </mesh>
-  );
-}
-function Valve({
-  solution,
-  timeRef,
-  large = false,
-}: {
-  solution: Solution;
-  timeRef: React.RefObject<number>;
-  large?: boolean;
-}) {
-  const leaflet = useMemo(() => {
-    const shape = new THREE.Shape();
-    shape.moveTo(0, 0);
-    shape.quadraticCurveTo(0.15, 0.02, 0.24, 0.28);
-    shape.quadraticCurveTo(0.07, 0.24, 0, 0.03);
-    shape.closePath();
-    return shape;
-  }, []);
-  const left = useRef<THREE.Group>(null),
-    right = useRef<THREE.Group>(null);
-  useFrame(() => {
-    const t = timeRef.current;
-    const s =
-      solution.samples[
-        Math.min(
-          solution.samples.length - 1,
-          Math.floor((t / (solution.period * 2)) * solution.samples.length),
-        )
-      ];
-    const opening =
-      s?.flow > 0
-        ? 0.22 + Math.min(0.7, s.flow * 0.28)
-        : solution.parameters.leak * 0.45;
-    if (left.current) left.current.rotation.z = opening;
-    if (right.current) right.current.rotation.z = -opening;
-  });
-  return (
-    <group
-      position={large ? [0, 0, 0] : [-0.25, -0.2, 0]}
-      scale={large ? 3.3 : 1}
-    >
-      <mesh>
-        <cylinderGeometry args={[0.26, 0.26, 1.5, 32, 1, true]} />
-        <meshPhysicalMaterial
-          color="#a74362"
-          side={THREE.DoubleSide}
-          transparent
-          opacity={0.32}
-          roughness={0.3}
-        />
-      </mesh>
-      <group ref={left} position={[-0.24, -0.1, 0]}>
-        <mesh>
-          <shapeGeometry args={[leaflet]} />
-          <meshStandardMaterial color="#f1d9c9" side={THREE.DoubleSide} />
-        </mesh>
-      </group>
-      <group ref={right} position={[0.24, -0.1, 0]}>
-        <mesh scale={[-1, 1, 1]}>
-          <shapeGeometry args={[leaflet]} />
-          <meshStandardMaterial color="#f1d9c9" side={THREE.DoubleSide} />
-        </mesh>
-      </group>
-    </group>
-  );
-}
-function Flow({
-  solution,
-  timeRef,
-  valveOnly,
-}: {
-  solution: Solution;
-  timeRef: React.RefObject<number>;
-  valveOnly: boolean;
-}) {
-  return (
-    <>
-      {!valveOnly && (
-        <>
-          <mesh position={[-0.5, -1, 0]} scale={[0.85, 1.3, 0.55]}>
-            <sphereGeometry args={[1, 32, 32]} />
-            <meshStandardMaterial
-              color="#705263"
-              transparent
-              opacity={0.12}
-              wireframe
-            />
-          </mesh>
-          {paths.map((p, i) => (
-            <group key={i}>
-              <Vessel
-                path={p}
-                color={i === 0 ? "#62a5d6" : i === 1 ? "#d580ac" : "#74cabb"}
-                radius={i < 2 ? 0.1 : 0.055}
-              />
-              {Array.from({ length: i < 2 ? 12 : 4 }, (_, j) => (
-                <Tracer
-                  key={j}
-                  path={p}
-                  offset={j / (i < 2 ? 12 : 4)}
-                  solution={solution}
-                  timeRef={timeRef}
-                  index={i}
-                />
-              ))}
-            </group>
-          ))}
-          {solution.parameters.collateral && (
-            <group>
-              <Vessel path={collateralPath} color="#e8ba77" radius={0.045} />
-              {[0, 0.2, 0.4, 0.6, 0.8].map((offset) => (
-                <Tracer
-                  key={offset}
-                  path={collateralPath}
-                  offset={offset}
-                  solution={solution}
-                  timeRef={timeRef}
-                  index={3}
-                />
-              ))}
-            </group>
-          )}
-        </>
-      )}
-      <Valve solution={solution} timeRef={timeRef} large={valveOnly} />
-    </>
-  );
-}
 function Anatomy({
   tissues,
   selected,
@@ -274,7 +49,7 @@ function Anatomy({
   cut: boolean;
   isolate: boolean;
 }) {
-  const gltf = useGLTF("/media/anatomy/left-leg-reference.glb");
+  const gltf = useGLTF(assetUrl("/media/anatomy/left-leg-reference.glb"));
   const scene = useMemo(() => {
     const s = gltf.scene.clone(true);
     s.traverse((o) => {
@@ -314,17 +89,27 @@ function Anatomy({
       }
     });
   }, [scene, tissues, selected, cut, isolate]);
+  useEffect(
+    () => () => {
+      scene.traverse((o) => {
+        if (o instanceof THREE.Mesh) (o.material as THREE.Material).dispose();
+      });
+    },
+    [scene],
+  );
   return (
     <primitive
       object={scene}
+      dispose={null}
       onClick={(e: any) => {
         e.stopPropagation();
-        onSelect(e.object.userData.bodypartsId);
+        if (typeof e.object.userData.bodypartsId === "string")
+          onSelect(e.object.userData.bodypartsId);
       }}
     />
   );
 }
-export default function Scene({
+export default function ReferenceAnatomy({
   mode,
   solution,
   timeRef,
@@ -345,10 +130,11 @@ export default function Scene({
   return (
     <div className="scene-wrap">
       <Canvas
+        dpr={[1, 1.5]}
         key={reset}
         camera={{ position: [0, 0.3, 9], fov: 43 }}
         gl={{ antialias: true, localClippingEnabled: true, alpha: false }}
-        onCreated={({ gl }) => gl.setClearColor("#172025")}
+        onCreated={({ gl }) => gl.setClearColor("#0c1420")}
       >
         <ambientLight intensity={1.6} />
         <directionalLight position={[4, 5, 7]} intensity={3} />
@@ -358,21 +144,13 @@ export default function Scene({
           color="#a1c1e6"
         />
         <Suspense fallback={null}>
-          {mode === "anatomy" ? (
-            <Anatomy
-              tissues={tissues}
-              selected={selected}
-              onSelect={setSelected}
-              cut={cut}
-              isolate={isolate}
-            />
-          ) : (
-            <Flow
-              solution={solution}
-              timeRef={timeRef}
-              valveOnly={mode === "valve"}
-            />
-          )}
+          <Anatomy
+            tissues={tissues}
+            selected={selected}
+            onSelect={setSelected}
+            cut={cut}
+            isolate={isolate}
+          />
         </Suspense>
         <OrbitControls
           ref={controls}

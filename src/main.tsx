@@ -1,9 +1,12 @@
 import React, { Suspense, lazy, useEffect } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import App from "./App";
 import ErrorBoundary from "./shared/ErrorBoundary";
+import "@fontsource-variable/manrope";
+import "@fontsource/ibm-plex-mono/latin-400.css";
 import "./styles.css";
+import "./studio.css";
 const Twin = lazy(() => import("./labs/twin/Twin"));
 const Dus = lazy(() => import("./labs/dus/Dus"));
 const Vision = lazy(() => import("./labs/vision/Vision"));
@@ -38,7 +41,7 @@ const appRoot =
   import.meta.hot?.data.root ?? createRoot(document.getElementById("root")!);
 if (import.meta.hot) import.meta.hot.data.root = appRoot;
 appRoot.render(
-  <BrowserRouter>
+  <HashRouter>
     <ErrorBoundary>
       <Scroll />
       <Suspense
@@ -67,7 +70,7 @@ appRoot.render(
                 <section className="container library-page">
                   <h1>No encontramos esa página.</h1>
                   <p>El enlace puede corresponder a una versión anterior.</p>
-                  <a className="button primary" href="/">
+                  <a className="button primary" href={import.meta.env.BASE_URL}>
                     Volver a los laboratorios
                   </a>
                 </section>
@@ -77,5 +80,5 @@ appRoot.render(
         </Routes>
       </Suspense>
     </ErrorBoundary>
-  </BrowserRouter>,
+  </HashRouter>,
 );

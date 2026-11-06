@@ -1,0 +1,86 @@
+{
+  "TW01": {
+    "time": 1,
+    "flow": "1.912",
+    "pressure": "4.233",
+    "superficialVolume": "13.755",
+    "perforator": "-0.015"
+  },
+  "TW02": {
+    "time": 1,
+    "flow": "1.912",
+    "pressure": "8.553",
+    "superficialVolume": "35.755",
+    "perforator": "-0.015"
+  },
+  "TW03": {
+    "time": 1,
+    "flow": "2.264",
+    "pressure": "8.960",
+    "superficialVolume": "34.719",
+    "perforator": "-0.019"
+  },
+  "TW04": {
+    "time": 1,
+    "flow": "0.763",
+    "pressure": "6.622",
+    "superficialVolume": "35.252",
+    "perforator": "-0.005"
+  },
+  "TW05": {
+    "time": 1,
+    "flow": "1.914",
+    "pressure": "8.408",
+    "superficialVolume": "34.987",
+    "perforator": "-0.008"
+  },
+  "TW06": {
+    "time": 1,
+    "flow": "1.866",
+    "pressure": "8.296",
+    "superficialVolume": "35.798",
+    "perforator": "-0.448"
+  },
+  "TW07": {
+    "time": 1,
+    "flow": "1.912",
+    "pressure": "8.405",
+    "superficialVolume": "35.005",
+    "perforator": "-0.015"
+  },
+  "TW08": {
+    "time": 1,
+    "flow": "1.907",
+    "pressure": "8.386",
+    "superficialVolume": "35.159",
+    "perforator": "-0.002"
+  },
+  "TW09": {
+    "time": 1,
+    "flow": "1.891",
+    "pressure": "11.268",
+    "superficialVolume": "35.616",
+    "perforator": "-0.031"
+  },
+  "TW10": {
+    "time": 1,
+    "flow": "1.370",
+    "pressure": "8.573",
+    "superficialVolume": "35.212",
+    "perforator": "-0.016"
+  },
+  "TW11": {
+    "time": 1,
+    "flow": "1.912",
+    "pressure": "8.405",
+    "superficialVolume": "29.005",
+    "perforator": "-0.015"
+  },
+  "TW12": {
+    "time": 1,
+    "flow": "2.164",
+    "pressure": "8.774",
+    "superficialVolume": "31.386",
+    "perforator": "-0.340"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cine": {
+    "id": "dus-cfv-001",
+    "poster": "/media/dus/dus-cfv-001-poster.webp",
+    "video": "/media/dus/dus-cfv-001.mp4"
+  },
+  "photo": {
+    "id": "vision-c2-001-v1",
+    "image": "/media/vision/vision-c2-001-v1.webp"
+  }
+}

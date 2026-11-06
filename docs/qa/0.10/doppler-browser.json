@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Dirección del haz y del flujo",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      }
+    ],
+    "experimental": 0
+  },
+  {
+    "title": "El mapa de color puede invertirse",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      }
+    ],
+    "experimental": 0
+  },
+  {
+    "title": "Encuentra la línea base",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      }
+    ],
+    "experimental": 0
+  },
+  {
+    "title": "Escala y fisiología son cosas distintas",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      }
+    ],
+    "experimental": 0
+  },
+  {
+    "title": "El papel del ángulo Doppler",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": false
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      }
+    ],
+    "experimental": 0
+  },
+  {
+    "title": "Aliasing: un límite del muestreo",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      }
+    ],
+    "experimental": 0
+  },
+  {
+    "title": "Tiempo, evento y maniobra",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      }
+    ],
+    "experimental": 0
+  },
+  {
+    "title": "Variación temporal del flujo",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      }
+    ],
+    "experimental": 0
+  },
+  {
+    "title": "Flujo femoral en un cine experimental",
+    "controls": [],
+    "experimental": 1
+  },
+  {
+    "title": "Duración del flujo inverso",
+    "controls": [
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": true
+      },
+      {
+        "label": null,
+        "changed": true,
+        "graphicChanged": false
+      }
+    ],
+    "experimental": 0
+  }
+]

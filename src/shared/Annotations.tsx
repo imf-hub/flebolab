@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useId } from "react";
 import {
   MousePointer2,
   MoveUpRight,
@@ -114,6 +114,7 @@ export function AnnotationLayer({
   className?: string;
 }) {
   const ref = useRef<SVGSVGElement>(null);
+  const markerId = useId().replace(/:/g, "");
   const [draft, setDraft] = useState<Mark | null>(null);
   const coord = (e: React.PointerEvent) => {
     const el = ref.current!;
@@ -159,7 +160,7 @@ export function AnnotationLayer({
     >
       <defs>
         <marker
-          id="note-arrow"
+          id={markerId}
           markerWidth="7"
           markerHeight="7"
           refX="6"
@@ -199,7 +200,7 @@ export function AnnotationLayer({
             y2={m.b[1] * h}
             stroke="#ffde84"
             strokeWidth={w * 0.0035}
-            markerEnd={m.tool === "arrow" ? "url(#note-arrow)" : undefined}
+            markerEnd={m.tool === "arrow" ? `url(#${markerId})` : undefined}
           />
         ),
       )}

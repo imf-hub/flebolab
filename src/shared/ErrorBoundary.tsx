@@ -15,7 +15,7 @@ export default class ErrorBoundary extends Component<
         <button className="button primary" onClick={() => location.reload()}>
           Volver a cargar
         </button>
-        <a href="/" className="text-link">
+        <a href={import.meta.env.BASE_URL} className="text-link">
           Volver a los laboratorios
         </a>
       </div>

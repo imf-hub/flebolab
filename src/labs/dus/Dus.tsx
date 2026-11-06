@@ -1,5 +1,5 @@
 import { References } from "../../shared/References";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import {
   Search,
@@ -13,7 +13,7 @@ import {
   Link2,
   ChevronRight,
 } from "lucide-react";
-import raw from "../../data/dus.json";
+import raw from "../../data/dus";
 import { LabHeader, Note, SourceLink, Empty } from "../../shared/UI";
 import { readLocal, saveLocal } from "../../shared/utils";
 import Cine from "./Cine";
@@ -21,7 +21,13 @@ import Doppler from "./Doppler";
 const clips: any[] = raw;
 export default function Dus() {
   const [query, setQuery] = useSearchParams();
-  const [tab, setTab] = useState(query.get("lesson") ? "doppler" : "cine"),
+  const [tab, setTab] = useState(
+      query.get("lesson")
+        ? "doppler"
+        : query.get("tab") === "context"
+          ? "context"
+          : "cine",
+    ),
     [lesson, setLesson] = useState(query.get("lesson") ?? "DP01"),
     [id, setId] = useState(query.get("case") ?? clips[0].id),
     [site, setSite] = useState("Todos"),
@@ -44,9 +50,41 @@ export default function Dus() {
     [phase, setPhase] = useState<number | undefined>(undefined);
   const clip = clips.find((c) => c.id === id) ?? clips[0],
     b = clips.find((c) => c.id === bId) ?? clips[1];
+  const lastWritten = useRef(query.toString());
   useEffect(() => {
-    setQuery(tab === "doppler" ? { lesson } : { case: id }, { replace: true });
-  }, [id, tab, lesson]);
+    const next = new URLSearchParams(
+      tab === "doppler"
+        ? { lesson }
+        : tab === "context"
+          ? { tab: "context" }
+          : view === "library"
+            ? { tab: "cine" }
+            : { case: id },
+    );
+    if (next.toString() !== query.toString()) {
+      lastWritten.current = next.toString();
+      setQuery(next, { replace: true });
+    }
+  }, [id, tab, lesson, view]);
+  useEffect(() => {
+    const incoming = query.toString();
+    if (incoming === lastWritten.current) return;
+    lastWritten.current = incoming;
+    if (query.get("lesson")) {
+      setLesson(query.get("lesson")!);
+      setTab("doppler");
+    } else if (query.get("tab") === "context") setTab("context");
+    else {
+      setTab("cine");
+      const found = clips.find((c) => c.id === query.get("case"));
+      if (found) {
+        setId(found.id);
+        setView("detail");
+      } else setView("library");
+    }
+    setSharedPlaying(undefined);
+    setPhase(undefined);
+  }, [query.toString()]);
   const filtered = useMemo(
     () =>
       clips.filter(
@@ -64,6 +102,8 @@ export default function Dus() {
   );
   const select = (c: any) => {
     setId(c.id);
+    setSharedPlaying(undefined);
+    setPhase(undefined);
     setView("detail");
   };
   const favorite = (id: string) => {
@@ -79,7 +119,7 @@ export default function Dus() {
         name="FleboDUS"
         tag="LABORATORIO 02 / ECOGRAFÍA VENOSA"
         title="El movimiento también se estudia."
-        description="Cine ecográfico real, avance por cuadros y principios del Doppler para observar con contexto."
+        description="Cine real. Cuadros exactos. Fundamentos Doppler."
         color="teal"
       />
       <div className="container dus-container">
@@ -346,6 +386,12 @@ export default function Dus() {
                     <div className="button-row">
                       <button
                         className="button quiet"
+                        aria-label={
+                          sharedPlaying
+                            ? "Pausar ambos cines"
+                            : "Reproducir ambos cines"
+                        }
+                        aria-pressed={Boolean(sharedPlaying)}
                         onClick={() => setSharedPlaying(!sharedPlaying)}
                       >
                         {sharedPlaying ? (

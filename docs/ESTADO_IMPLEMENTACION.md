@@ -1,3 +1,5 @@
+> Actualización 0.10, 6 noviembre 2026: el plan y la auditoría vigentes están en [PLAN_INTERACTIVO_0.10.md](PLAN_INTERACTIVO_0.10.md) y [AUDITORIA_INTERACTIVA_0.10.md](AUDITORIA_INTERACTIVA_0.10.md). El alojamiento vigente es GitHub Pages. El detalle siguiente se conserva como trazabilidad de 0.9 y no describe por sí solo la versión actual.
+
 # Estado de implementación — FLEBO LAB 0.9
 
 Fecha: 6 de noviembre de 2026. Referencia: plan maestro v3. Esta acta distingue implementación técnica, pruebas observadas y validación médica. No expresa un porcentaje de exactitud clínica.

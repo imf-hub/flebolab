@@ -23,8 +23,15 @@ export type Sample = {
   t: number;
   pressure: number;
   superficialPressure: number;
+  proximalDeepPressure: number;
+  proximalSuperficialPressure: number;
   flow: number;
   superficialFlow: number;
+  deepOut: number;
+  superficialOut: number;
+  superficialVolume: number;
+  proximalDeepVolume: number;
+  proximalSuperficialVolume: number;
   volume: number;
   pump: number;
   valve: number;
@@ -170,8 +177,15 @@ export function solve(
         t: time,
         pressure: state.pressure[0],
         superficialPressure: state.pressure[2],
+        proximalDeepPressure: state.pressure[1],
+        proximalSuperficialPressure: state.pressure[3],
         flow: state.deep,
         superficialFlow: state.superficial,
+        deepOut: state.deepOut,
+        superficialOut: state.superficialOut,
+        superficialVolume: volume[2],
+        proximalDeepVolume: volume[1],
+        proximalSuperficialVolume: volume[3],
         volume: volume[0],
         pump: state.pump,
         valve: state.deep >= 0 ? 1 : p.leak,

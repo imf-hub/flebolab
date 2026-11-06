@@ -23,10 +23,10 @@ import {
   plates,
   animations,
 } from "../data/educational";
-import assets from "../data/assets.json";
-import photos from "../data/vision.json";
-import clips from "../data/dus.json";
-import waterloo from "../data/waterloo.json";
+import assets from "../data/assets";
+import photos from "../data/vision";
+import clips from "../data/dus";
+import waterloo from "../data/waterloo";
 import { Note, SourceLink } from "../shared/UI";
 import { References } from "../shared/References";
 import { medicalReferences } from "../data/references";
@@ -705,17 +705,18 @@ function Release() {
   return (
     <>
       <PageHead
-        eyebrow="VERSIÓN 0.9.1 / 6 DE NOVIEMBRE DE 2026"
+        eyebrow="VERSIÓN 0.10.0 / 6 DE NOVIEMBRE DE 2026"
         title="Un laboratorio abierto, con alcance explícito."
-        body="Primera versión pública de revisión profesional. Tres experiencias completas conectadas con recursos reales y fuentes visibles."
+        body="Versión de revisión profesional publicada desde GitHub. Tres laboratorios interactivos con fuentes visibles."
       />
       <div className="release-grid">
         <section>
           <h2>Disponible en esta versión</h2>
           <ul>
             <li>
-              Doce escenarios de FleboTwin, motor educativo reproducible, curvas
-              sincronizadas, parámetros y comparación.
+              Doce escenarios de FleboTwin que abren su vista correspondiente:
+              red de flujo, válvula, anatomía independiente o circuito; curvas,
+              parámetros y comparación sincronizados.
             </li>
             <li>
               Anatomía BodyParts3D con 12 estructuras y diez ilustraciones

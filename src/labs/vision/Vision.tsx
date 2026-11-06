@@ -1,5 +1,5 @@
 import { References } from "../../shared/References";
-import { lazy, Suspense, useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import {
   Search,
@@ -13,7 +13,7 @@ import {
   Check,
   Layers,
 } from "lucide-react";
-import images from "../../data/vision.json";
+import images from "../../data/vision";
 import { observationGuides } from "../../data/educational";
 import { LabHeader, Note, SourceLink, Empty } from "../../shared/UI";
 import { AnnotationTools, useAnnotations } from "../../shared/Annotations";
@@ -98,9 +98,29 @@ export default function Vision() {
   const related = images.filter(
     (i) => i.sourceCaseId === current.sourceCaseId && i.id !== id,
   );
+  const lastWritten = useRef(query.toString());
   useEffect(() => {
-    setQuery({ case: id, class: cls }, { replace: true });
-  }, [id, cls]);
+    const next = new URLSearchParams(
+      view === "library" ? { class: cls } : { case: id, class: cls },
+    );
+    if (next.toString() !== query.toString()) {
+      lastWritten.current = next.toString();
+      setQuery(next, { replace: true });
+    }
+  }, [id, cls, view]);
+  useEffect(() => {
+    const incoming = query.toString();
+    if (incoming === lastWritten.current) return;
+    lastWritten.current = incoming;
+    setCls(query.get("class") ?? "Todas");
+    const found = images.find((i) => i.id === query.get("case"));
+    if (found) {
+      setId(found.id);
+      setView("detail");
+    } else setView("library");
+    setThermal(false);
+    setMode("single");
+  }, [query.toString()]);
   const select = (i: Image) => {
     setId(i.id);
     setThermal(false);
@@ -124,7 +144,7 @@ export default function Vision() {
         name="FleboVision"
         tag="LABORATORIO 03 / OBSERVACIÓN CLÍNICA"
         title="Observa. Amplía. Describe."
-        description="Fotografía real para afinar la observación y conversar sobre hallazgos, contexto y límites de una imagen."
+        description="Fotografía real. Amplía, compara y anota."
         color="gold"
       />
       <div className="container vision-container">
@@ -456,13 +476,13 @@ export default function Vision() {
               ) : (
                 <>
                   <div className="eyebrow">GUÍA DE OBSERVACIÓN</div>
-                  <h3>Primero, describe.</h3>
+                  <h3>Hallazgos observables</h3>
                   <ul>
                     {guide?.visibleFindings.map((t) => (
                       <li key={t}>{t}</li>
                     ))}
                   </ul>
-                  <h4>¿Qué contexto falta?</h4>
+                  <h4>Datos que requieren contexto</h4>
                   <ul>
                     {guide?.contextNeeded.map((t) => (
                       <li key={t}>{t}</li>

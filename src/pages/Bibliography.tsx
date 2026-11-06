@@ -1,3 +1,4 @@
+import { assetUrl } from "../shared/assets";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { BookOpen, Download, Search, ArrowUpRight } from "lucide-react";
@@ -75,7 +76,7 @@ export default function Bibliography() {
             guía conjunta conserva sus autores y su respaldo institucional.
           </p>
         </div>
-        <a href="#controversias" className="text-link">
+        <a href="#/bibliografia#controversias" className="text-link">
           Controversias y matices ↓
         </a>
       </div>
@@ -111,12 +112,16 @@ export default function Bibliography() {
       <div className="button-row reference-downloads">
         <a
           className="button secondary"
-          href="/references/flebolab-vancouver.txt"
+          href={assetUrl("/references/flebolab-vancouver.txt")}
           download
         >
           <Download size={16} /> Bibliografía en texto
         </a>
-        <a className="button quiet" href="/references/flebolab.bib" download>
+        <a
+          className="button quiet"
+          href={assetUrl("/references/flebolab.bib")}
+          download
+        >
           <Download size={16} /> BibTeX
         </a>
         <Link className="text-link" to="/fuentes">

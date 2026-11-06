@@ -1,3 +1,4 @@
+import { withAssetBase } from "../shared/assets";
 // Contenido editorial original de FLEBO LAB IMF. No es un clasificador ni una evaluación clínica individual.
 export type EducationalSource = {
   id: string;
@@ -1548,7 +1549,7 @@ export const observationGuides: ObservationGuide[] = [
   },
 ];
 
-export const plates: EducationalPlate[] = [
+export const plates: EducationalPlate[] = withAssetBase([
   {
     id: "PL01",
     title: "El retorno necesita una referencia",
@@ -1716,9 +1717,9 @@ export const plates: EducationalPlate[] = [
     nature: "illustration",
     credit: "Esquema original de FLEBO LAB IMF, 2026",
   },
-];
+]);
 
-export const animations: EducationalPlate[] = [
+export const animations: EducationalPlate[] = withAssetBase([
   {
     id: "AN01",
     title: "Válvula y dirección",
@@ -1776,4 +1777,4 @@ export const animations: EducationalPlate[] = [
     nature: "illustration",
     credit: "Animación vectorial original de FLEBO LAB IMF, 2026",
   },
-];
+]);

@@ -9,9 +9,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -19,10 +19,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -30,7 +30,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/compat-data@7.29.7
 
@@ -39,9 +39,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -49,10 +49,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -60,7 +60,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/core@7.29.13
 
@@ -69,9 +69,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -79,10 +79,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -90,7 +90,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/generator@7.29.13
 
@@ -99,9 +99,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -109,10 +109,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -120,7 +120,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helper-compilation-targets@7.29.13
 
@@ -129,9 +129,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -139,10 +139,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -150,7 +150,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helper-globals@7.29.7
 
@@ -159,9 +159,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -169,10 +169,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -180,7 +180,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helper-module-imports@7.29.7
 
@@ -189,9 +189,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -199,10 +199,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -210,7 +210,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helper-module-transforms@7.29.13
 
@@ -219,9 +219,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -229,10 +229,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -240,7 +240,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helper-plugin-utils@7.29.7
 
@@ -249,9 +249,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -259,10 +259,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -270,7 +270,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helper-string-parser@7.29.13
 
@@ -279,9 +279,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -289,10 +289,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -300,7 +300,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helper-validator-identifier@7.29.7
 
@@ -309,9 +309,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -319,10 +319,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -330,7 +330,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helper-validator-option@7.29.7
 
@@ -339,9 +339,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -349,10 +349,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -360,7 +360,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/helpers@7.29.13
 
@@ -369,10 +369,10 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
     Copyright (c) 2014-present, Facebook, Inc. (ONLY ./src/helpers/regenerator* files)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -380,10 +380,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -391,7 +391,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/parser@7.29.13
 
@@ -400,17 +400,17 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright (C) 2012-2014 by various contributors (see AUTHORS)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -418,7 +418,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## @babel/plugin-transform-react-jsx-self@7.29.7
 
@@ -427,9 +427,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -437,10 +437,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -448,7 +448,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/plugin-transform-react-jsx-source@7.29.7
 
@@ -457,9 +457,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -467,10 +467,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -478,7 +478,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/runtime@7.29.13
 
@@ -487,9 +487,9 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -497,10 +497,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -508,7 +508,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/template@7.29.7
 
@@ -517,9 +517,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -527,10 +527,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -538,7 +538,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/traverse@7.29.13
 
@@ -547,9 +547,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -557,10 +557,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -568,7 +568,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @babel/types@7.29.11
 
@@ -577,9 +577,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2014-present Sebastian McKenzie and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -587,10 +587,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -598,7 +598,7 @@ Archivo LICENSE:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## @dimforge/rapier3d-compat@0.12.0
 
@@ -609,17 +609,17 @@ Archivo LICENSE:
                                      Apache License
                                Version 2.0, January 2004
                             http://www.apache.org/licenses/
-    
+
        TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-    
+
        1. Definitions.
-    
+
           "License" shall mean the terms and conditions for use, reproduction,
           and distribution as defined by Sections 1 through 9 of this document.
-    
+
           "Licensor" shall mean the copyright owner or entity authorized by
           the copyright owner that is granting the License.
-    
+
           "Legal Entity" shall mean the union of the acting entity and all
           other entities that control, are controlled by, or are under common
           control with that entity. For the purposes of this definition,
@@ -627,24 +627,24 @@ Archivo LICENSE:
           direction or management of such entity, whether by contract or
           otherwise, or (ii) ownership of fifty percent (50%) or more of the
           outstanding shares, or (iii) beneficial ownership of such entity.
-    
+
           "You" (or "Your") shall mean an individual or Legal Entity
           exercising permissions granted by this License.
-    
+
           "Source" form shall mean the preferred form for making modifications,
           including but not limited to software source code, documentation
           source, and configuration files.
-    
+
           "Object" form shall mean any form resulting from mechanical
           transformation or translation of a Source form, including but
           not limited to compiled object code, generated documentation,
           and conversions to other media types.
-    
+
           "Work" shall mean the work of authorship, whether in Source or
           Object form, made available under the License, as indicated by a
           copyright notice that is included in or attached to the work
           (an example is provided in the Appendix below).
-    
+
           "Derivative Works" shall mean any work, whether in Source or Object
           form, that is based on (or derived from) the Work and for which the
           editorial revisions, annotations, elaborations, or other modifications
@@ -652,7 +652,7 @@ Archivo LICENSE:
           of this License, Derivative Works shall not include works that remain
           separable from, or merely link (or bind by name) to the interfaces of,
           the Work and Derivative Works thereof.
-    
+
           "Contribution" shall mean any work of authorship, including
           the original version of the Work and any modifications or additions
           to that Work or Derivative Works thereof, that is intentionally
@@ -666,18 +666,18 @@ Archivo LICENSE:
           Licensor for the purpose of discussing and improving the Work, but
           excluding communication that is conspicuously marked or otherwise
           designated in writing by the copyright owner as "Not a Contribution."
-    
+
           "Contributor" shall mean Licensor and any individual or Legal Entity
           on behalf of whom a Contribution has been received by Licensor and
           subsequently incorporated within the Work.
-    
+
        2. Grant of Copyright License. Subject to the terms and conditions of
           this License, each Contributor hereby grants to You a perpetual,
           worldwide, non-exclusive, no-charge, royalty-free, irrevocable
           copyright license to reproduce, prepare Derivative Works of,
           publicly display, publicly perform, sublicense, and distribute the
           Work and such Derivative Works in Source or Object form.
-    
+
        3. Grant of Patent License. Subject to the terms and conditions of
           this License, each Contributor hereby grants to You a perpetual,
           worldwide, non-exclusive, no-charge, royalty-free, irrevocable
@@ -693,24 +693,24 @@ Archivo LICENSE:
           or contributory patent infringement, then any patent licenses
           granted to You under this License for that Work shall terminate
           as of the date such litigation is filed.
-    
+
        4. Redistribution. You may reproduce and distribute copies of the
           Work or Derivative Works thereof in any medium, with or without
           modifications, and in Source or Object form, provided that You
           meet the following conditions:
-    
+
           (a) You must give any other recipients of the Work or
               Derivative Works a copy of this License; and
-    
+
           (b) You must cause any modified files to carry prominent notices
               stating that You changed the files; and
-    
+
           (c) You must retain, in the Source form of any Derivative Works
               that You distribute, all copyright, patent, trademark, and
               attribution notices from the Source form of the Work,
               excluding those notices that do not pertain to any part of
               the Derivative Works; and
-    
+
           (d) If the Work includes a "NOTICE" text file as part of its
               distribution, then any Derivative Works that You distribute must
               include a readable copy of the attribution notices contained
@@ -727,14 +727,14 @@ Archivo LICENSE:
               or as an addendum to the NOTICE text from the Work, provided
               that such additional attribution notices cannot be construed
               as modifying the License.
-    
+
           You may add Your own copyright statement to Your modifications and
           may provide additional or different license terms and conditions
           for use, reproduction, or distribution of Your modifications, or
           for any such Derivative Works as a whole, provided Your use,
           reproduction, and distribution of the Work otherwise complies with
           the conditions stated in this License.
-    
+
        5. Submission of Contributions. Unless You explicitly state otherwise,
           any Contribution intentionally submitted for inclusion in the Work
           by You to the Licensor shall be under the terms and conditions of
@@ -742,12 +742,12 @@ Archivo LICENSE:
           Notwithstanding the above, nothing herein shall supersede or modify
           the terms of any separate license agreement you may have executed
           with Licensor regarding such Contributions.
-    
+
        6. Trademarks. This License does not grant permission to use the trade
           names, trademarks, service marks, or product names of the Licensor,
           except as required for reasonable and customary use in describing the
           origin of the Work and reproducing the content of the NOTICE file.
-    
+
        7. Disclaimer of Warranty. Unless required by applicable law or
           agreed to in writing, Licensor provides the Work (and each
           Contributor provides its Contributions) on an "AS IS" BASIS,
@@ -757,7 +757,7 @@ Archivo LICENSE:
           PARTICULAR PURPOSE. You are solely responsible for determining the
           appropriateness of using or redistributing the Work and assume any
           risks associated with Your exercise of permissions under this License.
-    
+
        8. Limitation of Liability. In no event and under no legal theory,
           whether in tort (including negligence), contract, or otherwise,
           unless required by applicable law (such as deliberate and grossly
@@ -769,7 +769,7 @@ Archivo LICENSE:
           work stoppage, computer failure or malfunction, or any and all
           other commercial damages or losses), even if such Contributor
           has been advised of the possibility of such damages.
-    
+
        9. Accepting Warranty or Additional Liability. While redistributing
           the Work or Derivative Works thereof, You may choose to offer,
           and charge a fee for, acceptance of support, warranty, indemnity,
@@ -780,11 +780,11 @@ Archivo LICENSE:
           defend, and hold each Contributor harmless for any liability
           incurred by, or claims asserted against, such Contributor by reason
           of your accepting any such warranty or additional liability.
-    
+
        END OF TERMS AND CONDITIONS
-    
+
        APPENDIX: How to apply the Apache License to your work.
-    
+
           To apply the Apache License to your work, attach the following
           boilerplate notice, with the fields enclosed by brackets "[]"
           replaced with your own identifying information. (Don't include
@@ -793,25 +793,227 @@ Archivo LICENSE:
           file or class name and description of purpose be included on the
           same "printed page" as the copyright notice for easier
           identification within third-party archives.
-    
+
        Copyright 2020 Dimforge EURL
-    
+
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
        You may obtain a copy of the License at
-    
+
            http://www.apache.org/licenses/LICENSE-2.0
-    
+
        Unless required by applicable law or agreed to in writing, software
        distributed under the License is distributed on an "AS IS" BASIS,
        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
        See the License for the specific language governing permissions and
        limitations under the License.
-    
+
 
 ## @esbuild/win32-x64@0.28.2
 
 Licencia declarada: MIT. Herramienta de desarrollo.
+
+## @fontsource-variable/manrope@5.3.0
+
+Licencia declarada: OFL-1.1. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE:
+
+    Copyright 2019 The Manrope Project Authors (https://github.com/sharanda/manrope)
+
+    This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    This license is copied below, and is also available with a FAQ at:
+    http://scripts.sil.org/OFL
+
+
+    -----------------------------------------------------------
+    SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+    -----------------------------------------------------------
+
+    PREAMBLE
+    The goals of the Open Font License (OFL) are to stimulate worldwide
+    development of collaborative font projects, to support the font creation
+    efforts of academic and linguistic communities, and to provide a free and
+    open framework in which fonts may be shared and improved in partnership
+    with others.
+
+    The OFL allows the licensed fonts to be used, studied, modified and
+    redistributed freely as long as they are not sold by themselves. The
+    fonts, including any derivative works, can be bundled, embedded,
+    redistributed and/or sold with any software provided that any reserved
+    names are not used by derivative works. The fonts and derivatives,
+    however, cannot be released under any other type of license. The
+    requirement for fonts to remain under this license does not apply
+    to any document created using the fonts or their derivatives.
+
+    DEFINITIONS
+    "Font Software" refers to the set of files released by the Copyright
+    Holder(s) under this license and clearly marked as such. This may
+    include source files, build scripts and documentation.
+
+    "Reserved Font Name" refers to any names specified as such after the
+    copyright statement(s).
+
+    "Original Version" refers to the collection of Font Software components as
+    distributed by the Copyright Holder(s).
+
+    "Modified Version" refers to any derivative made by adding to, deleting,
+    or substituting -- in part or in whole -- any of the components of the
+    Original Version, by changing formats or by porting the Font Software to a
+    new environment.
+
+    "Author" refers to any designer, engineer, programmer, technical
+    writer or other person who contributed to the Font Software.
+
+    PERMISSION & CONDITIONS
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of the Font Software, to use, study, copy, merge, embed, modify,
+    redistribute, and sell modified and unmodified copies of the Font
+    Software, subject to the following conditions:
+
+    1) Neither the Font Software nor any of its individual components,
+    in Original or Modified Versions, may be sold by itself.
+
+    2) Original or Modified Versions of the Font Software may be bundled,
+    redistributed and/or sold with any software, provided that each copy
+    contains the above copyright notice and this license. These can be
+    included either as stand-alone text files, human-readable headers or
+    in the appropriate machine-readable metadata fields within text or
+    binary files as long as those fields can be easily viewed by the user.
+
+    3) No Modified Version of the Font Software may use the Reserved Font
+    Name(s) unless explicit written permission is granted by the corresponding
+    Copyright Holder. This restriction only applies to the primary font name as
+    presented to the users.
+
+    4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+    Software shall not be used to promote, endorse or advertise any
+    Modified Version, except to acknowledge the contribution(s) of the
+    Copyright Holder(s) and the Author(s) or with their explicit written
+    permission.
+
+    5) The Font Software, modified or unmodified, in part or in whole,
+    must be distributed entirely under this license, and must not be
+    distributed under any other license. The requirement for fonts to
+    remain under this license does not apply to any document created
+    using the Font Software.
+
+    TERMINATION
+    This license becomes null and void if any of the above conditions are
+    not met.
+
+    DISCLAIMER
+    THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+    OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+    COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+    INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+    DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+    OTHER DEALINGS IN THE FONT SOFTWARE.
+
+
+## @fontsource/ibm-plex-mono@5.3.0
+
+Licencia declarada: OFL-1.1. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE:
+
+    Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-ThinItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-ExtraLight.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-ExtraLightItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Light.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-LightItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Regular.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Italic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Medium.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-MediumItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-SemiBold.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-SemiBoldItalic.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-Bold.ttf: Copyright 2017 IBM Corp. All rights reserved. IBMPlexMono-BoldItalic.ttf: Copyright 2017 IBM Corp. All rights reserved.
+
+    This Font Software is licensed under the SIL Open Font License, Version 1.1.
+    This license is copied below, and is also available with a FAQ at:
+    http://scripts.sil.org/OFL
+
+
+    -----------------------------------------------------------
+    SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+    -----------------------------------------------------------
+
+    PREAMBLE
+    The goals of the Open Font License (OFL) are to stimulate worldwide
+    development of collaborative font projects, to support the font creation
+    efforts of academic and linguistic communities, and to provide a free and
+    open framework in which fonts may be shared and improved in partnership
+    with others.
+
+    The OFL allows the licensed fonts to be used, studied, modified and
+    redistributed freely as long as they are not sold by themselves. The
+    fonts, including any derivative works, can be bundled, embedded,
+    redistributed and/or sold with any software provided that any reserved
+    names are not used by derivative works. The fonts and derivatives,
+    however, cannot be released under any other type of license. The
+    requirement for fonts to remain under this license does not apply
+    to any document created using the fonts or their derivatives.
+
+    DEFINITIONS
+    "Font Software" refers to the set of files released by the Copyright
+    Holder(s) under this license and clearly marked as such. This may
+    include source files, build scripts and documentation.
+
+    "Reserved Font Name" refers to any names specified as such after the
+    copyright statement(s).
+
+    "Original Version" refers to the collection of Font Software components as
+    distributed by the Copyright Holder(s).
+
+    "Modified Version" refers to any derivative made by adding to, deleting,
+    or substituting -- in part or in whole -- any of the components of the
+    Original Version, by changing formats or by porting the Font Software to a
+    new environment.
+
+    "Author" refers to any designer, engineer, programmer, technical
+    writer or other person who contributed to the Font Software.
+
+    PERMISSION & CONDITIONS
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of the Font Software, to use, study, copy, merge, embed, modify,
+    redistribute, and sell modified and unmodified copies of the Font
+    Software, subject to the following conditions:
+
+    1) Neither the Font Software nor any of its individual components,
+    in Original or Modified Versions, may be sold by itself.
+
+    2) Original or Modified Versions of the Font Software may be bundled,
+    redistributed and/or sold with any software, provided that each copy
+    contains the above copyright notice and this license. These can be
+    included either as stand-alone text files, human-readable headers or
+    in the appropriate machine-readable metadata fields within text or
+    binary files as long as those fields can be easily viewed by the user.
+
+    3) No Modified Version of the Font Software may use the Reserved Font
+    Name(s) unless explicit written permission is granted by the corresponding
+    Copyright Holder. This restriction only applies to the primary font name as
+    presented to the users.
+
+    4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+    Software shall not be used to promote, endorse or advertise any
+    Modified Version, except to acknowledge the contribution(s) of the
+    Copyright Holder(s) and the Author(s) or with their explicit written
+    permission.
+
+    5) The Font Software, modified or unmodified, in part or in whole,
+    must be distributed entirely under this license, and must not be
+    distributed under any other license. The requirement for fonts to
+    remain under this license does not apply to any document created
+    using the Font Software.
+
+    TERMINATION
+    This license becomes null and void if any of the above conditions are
+    not met.
+
+    DISCLAIMER
+    THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+    OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+    COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+    INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+    DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+    OTHER DEALINGS IN THE FONT SOFTWARE.
+
 
 ## @jridgewell/gen-mapping@0.3.13
 
@@ -820,17 +1022,17 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2024 Justin Ridgewell <justin@ridgewell.name>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -838,7 +1040,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## @jridgewell/remapping@2.3.5
 
@@ -847,17 +1049,17 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2024 Justin Ridgewell <justin@ridgewell.name>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -865,7 +1067,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## @jridgewell/resolve-uri@3.1.2
 
@@ -874,17 +1076,17 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2019 Justin Ridgewell <jridgewell@google.com>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -900,17 +1102,17 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2024 Justin Ridgewell <justin@ridgewell.name>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -918,7 +1120,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## @jridgewell/trace-mapping@0.3.31
 
@@ -927,17 +1129,17 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2024 Justin Ridgewell <justin@ridgewell.name>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -945,7 +1147,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## @mediapipe/tasks-vision@0.10.17
 
@@ -958,19 +1160,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2023 MONOGRID
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -978,7 +1180,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## @react-three/drei@10.7.9
 
@@ -987,19 +1189,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2020 react-spring
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1007,11 +1209,40 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## @react-three/fiber@9.8.2
 
 Licencia declarada: MIT. Dependencia de aplicación o transitiva.
+
+## @react-three/postprocessing@3.2.2
+
+Licencia declarada: MIT. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE:
+
+    MIT License
+
+    Copyright (c) 2020 react-spring
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
 
 ## @rolldown/pluginutils@1.0.0-rc.3
 
@@ -1020,19 +1251,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2024-present VoidZero Inc. & Contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1040,11 +1271,11 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
     end of terms and conditions
-    
+
     The licenses of externally maintained libraries from which parts of the Software is derived are listed [here](https://github.com/rolldown/rolldown/blob/main/THIRD-PARTY-LICENSE).
-    
+
 
 ## @rollup/rollup-win32-x64-gnu@4.67.5
 
@@ -1061,21 +1292,21 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The MIT License
-    
+
     Copyright (c) 2010-2012 Tween.js authors.
-    
+
     Easing equations Copyright (c) 2001 Robert Penner http://robertpenner.com/easing/
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1083,7 +1314,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## @types/babel__core@7.20.5
 
@@ -1092,19 +1323,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1112,7 +1343,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/babel__generator@7.27.0
 
@@ -1121,19 +1352,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1141,7 +1372,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/babel__template@7.4.4
 
@@ -1150,19 +1381,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1170,7 +1401,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/babel__traverse@7.28.0
 
@@ -1179,19 +1410,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1199,7 +1430,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/chai@5.2.3
 
@@ -1208,19 +1439,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1228,7 +1459,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/deep-eql@4.0.2
 
@@ -1237,19 +1468,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1257,7 +1488,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/draco3d@1.4.10
 
@@ -1266,19 +1497,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1286,7 +1517,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/estree@1.0.10
 
@@ -1295,19 +1526,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1315,7 +1546,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/node@24.19.2
 
@@ -1324,19 +1555,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1344,7 +1575,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/offscreencanvas@2019.7.3
 
@@ -1353,19 +1584,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1373,7 +1604,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/openseadragon@4.1.0
 
@@ -1382,19 +1613,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1402,7 +1633,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/react@19.3.0
 
@@ -1411,19 +1642,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1431,7 +1662,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/react-dom@19.3.0
 
@@ -1440,19 +1671,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1460,7 +1691,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/react-reconciler@0.28.9
 
@@ -1469,19 +1700,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1489,7 +1720,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/stats.js@0.17.4
 
@@ -1498,19 +1729,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1518,7 +1749,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/three@0.186.0
 
@@ -1527,19 +1758,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1547,7 +1778,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @types/webxr@0.5.24
 
@@ -1556,19 +1787,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
         MIT License
-    
+
         Copyright (c) Microsoft Corporation.
-    
+
         Permission is hereby granted, free of charge, to any person obtaining a copy
         of this software and associated documentation files (the "Software"), to deal
         in the Software without restriction, including without limitation the rights
         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
         copies of the Software, and to permit persons to whom the Software is
         furnished to do so, subject to the following conditions:
-    
+
         The above copyright notice and this permission notice shall be included in all
         copies or substantial portions of the Software.
-    
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1576,7 +1807,7 @@ Archivo LICENSE:
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE
-    
+
 
 ## @use-gesture/core@10.3.1
 
@@ -1585,17 +1816,17 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     Copyright (c) 2018-present Paul Henschel <drcmda@gmail.com>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1611,17 +1842,17 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     Copyright (c) 2018-present Paul Henschel <drcmda@gmail.com>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1637,19 +1868,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2019-present, Yuxi (Evan) You and Vite contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1657,7 +1888,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## @vitest/mocker@5.1.0
 
@@ -1666,19 +1897,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2021-Present VoidZero Inc. and Vitest contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1686,7 +1917,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## @vitest/spy@5.1.0
 
@@ -1695,19 +1926,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2021-Present VoidZero Inc. and Vitest contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1715,7 +1946,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## assertion-error@2.0.1
 
@@ -1724,19 +1955,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2013 Jake Luer jake@qualiancy.com (http://qualiancy.com)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1744,7 +1975,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## base64-js@1.5.1
 
@@ -1753,19 +1984,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright (c) 2014 Jameson Little
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -1773,7 +2004,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## baseline-browser-mapping@2.11.35
 
@@ -1784,17 +2015,17 @@ Archivo LICENSE.txt:
                                      Apache License
                                Version 2.0, January 2004
                             http://www.apache.org/licenses/
-    
+
        TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-    
+
        1. Definitions.
-    
+
           "License" shall mean the terms and conditions for use, reproduction,
           and distribution as defined by Sections 1 through 9 of this document.
-    
+
           "Licensor" shall mean the copyright owner or entity authorized by
           the copyright owner that is granting the License.
-    
+
           "Legal Entity" shall mean the union of the acting entity and all
           other entities that control, are controlled by, or are under common
           control with that entity. For the purposes of this definition,
@@ -1802,24 +2033,24 @@ Archivo LICENSE.txt:
           direction or management of such entity, whether by contract or
           otherwise, or (ii) ownership of fifty percent (50%) or more of the
           outstanding shares, or (iii) beneficial ownership of such entity.
-    
+
           "You" (or "Your") shall mean an individual or Legal Entity
           exercising permissions granted by this License.
-    
+
           "Source" form shall mean the preferred form for making modifications,
           including but not limited to software source code, documentation
           source, and configuration files.
-    
+
           "Object" form shall mean any form resulting from mechanical
           transformation or translation of a Source form, including but
           not limited to compiled object code, generated documentation,
           and conversions to other media types.
-    
+
           "Work" shall mean the work of authorship, whether in Source or
           Object form, made available under the License, as indicated by a
           copyright notice that is included in or attached to the work
           (an example is provided in the Appendix below).
-    
+
           "Derivative Works" shall mean any work, whether in Source or Object
           form, that is based on (or derived from) the Work and for which the
           editorial revisions, annotations, elaborations, or other modifications
@@ -1827,7 +2058,7 @@ Archivo LICENSE.txt:
           of this License, Derivative Works shall not include works that remain
           separable from, or merely link (or bind by name) to the interfaces of,
           the Work and Derivative Works thereof.
-    
+
           "Contribution" shall mean any work of authorship, including
           the original version of the Work and any modifications or additions
           to that Work or Derivative Works thereof, that is intentionally
@@ -1841,18 +2072,18 @@ Archivo LICENSE.txt:
           Licensor for the purpose of discussing and improving the Work, but
           excluding communication that is conspicuously marked or otherwise
           designated in writing by the copyright owner as "Not a Contribution."
-    
+
           "Contributor" shall mean Licensor and any individual or Legal Entity
           on behalf of whom a Contribution has been received by Licensor and
           subsequently incorporated within the Work.
-    
+
        2. Grant of Copyright License. Subject to the terms and conditions of
           this License, each Contributor hereby grants to You a perpetual,
           worldwide, non-exclusive, no-charge, royalty-free, irrevocable
           copyright license to reproduce, prepare Derivative Works of,
           publicly display, publicly perform, sublicense, and distribute the
           Work and such Derivative Works in Source or Object form.
-    
+
        3. Grant of Patent License. Subject to the terms and conditions of
           this License, each Contributor hereby grants to You a perpetual,
           worldwide, non-exclusive, no-charge, royalty-free, irrevocable
@@ -1868,24 +2099,24 @@ Archivo LICENSE.txt:
           or contributory patent infringement, then any patent licenses
           granted to You under this License for that Work shall terminate
           as of the date such litigation is filed.
-    
+
        4. Redistribution. You may reproduce and distribute copies of the
           Work or Derivative Works thereof in any medium, with or without
           modifications, and in Source or Object form, provided that You
           meet the following conditions:
-    
+
           (a) You must give any other recipients of the Work or
               Derivative Works a copy of this License; and
-    
+
           (b) You must cause any modified files to carry prominent notices
               stating that You changed the files; and
-    
+
           (c) You must retain, in the Source form of any Derivative Works
               that You distribute, all copyright, patent, trademark, and
               attribution notices from the Source form of the Work,
               excluding those notices that do not pertain to any part of
               the Derivative Works; and
-    
+
           (d) If the Work includes a "NOTICE" text file as part of its
               distribution, then any Derivative Works that You distribute must
               include a readable copy of the attribution notices contained
@@ -1902,14 +2133,14 @@ Archivo LICENSE.txt:
               or as an addendum to the NOTICE text from the Work, provided
               that such additional attribution notices cannot be construed
               as modifying the License.
-    
+
           You may add Your own copyright statement to Your modifications and
           may provide additional or different license terms and conditions
           for use, reproduction, or distribution of Your modifications, or
           for any such Derivative Works as a whole, provided Your use,
           reproduction, and distribution of the Work otherwise complies with
           the conditions stated in this License.
-    
+
        5. Submission of Contributions. Unless You explicitly state otherwise,
           any Contribution intentionally submitted for inclusion in the Work
           by You to the Licensor shall be under the terms and conditions of
@@ -1917,12 +2148,12 @@ Archivo LICENSE.txt:
           Notwithstanding the above, nothing herein shall supersede or modify
           the terms of any separate license agreement you may have executed
           with Licensor regarding such Contributions.
-    
+
        6. Trademarks. This License does not grant permission to use the trade
           names, trademarks, service marks, or product names of the Licensor,
           except as required for reasonable and customary use in describing the
           origin of the Work and reproducing the content of the NOTICE file.
-    
+
        7. Disclaimer of Warranty. Unless required by applicable law or
           agreed to in writing, Licensor provides the Work (and each
           Contributor provides its Contributions) on an "AS IS" BASIS,
@@ -1932,7 +2163,7 @@ Archivo LICENSE.txt:
           PARTICULAR PURPOSE. You are solely responsible for determining the
           appropriateness of using or redistributing the Work and assume any
           risks associated with Your exercise of permissions under this License.
-    
+
        8. Limitation of Liability. In no event and under no legal theory,
           whether in tort (including negligence), contract, or otherwise,
           unless required by applicable law (such as deliberate and grossly
@@ -1944,7 +2175,7 @@ Archivo LICENSE.txt:
           work stoppage, computer failure or malfunction, or any and all
           other commercial damages or losses), even if such Contributor
           has been advised of the possibility of such damages.
-    
+
        9. Accepting Warranty or Additional Liability. While redistributing
           the Work or Derivative Works thereof, You may choose to offer,
           and charge a fee for, acceptance of support, warranty, indemnity,
@@ -1955,11 +2186,11 @@ Archivo LICENSE.txt:
           defend, and hold each Contributor harmless for any liability
           incurred by, or claims asserted against, such Contributor by reason
           of your accepting any such warranty or additional liability.
-    
+
        END OF TERMS AND CONDITIONS
-    
+
        APPENDIX: How to apply the Apache License to your work.
-    
+
           To apply the Apache License to your work, attach the following
           boilerplate notice, with the fields enclosed by brackets "[]"
           replaced with your own identifying information. (Don't include
@@ -1968,21 +2199,21 @@ Archivo LICENSE.txt:
           file or class name and description of purpose be included on the
           same "printed page" as the copyright notice for easier
           identification within third-party archives.
-    
+
        Copyright [yyyy] [name of copyright owner]
-    
+
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
        You may obtain a copy of the License at
-    
+
            http://www.apache.org/licenses/LICENSE-2.0
-    
+
        Unless required by applicable law or agreed to in writing, software
        distributed under the License is distributed on an "AS IS" BASIS,
        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
        See the License for the specific language governing permissions and
        limitations under the License.
-    
+
 
 ## bidi-js@1.1.0
 
@@ -1991,9 +2222,9 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE.txt:
 
     Copyright (c) 2021 Jason Johnston
-    
+
     MIT License
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -2001,10 +2232,10 @@ Archivo LICENSE.txt:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -2012,7 +2243,7 @@ Archivo LICENSE.txt:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## browserslist@4.29.5
 
@@ -2021,26 +2252,26 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright 2014 Andrey Sitnik <andrey@sitnik.es> and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the "Software"), to deal in
     the Software without restriction, including without limitation the rights to
     use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
     the Software, and to permit persons to whom the Software is furnished to do so,
     subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
     FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
     COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
     IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## buffer@6.0.3
 
@@ -2049,19 +2280,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright (c) Feross Aboukhadijeh, and other contributors.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -2069,7 +2300,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## camera-controls@3.1.2
 
@@ -2078,19 +2309,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2017 @yomotsu
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -2098,7 +2329,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## caniuse-lite@1.0.30001822
 
@@ -2107,9 +2338,9 @@ Licencia declarada: CC-BY-4.0. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Attribution 4.0 International
-    
+
     =======================================================================
-    
+
     Creative Commons Corporation ("Creative Commons") is not a law firm and
     does not provide legal services or legal advice. Distribution of
     Creative Commons public licenses does not create a lawyer-client or
@@ -2119,16 +2350,16 @@ Archivo LICENSE:
     terms and conditions, or any related information. Creative Commons
     disclaims all liability for damages resulting from their use to the
     fullest extent possible.
-    
+
     Using Creative Commons Public Licenses
-    
+
     Creative Commons public licenses provide a standard set of terms and
     conditions that creators and other rights holders may use to share
     original works of authorship and other material subject to copyright
     and certain other rights specified in the public license below. The
     following considerations are for informational purposes only, are not
     exhaustive, and do not form part of our licenses.
-    
+
          Considerations for licensors: Our public licenses are
          intended for use by those authorized to give the public
          permission to use material in ways otherwise restricted by
@@ -2142,7 +2373,7 @@ Archivo LICENSE:
          licensed material, or material used under an exception or
          limitation to copyright. More considerations for licensors:
     	wiki.creativecommons.org/Considerations_for_licensors
-    
+
          Considerations for the public: By using one of our public
          licenses, a licensor grants the public permission to use the
          licensed material under specified terms and conditions. If
@@ -2157,13 +2388,13 @@ Archivo LICENSE:
          such as asking that all changes be marked or described.
          Although not required by our licenses, you are encouraged to
          respect those requests where reasonable. More_considerations
-         for the public: 
+         for the public:
     	wiki.creativecommons.org/Considerations_for_licensees
-    
+
     =======================================================================
-    
+
     Creative Commons Attribution 4.0 International Public License
-    
+
     By exercising the Licensed Rights (defined below), You accept and agree
     to be bound by the terms and conditions of this Creative Commons
     Attribution 4.0 International Public License ("Public License"). To the
@@ -2172,10 +2403,10 @@ Archivo LICENSE:
     these terms and conditions, and the Licensor grants You such rights in
     consideration of benefits the Licensor receives from making the
     Licensed Material available under these terms and conditions.
-    
-    
+
+
     Section 1 -- Definitions.
-    
+
       a. Adapted Material means material subject to Copyright and Similar
          Rights that is derived from or based upon the Licensed Material
          and in which the Licensed Material is translated, altered,
@@ -2185,11 +2416,11 @@ Archivo LICENSE:
          Material is a musical work, performance, or sound recording,
          Adapted Material is always produced where the Licensed Material is
          synched in timed relation with a moving image.
-    
+
       b. Adapter's License means the license You apply to Your Copyright
          and Similar Rights in Your contributions to Adapted Material in
          accordance with the terms and conditions of this Public License.
-    
+
       c. Copyright and Similar Rights means copyright and/or similar rights
          closely related to copyright including, without limitation,
          performance, broadcast, sound recording, and Sui Generis Database
@@ -2197,29 +2428,29 @@ Archivo LICENSE:
          categorized. For purposes of this Public License, the rights
          specified in Section 2(b)(1)-(2) are not Copyright and Similar
          Rights.
-    
+
       d. Effective Technological Measures means those measures that, in the
          absence of proper authority, may not be circumvented under laws
          fulfilling obligations under Article 11 of the WIPO Copyright
          Treaty adopted on December 20, 1996, and/or similar international
          agreements.
-    
+
       e. Exceptions and Limitations means fair use, fair dealing, and/or
          any other exception or limitation to Copyright and Similar Rights
          that applies to Your use of the Licensed Material.
-    
+
       f. Licensed Material means the artistic or literary work, database,
          or other material to which the Licensor applied this Public
          License.
-    
+
       g. Licensed Rights means the rights granted to You subject to the
          terms and conditions of this Public License, which are limited to
          all Copyright and Similar Rights that apply to Your use of the
          Licensed Material and that the Licensor has authority to license.
-    
+
       h. Licensor means the individual(s) or entity(ies) granting rights
          under this Public License.
-    
+
       i. Share means to provide material to the public by any means or
          process that requires permission under the Licensed Rights, such
          as reproduction, public display, public performance, distribution,
@@ -2227,39 +2458,39 @@ Archivo LICENSE:
          available to the public including in ways that members of the
          public may access the material from a place and at a time
          individually chosen by them.
-    
+
       j. Sui Generis Database Rights means rights other than copyright
          resulting from Directive 96/9/EC of the European Parliament and of
          the Council of 11 March 1996 on the legal protection of databases,
          as amended and/or succeeded, as well as other essentially
          equivalent rights anywhere in the world.
-    
+
       k. You means the individual or entity exercising the Licensed Rights
          under this Public License. Your has a corresponding meaning.
-    
-    
+
+
     Section 2 -- Scope.
-    
+
       a. License grant.
-    
+
            1. Subject to the terms and conditions of this Public License,
               the Licensor hereby grants You a worldwide, royalty-free,
               non-sublicensable, non-exclusive, irrevocable license to
               exercise the Licensed Rights in the Licensed Material to:
-    
+
                 a. reproduce and Share the Licensed Material, in whole or
                    in part; and
-    
+
                 b. produce, reproduce, and Share Adapted Material.
-    
+
            2. Exceptions and Limitations. For the avoidance of doubt, where
               Exceptions and Limitations apply to Your use, this Public
               License does not apply, and You do not need to comply with
               its terms and conditions.
-    
+
            3. Term. The term of this Public License is specified in Section
               6(a).
-    
+
            4. Media and formats; technical modifications allowed. The
               Licensor authorizes You to exercise the Licensed Rights in
               all media and formats whether now known or hereafter created,
@@ -2271,31 +2502,31 @@ Archivo LICENSE:
               Technological Measures. For purposes of this Public License,
               simply making modifications authorized by this Section 2(a)
               (4) never produces Adapted Material.
-    
+
            5. Downstream recipients.
-    
+
                 a. Offer from the Licensor -- Licensed Material. Every
                    recipient of the Licensed Material automatically
                    receives an offer from the Licensor to exercise the
                    Licensed Rights under the terms and conditions of this
                    Public License.
-    
+
                 b. No downstream restrictions. You may not offer or impose
                    any additional or different terms or conditions on, or
                    apply any Effective Technological Measures to, the
                    Licensed Material if doing so restricts exercise of the
                    Licensed Rights by any recipient of the Licensed
                    Material.
-    
+
            6. No endorsement. Nothing in this Public License constitutes or
               may be construed as permission to assert or imply that You
               are, or that Your use of the Licensed Material is, connected
               with, or sponsored, endorsed, or granted official status by,
               the Licensor or others designated to receive attribution as
               provided in Section 3(a)(1)(A)(i).
-    
+
       b. Other rights.
-    
+
            1. Moral rights, such as the right of integrity, are not
               licensed under this Public License, nor are publicity,
               privacy, and/or other similar personality rights; however, to
@@ -2303,94 +2534,94 @@ Archivo LICENSE:
               assert any such rights held by the Licensor to the limited
               extent necessary to allow You to exercise the Licensed
               Rights, but not otherwise.
-    
+
            2. Patent and trademark rights are not licensed under this
               Public License.
-    
+
            3. To the extent possible, the Licensor waives any right to
               collect royalties from You for the exercise of the Licensed
               Rights, whether directly or through a collecting society
               under any voluntary or waivable statutory or compulsory
               licensing scheme. In all other cases the Licensor expressly
               reserves any right to collect such royalties.
-    
-    
+
+
     Section 3 -- License Conditions.
-    
+
     Your exercise of the Licensed Rights is expressly made subject to the
     following conditions.
-    
+
       a. Attribution.
-    
+
            1. If You Share the Licensed Material (including in modified
               form), You must:
-    
+
                 a. retain the following if it is supplied by the Licensor
                    with the Licensed Material:
-    
+
                      i. identification of the creator(s) of the Licensed
                         Material and any others designated to receive
                         attribution, in any reasonable manner requested by
                         the Licensor (including by pseudonym if
                         designated);
-    
+
                     ii. a copyright notice;
-    
+
                    iii. a notice that refers to this Public License;
-    
+
                     iv. a notice that refers to the disclaimer of
                         warranties;
-    
+
                      v. a URI or hyperlink to the Licensed Material to the
                         extent reasonably practicable;
-    
+
                 b. indicate if You modified the Licensed Material and
                    retain an indication of any previous modifications; and
-    
+
                 c. indicate the Licensed Material is licensed under this
                    Public License, and include the text of, or the URI or
                    hyperlink to, this Public License.
-    
+
            2. You may satisfy the conditions in Section 3(a)(1) in any
               reasonable manner based on the medium, means, and context in
               which You Share the Licensed Material. For example, it may be
               reasonable to satisfy the conditions by providing a URI or
               hyperlink to a resource that includes the required
               information.
-    
+
            3. If requested by the Licensor, You must remove any of the
               information required by Section 3(a)(1)(A) to the extent
               reasonably practicable.
-    
+
            4. If You Share Adapted Material You produce, the Adapter's
               License You apply must not prevent recipients of the Adapted
               Material from complying with this Public License.
-    
-    
+
+
     Section 4 -- Sui Generis Database Rights.
-    
+
     Where the Licensed Rights include Sui Generis Database Rights that
     apply to Your use of the Licensed Material:
-    
+
       a. for the avoidance of doubt, Section 2(a)(1) grants You the right
          to extract, reuse, reproduce, and Share all or a substantial
          portion of the contents of the database;
-    
+
       b. if You include all or a substantial portion of the database
          contents in a database in which You have Sui Generis Database
          Rights, then the database in which You have Sui Generis Database
          Rights (but not its individual contents) is Adapted Material; and
-    
+
       c. You must comply with the conditions in Section 3(a) if You Share
          all or a substantial portion of the contents of the database.
-    
+
     For the avoidance of doubt, this Section 4 supplements and does not
     replace Your obligations under this Public License where the Licensed
     Rights include other Copyright and Similar Rights.
-    
-    
+
+
     Section 5 -- Disclaimer of Warranties and Limitation of Liability.
-    
+
       a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
          EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
          AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
@@ -2401,7 +2632,7 @@ Archivo LICENSE:
          ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
          KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
          ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
-    
+
       b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
          TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
          NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
@@ -2411,78 +2642,78 @@ Archivo LICENSE:
          ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
          DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
          IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
-    
+
       c. The disclaimer of warranties and limitation of liability provided
          above shall be interpreted in a manner that, to the extent
          possible, most closely approximates an absolute disclaimer and
          waiver of all liability.
-    
-    
+
+
     Section 6 -- Term and Termination.
-    
+
       a. This Public License applies for the term of the Copyright and
          Similar Rights licensed here. However, if You fail to comply with
          this Public License, then Your rights under this Public License
          terminate automatically.
-    
+
       b. Where Your right to use the Licensed Material has terminated under
          Section 6(a), it reinstates:
-    
+
            1. automatically as of the date the violation is cured, provided
               it is cured within 30 days of Your discovery of the
               violation; or
-    
+
            2. upon express reinstatement by the Licensor.
-    
+
          For the avoidance of doubt, this Section 6(b) does not affect any
          right the Licensor may have to seek remedies for Your violations
          of this Public License.
-    
+
       c. For the avoidance of doubt, the Licensor may also offer the
          Licensed Material under separate terms or conditions or stop
          distributing the Licensed Material at any time; however, doing so
          will not terminate this Public License.
-    
+
       d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
          License.
-    
-    
+
+
     Section 7 -- Other Terms and Conditions.
-    
+
       a. The Licensor shall not be bound by any additional or different
          terms or conditions communicated by You unless expressly agreed.
-    
+
       b. Any arrangements, understandings, or agreements regarding the
          Licensed Material not stated herein are separate from and
          independent of the terms and conditions of this Public License.
-    
-    
+
+
     Section 8 -- Interpretation.
-    
+
       a. For the avoidance of doubt, this Public License does not, and
          shall not be interpreted to, reduce, limit, restrict, or impose
          conditions on any use of the Licensed Material that could lawfully
          be made without permission under this Public License.
-    
+
       b. To the extent possible, if any provision of this Public License is
          deemed unenforceable, it shall be automatically reformed to the
          minimum extent necessary to make it enforceable. If the provision
          cannot be reformed, it shall be severed from this Public License
          without affecting the enforceability of the remaining terms and
          conditions.
-    
+
       c. No term or condition of this Public License will be waived and no
          failure to comply consented to unless expressly agreed to by the
          Licensor.
-    
+
       d. Nothing in this Public License constitutes or may be interpreted
          as a limitation upon, or waiver of, any privileges and immunities
          that apply to the Licensor or You, including from the legal
          processes of any jurisdiction or authority.
-    
-    
+
+
     =======================================================================
-    
+
     Creative Commons is not a party to its public
     licenses. Notwithstanding, Creative Commons may elect to apply one of
     its public licenses to material it publishes and in those instances
@@ -2499,9 +2730,9 @@ Archivo LICENSE:
     understandings, or agreements concerning use of licensed material. For
     the avoidance of doubt, this paragraph does not form part of the
     public licenses.
-    
+
     Creative Commons may be contacted at creativecommons.org.
-    
+
 
 ## chai@6.3.0
 
@@ -2510,19 +2741,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2017 Chai.js Assertion Library
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -2530,7 +2761,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## convert-source-map@2.0.0
 
@@ -2538,9 +2769,9 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 
 Archivo LICENSE:
 
-    Copyright 2013 Thorsten Lorenz. 
+    Copyright 2013 Thorsten Lorenz.
     All rights reserved.
-    
+
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation
     files (the "Software"), to deal in the Software without
@@ -2549,10 +2780,10 @@ Archivo LICENSE:
     copies of the Software, and to permit persons to whom the
     Software is furnished to do so, subject to the following
     conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
     OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -2561,7 +2792,7 @@ Archivo LICENSE:
     WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
     FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
     OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## cookie@1.1.1
 
@@ -2570,10 +2801,10 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     (The MIT License)
-    
+
     Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>
     Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     'Software'), to deal in the Software without restriction, including
@@ -2581,10 +2812,10 @@ Archivo LICENSE:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
@@ -2592,8 +2823,8 @@ Archivo LICENSE:
     CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
     TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
     SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
-    
+
+
 
 ## cross-env@7.0.3
 
@@ -2603,17 +2834,17 @@ Archivo LICENSE:
 
     The MIT License (MIT)
     Copyright (c) 2017 Kent C. Dodds
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -2621,7 +2852,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## cross-spawn@7.0.6
 
@@ -2630,19 +2861,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright (c) 2018 Made With MOXY Lda <hello@moxy.studio>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -2650,7 +2881,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## csstype@3.2.3
 
@@ -2659,17 +2890,17 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     Copyright (c) 2017-2018 Fredrik Nicol
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -2677,7 +2908,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## debug@4.4.3
 
@@ -2686,26 +2917,26 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     (The MIT License)
-    
+
     Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
     Copyright (c) 2018-2021 Josh Junon
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software
     and associated documentation files (the 'Software'), to deal in the Software without restriction,
     including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
     and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
     subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial
     portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
     LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
     IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
     WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
     SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
-    
+
+
 
 ## detect-gpu@5.0.70
 
@@ -2714,19 +2945,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2020 Tim van Scherpenzeel
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -2734,7 +2965,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## draco3d@1.5.9
 
@@ -2747,11 +2978,11 @@ Licencia declarada: ISC. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2018 Kilian Valkhof
-    
+
     Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
 
 ## es-module-lexer@2.3.2
 
@@ -2761,15 +2992,15 @@ Archivo LICENSE:
 
     MIT License
     -----------
-    
+
     Copyright (C) 2018-2022 Guy Bedford
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## esbuild@0.28.2
 
@@ -2778,19 +3009,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE.md:
 
     MIT License
-    
+
     Copyright (c) 2020 Evan Wallace
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -2798,7 +3029,7 @@ Archivo LICENSE.md:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## escalade@3.2.0
 
@@ -2807,15 +3038,15 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo license:
 
     MIT License
-    
+
     Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## estree-walker@3.0.3
 
@@ -2824,11 +3055,11 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright (c) 2015-20 [these people](https://github.com/Rich-Harris/estree-walker/graphs/contributors)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## expect-type@1.4.0
@@ -2838,34 +3069,34 @@ Licencia declarada: Apache-2.0. Herramienta de desarrollo.
 Archivo LICENSE:
 
        Copyright 2024 Misha Kaletsky
-    
+
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
        You may obtain a copy of the License at
-    
+
            http://www.apache.org/licenses/LICENSE-2.0
-    
+
        Unless required by applicable law or agreed to in writing, software
        distributed under the License is distributed on an "AS IS" BASIS,
        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
        See the License for the specific language governing permissions and
        limitations under the License.
-    
-    
+
+
                                      Apache License
                                Version 2.0, January 2004
                             http://www.apache.org/licenses/
-    
+
        TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-    
+
        1. Definitions.
-    
+
           "License" shall mean the terms and conditions for use, reproduction,
           and distribution as defined by Sections 1 through 9 of this document.
-    
+
           "Licensor" shall mean the copyright owner or entity authorized by
           the copyright owner that is granting the License.
-    
+
           "Legal Entity" shall mean the union of the acting entity and all
           other entities that control, are controlled by, or are under common
           control with that entity. For the purposes of this definition,
@@ -2873,24 +3104,24 @@ Archivo LICENSE:
           direction or management of such entity, whether by contract or
           otherwise, or (ii) ownership of fifty percent (50%) or more of the
           outstanding shares, or (iii) beneficial ownership of such entity.
-    
+
           "You" (or "Your") shall mean an individual or Legal Entity
           exercising permissions granted by this License.
-    
+
           "Source" form shall mean the preferred form for making modifications,
           including but not limited to software source code, documentation
           source, and configuration files.
-    
+
           "Object" form shall mean any form resulting from mechanical
           transformation or translation of a Source form, including but
           not limited to compiled object code, generated documentation,
           and conversions to other media types.
-    
+
           "Work" shall mean the work of authorship, whether in Source or
           Object form, made available under the License, as indicated by a
           copyright notice that is included in or attached to the work
           (an example is provided in the Appendix below).
-    
+
           "Derivative Works" shall mean any work, whether in Source or Object
           form, that is based on (or derived from) the Work and for which the
           editorial revisions, annotations, elaborations, or other modifications
@@ -2898,7 +3129,7 @@ Archivo LICENSE:
           of this License, Derivative Works shall not include works that remain
           separable from, or merely link (or bind by name) to the interfaces of,
           the Work and Derivative Works thereof.
-    
+
           "Contribution" shall mean any work of authorship, including
           the original version of the Work and any modifications or additions
           to that Work or Derivative Works thereof, that is intentionally
@@ -2912,18 +3143,18 @@ Archivo LICENSE:
           Licensor for the purpose of discussing and improving the Work, but
           excluding communication that is conspicuously marked or otherwise
           designated in writing by the copyright owner as "Not a Contribution."
-    
+
           "Contributor" shall mean Licensor and any individual or Legal Entity
           on behalf of whom a Contribution has been received by Licensor and
           subsequently incorporated within the Work.
-    
+
        2. Grant of Copyright License. Subject to the terms and conditions of
           this License, each Contributor hereby grants to You a perpetual,
           worldwide, non-exclusive, no-charge, royalty-free, irrevocable
           copyright license to reproduce, prepare Derivative Works of,
           publicly display, publicly perform, sublicense, and distribute the
           Work and such Derivative Works in Source or Object form.
-    
+
        3. Grant of Patent License. Subject to the terms and conditions of
           this License, each Contributor hereby grants to You a perpetual,
           worldwide, non-exclusive, no-charge, royalty-free, irrevocable
@@ -2939,24 +3170,24 @@ Archivo LICENSE:
           or contributory patent infringement, then any patent licenses
           granted to You under this License for that Work shall terminate
           as of the date such litigation is filed.
-    
+
        4. Redistribution. You may reproduce and distribute copies of the
           Work or Derivative Works thereof in any medium, with or without
           modifications, and in Source or Object form, provided that You
           meet the following conditions:
-    
+
           (a) You must give any other recipients of the Work or
               Derivative Works a copy of this License; and
-    
+
           (b) You must cause any modified files to carry prominent notices
               stating that You changed the files; and
-    
+
           (c) You must retain, in the Source form of any Derivative Works
               that You distribute, all copyright, patent, trademark, and
               attribution notices from the Source form of the Work,
               excluding those notices that do not pertain to any part of
               the Derivative Works; and
-    
+
           (d) If the Work includes a "NOTICE" text file as part of its
               distribution, then any Derivative Works that You distribute must
               include a readable copy of the attribution notices contained
@@ -2973,14 +3204,14 @@ Archivo LICENSE:
               or as an addendum to the NOTICE text from the Work, provided
               that such additional attribution notices cannot be construed
               as modifying the License.
-    
+
           You may add Your own copyright statement to Your modifications and
           may provide additional or different license terms and conditions
           for use, reproduction, or distribution of Your modifications, or
           for any such Derivative Works as a whole, provided Your use,
           reproduction, and distribution of the Work otherwise complies with
           the conditions stated in this License.
-    
+
        5. Submission of Contributions. Unless You explicitly state otherwise,
           any Contribution intentionally submitted for inclusion in the Work
           by You to the Licensor shall be under the terms and conditions of
@@ -2988,12 +3219,12 @@ Archivo LICENSE:
           Notwithstanding the above, nothing herein shall supersede or modify
           the terms of any separate license agreement you may have executed
           with Licensor regarding such Contributions.
-    
+
        6. Trademarks. This License does not grant permission to use the trade
           names, trademarks, service marks, or product names of the Licensor,
           except as required for reasonable and customary use in describing the
           origin of the Work and reproducing the content of the NOTICE file.
-    
+
        7. Disclaimer of Warranty. Unless required by applicable law or
           agreed to in writing, Licensor provides the Work (and each
           Contributor provides its Contributions) on an "AS IS" BASIS,
@@ -3003,7 +3234,7 @@ Archivo LICENSE:
           PARTICULAR PURPOSE. You are solely responsible for determining the
           appropriateness of using or redistributing the Work and assume any
           risks associated with Your exercise of permissions under this License.
-    
+
        8. Limitation of Liability. In no event and under no legal theory,
           whether in tort (including negligence), contract, or otherwise,
           unless required by applicable law (such as deliberate and grossly
@@ -3015,7 +3246,7 @@ Archivo LICENSE:
           work stoppage, computer failure or malfunction, or any and all
           other commercial damages or losses), even if such Contributor
           has been advised of the possibility of such damages.
-    
+
        9. Accepting Warranty or Additional Liability. While redistributing
           the Work or Derivative Works thereof, You may choose to offer,
           and charge a fee for, acceptance of support, warranty, indemnity,
@@ -3026,9 +3257,9 @@ Archivo LICENSE:
           defend, and hold each Contributor harmless for any liability
           incurred by, or claims asserted against, such Contributor by reason
           of your accepting any such warranty or additional liability.
-    
+
        END OF TERMS AND CONDITIONS
-    
+
 
 ## fdir@6.5.0
 
@@ -3037,13 +3268,13 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2023 Abdullah Atta
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## fflate@0.8.3
 
@@ -3052,19 +3283,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2026 Arjun Barrett
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3073,6 +3304,35 @@ Archivo LICENSE:
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
+## framer-motion@14.10.1
+
+Licencia declarada: MIT. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE.md:
+
+    The MIT License (MIT)
+
+    Copyright (c) 2018 Framer B.V.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+
 ## gensync@1.0.0-beta.2
 
 Licencia declarada: MIT. Herramienta de desarrollo.
@@ -3080,13 +3340,13 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2018 Logan Smyth <loganfsmyth@gmail.com>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## glsl-noise@0.0.0
 
@@ -3096,17 +3356,17 @@ Archivo LICENSE:
 
     Copyright (C) 2011 by Ashima Arts (Simplex noise)
     Copyright (C) 2011 by Stefan Gustavson (Classic noise)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3114,7 +3374,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## hls.js@1.7.4
 
@@ -3123,26 +3383,26 @@ Licencia declarada: Apache-2.0. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     Copyright (c) 2017 Dailymotion (http://www.dailymotion.com)
-    
+
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
-    
+
         http://www.apache.org/licenses/LICENSE-2.0
-    
+
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-    
+
     src/remux/mp4-generator.js and src/demux/exp-golomb.ts implementation in this project
     are derived from the HLS library for video.js (https://github.com/videojs/videojs-contrib-hls)
-    
+
     That work is also covered by the Apache 2 License, following copyright:
     Copyright (c) 2013-2015 Brightcove
-    
-    
+
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3150,7 +3410,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## ieee754@1.2.1
 
@@ -3159,17 +3419,17 @@ Licencia declarada: BSD-3-Clause. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     Copyright 2008 Fair Oaks Labs, Inc.
-    
+
     Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-    
+
     1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-    
+
     2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-    
+
     3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-    
+
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-    
+
 
 ## immediate@3.0.6
 
@@ -3178,7 +3438,7 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE.txt:
 
     Copyright (c) 2012 Barnesandnoble.com, llc, Donavon West, Domenic Denicola, Brian Cavalier
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -3186,10 +3446,10 @@ Archivo LICENSE.txt:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -3197,7 +3457,7 @@ Archivo LICENSE.txt:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## is-promise@2.2.2
 
@@ -3206,17 +3466,17 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     Copyright (c) 2014 Forbes Lindesay
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3232,13 +3492,13 @@ Licencia declarada: ISC. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The ISC License
-    
+
     Copyright (c) Isaac Z. Schlueter and Contributors
-    
+
     Permission to use, copy, modify, and/or distribute this software for any
     purpose with or without fee is hereby granted, provided that the above
     copyright notice and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -3246,7 +3506,7 @@ Archivo LICENSE:
     WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
 
 ## its-fine@2.1.1
 
@@ -3255,19 +3515,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2022-2025 Poimandres
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3275,7 +3535,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## js-tokens@4.0.0
 
@@ -3284,19 +3544,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3304,7 +3564,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## jsesc@3.1.0
 
@@ -3317,19 +3577,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE.md:
 
     MIT License
-    
+
     Copyright (c) 2012-2018 Aseem Kishore, and [others].
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3337,9 +3597,9 @@ Archivo LICENSE.md:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
     [others]: https://github.com/json5/json5/contributors
-    
+
 
 ## lie@3.3.0
 
@@ -3348,13 +3608,13 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo license.md:
 
     #Copyright (c) 2014-2018 Calvin Metcalf, Jordan Harband
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
-    
+
 
 ## lru-cache@5.1.1
 
@@ -3363,13 +3623,13 @@ Licencia declarada: ISC. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The ISC License
-    
+
     Copyright (c) Isaac Z. Schlueter and Contributors
-    
+
     Permission to use, copy, modify, and/or distribute this software for any
     purpose with or without fee is hereby granted, provided that the above
     copyright notice and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -3377,7 +3637,7 @@ Archivo LICENSE:
     WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
 
 ## lucide-react@0.577.0
 
@@ -3386,13 +3646,13 @@ Licencia declarada: ISC. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     ISC License
-    
+
     Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2026 as part of Feather (MIT). All other copyright (c) for Lucide are held by Lucide Contributors 2026.
-    
+
     Permission to use, copy, modify, and/or distribute this software for any
     purpose with or without fee is hereby granted, provided that the above
     copyright notice and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -3400,23 +3660,23 @@ Archivo LICENSE:
     WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
     OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
     ---
-    
+
     The MIT License (MIT) (for portions derived from Feather)
-    
+
     Copyright (c) 2013-2026 Cole Bemis
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3424,7 +3684,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## maath@0.10.8
 
@@ -3437,13 +3697,13 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright 2018 Rich Harris
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## meshline@3.3.1
 
@@ -3452,19 +3712,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2016 Jaume Sanchez
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3472,7 +3732,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## meshoptimizer@1.1.1
 
@@ -3481,19 +3741,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE.md:
 
     MIT License
-    
+
     Copyright (c) 2016-2026 Arseny Kapoulkine
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3501,7 +3761,94 @@ Archivo LICENSE.md:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
+
+## motion@14.10.1
+
+Licencia declarada: MIT. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE.md:
+
+    The MIT License (MIT)
+
+    Copyright (c) 2024 [Motion](https://motion.dev) B.V.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+
+## motion-dom@14.10.1
+
+Licencia declarada: MIT. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE.md:
+
+    The MIT License (MIT)
+
+    Copyright (c) 2024 [Motion](https://motion.dev) B.V.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+
+## motion-utils@14.7.0
+
+Licencia declarada: MIT. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE.md:
+
+    The MIT License (MIT)
+
+    Copyright (c) 2024 [Motion](https://motion.dev) B.V.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
 
 ## ms@2.1.3
 
@@ -3510,19 +3857,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo license.md:
 
     The MIT License (MIT)
-    
+
     Copyright (c) 2020 Vercel, Inc.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3530,7 +3877,135 @@ Archivo license.md:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
+
+## n8ao@2.0.1
+
+Licencia declarada: ISC. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE:
+
+    Creative Commons Legal Code
+
+    CC0 1.0 Universal
+
+        CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+        LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+        ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+        INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+        REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+        PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+        THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+        HEREUNDER.
+
+    Statement of Purpose
+
+    The laws of most jurisdictions throughout the world automatically confer
+    exclusive Copyright and Related Rights (defined below) upon the creator
+    and subsequent owner(s) (each and all, an "owner") of an original work of
+    authorship and/or a database (each, a "Work").
+
+    Certain owners wish to permanently relinquish those rights to a Work for
+    the purpose of contributing to a commons of creative, cultural and
+    scientific works ("Commons") that the public can reliably and without fear
+    of later claims of infringement build upon, modify, incorporate in other
+    works, reuse and redistribute as freely as possible in any form whatsoever
+    and for any purposes, including without limitation commercial purposes.
+    These owners may contribute to the Commons to promote the ideal of a free
+    culture and the further production of creative, cultural and scientific
+    works, or to gain reputation or greater distribution for their Work in
+    part through the use and efforts of others.
+
+    For these and/or other purposes and motivations, and without any
+    expectation of additional consideration or compensation, the person
+    associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+    is an owner of Copyright and Related Rights in the Work, voluntarily
+    elects to apply CC0 to the Work and publicly distribute the Work under its
+    terms, with knowledge of his or her Copyright and Related Rights in the
+    Work and the meaning and intended legal effect of CC0 on those rights.
+
+    1. Copyright and Related Rights. A Work made available under CC0 may be
+    protected by copyright and related or neighboring rights ("Copyright and
+    Related Rights"). Copyright and Related Rights include, but are not
+    limited to, the following:
+
+      i. the right to reproduce, adapt, distribute, perform, display,
+         communicate, and translate a Work;
+     ii. moral rights retained by the original author(s) and/or performer(s);
+    iii. publicity and privacy rights pertaining to a person's image or
+         likeness depicted in a Work;
+     iv. rights protecting against unfair competition in regards to a Work,
+         subject to the limitations in paragraph 4(a), below;
+      v. rights protecting the extraction, dissemination, use and reuse of data
+         in a Work;
+     vi. database rights (such as those arising under Directive 96/9/EC of the
+         European Parliament and of the Council of 11 March 1996 on the legal
+         protection of databases, and under any national implementation
+         thereof, including any amended or successor version of such
+         directive); and
+    vii. other similar, equivalent or corresponding rights throughout the
+         world based on applicable law or treaty, and any national
+         implementations thereof.
+
+    2. Waiver. To the greatest extent permitted by, but not in contravention
+    of, applicable law, Affirmer hereby overtly, fully, permanently,
+    irrevocably and unconditionally waives, abandons, and surrenders all of
+    Affirmer's Copyright and Related Rights and associated claims and causes
+    of action, whether now known or unknown (including existing as well as
+    future claims and causes of action), in the Work (i) in all territories
+    worldwide, (ii) for the maximum duration provided by applicable law or
+    treaty (including future time extensions), (iii) in any current or future
+    medium and for any number of copies, and (iv) for any purpose whatsoever,
+    including without limitation commercial, advertising or promotional
+    purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+    member of the public at large and to the detriment of Affirmer's heirs and
+    successors, fully intending that such Waiver shall not be subject to
+    revocation, rescission, cancellation, termination, or any other legal or
+    equitable action to disrupt the quiet enjoyment of the Work by the public
+    as contemplated by Affirmer's express Statement of Purpose.
+
+    3. Public License Fallback. Should any part of the Waiver for any reason
+    be judged legally invalid or ineffective under applicable law, then the
+    Waiver shall be preserved to the maximum extent permitted taking into
+    account Affirmer's express Statement of Purpose. In addition, to the
+    extent the Waiver is so judged Affirmer hereby grants to each affected
+    person a royalty-free, non transferable, non sublicensable, non exclusive,
+    irrevocable and unconditional license to exercise Affirmer's Copyright and
+    Related Rights in the Work (i) in all territories worldwide, (ii) for the
+    maximum duration provided by applicable law or treaty (including future
+    time extensions), (iii) in any current or future medium and for any number
+    of copies, and (iv) for any purpose whatsoever, including without
+    limitation commercial, advertising or promotional purposes (the
+    "License"). The License shall be deemed effective as of the date CC0 was
+    applied by Affirmer to the Work. Should any part of the License for any
+    reason be judged legally invalid or ineffective under applicable law, such
+    partial invalidity or ineffectiveness shall not invalidate the remainder
+    of the License, and in such case Affirmer hereby affirms that he or she
+    will not (i) exercise any of his or her remaining Copyright and Related
+    Rights in the Work or (ii) assert any associated claims and causes of
+    action with respect to the Work, in either case contrary to Affirmer's
+    express Statement of Purpose.
+
+    4. Limitations and Disclaimers.
+
+     a. No trademark or patent rights held by Affirmer are waived, abandoned,
+        surrendered, licensed or otherwise affected by this document.
+     b. Affirmer offers the Work as-is and makes no representations or
+        warranties of any kind concerning the Work, express, implied,
+        statutory or otherwise, including without limitation warranties of
+        title, merchantability, fitness for a particular purpose, non
+        infringement, or the absence of latent or other defects, accuracy, or
+        the present or absence of errors, whether or not discoverable, all to
+        the greatest extent permissible under applicable law.
+     c. Affirmer disclaims responsibility for clearing rights of other persons
+        that may apply to the Work or any use thereof, including without
+        limitation any person's Copyright and Related Rights in the Work.
+        Further, Affirmer disclaims responsibility for obtaining any necessary
+        consents, permissions or other rights required for any use of the
+        Work.
+     d. Affirmer understands and acknowledges that Creative Commons is not a
+        party to this document and has no duty or obligation with respect to
+        this CC0 or use of the Work.
 
 ## nanoid@3.3.20
 
@@ -3539,26 +4014,26 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright 2017 Andrey Sitnik <andrey@sitnik.ru>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the "Software"), to deal in
     the Software without restriction, including without limitation the rights to
     use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
     the Software, and to permit persons to whom the Software is furnished to do so,
     subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
     FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
     COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
     IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## node-releases@2.0.63
 
@@ -3567,19 +4042,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License
-    
+
     Copyright (c) 2017 Sergey Rubanov (https://github.com/chicoxyzzy)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3587,7 +4062,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## obug@3.0.0
 
@@ -3596,21 +4071,21 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright © 2025-PRESENT Kevin Deng (https://github.com/sxzz)
     Copyright (c) 2014-2017 TJ Holowaychuk <tj@vision-media.ca>
     Copyright (c) 2018-2021 Josh Junon
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3618,7 +4093,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## openseadragon@5.0.1
 
@@ -3628,21 +4103,21 @@ Archivo LICENSE.txt:
 
     Copyright (C) 2009 CodePlex Foundation
     Copyright (C) 2010-2024 OpenSeadragon contributors
-    
+
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are met:
-    
+
     - Redistributions of source code must retain the above copyright notice,
       this list of conditions and the following disclaimer.
-    
+
     - Redistributions in binary form must reproduce the above copyright notice,
       this list of conditions and the following disclaimer in the documentation
       and/or other materials provided with the distribution.
-    
+
     - Neither the name of CodePlex Foundation nor the names of its contributors
       may be used to endorse or promote products derived from this software
       without specific prior written permission.
-    
+
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
     AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
     IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
@@ -3654,7 +4129,7 @@ Archivo LICENSE.txt:
     CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
     ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
     POSSIBILITY OF SUCH DAMAGE.
-    
+
 
 ## path-key@3.1.1
 
@@ -3663,15 +4138,15 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo license:
 
     MIT License
-    
+
     Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## picocolors@1.1.1
 
@@ -3680,13 +4155,13 @@ Licencia declarada: ISC. Herramienta de desarrollo.
 Archivo LICENSE:
 
     ISC License
-    
+
     Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov
-    
+
     Permission to use, copy, modify, and/or distribute this software for any
     purpose with or without fee is hereby granted, provided that the above
     copyright notice and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -3694,7 +4169,7 @@ Archivo LICENSE:
     WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
     OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
 
 ## picomatch@4.0.7
 
@@ -3703,19 +4178,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright (c) 2017-present, Jon Schlinkert.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3723,7 +4198,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## plotly.js-basic-dist-min@3.7.0
 
@@ -3732,19 +4207,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2016-2024 Plotly Technologies Inc.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -3752,7 +4227,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## postcss@8.5.32
 
@@ -3761,26 +4236,53 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright 2013 Andrey Sitnik <andrey@sitnik.es>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the "Software"), to deal in
     the Software without restriction, including without limitation the rights to
     use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
     the Software, and to permit persons to whom the Software is furnished to do so,
     subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
     FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
     COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
     IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
+
+## postprocessing@6.39.6
+
+Licencia declarada: Zlib. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE.md:
+
+    Copyright © 2015 Raoul van Rüschen
+
+    This software is provided 'as-is', without any express or implied warranty. In
+    no event will the authors be held liable for any damages arising from the use of
+    this software.
+
+    Permission is granted to anyone to use this software for any purpose, including
+    commercial applications, and to alter it and redistribute it freely, subject to
+    the following restrictions:
+
+    1. The origin of this software must not be misrepresented; you must not claim
+       that you wrote the original software. If you use this software in a product,
+       an acknowledgment in the product documentation would be appreciated but is
+       not required.
+
+    2. Altered source versions must be plainly marked as such, and must not be
+       misrepresented as being the original software.
+
+    3. This notice may not be removed or altered from any source distribution.
+
 
 ## potpack@1.0.2
 
@@ -3789,13 +4291,13 @@ Licencia declarada: ISC. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     ISC License
-    
+
     Copyright (c) 2018, Mapbox
-    
+
     Permission to use, copy, modify, and/or distribute this software for any purpose
     with or without fee is hereby granted, provided that the above copyright notice
     and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
     REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
     FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
@@ -3803,7 +4305,7 @@ Archivo LICENSE:
     OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
     TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
     THIS SOFTWARE.
-    
+
 
 ## prettier@3.9.10
 
@@ -3812,13 +4314,13 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     Copyright © James Long and contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## promise-worker-transferable@1.0.4
 
@@ -3826,21 +4328,21 @@ Licencia declarada: Apache-2.0. Dependencia de aplicación o transitiva.
 
 Archivo LICENSE:
 
-    
+
                                     Apache License
                               Version 2.0, January 2004
                            http://www.apache.org/licenses/
-    
+
       TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-    
+
       1. Definitions.
-    
+
          "License" shall mean the terms and conditions for use, reproduction,
          and distribution as defined by Sections 1 through 9 of this document.
-    
+
          "Licensor" shall mean the copyright owner or entity authorized by
          the copyright owner that is granting the License.
-    
+
          "Legal Entity" shall mean the union of the acting entity and all
          other entities that control, are controlled by, or are under common
          control with that entity. For the purposes of this definition,
@@ -3848,24 +4350,24 @@ Archivo LICENSE:
          direction or management of such entity, whether by contract or
          otherwise, or (ii) ownership of fifty percent (50%) or more of the
          outstanding shares, or (iii) beneficial ownership of such entity.
-    
+
          "You" (or "Your") shall mean an individual or Legal Entity
          exercising permissions granted by this License.
-    
+
          "Source" form shall mean the preferred form for making modifications,
          including but not limited to software source code, documentation
          source, and configuration files.
-    
+
          "Object" form shall mean any form resulting from mechanical
          transformation or translation of a Source form, including but
          not limited to compiled object code, generated documentation,
          and conversions to other media types.
-    
+
          "Work" shall mean the work of authorship, whether in Source or
          Object form, made available under the License, as indicated by a
          copyright notice that is included in or attached to the work
          (an example is provided in the Appendix below).
-    
+
          "Derivative Works" shall mean any work, whether in Source or Object
          form, that is based on (or derived from) the Work and for which the
          editorial revisions, annotations, elaborations, or other modifications
@@ -3873,7 +4375,7 @@ Archivo LICENSE:
          of this License, Derivative Works shall not include works that remain
          separable from, or merely link (or bind by name) to the interfaces of,
          the Work and Derivative Works thereof.
-    
+
          "Contribution" shall mean any work of authorship, including
          the original version of the Work and any modifications or additions
          to that Work or Derivative Works thereof, that is intentionally
@@ -3887,18 +4389,18 @@ Archivo LICENSE:
          Licensor for the purpose of discussing and improving the Work, but
          excluding communication that is conspicuously marked or otherwise
          designated in writing by the copyright owner as "Not a Contribution."
-    
+
          "Contributor" shall mean Licensor and any individual or Legal Entity
          on behalf of whom a Contribution has been received by Licensor and
          subsequently incorporated within the Work.
-    
+
       2. Grant of Copyright License. Subject to the terms and conditions of
          this License, each Contributor hereby grants to You a perpetual,
          worldwide, non-exclusive, no-charge, royalty-free, irrevocable
          copyright license to reproduce, prepare Derivative Works of,
          publicly display, publicly perform, sublicense, and distribute the
          Work and such Derivative Works in Source or Object form.
-    
+
       3. Grant of Patent License. Subject to the terms and conditions of
          this License, each Contributor hereby grants to You a perpetual,
          worldwide, non-exclusive, no-charge, royalty-free, irrevocable
@@ -3914,24 +4416,24 @@ Archivo LICENSE:
          or contributory patent infringement, then any patent licenses
          granted to You under this License for that Work shall terminate
          as of the date such litigation is filed.
-    
+
       4. Redistribution. You may reproduce and distribute copies of the
          Work or Derivative Works thereof in any medium, with or without
          modifications, and in Source or Object form, provided that You
          meet the following conditions:
-    
+
          (a) You must give any other recipients of the Work or
              Derivative Works a copy of this License; and
-    
+
          (b) You must cause any modified files to carry prominent notices
              stating that You changed the files; and
-    
+
          (c) You must retain, in the Source form of any Derivative Works
              that You distribute, all copyright, patent, trademark, and
              attribution notices from the Source form of the Work,
              excluding those notices that do not pertain to any part of
              the Derivative Works; and
-    
+
          (d) If the Work includes a "NOTICE" text file as part of its
              distribution, then any Derivative Works that You distribute must
              include a readable copy of the attribution notices contained
@@ -3948,14 +4450,14 @@ Archivo LICENSE:
              or as an addendum to the NOTICE text from the Work, provided
              that such additional attribution notices cannot be construed
              as modifying the License.
-    
+
          You may add Your own copyright statement to Your modifications and
          may provide additional or different license terms and conditions
          for use, reproduction, or distribution of Your modifications, or
          for any such Derivative Works as a whole, provided Your use,
          reproduction, and distribution of the Work otherwise complies with
          the conditions stated in this License.
-    
+
       5. Submission of Contributions. Unless You explicitly state otherwise,
          any Contribution intentionally submitted for inclusion in the Work
          by You to the Licensor shall be under the terms and conditions of
@@ -3963,12 +4465,12 @@ Archivo LICENSE:
          Notwithstanding the above, nothing herein shall supersede or modify
          the terms of any separate license agreement you may have executed
          with Licensor regarding such Contributions.
-    
+
       6. Trademarks. This License does not grant permission to use the trade
          names, trademarks, service marks, or product names of the Licensor,
          except as required for reasonable and customary use in describing the
          origin of the Work and reproducing the content of the NOTICE file.
-    
+
       7. Disclaimer of Warranty. Unless required by applicable law or
          agreed to in writing, Licensor provides the Work (and each
          Contributor provides its Contributions) on an "AS IS" BASIS,
@@ -3978,7 +4480,7 @@ Archivo LICENSE:
          PARTICULAR PURPOSE. You are solely responsible for determining the
          appropriateness of using or redistributing the Work and assume any
          risks associated with Your exercise of permissions under this License.
-    
+
       8. Limitation of Liability. In no event and under no legal theory,
          whether in tort (including negligence), contract, or otherwise,
          unless required by applicable law (such as deliberate and grossly
@@ -3990,7 +4492,7 @@ Archivo LICENSE:
          work stoppage, computer failure or malfunction, or any and all
          other commercial damages or losses), even if such Contributor
          has been advised of the possibility of such damages.
-    
+
       9. Accepting Warranty or Additional Liability. While redistributing
          the Work or Derivative Works thereof, You may choose to offer,
          and charge a fee for, acceptance of support, warranty, indemnity,
@@ -4001,11 +4503,11 @@ Archivo LICENSE:
          defend, and hold each Contributor harmless for any liability
          incurred by, or claims asserted against, such Contributor by reason
          of your accepting any such warranty or additional liability.
-    
+
       END OF TERMS AND CONDITIONS
-    
+
       APPENDIX: How to apply the Apache License to your work.
-    
+
          To apply the Apache License to your work, attach the following
          boilerplate notice, with the fields enclosed by brackets "[]"
          replaced with your own identifying information. (Don't include
@@ -4014,21 +4516,21 @@ Archivo LICENSE:
          file or class name and description of purpose be included on the
          same "printed page" as the copyright notice for easier
          identification within third-party archives.
-    
+
       Copyright [yyyy] [name of copyright owner]
-    
+
       Licensed under the Apache License, Version 2.0 (the "License");
       you may not use this file except in compliance with the License.
       You may obtain a copy of the License at
-    
+
           http://www.apache.org/licenses/LICENSE-2.0
-    
+
       Unless required by applicable law or agreed to in writing, software
       distributed under the License is distributed on an "AS IS" BASIS,
       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
       See the License for the specific language governing permissions and
       limitations under the License.
-    
+
 
 ## react@19.3.1
 
@@ -4037,19 +4539,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) Meta Platforms, Inc. and affiliates.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4057,7 +4559,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## react-dom@19.3.1
 
@@ -4066,19 +4568,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) Meta Platforms, Inc. and affiliates.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4086,7 +4588,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## react-refresh@0.18.0
 
@@ -4095,19 +4597,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) Meta Platforms, Inc. and affiliates.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4115,7 +4617,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## react-router@7.18.5
 
@@ -4124,21 +4626,21 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE.md:
 
     MIT License
-    
+
     Copyright (c) React Training LLC 2015-2019
     Copyright (c) Remix Software Inc. 2020-2021
     Copyright (c) Shopify Inc. 2022-2023
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4146,7 +4648,7 @@ Archivo LICENSE.md:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## react-router-dom@7.18.5
 
@@ -4155,21 +4657,21 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE.md:
 
     MIT License
-    
+
     Copyright (c) React Training LLC 2015-2019
     Copyright (c) Remix Software Inc. 2020-2021
     Copyright (c) Shopify Inc. 2022-2023
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4177,7 +4679,7 @@ Archivo LICENSE.md:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## react-use-measure@2.1.7
 
@@ -4186,19 +4688,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2019-2025 Poimandres
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4206,7 +4708,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## require-from-string@2.0.2
 
@@ -4215,19 +4717,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo license:
 
     The MIT License (MIT)
-    
+
     Copyright (c) Vsevolod Strukchinsky <floatdrop@gmail.com> (github.com/floatdrop)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4235,7 +4737,7 @@ Archivo license:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## rollup@4.67.5
 
@@ -4245,39 +4747,39 @@ Archivo LICENSE.md:
 
     # Rollup core license
     Rollup is released under the MIT license:
-    
+
     The MIT License (MIT)
-    
+
     Copyright (c) 2017 [these people](https://github.com/rollup/rollup/graphs/contributors)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     # Licenses of bundled dependencies
     The published Rollup artifact additionally contains code with the following licenses:
     MIT, ISC, 0BSD
-    
+
     # Bundled dependencies:
     ## @jridgewell/sourcemap-codec
     License: MIT
     By: Justin Ridgewell
     Repository: git+https://github.com/jridgewell/sourcemaps.git
-    
+
     > Copyright 2024 Justin Ridgewell <justin@ridgewell.name>
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4285,28 +4787,28 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## @rollup/pluginutils
     License: MIT
     By: Rich Harris
     Repository: rollup/plugins
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2019 RollupJS Plugin Contributors (https://github.com/rollup/plugins/graphs/contributors)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4314,22 +4816,22 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## anymatch
     License: ISC
     By: Elan Shanker
     Repository: https://github.com/micromatch/anymatch
-    
+
     > The ISC License
-    > 
+    >
     > Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com)
-    > 
+    >
     > Permission to use, copy, modify, and/or distribute this software for any
     > purpose with or without fee is hereby granted, provided that the above
     > copyright notice and this permission notice appear in all copies.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     > WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     > MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -4337,46 +4839,46 @@ Archivo LICENSE.md:
     > WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     > ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     > IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## binary-extensions
     License: MIT
     By: Sindre Sorhus
     Repository: sindresorhus/binary-extensions
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
     > Copyright (c) Paul Miller (https://paulmillr.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## braces
     License: MIT
     By: Jon Schlinkert, Brian Woodward, Elan Shanker, Eugene Sharygin, hemanth.hm
     Repository: micromatch/braces
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2014-present, Jon Schlinkert.
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4384,45 +4886,45 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## builtin-modules
     License: MIT
     By: Sindre Sorhus
     Repository: sindresorhus/builtin-modules
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## chokidar
     License: MIT
     By: Paul Miller, Elan Shanker
     Repository: git+https://github.com/paulmillr/chokidar.git
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the “Software”), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4430,45 +4932,45 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## date-time
     License: MIT
     By: Sindre Sorhus
     Repository: sindresorhus/date-time
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## fill-range
     License: MIT
     By: Jon Schlinkert, Edo Rivai, Paul Miller, Rouven Weßling
     Repository: jonschlinkert/fill-range
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2014-present, Jon Schlinkert.
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4476,39 +4978,39 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## flru
     License: MIT
     By: Luke Edwards
     Repository: lukeed/flru
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## glob-parent
     License: ISC
     By: Gulp Team, Elan Shanker, Blaine Bublitz
     Repository: gulpjs/glob-parent
-    
+
     > The ISC License
-    > 
+    >
     > Copyright (c) 2015, 2019 Elan Shanker
-    > 
+    >
     > Permission to use, copy, modify, and/or distribute this software for any
     > purpose with or without fee is hereby granted, provided that the above
     > copyright notice and this permission notice appear in all copies.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     > WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     > MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -4516,45 +5018,45 @@ Archivo LICENSE.md:
     > WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     > ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     > IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## is-binary-path
     License: MIT
     By: Sindre Sorhus
     Repository: sindresorhus/is-binary-path
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## is-extglob
     License: MIT
     By: Jon Schlinkert
     Repository: jonschlinkert/is-extglob
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2014-2016, Jon Schlinkert
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4562,28 +5064,28 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## is-glob
     License: MIT
     By: Jon Schlinkert, Brian Woodward, Daniel Perez
     Repository: micromatch/is-glob
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2014-2017, Jon Schlinkert.
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4591,28 +5093,28 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## is-number
     License: MIT
     By: Jon Schlinkert, Olsten Larck, Rouven Weßling
     Repository: jonschlinkert/is-number
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2014-present, Jon Schlinkert.
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4620,57 +5122,57 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## is-reference
     License: MIT
     By: Rich Harris
     Repository: git+https://github.com/Rich-Harris/is-reference.git
-    
+
     ---------------------------------------
-    
+
     ## locate-character
     License: MIT
     By: Rich Harris
     Repository: git+https://gitlab.com/Rich-Harris/locate-character.git
-    
+
     ---------------------------------------
-    
+
     ## magic-string
     License: MIT
     By: Rich Harris
     Repository: git+https://github.com/Rich-Harris/magic-string.git
-    
+
     > Copyright 2018 Rich Harris
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## normalize-path
     License: MIT
     By: Jon Schlinkert, Blaine Bublitz
     Repository: jonschlinkert/normalize-path
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2014-2018, Jon Schlinkert.
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4678,39 +5180,39 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## parse-ms
     License: MIT
     By: Sindre Sorhus
     Repository: sindresorhus/parse-ms
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## picocolors
     License: ISC
     By: Alexey Raspopov
     Repository: alexeyraspopov/picocolors
-    
+
     > ISC License
-    > 
+    >
     > Copyright (c) 2021-2024 Oleksii Raspopov, Kostiantyn Denysov, Anton Verinov
-    > 
+    >
     > Permission to use, copy, modify, and/or distribute this software for any
     > purpose with or without fee is hereby granted, provided that the above
     > copyright notice and this permission notice appear in all copies.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     > WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     > MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -4718,28 +5220,28 @@ Archivo LICENSE.md:
     > WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     > ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
     > OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## picomatch
     License: MIT
     By: Jon Schlinkert
     Repository: micromatch/picomatch
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2017-present, Jon Schlinkert.
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4747,62 +5249,62 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## pretty-bytes
     License: MIT
     By: Sindre Sorhus
     Repository: sindresorhus/pretty-bytes
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## pretty-ms
     License: MIT
     By: Sindre Sorhus
     Repository: sindresorhus/pretty-ms
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## readdirp
     License: MIT
     By: Thorsten Lorenz, Paul Miller
     Repository: git://github.com/paulmillr/readdirp.git
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all
     > copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4810,23 +5312,23 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## signal-exit
     License: ISC
     By: Ben Coe
     Repository: https://github.com/tapjs/signal-exit.git
-    
+
     > The ISC License
-    > 
+    >
     > Copyright (c) 2015-2023 Benjamin Coe, Isaac Z. Schlueter, and Contributors
-    > 
+    >
     > Permission to use, copy, modify, and/or distribute this software
     > for any purpose with or without fee is hereby granted, provided
     > that the above copyright notice and this permission notice
     > appear in all copies.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     > WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES
     > OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE
@@ -4834,45 +5336,45 @@ Archivo LICENSE.md:
     > OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
     > WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
     > ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## time-zone
     License: MIT
     By: Sindre Sorhus
     Repository: sindresorhus/time-zone
-    
+
     > MIT License
-    > 
+    >
     > Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## to-regex-range
     License: MIT
     By: Jon Schlinkert, Rouven Weßling
     Repository: micromatch/to-regex-range
-    
+
     > The MIT License (MIT)
-    > 
+    >
     > Copyright (c) 2015-present, Jon Schlinkert.
-    > 
+    >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
     > of this software and associated documentation files (the "Software"), to deal
     > in the Software without restriction, including without limitation the rights
     > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     > copies of the Software, and to permit persons to whom the Software is
     > furnished to do so, subject to the following conditions:
-    > 
+    >
     > The above copyright notice and this permission notice shall be included in
     > all copies or substantial portions of the Software.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4880,19 +5382,19 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## tslib
     License: 0BSD
     By: Microsoft Corp.
     Repository: https://github.com/Microsoft/tslib.git
-    
+
     > Copyright (c) Microsoft Corporation.
-    > 
+    >
     > Permission to use, copy, modify, and/or distribute this software for any
     > purpose with or without fee is hereby granted.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
     > REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
     > AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
@@ -4900,21 +5402,21 @@ Archivo LICENSE.md:
     > LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
     > OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
     > PERFORMANCE OF THIS SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## yargs-parser
     License: ISC
     By: Ben Coe
     Repository: https://github.com/yargs/yargs-parser.git
-    
+
     > Copyright (c) 2016, Contributors
-    > 
+    >
     > Permission to use, copy, modify, and/or distribute this software
     > for any purpose with or without fee is hereby granted, provided
     > that the above copyright notice and this permission notice
     > appear in all copies.
-    > 
+    >
     > THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     > WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES
     > OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE
@@ -4922,7 +5424,7 @@ Archivo LICENSE.md:
     > OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
     > WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
     > ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
 
 ## scheduler@0.28.0
 
@@ -4931,19 +5433,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) Meta Platforms, Inc. and affiliates.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -4951,7 +5453,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## semver@6.3.2
 
@@ -4960,13 +5462,13 @@ Licencia declarada: ISC. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The ISC License
-    
+
     Copyright (c) Isaac Z. Schlueter and Contributors
-    
+
     Permission to use, copy, modify, and/or distribute this software for any
     purpose with or without fee is hereby granted, provided that the above
     copyright notice and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -4974,7 +5476,7 @@ Archivo LICENSE:
     WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
 
 ## set-cookie-parser@2.7.3
 
@@ -4983,19 +5485,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright (c) 2015 Nathan Friedly <nathan@nfriedly.com> (http://nfriedly.com/)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5003,7 +5505,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## shebang-command@2.0.0
 
@@ -5012,15 +5514,15 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo license:
 
     MIT License
-    
+
     Copyright (c) Kevin Mårtensson <kevinmartensson@gmail.com> (github.com/kevva)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## shebang-regex@3.0.0
 
@@ -5029,15 +5531,15 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo license:
 
     MIT License
-    
+
     Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## source-map-js@1.2.2
 
@@ -5045,24 +5547,24 @@ Licencia declarada: BSD-3-Clause. Herramienta de desarrollo.
 
 Archivo LICENSE:
 
-    
+
     Copyright (c) 2009-2011, Mozilla Foundation and contributors
     All rights reserved.
-    
+
     Redistribution and use in source and binary forms, with or without
     modification, are permitted provided that the following conditions are met:
-    
+
     * Redistributions of source code must retain the above copyright notice, this
       list of conditions and the following disclaimer.
-    
+
     * Redistributions in binary form must reproduce the above copyright notice,
       this list of conditions and the following disclaimer in the documentation
       and/or other materials provided with the distribution.
-    
+
     * Neither the names of the Mozilla Foundation nor the names of project
       contributors may be used to endorse or promote products derived from this
       software without specific prior written permission.
-    
+
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
     WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
@@ -5073,7 +5575,7 @@ Archivo LICENSE:
     CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
     OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
     OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-    
+
 
 ## stats-gl@2.4.2
 
@@ -5086,19 +5588,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The MIT License
-    
+
     Copyright © 2010-2024 three.js authors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5106,7 +5608,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## stats.js@0.17.0
 
@@ -5115,19 +5617,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The MIT License
-    
+
     Copyright (c) 2009-2016 stats.js authors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5135,7 +5637,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## std-env@4.3.0
 
@@ -5144,19 +5646,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENCE:
 
     MIT License
-    
+
     Copyright (c) Pooya Parsa <pooya@pi0.io>
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5164,8 +5666,8 @@ Archivo LICENCE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
-    
+
+
 
 ## suspend-react@0.1.3
 
@@ -5174,19 +5676,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2021 Paul Henschel
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5194,7 +5696,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## three@0.186.1
 
@@ -5203,19 +5705,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The MIT License
-    
+
     Copyright © 2010-2026 three.js authors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5223,7 +5725,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## three-mesh-bvh@0.8.3
 
@@ -5232,19 +5734,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2018 Garrett Johnson
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5252,7 +5754,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## three-stdlib@2.36.1
 
@@ -5261,19 +5763,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2021-2023 Poimandres
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5281,7 +5783,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## fflate@0.6.11
 
@@ -5290,19 +5792,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2020 Arjun Barrett
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5318,19 +5820,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2022 Tinylibs
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5338,7 +5840,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## tinyexec@1.3.1
 
@@ -5347,19 +5849,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2024 Tinylibs
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5367,7 +5869,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## tinyglobby@0.2.17
 
@@ -5376,19 +5878,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2024 Madeline Gurriarán
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5396,7 +5898,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## troika-three-text@0.52.5
 
@@ -5405,20 +5907,20 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2019 ProtectWise
     Copyright (c) 2021 Jason Johnston
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5426,7 +5928,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## troika-three-utils@0.52.5
 
@@ -5435,20 +5937,20 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2019 ProtectWise
     Copyright (c) 2021 Jason Johnston
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5456,7 +5958,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## troika-worker-utils@0.52.0
 
@@ -5465,20 +5967,20 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2019 ProtectWise
     Copyright (c) 2021 Jason Johnston
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5486,7 +5988,26 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
+
+## tslib@2.9.1
+
+Licencia declarada: 0BSD. Dependencia de aplicación o transitiva.
+
+Archivo LICENSE.txt:
+
+    Copyright (c) Microsoft Corporation.
+
+    Permission to use, copy, modify, and/or distribute this software for any
+    purpose with or without fee is hereby granted.
+
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+    REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+    AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+    INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+    LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+    OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+    PERFORMANCE OF THIS SOFTWARE.
 
 ## tunnel-rat@0.1.2
 
@@ -5495,19 +6016,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2022 Poimandres
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5515,7 +6036,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## zustand@4.5.7
 
@@ -5524,19 +6045,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2019 Paul Henschel
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5544,7 +6065,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## typescript@5.9.3
 
@@ -5553,61 +6074,61 @@ Licencia declarada: Apache-2.0. Herramienta de desarrollo.
 Archivo LICENSE.txt:
 
     Apache License
-    
+
     Version 2.0, January 2004
-    
-    http://www.apache.org/licenses/ 
-    
+
+    http://www.apache.org/licenses/
+
     TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-    
+
     1. Definitions.
-    
+
     "License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
-    
+
     "Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
-    
+
     "Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
-    
+
     "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
-    
+
     "Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
-    
+
     "Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
-    
+
     "Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
-    
+
     "Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
-    
+
     "Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
-    
+
     "Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
-    
+
     2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
-    
+
     3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
-    
+
     4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
-    
+
     You must give any other recipients of the Work or Derivative Works a copy of this License; and
-    
+
     You must cause any modified files to carry prominent notices stating that You changed the files; and
-    
+
     You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
-    
+
     If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
-    
+
     5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
-    
+
     6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
-    
+
     7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
-    
+
     8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
-    
+
     9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
-    
+
     END OF TERMS AND CONDITIONS
-    
+
 
 ## undici-types@7.24.6
 
@@ -5616,19 +6137,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) Matteo Collina and Undici contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5636,7 +6157,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## update-browserslist-db@1.3.4
 
@@ -5645,26 +6166,26 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright 2022 Andrey Sitnik <andrey@sitnik.es> and other contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy of
     this software and associated documentation files (the "Software"), to deal in
     the Software without restriction, including without limitation the rights to
     use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
     the Software, and to permit persons to whom the Software is furnished to do so,
     subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
     FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
     COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
     IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
     CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## use-sync-external-store@1.7.0
 
@@ -5673,19 +6194,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) Meta Platforms, Inc. and affiliates.
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5693,7 +6214,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## utility-types@3.11.0
 
@@ -5702,19 +6223,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2016 Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io)
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5722,7 +6243,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## vite@7.3.7
 
@@ -5736,21 +6257,21 @@ Archivo LICENSE.md:
 
     # Vitest core license
     Vitest is released under the MIT license:
-    
+
     MIT License
-    
+
     Copyright (c) 2021-Present VoidZero Inc. and Vitest contributors
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -5758,17 +6279,17 @@ Archivo LICENSE.md:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
     # Licenses of bundled dependencies
     The published Vitest artifact additionally contains code with the following licenses:
     BSD-3-Clause, ISC, MIT
-    
+
     # Bundled dependencies:
     ## @antfu/install-pkg
     License: MIT
     By: Anthony Fu
     Repository: git+https://github.com/antfu-collective/install-pkg.git
-    
+
     > MIT License
     >
     > Copyright (c) 2021 Anthony Fu <https://github.com/antfu>
@@ -5790,21 +6311,21 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## @bomb.sh/tab
     License: MIT
     By: Bombshell Authors
     Repository: git+https://github.com/bombshell-dev/tab.git
-    
+
     ---------------------------------------
-    
+
     ## @jridgewell/resolve-uri
     License: MIT
     By: Justin Ridgewell
     Repository: https://github.com/jridgewell/resolve-uri
-    
+
     > Copyright 2019 Justin Ridgewell <jridgewell@google.com>
     >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -5824,14 +6345,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## @jridgewell/sourcemap-codec
     License: MIT
     By: Justin Ridgewell
     Repository: git+https://github.com/jridgewell/sourcemaps.git
-    
+
     > Copyright 2024 Justin Ridgewell <justin@ridgewell.name>
     >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -5851,14 +6372,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## @jridgewell/trace-mapping
     License: MIT
     By: Justin Ridgewell
     Repository: git+https://github.com/jridgewell/sourcemaps.git
-    
+
     > Copyright 2024 Justin Ridgewell <justin@ridgewell.name>
     >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -5878,13 +6399,13 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## @sinonjs/commons
     License: BSD-3-Clause
     Repository: git+https://github.com/sinonjs/commons.git
-    
+
     > BSD 3-Clause License
     >
     > Copyright (c) 2018, Sinon.JS
@@ -5914,14 +6435,14 @@ Archivo LICENSE.md:
     > CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
     > OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
     > OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-    
+
     ---------------------------------------
-    
+
     ## @sinonjs/fake-timers
     License: BSD-3-Clause
     By: Christian Johansen
     Repository: git+https://github.com/sinonjs/fake-timers.git
-    
+
     > Copyright (c) 2010-2014, Christian Johansen, christian@cjohansen.no. All rights reserved.
     >
     > Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -5933,14 +6454,14 @@ Archivo LICENSE.md:
     > 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
     >
     > THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-    
+
     ---------------------------------------
-    
+
     ## acorn
     License: MIT
     By: Marijn Haverbeke, Ingvar Stepanyan, Adrian Heine
     Repository: https://github.com/acornjs/acorn.git
-    
+
     > MIT License
     >
     > Copyright (C) 2012-2022 by various contributors (see AUTHORS)
@@ -5962,14 +6483,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## acorn-walk
     License: MIT
     By: Marijn Haverbeke, Ingvar Stepanyan, Adrian Heine
     Repository: https://github.com/acornjs/acorn.git
-    
+
     > MIT License
     >
     > Copyright (C) 2012-2020 by various contributors (see AUTHORS)
@@ -5991,14 +6512,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## birpc
     License: MIT
     By: Anthony Fu
     Repository: git+https://github.com/antfu-collective/birpc.git
-    
+
     > MIT License
     >
     > Copyright (c) 2021 Anthony Fu <https://github.com/antfu>
@@ -6020,14 +6541,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## cac
     License: MIT
     By: egoist
     Repository: egoist/cac
-    
+
     > The MIT License (MIT)
     >
     > Copyright (c) EGOIST <0x142857@gmail.com> (https://github.com/egoist)
@@ -6049,15 +6570,15 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## convert-source-map
     License: MIT
     By: Thorsten Lorenz
     Repository: git://github.com/thlorenz/convert-source-map.git
-    
-    > Copyright 2013 Thorsten Lorenz. 
+
+    > Copyright 2013 Thorsten Lorenz.
     > All rights reserved.
     >
     > Permission is hereby granted, free of charge, to any person
@@ -6080,13 +6601,13 @@ Archivo LICENSE.md:
     > WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
     > FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
     > OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## diff-sequences
     License: MIT
     Repository: https://github.com/jestjs/jest.git
-    
+
     > MIT License
     >
     > Copyright (c) Meta Platforms, Inc. and affiliates.
@@ -6108,14 +6629,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## flatted
     License: ISC
     By: Andrea Giammarchi
     Repository: git+https://github.com/WebReflection/flatted.git
-    
+
     > ISC License
     >
     > Copyright (c) 2018-2020, Andrea Giammarchi, @WebReflection
@@ -6131,14 +6652,14 @@ Archivo LICENSE.md:
     > LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
     > OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
     > PERFORMANCE OF THIS SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## js-tokens
     License: MIT
     By: Simon Lydell
     Repository: lydell/js-tokens
-    
+
     > The MIT License (MIT)
     >
     > Copyright (c) 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Simon Lydell
@@ -6160,14 +6681,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## kleur
     License: MIT
     By: Luke Edwards
     Repository: lukeed/kleur
-    
+
     > The MIT License (MIT)
     >
     > Copyright (c) Luke Edwards <luke.edwards05@gmail.com> (lukeed.com)
@@ -6189,14 +6710,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## local-pkg
     License: MIT
     By: Anthony Fu
     Repository: git+https://github.com/antfu-collective/local-pkg.git
-    
+
     > MIT License
     >
     > Copyright (c) 2021 Anthony Fu <https://github.com/antfu>
@@ -6218,14 +6739,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## mime
     License: MIT
     By: Robert Kieffer
     Repository: git+https://github.com/broofa/mime.git
-    
+
     > MIT License
     >
     > Copyright (c) 2023 Robert Kieffer
@@ -6247,13 +6768,13 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## mlly
     License: MIT
     Repository: unjs/mlly
-    
+
     > MIT License
     >
     > Copyright (c) Pooya Parsa <pooya@pi0.io>
@@ -6275,21 +6796,21 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## natural-compare
     License: MIT
     By: Lauri Rooden
     Repository: git://github.com/litejs/natural-compare-lite.git
-    
+
     ---------------------------------------
-    
+
     ## package-manager-detector
     License: MIT
     By: Anthony Fu
     Repository: git+https://github.com/antfu-collective/package-manager-detector.git
-    
+
     > MIT License
     >
     > Copyright (c) 2020-PRESENT Anthony Fu <https://github.com/antfu>
@@ -6311,13 +6832,13 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## pathe
     License: MIT
     Repository: unjs/pathe
-    
+
     > MIT License
     >
     > Copyright (c) Pooya Parsa <pooya@pi0.io> - Daniel Roe <daniel@roe.dev>
@@ -6388,14 +6909,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
     > FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
     > DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## prompts
     License: MIT
     By: Terkel Gjervig
     Repository: terkelg/prompts
-    
+
     > MIT License
     >
     > Copyright (c) 2018 Terkel Gjervig Nielsen
@@ -6417,14 +6938,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## quansync
     License: MIT
     By: Anthony Fu, 三咲智子 Kevin Deng
     Repository: git+https://github.com/quansync-dev/quansync.git
-    
+
     > MIT License
     >
     > Copyright (c) 2025-PRESENT Anthony Fu <https://github.com/antfu> and Kevin Deng <https://github.com/sxzz>
@@ -6446,13 +6967,13 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## react-is
     License: MIT
     Repository: https://github.com/react/react.git
-    
+
     > MIT License
     >
     > Copyright (c) Meta Platforms, Inc. and affiliates.
@@ -6474,14 +6995,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## sisteransi
     License: MIT
     By: Terkel Gjervig
     Repository: https://github.com/terkelg/sisteransi
-    
+
     > MIT License
     >
     > Copyright (c) 2018 Terkel Gjervig Nielsen
@@ -6503,14 +7024,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## strip-literal
     License: MIT
     By: Anthony Fu
     Repository: git+https://github.com/antfu/strip-literal.git
-    
+
     > MIT License
     >
     > Copyright (c) 2022 Anthony Fu <https://github.com/antfu>
@@ -6532,13 +7053,13 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## tinyhighlight
     License: MIT
     Repository: git+https://github.com/tinylibs/tinyhighlight.git
-    
+
     > # Tinyhighlight core license
     >
     > MIT License
@@ -6616,13 +7137,13 @@ Archivo LICENSE.md:
     > LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     > OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     > WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## tinyrainbow
     License: MIT
     Repository: git+https://github.com/tinylibs/tinyrainbow.git
-    
+
     > MIT License
     >
     > Copyright (c) 2022 Tinylibs
@@ -6644,14 +7165,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## type-detect
     License: MIT
     By: Jake Luer, Keith Cirkel, David Losert, Aleksey Shvayka, Lucas Fernandes da Costa, Grant Snodgrass, Jeremy Tice, Edward Betts, dvlsg, Amila Welihinda, Jake Champion, Miroslav Bajtoš
     Repository: git+ssh://git@github.com/chaijs/type-detect.git
-    
+
     > Copyright (c) 2013 Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)
     >
     > Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -6671,13 +7192,13 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     > THE SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## ufo
     License: MIT
     Repository: unjs/ufo
-    
+
     > MIT License
     >
     > Copyright (c) Pooya Parsa <pooya@pi0.io>
@@ -6699,14 +7220,14 @@ Archivo LICENSE.md:
     > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     > SOFTWARE.
-    
+
     ---------------------------------------
-    
+
     ## ws
     License: MIT
     By: Einar Otto Stangvik
     Repository: git+https://github.com/websockets/ws.git
-    
+
     > Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
     > Copyright (c) 2013 Arnout Kazemier and contributors
     > Copyright (c) 2016 Luigi Pinca and contributors
@@ -6727,7 +7248,7 @@ Archivo LICENSE.md:
     > COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
     > IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
     > CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## webgl-constants@1.1.1
 
@@ -6736,19 +7257,19 @@ Licencia declarada: "Consultar autor". Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2019 Tim van Scherpenzeel
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -6756,7 +7277,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
 ## webgl-sdf-generator@1.1.1
 
@@ -6765,9 +7286,9 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE.txt:
 
     Copyright (c) 2021 Jason Johnston
-    
+
     MIT License
-    
+
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
     "Software"), to deal in the Software without restriction, including
@@ -6775,10 +7296,10 @@ Archivo LICENSE.txt:
     distribute, sublicense, and/or sell copies of the Software, and to
     permit persons to whom the Software is furnished to do so, subject to
     the following conditions:
-    
+
     The above copyright notice and this permission notice shall be
     included in all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
     EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
@@ -6786,7 +7307,7 @@ Archivo LICENSE.txt:
     LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
     OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
     WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    
+
 
 ## which@2.0.2
 
@@ -6795,13 +7316,13 @@ Licencia declarada: ISC. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     The ISC License
-    
+
     Copyright (c) Isaac Z. Schlueter and Contributors
-    
+
     Permission to use, copy, modify, and/or distribute this software for any
     purpose with or without fee is hereby granted, provided that the above
     copyright notice and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -6809,7 +7330,7 @@ Archivo LICENSE:
     WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
 
 ## why-is-node-running@3.2.1
 
@@ -6818,19 +7339,19 @@ Licencia declarada: MIT. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The MIT License (MIT)
-    
+
     Copyright (c) 2016 Mathias Buus
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in
     all copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -6838,7 +7359,7 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-    
+
 
 ## yallist@3.1.1
 
@@ -6847,13 +7368,13 @@ Licencia declarada: ISC. Herramienta de desarrollo.
 Archivo LICENSE:
 
     The ISC License
-    
+
     Copyright (c) Isaac Z. Schlueter and Contributors
-    
+
     Permission to use, copy, modify, and/or distribute this software for any
     purpose with or without fee is hereby granted, provided that the above
     copyright notice and this permission notice appear in all copies.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
     WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
     MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
@@ -6861,7 +7382,7 @@ Archivo LICENSE:
     WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
     ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
     IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-    
+
 
 ## zustand@5.0.16
 
@@ -6870,19 +7391,19 @@ Licencia declarada: MIT. Dependencia de aplicación o transitiva.
 Archivo LICENSE:
 
     MIT License
-    
+
     Copyright (c) 2019 Paul Henschel
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -6890,5 +7411,5 @@ Archivo LICENSE:
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
+
 
