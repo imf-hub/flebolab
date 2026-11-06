@@ -31,3 +31,9 @@ La evidencia de medios incluye hashes, inspección de metadatos, dimensiones, ti
 ## Límites de esta verificación
 
 Faltan pruebas con médicos, lectores de pantalla y dispositivos físicos, perfiles de memoria prolongados y mediciones de campo de rendimiento. La comprobación de metadatosDICOM no equivale a validación de una herramienta de medición clínica. La versión temporal queda fuera de indexación mientras se revisa y se decide el dominio definitivo.
+
+## Comprobación final del build
+
+El build de producción se comprobó en un servidor propio en el puerto4187: selección y aislamiento de la vena safena magna, comparación3D con dos lienzos y ausencia de errores de ejecución en ese recorrido. Doce recorridos y marcado de progreso comprobados. La exportación de anotacionesJSON se descargó y verificó; laCSV se generó, pero su finalización local quedó en un archivo temporal del navegador y se comprobará sobre HTTPS.
+
+La portada referencia337.225bytes de JS/CSS antes de compresión, sin el módulo3D/Plotly/OpenSeadragon ni medios clínicos. Hay1.240archivos de medios y307.579.295bytes en el paquete completo, solicitados de forma diferida. GitHubActions completó correctamente el workflow del commit1e4a371c4c51b52b6c23c05d8dd59f65765cb604.
