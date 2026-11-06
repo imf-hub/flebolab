@@ -114,3 +114,8 @@ Implementado indica que existe la función o entrega; no implica validación cl�
 6. Conexión del subdominio en Hostinger y comprobación final de indexación, exclusivamente después de revisar el candidato.
 
 El modelo calibrado de paciente y la validación de predicción clínica no se dan por completados ni se sugieren como prestaciones de esta versión docente.
+
+
+## Cierre posterior a publicación
+
+La versión1 está publicada en https://flebolab-imf.ferver.chatgpt.site. El estado actualizado de cada criterio y los límites se encuentran en [Acta de publicación](ACTA_PUBLICACION_2026-11-06.md). La tabla anterior describe la preparación del candidato.

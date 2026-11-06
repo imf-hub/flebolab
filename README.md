@@ -70,3 +70,8 @@ Cada medio conserva su autoría y licencia en el catálogo y en la página Créd
 Para actualizar: preparar archivos fuera de `public/`, verificar licencia y procedencia, generar derivados y metadatos, validar contenido y compilación, revisar la presentación integrada y publicar una versión nueva. No sobrescribir un recurso con otro caso manteniendo suID.
 
 El subdominio propio se conectará posteriormente en Hostinger; no se han cambiado DNS.
+
+
+## Versión publicada
+
+[Revisar FLEBO LAB0.9](https://flebolab-imf.ferver.chatgpt.site). [Acta de entrega y pendientes](docs/ACTA_PUBLICACION_2026-11-06.md). Publicación1, modelo educativo1.1. El subdominio enHostinger se conectará después.

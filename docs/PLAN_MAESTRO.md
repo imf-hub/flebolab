@@ -1023,93 +1023,93 @@ Todas las tareas siguientes pertenecen a la versión robusta salvo que su propia
 
 ### F01 Producto y diseño
 
-- [ ] **P01** Cerrar mapa de rutas y funciones. Cada entrada de la navegación corresponde a una función y contenido definidos.
-- [ ] **P02** Diseñar portada y presentación de los tres laboratorios. Se entiende qué permite hacer cada uno sin leer documentación técnica.
+- [x] **P01** Cerrar mapa de rutas y funciones. Cada entrada de la navegación corresponde a una función y contenido definidos.
+- [x] **P02** Diseñar portada y presentación de los tres laboratorios. Se entiende qué permite hacer cada uno sin leer documentación técnica.
 - [ ] **P03** Diseñar escritorio, proyección y móvil. Paneles, comparación y controles tienen comportamiento definido en cada formato.
 - [ ] **P04** Crear sistema visual y estados. Tipografía, colores, foco, carga, error y selección son consistentes.
-- [ ] **P05** Definir contratos de caso, activo, escenario y recorrido. Los datos desconocidos tienen tratamiento explícito.
-- [ ] **P06** Preparar matriz editorial de las metas de lanzamiento. Cada cantidad tiene unidad correcta: caso, vista, clip, pareja o escenario.
+- [x] **P05** Definir contratos de caso, activo, escenario y recorrido. Los datos desconocidos tienen tratamiento explícito.
+- [x] **P06** Preparar matriz editorial de las metas de lanzamiento. Cada cantidad tiene unidad correcta: caso, vista, clip, pareja o escenario.
 
 ### F02 Base y GitHub
 
-- [ ] **P07** Crear el repositorio dedicado y el proyecto local al iniciar la construcción, sin modificar el atlas.
-- [ ] **P08** Fijar el conjunto compatible de dependencias y lockfile. Compilación y pruebas parten de la misma resolución.
-- [ ] **P09** Implementar rutas y entradas directas. Una recarga abre la ficha o escenario correcto.
-- [ ] **P10** Implementar layouts, paneles y modo presentación. La vista central conserva prioridad.
+- [x] **P07** Crear el repositorio dedicado y el proyecto local al iniciar la construcción, sin modificar el atlas.
+- [x] **P08** Fijar el conjunto compatible de dependencias y lockfile. Compilación y pruebas parten de la misma resolución.
+- [x] **P09** Implementar rutas y entradas directas. Una recarga abre la ficha o escenario correcto.
+- [x] **P10** Implementar layouts, paneles y modo presentación. La vista central conserva prioridad.
 - [ ] **P11** Implementar controles comunes accesibles. Teclado, ratón y tacto permiten las acciones principales.
-- [ ] **P12** Separar estado de los laboratorios. Cambiar de módulo no mezcla anotaciones, unidades o selección de otro.
+- [x] **P12** Separar estado de los laboratorios. Cambiar de módulo no mezcla anotaciones, unidades o selección de otro.
 - [ ] **P13** Implementar validación del catálogo y de los parámetros compartidos. Los datos inválidos producen un estado recuperable.
-- [ ] **P14** Configurar CI de tipos, contenido, pruebas y build. Un fallo relevante impide generar una versión publicable.
+- [x] **P14** Configurar CI de tipos, contenido, pruebas y build. Un fallo relevante impide generar una versión publicable.
 
 ### F03 Contenido y activos
 
-- [ ] **P15** Registrar fuentes, licencias y decisiones de uso del lote. Cada archivo seleccionado tiene procedencia y versión.
-- [ ] **P16** Seleccionar la galería RGB conforme a las metas. Se conservan relaciones de caso y cobertura real C0-C6.
-- [ ] **P17** Preparar parejas térmicas verificadas. Cada pareja corresponde al caso y vista indicados.
-- [ ] **P18** Seleccionar los clips de compresión. Los cuatro sitios y la variedad de participantes están representados.
-- [ ] **P19** Decodificar y preparar familias DICOM. Tiempos, proporciones y formatos se verifican con la muestra y el lote.
+- [x] **P15** Registrar fuentes, licencias y decisiones de uso del lote. Cada archivo seleccionado tiene procedencia y versión.
+- [x] **P16** Seleccionar la galería RGB conforme a las metas. Se conservan relaciones de caso y cobertura real C0-C6.
+- [x] **P17** Preparar parejas térmicas verificadas. Cada pareja corresponde al caso y vista indicados.
+- [x] **P18** Seleccionar los clips de compresión. Los cuatro sitios y la variedad de participantes están representados.
+- [x] **P19** Decodificar y preparar familias DICOM. Tiempos, proporciones y formatos se verifican con la muestra y el lote.
 - [ ] **P20** Preparar los extractos experimentales de Waterloo. Sus variables, unidades y procesamiento se registran.
-- [ ] **P21** Inventariar las estructuras y los activos 3D. Cada una tiene nombre, origen y función dentro de la escena.
-- [ ] **P22** Preparar la geometría valvular propia y las piezas de corte que requieran elaboración. La naturaleza de cada representación queda documentada.
-- [ ] **P23** Optimizar modelos y medios. Se revisa que la compresión no destruya información necesaria.
-- [ ] **P24** Generar manifiestos y relaciones de contenido. No hay archivos huérfanos, fuentes sin crédito o vistas tratadas como casos nuevos.
+- [x] **P21** Inventariar las estructuras y los activos 3D. Cada una tiene nombre, origen y función dentro de la escena.
+- [x] **P22** Preparar la geometría valvular propia y las piezas de corte que requieran elaboración. La naturaleza de cada representación queda documentada.
+- [x] **P23** Optimizar modelos y medios. Se revisa que la compresión no destruya información necesaria.
+- [x] **P24** Generar manifiestos y relaciones de contenido. No hay archivos huérfanos, fuentes sin crédito o vistas tratadas como casos nuevos.
 
 ### F04 FleboTwin visual
 
 - [ ] **P25** Construir el territorio y las cámaras de referencia. Las vistas se pueden restaurar y seleccionar.
-- [ ] **P26** Implementar capas y transparencias. Los controles preservan la orientación y la lectura de los vasos.
-- [ ] **P27** Implementar selección desde escena y lista. Ambos caminos mantienen el mismo foco y etiqueta.
-- [ ] **P28** Implementar aislamiento y vuelta al territorio. El usuario recupera su contexto sin reiniciar todo.
+- [x] **P26** Implementar capas y transparencias. Los controles preservan la orientación y la lectura de los vasos.
+- [x] **P27** Implementar selección desde escena y lista. Ambos caminos mantienen el mismo foco y etiqueta.
+- [x] **P28** Implementar aislamiento y vuelta al territorio. El usuario recupera su contexto sin reiniciar todo.
 - [ ] **P29** Implementar el corte o sección correspondiente al activo. La representación tiene superficie y explicación apropiadas.
-- [ ] **P30** Construir la vista ampliada de válvula. Su estado se puede reproducir por fases y coordinar con el modelo.
-- [ ] **P31** Implementar trazadores y contornos. Reflejan datos o una convención ilustrativa identificada.
+- [x] **P30** Construir la vista ampliada de válvula. Su estado se puede reproducir por fases y coordinar con el modelo.
+- [x] **P31** Implementar trazadores y contornos. Reflejan datos o una convención ilustrativa identificada.
 - [ ] **P32** Implementar comparación 3D A/B. Cámaras, calidad y tiempo siguen el comportamiento definido.
 
 ### F05 FleboTwin científico
 
-- [ ] **P33** Documentar la formulación base y sus fronteras. Cada ecuación y unidad tiene procedencia o justificación.
-- [ ] **P34** Preparar perfiles de parámetros con rangos y alcance. No se usan números de ejemplo de un solver como parámetros de pierna sin revisión.
-- [ ] **P35** Implementar el solver independiente de la interfaz. Produce resultados repetibles con sus entradas y versión.
+- [x] **P33** Documentar la formulación base y sus fronteras. Cada ecuación y unidad tiene procedencia o justificación.
+- [x] **P34** Preparar perfiles de parámetros con rangos y alcance. No se usan números de ejemplo de un solver como parámetros de pierna sin revisión.
+- [x] **P35** Implementar el solver independiente de la interfaz. Produce resultados repetibles con sus entradas y versión.
 - [ ] **P36** Integrar Worker, cancelación y cambio de parámetros. Un cálculo obsoleto no reemplaza una solución nueva.
-- [ ] **P37** Comprobar equilibrio, conservación, válvulas y gravedad. Los casos sencillos cumplen las propiedades de su formulación.
-- [ ] **P38** Comprobar paso temporal y sensibilidad. Se documentan tolerancias y rangos utilizables.
-- [ ] **P39** Producir TW01-TW12 y sus explicaciones. Cada escenario declara la naturaleza de sus resultados.
-- [ ] **P40** Integrar presión, flujo y volumen en Plotly. Unidades, referencias y selección corresponden a la serie activa.
-- [ ] **P41** Sincronizar escena, curvas, válvula y fases. Todas leen el mismo reloj y resultado.
-- [ ] **P42** Implementar exportación de curvas y enlace de escenario. La exportación conserva parámetros y versión.
+- [x] **P37** Comprobar equilibrio, conservación, válvulas y gravedad. Los casos sencillos cumplen las propiedades de su formulación.
+- [x] **P38** Comprobar paso temporal y sensibilidad. Se documentan tolerancias y rangos utilizables.
+- [x] **P39** Producir TW01-TW12 y sus explicaciones. Cada escenario declara la naturaleza de sus resultados.
+- [x] **P40** Integrar presión, flujo y volumen en Plotly. Unidades, referencias y selección corresponden a la serie activa.
+- [x] **P41** Sincronizar escena, curvas, válvula y fases. Todas leen el mismo reloj y resultado.
+- [x] **P42** Implementar exportación de curvas y enlace de escenario. La exportación conserva parámetros y versión.
 
 ### F06 FleboDUS
 
-- [ ] **P43** Construir explorador por segmento, lado y etiquetas. Los filtros operan sobre datos del catálogo.
-- [ ] **P44** Implementar carga y representación de las familias de archivos seleccionadas. Las imágenes se muestran con orientación y aspecto correctos.
-- [ ] **P45** Implementar cine y repetición de intervalos. La reproducción es controlable y el tiempo original permanece disponible.
-- [ ] **P46** Implementar inspección por cuadros. El frame y tiempo mostrados coinciden con el índice preparado.
-- [ ] **P47** Implementar zoom, desplazamiento y anotación reversible. Las marcas no alteran el original.
+- [x] **P43** Construir explorador por segmento, lado y etiquetas. Los filtros operan sobre datos del catálogo.
+- [x] **P44** Implementar carga y representación de las familias de archivos seleccionadas. Las imágenes se muestran con orientación y aspecto correctos.
+- [x] **P45** Implementar cine y repetición de intervalos. La reproducción es controlable y el tiempo original permanece disponible.
+- [x] **P46** Implementar inspección por cuadros. El frame y tiempo mostrados coinciden con el índice preparado.
+- [x] **P47** Implementar zoom, desplazamiento y anotación reversible. Las marcas no alteran el original.
 - [ ] **P48** Implementar calibración por región y unidad. Las herramientas físicas se habilitan según sus requisitos.
-- [ ] **P49** Implementar comparación de cines. Se distingue coordinación de reproducción y sincronía fisiológica.
-- [ ] **P50** Integrar mapa anatómico y contexto de adquisición. Los datos ausentes se muestran como desconocidos.
+- [x] **P49** Implementar comparación de cines. Se distingue coordinación de reproducción y sincronía fisiológica.
+- [x] **P50** Integrar mapa anatómico y contexto de adquisición. Los datos ausentes se muestran como desconocidos.
 - [ ] **P51** Construir DP01-DP10. Las señales y esquemas tienen controles pertinentes y naturaleza identificada.
-- [ ] **P52** Completar maniobras y lectura de reflujo. El contenido editorial y las referencias son navegables sin depender de permisos pendientes de una imagen.
-- [ ] **P53** Integrar los extractos de Waterloo. Se muestra su condición experimental y se evita atribuirles patología no documentada.
+- [x] **P52** Completar maniobras y lectura de reflujo. El contenido editorial y las referencias son navegables sin depender de permisos pendientes de una imagen.
+- [x] **P53** Integrar los extractos de Waterloo. Se muestra su condición experimental y se evita atribuirles patología no documentada.
 
 ### F07 FleboVision
 
-- [ ] **P54** Construir galería y filtros combinados. Las miniaturas llevan al caso correcto y la ausencia de resultados se puede resolver.
-- [ ] **P55** Implementar el visor y sus límites de resolución. Zoom y desplazamiento funcionan en imágenes reales de la selección.
-- [ ] **P56** Implementar comparación de dos y cuatro vistas según pantalla. Las relaciones de caso y lado son visibles.
-- [ ] **P57** Implementar anotaciones y ocultación de contexto. El docente puede explicar y volver a la vista limpia.
-- [ ] **P58** Integrar clasificación y signos. Original, revisión y datos faltantes permanecen distinguibles.
-- [ ] **P59** Integrar parejas térmicas y escalas válidas cuando correspondan. No se comparan paletas como temperaturas universales.
+- [x] **P54** Construir galería y filtros combinados. Las miniaturas llevan al caso correcto y la ausencia de resultados se puede resolver.
+- [x] **P55** Implementar el visor y sus límites de resolución. Zoom y desplazamiento funcionan en imágenes reales de la selección.
+- [x] **P56** Implementar comparación de dos y cuatro vistas según pantalla. Las relaciones de caso y lado son visibles.
+- [x] **P57** Implementar anotaciones y ocultación de contexto. El docente puede explicar y volver a la vista limpia.
+- [x] **P58** Integrar clasificación y signos. Original, revisión y datos faltantes permanecen distinguibles.
+- [x] **P59** Integrar parejas térmicas y escalas válidas cuando correspondan. No se comparan paletas como temperaturas universales.
 - [ ] **P60** Implementar favoritos y fichas de vista. Su persistencia y exportación respetan la política del recurso.
 
 ### F08 Integración editorial
 
-- [ ] **P61** Producir las 18 láminas y seis animaciones previstas. Cada pieza tiene guion, fuentes y créditos.
-- [ ] **P62** Construir RC01-RC12 sobre recursos existentes. Todos los pasos abren su contenido real.
-- [ ] **P63** Integrar navegación temática entre laboratorios. No se inventa correspondencia de paciente entre fuentes distintas.
+- [x] **P61** Producir las 18 láminas y seis animaciones previstas. Cada pieza tiene guion, fuentes y créditos.
+- [x] **P62** Construir RC01-RC12 sobre recursos existentes. Todos los pasos abren su contenido real.
+- [x] **P63** Integrar navegación temática entre laboratorios. No se inventa correspondencia de paciente entre fuentes distintas.
 - [ ] **P64** Completar glosario y equivalencias. Los términos visibles tienen traducción revisada y contexto.
-- [ ] **P65** Completar guía, fuentes, créditos, modelo y novedades. La documentación corresponde a la versión candidata.
-- [ ] **P66** Implementar búsqueda, favoritos y enlaces compartidos. Los resultados y enlaces conservan IDs y versión compatibles.
+- [x] **P65** Completar guía, fuentes, créditos, modelo y novedades. La documentación corresponde a la versión candidata.
+- [x] **P66** Implementar búsqueda, favoritos y enlaces compartidos. Los resultados y enlaces conservan IDs y versión compatibles.
 
 ### F09 Calidad de producto
 
@@ -1120,16 +1120,16 @@ Todas las tareas siguientes pertenecen a la versión robusta salvo que su propia
 - [ ] **P71** Probar errores, enlaces antiguos y recursos no disponibles. La aplicación se recupera con mensajes útiles.
 - [ ] **P72** Comprobar exportaciones y atribuciones. Archivo exportado y vista coinciden en contenido, unidad y versión.
 - [ ] **P73** Comprobar catálogo y revisión médica de las selecciones. Ningún recurso candidato entra por error en el paquete público.
-- [ ] **P74** Preparar paquete y acta breve de versión candidata. Se identifican aplicación, contenido y modelo que se publicarán.
+- [x] **P74** Preparar paquete y acta breve de versión candidata. Se identifican aplicación, contenido y modelo que se publicarán.
 
 ### F10 Lanzamiento
 
-- [ ] **P75** Publicar el candidato en una dirección temporal del alojamiento elegido. No requiere conectar todavía el subdominio definitivo.
+- [x] **P75** Publicar el candidato en una dirección temporal del alojamiento elegido. No requiere conectar todavía el subdominio definitivo.
 - [ ] **P76** Comprobar rutas, medios, rangos, CORS y HTTPS de prueba. Las funciones se sostienen fuera del entorno local.
 - [ ] **P77** Asociar el subdominio real y completar DNS/TLS cuando el candidato esté listo. Los valores proceden del alojamiento real.
 - [ ] **P78** Revisar el recorrido final bajo el dominio definitivo y habilitar indexación. Portada, fichas y enlaces públicos son correctos.
-- [ ] **P79** Conservar versión de recuperación y procedimiento de corrección. Una publicación fallida puede revertirse de forma controlada.
-- [ ] **P80** Registrar el lanzamiento y la cobertura real publicada. Las cifras y prestaciones comunicadas coinciden con el producto visible.
+- [x] **P79** Conservar versión de recuperación y procedimiento de corrección. Una publicación fallida puede revertirse de forma controlada.
+- [x] **P80** Registrar el lanzamiento y la cobertura real publicada. Las cifras y prestaciones comunicadas coinciden con el producto visible.
 
 ## 23. Salida pública y mantenimiento
 
@@ -1205,3 +1205,8 @@ La versión estará terminada para su presentación pública cuando se cumplan l
 5. [Inventario de fuentes comerciales](investigacion/2026-11-05/FUENTES_GRATUITAS_Y_DE_PAGO_FLEBOLAB.md) se conserva para una fase posterior de mejora.
 
 Las condiciones de licencia documentadas corresponden al recurso y versión consultados. Los metadatos de repositorios técnicos y las políticas de Servier, BioArt y Hostinger se volvieron a consultar el 6 de noviembre de 2026. La incorporación concreta conservará los avisos y créditos de cada activo y dependencia.
+
+
+## Ejecución y publicación —6 de noviembre de2026
+
+FLEBO LAB0.9 está publicado para revisión en https://flebolab-imf.ferver.chatgpt.site. Código y recursos en https://github.com/imf-hub/flebolab. El resultado de los80criterios y los pendientes se registran en [Entrega y acta de publicación](ACTA_PUBLICACION_2026-11-06.md). Las casillas marcan solo entregas implementadas; las funciones parciales, revisión médica y DNS permanecen identificadas.

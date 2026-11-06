@@ -1,0 +1,64 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "type": "text/html",
+    "length": null,
+    "https": true
+  },
+  {
+    "path": "/flebotwin?scenario=TW09",
+    "status": 200,
+    "type": "text/html",
+    "length": null,
+    "https": true
+  },
+  {
+    "path": "/flebodus?case=dus-cfv-001",
+    "status": 200,
+    "type": "text/html",
+    "length": null,
+    "https": true
+  },
+  {
+    "path": "/flebovision?case=vision-c2-001-v1",
+    "status": 200,
+    "type": "text/html",
+    "length": null,
+    "https": true
+  },
+  {
+    "path": "/recorridos?id=RC01",
+    "status": 200,
+    "type": "text/html",
+    "length": null,
+    "https": true
+  },
+  {
+    "path": "/media/anatomy/left-leg-reference.glb",
+    "status": 200,
+    "type": "application/octet-stream",
+    "length": null,
+    "https": true
+  },
+  {
+    "path": "/media/dus/dus-cfv-001-atlas/000.webp",
+    "status": 200,
+    "type": "image/webp",
+    "length": null,
+    "https": true
+  },
+  {
+    "path": "/media/vision/vision-c2-001-v1.webp",
+    "status": 200,
+    "type": "image/webp",
+    "length": null,
+    "https": true
+  },
+  {
+    "path": "/media/dus/dus-cfv-001.mp4",
+    "status": 200,
+    "range": null,
+    "received": 1189947
+  }
+]
