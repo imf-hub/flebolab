@@ -54,7 +54,7 @@ Los números describen el lote, no prevalencia ni cobertura clínica exhaustiva.
 
 59 pruebas automatizadas de modelo, física, contratos de escenarios, consultas, rutas y superficies valvulares. El catálogo se verifica antes del build. Los workflows de GitHub repiten tipos, contenido, pruebas y compilación; Pages publica únicamente después de que pasen.
 
-La auditoría de navegador registró las 12 vistas y contrastó 48 lecturas con el modelo a 1,00 s. También comprobó los controles Doppler, reproducción/intervalos/anotación de cine, filtros y comparación de fotografías, dimensiones térmicas, selección anatómica y vistas a 390 px. Esto no demuestra validación médica independiente ni sustituye pruebas en dispositivos físicos.
+La auditoría de navegador registró las 12 vistas y contrastó 48 lecturas con el modelo a 1,00 s. También comprobó los controles Doppler, reproducción/intervalos/anotación de cine, filtros y comparación de fotografías, dimensiones térmicas, selección anatómica y vistas a 390 px. La inspección pública confirmó modelos, cine y referencias; 1.240 URLs respondieron HTTP 200 y el video acepta rangos HTTP 206. Esto no demuestra validación médica independiente ni sustituye pruebas en dispositivos físicos.
 
 El generador `python scripts/content/build_educational.py` usa `src/data/educational-content.json`; no descarga datos. Los registros bibliográficos están en clinical-uip.json, clinical-vascular.json y clinical-science.json. Vancouver y BibTeX se distribuyen en public/references. Véase la revisión médica documental 0.9.1, conservada como antecedente editorial.
 

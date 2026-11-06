@@ -1,0 +1,9 @@
+{
+  "url": "https://imf-hub.github.io/flebolab/",
+  "sourceCommit": "c4031d72d16f3a30f4a1de483106e52813accfca",
+  "buildAndDeploy": "success",
+  "deploymentRun": "https://github.com/imf-hub/flebolab/actions/runs/42244740312",
+  "verificationRun": "https://github.com/imf-hub/flebolab/actions/runs/42244740282",
+  "frontendVersion": "0.10.0",
+  "hostingerDNS": "unchanged"
+}

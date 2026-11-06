@@ -1,3 +1,5 @@
+> Versión vigente 0.10: [plan ejecutado](PLAN_INTERACTIVO_0.10.md) y [auditoría con publicación y pendientes](AUDITORIA_INTERACTIVA_0.10.md). La web se sirve desde GitHub Pages; el plan amplio siguiente conserva el alcance original y sus metas.
+
 # Plan maestro de FLEBO LAB para lanzamiento público
 
 **Instituto Mexicano de Flebología · Versión 3.0 · 6 de noviembre de 2026**
@@ -1209,7 +1211,7 @@ Las condiciones de licencia documentadas corresponden al recurso y versión cons
 
 ## Ejecución y publicación —6 de noviembre de2026
 
-FLEBO LAB0.9 está publicado para revisión en https://flebolab-imf.ferver.chatgpt.site. Código y recursos en https://github.com/imf-hub/flebolab. El resultado de los80criterios y los pendientes se registran en [Entrega y acta de publicación](ACTA_PUBLICACION_2026-11-06.md). Las casillas marcan solo entregas implementadas; las funciones parciales, revisión médica y DNS permanecen identificadas.
+FLEBOLAB 0.10 está publicado para revisión en https://imf-hub.github.io/flebolab/. Código y recursos en https://github.com/imf-hub/flebolab. La auditoría 0.10 registra el rediseño, el despliegue y los pendientes vigentes. El resultado de los80criterios y los pendientes se registran en [Entrega y acta de publicación](ACTA_PUBLICACION_2026-11-06.md). Las casillas marcan solo entregas implementadas; las funciones parciales, revisión médica y DNS permanecen identificadas.
 
 ### Actualización de calidad médica — 6 de noviembre de 2026, versión 0.9.1
 

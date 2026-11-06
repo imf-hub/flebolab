@@ -23,7 +23,15 @@ Durante la revisión se detectó y corrigió un fallo de inicialización de los 
 
 ## Publicación
 
-Destino preparado: https://imf-hub.github.io/flebolab/ . El workflow de Pages se ejecuta desde main después de contenido, pruebas y build. El acta se completará con el resultado remoto y la inspección pública. No se han modificado DNS de Hostinger.
+**Publicación confirmada:** https://imf-hub.github.io/flebolab/ . Código fuente de la aplicación: c7cc50e; configuración de publicación: c4031d7. El workflow de Pages y la verificación finalizaron correctamente el 6 de noviembre de 2026. [Ejecución de publicación](https://github.com/imf-hub/flebolab/actions/runs/42244740312) y [verificación remota](https://github.com/imf-hub/flebolab/actions/runs/42244740282).
+
+Se inspeccionaron en la dirección pública portada/3D, TW06 a 1,00 s, anatomía real con selección/aislamiento, TW10 tras recargar su enlace directo, video CFV-010 reproduciéndose (660×610, readyState 4) y su último cuadro 120, RGB/térmica C2/001 y enlace CEAP. Vancouver y BibTeX resuelven dentro de /flebolab/. La referencia CEAP se sitúa a 110 px bajo el encabezado. No se registraron errores de ejecución durante esta inspección pública; existe una advertencia de deprecación THREE.Clock en una dependencia.
+
+**1.240/1.240 URLs publicadas respondieron HTTP 200**: todos los medios referenciados en los cinco catálogos, icono y dos descargas bibliográficas. Se usaron solicitudes HEAD, sin descargar los cuerpos del banco. Una solicitud separada de bytes 0–127 al MP4 devolvió HTTP 206 y coincidió con el archivo local. Datos en qa/0.10/public-assets.json, public-video-range.json y public-browser.json. El script opcional scripts/verify-public-assets.py permite repetir la comprobación contra una base HTTPS; no forma parte del build.
+
+El enlace principal del repositorio ya apunta a GitHub Pages. El directorio canónico local es app/. No se han modificado DNS de Hostinger. Esta versión conserva noindex durante la revisión y hasta la decisión de dominio/indexación.
+
+![Portada publicada](qa/0.10/public-home.jpg)
 
 ## Límites de la comprobación
 

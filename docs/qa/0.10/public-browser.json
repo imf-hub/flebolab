@@ -1,0 +1,24 @@
+{
+  "url": "https://imf-hub.github.io/flebolab/#/",
+  "repository": "https://github.com/imf-hub/flebolab",
+  "runtimeErrors": [],
+  "medicalBibliography": 19,
+  "publicVideoVerified": {
+    "id": "dus-cfv-010",
+    "width": 660,
+    "height": 610,
+    "lastFrame": 120
+  },
+  "verifiedTwin": {
+    "scenario": "TW06",
+    "view": "valve",
+    "time": 1,
+    "readouts": [
+      1.866,
+      8.296,
+      35.798,
+      -0.448
+    ]
+  },
+  "checkedAt": "2026-11-06T15:44:15.202Z"
+}

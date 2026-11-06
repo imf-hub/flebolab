@@ -121,3 +121,12 @@ El modelo calibrado de paciente y la validación de predicción clínica no se d
 ## Cierre posterior a publicación
 
 La versión1 se publicó en https://flebolab-imf.ferver.chatgpt.site. El acta inicial está en [Acta de publicación](ACTA_PUBLICACION_2026-11-06.md). La revisión documental0.9.1 amplía y corrige la base médica; consultar [revisión integrada](content/REVISION_INTEGRADA_0.9.1.md). La tabla anterior describe la preparación del candidato y no constituye aprobación médica independiente.
+
+
+## Cierre vigente 0.10 — GitHub Pages
+
+- P14 y P75: implementación y ejecución remota confirmadas. [Workflow de publicación correcto](https://github.com/imf-hub/flebolab/actions/runs/42244740312).
+- P76: HTTPS, entradas hash, medios, descargas y rangos MP4 verificados. 1.240 URLs HTTP 200 y solicitud de rango HTTP 206. Los medios se sirven desde el mismo origen.
+- P79: código y workflow versionados en GitHub; los commits anteriores se conservan. Una recuperación se realiza con un nuevo commit que restaure la versión elegida y vuelva a pasar la publicación.
+- P80: inventario, pruebas, resultado público y pendientes registrados en AUDITORIA_INTERACTIVA_0.10.md.
+- P77/P78: DNS e indexación siguen diferidos. Los demás pendientes científicos, clínicos y de dispositivos de la tabla no se convierten en completos por publicar esta revisión.

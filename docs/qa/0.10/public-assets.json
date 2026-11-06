@@ -1,0 +1,7449 @@
+{
+  "base": "https://imf-hub.github.io/flebolab",
+  "method": "HEAD; no media bodies downloaded",
+  "checked": 1240,
+  "passed": 1240,
+  "failures": [],
+  "results": [
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "278"
+    },
+    {
+      "path": "/media/anatomy/BP5847.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "334672"
+    },
+    {
+      "path": "/media/anatomy/BP5853.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "393324"
+    },
+    {
+      "path": "/media/anatomy/BP5862.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "402684"
+    },
+    {
+      "path": "/media/anatomy/BP5871.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "726440"
+    },
+    {
+      "path": "/media/anatomy/BP5874.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "153340"
+    },
+    {
+      "path": "/media/anatomy/BP5880.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "17044"
+    },
+    {
+      "path": "/media/anatomy/BP7939.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "79756"
+    },
+    {
+      "path": "/media/anatomy/BP8251.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "28488"
+    },
+    {
+      "path": "/media/anatomy/BP8819.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "118376"
+    },
+    {
+      "path": "/media/anatomy/BP9042.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "78564"
+    },
+    {
+      "path": "/media/anatomy/BP9202.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "42580"
+    },
+    {
+      "path": "/media/anatomy/BP9217.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "101668"
+    },
+    {
+      "path": "/media/anatomy/left-leg-reference.glb",
+      "status": 200,
+      "type": "model/gltf-binary",
+      "bytes": "2473688"
+    },
+    {
+      "path": "/media/animations/an01.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2371"
+    },
+    {
+      "path": "/media/animations/an02.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2186"
+    },
+    {
+      "path": "/media/animations/an03.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2658"
+    },
+    {
+      "path": "/media/animations/an04.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2240"
+    },
+    {
+      "path": "/media/animations/an05.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2262"
+    },
+    {
+      "path": "/media/animations/an06.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "5704"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "237916"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "224270"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "228936"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "225394"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "232846"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "233192"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "238758"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "252046"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "248470"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "245828"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "243872"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "246362"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "247580"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "78886"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "51166"
+    },
+    {
+      "path": "/media/dus/dus-cfv-001.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1189947"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "325356"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "312014"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "315210"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "302346"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "313472"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "323460"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "300820"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "303802"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "306572"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "323890"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "312168"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "305068"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "314194"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "85430"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "67550"
+    },
+    {
+      "path": "/media/dus/dus-cfv-002.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1291575"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "59324"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "59594"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "366144"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "385438"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "422546"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "416004"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "431470"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "494164"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "487710"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "516952"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "532948"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "534866"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "528636"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "146088"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "93620"
+    },
+    {
+      "path": "/media/dus/dus-cfv-003.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1681769"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "104702"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "106806"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "102956"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "96212"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "94944"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "97686"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "99476"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "90290"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "93080"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "94244"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "95998"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "97552"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "57420"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "19722"
+    },
+    {
+      "path": "/media/dus/dus-cfv-004.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "265318"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "142644"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "135146"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "139100"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "145940"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "142574"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "126724"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128370"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "137362"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "25220"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "29122"
+    },
+    {
+      "path": "/media/dus/dus-cfv-005.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "224047"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "115076"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "108626"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "104994"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "108180"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "111062"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "116438"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "112214"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "100532"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "101328"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "92138"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "26748"
+    },
+    {
+      "path": "/media/dus/dus-cfv-006.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "283376"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "127934"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "116652"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "116866"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "120504"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128822"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132494"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "138394"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124998"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118228"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "101966"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28836"
+    },
+    {
+      "path": "/media/dus/dus-cfv-007.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "324930"
+    },
+    {
+      "path": "/media/dus/dus-cfv-008-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "189134"
+    },
+    {
+      "path": "/media/dus/dus-cfv-008-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "197408"
+    },
+    {
+      "path": "/media/dus/dus-cfv-008-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "187058"
+    },
+    {
+      "path": "/media/dus/dus-cfv-008-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "210932"
+    },
+    {
+      "path": "/media/dus/dus-cfv-008-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "44322"
+    },
+    {
+      "path": "/media/dus/dus-cfv-008.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "477124"
+    },
+    {
+      "path": "/media/dus/dus-cfv-009-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "207692"
+    },
+    {
+      "path": "/media/dus/dus-cfv-009-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "198538"
+    },
+    {
+      "path": "/media/dus/dus-cfv-009-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "203732"
+    },
+    {
+      "path": "/media/dus/dus-cfv-009-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "213178"
+    },
+    {
+      "path": "/media/dus/dus-cfv-009-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "42834"
+    },
+    {
+      "path": "/media/dus/dus-cfv-009.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "502506"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "368668"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "367172"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "338178"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "320814"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "340166"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "330088"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "305756"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "160806"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "63882"
+    },
+    {
+      "path": "/media/dus/dus-cfv-010.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "931311"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "170558"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "198402"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "198862"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "191356"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "195456"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "211286"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "189060"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "171354"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "189722"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "45596"
+    },
+    {
+      "path": "/media/dus/dus-cfv-011.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "735720"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "247890"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "266660"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "224834"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "215420"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "217692"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "221158"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "242584"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "260338"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "186266"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "46974"
+    },
+    {
+      "path": "/media/dus/dus-cfv-012.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "967127"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "290604"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "290014"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "300252"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "296314"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "301614"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "297284"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "295394"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "263778"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "261894"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "264558"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "256082"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "278752"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "277170"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "82156"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "63998"
+    },
+    {
+      "path": "/media/dus/dus-cfv-013.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1111269"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "207226"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "207704"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "212032"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "209574"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "208028"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "209044"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "202608"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "178538"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "197278"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "211304"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "198206"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "174522"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "222218"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "73986"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "50288"
+    },
+    {
+      "path": "/media/dus/dus-cfv-014.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "995620"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "372384"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "365140"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "370054"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "373648"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "369064"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "362938"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "364600"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "339560"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "366702"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "327946"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "327120"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "350924"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "371012"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "105604"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "74058"
+    },
+    {
+      "path": "/media/dus/dus-cfv-015.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1296102"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "306388"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "288572"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "287006"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "300314"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "298592"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "286332"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "301832"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "301822"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "301462"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "281506"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "297830"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "102920"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "63956"
+    },
+    {
+      "path": "/media/dus/dus-cfv-016.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1143061"
+    },
+    {
+      "path": "/media/dus/dus-cfv-017-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "252448"
+    },
+    {
+      "path": "/media/dus/dus-cfv-017-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "241152"
+    },
+    {
+      "path": "/media/dus/dus-cfv-017-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "242198"
+    },
+    {
+      "path": "/media/dus/dus-cfv-017-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "234070"
+    },
+    {
+      "path": "/media/dus/dus-cfv-017-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "54152"
+    },
+    {
+      "path": "/media/dus/dus-cfv-017-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "47632"
+    },
+    {
+      "path": "/media/dus/dus-cfv-017.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "333273"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "117008"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "101824"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "97330"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "99416"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "106494"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "98000"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "102130"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "103794"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "79406"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "21716"
+    },
+    {
+      "path": "/media/dus/dus-cfv-018.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "267377"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "196032"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "181654"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "185302"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "187392"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "193272"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "192396"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "172590"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "183836"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "188910"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "195546"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "194428"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "196484"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "73890"
+    },
+    {
+      "path": "/media/dus/dus-fv-037-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "41214"
+    },
+    {
+      "path": "/media/dus/dus-fv-037.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "388119"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "136844"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129446"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124994"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128518"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "131326"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "127368"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129278"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133542"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "135556"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "115778"
+    },
+    {
+      "path": "/media/dus/dus-fv-038-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "29688"
+    },
+    {
+      "path": "/media/dus/dus-fv-038.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "281062"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128298"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "122608"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128354"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129292"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "130312"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "119592"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128058"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "131914"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133532"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "112952"
+    },
+    {
+      "path": "/media/dus/dus-fv-039-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30962"
+    },
+    {
+      "path": "/media/dus/dus-fv-039.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "313191"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128292"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "122350"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "119730"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "120636"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123090"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "126652"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123608"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "116810"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128416"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "130746"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133392"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "130392"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "52018"
+    },
+    {
+      "path": "/media/dus/dus-fv-040-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "27532"
+    },
+    {
+      "path": "/media/dus/dus-fv-040.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "260786"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "143622"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "138800"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "134794"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "134102"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133316"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "135886"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "139112"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133050"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "125524"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "140318"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "120190"
+    },
+    {
+      "path": "/media/dus/dus-fv-041-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28100"
+    },
+    {
+      "path": "/media/dus/dus-fv-041.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "292251"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "122642"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118342"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "115776"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "112650"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118242"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "126322"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "116002"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "108662"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118082"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "125264"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "130208"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "130178"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "50230"
+    },
+    {
+      "path": "/media/dus/dus-fv-042-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "26760"
+    },
+    {
+      "path": "/media/dus/dus-fv-042.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "268325"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "139084"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "139558"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "140148"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "136596"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "135244"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133736"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132300"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129898"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132812"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "135044"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124798"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123100"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "48678"
+    },
+    {
+      "path": "/media/dus/dus-fv-043-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28232"
+    },
+    {
+      "path": "/media/dus/dus-fv-043.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "245791"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "142092"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129986"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "137440"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "141760"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "135280"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "126108"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "138126"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "139600"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "140426"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "122484"
+    },
+    {
+      "path": "/media/dus/dus-fv-044-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "32460"
+    },
+    {
+      "path": "/media/dus/dus-fv-044.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "300428"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "309362"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "310870"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "328110"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "325528"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "315988"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "306980"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "321310"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "136304"
+    },
+    {
+      "path": "/media/dus/dus-fv-045-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "69092"
+    },
+    {
+      "path": "/media/dus/dus-fv-045.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "775726"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "281732"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "279202"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "262406"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "273478"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "277848"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "285092"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "289094"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "289210"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "277690"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "279838"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "303148"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "287592"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "286110"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "85550"
+    },
+    {
+      "path": "/media/dus/dus-fv-046-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "60166"
+    },
+    {
+      "path": "/media/dus/dus-fv-046.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1405770"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "198496"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "201736"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "198732"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "197634"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "197322"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "181574"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "194784"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "191166"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "171710"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "176606"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "190952"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "195078"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "166342"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "60160"
+    },
+    {
+      "path": "/media/dus/dus-fv-047-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "45304"
+    },
+    {
+      "path": "/media/dus/dus-fv-047.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "914339"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "264468"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "251066"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "234618"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "212982"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "215004"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "212962"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "235544"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "255898"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "255850"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "235142"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "211438"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "248828"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "257658"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "73626"
+    },
+    {
+      "path": "/media/dus/dus-fv-048-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "49222"
+    },
+    {
+      "path": "/media/dus/dus-fv-048.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1001421"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "369630"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "360866"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "325062"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "346716"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "308146"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "340620"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "344256"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "348164"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "355318"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "352726"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "172518"
+    },
+    {
+      "path": "/media/dus/dus-fv-049-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "71600"
+    },
+    {
+      "path": "/media/dus/dus-fv-049.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1272869"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "347594"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "350148"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "338418"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "342848"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "343958"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "313338"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "334372"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "346512"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "341904"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "345042"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "347490"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "362780"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "362548"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "101316"
+    },
+    {
+      "path": "/media/dus/dus-fv-050-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "65734"
+    },
+    {
+      "path": "/media/dus/dus-fv-050.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1425658"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "363484"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "361482"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "361266"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "331556"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "313962"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "314244"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "323972"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "329520"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "208156"
+    },
+    {
+      "path": "/media/dus/dus-fv-051-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "71260"
+    },
+    {
+      "path": "/media/dus/dus-fv-051.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "740412"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "247822"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "261192"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "283248"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "290238"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "272740"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "284044"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "298090"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "270866"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "272794"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "271898"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "296204"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "280598"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "254136"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "72446"
+    },
+    {
+      "path": "/media/dus/dus-fv-052-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "56086"
+    },
+    {
+      "path": "/media/dus/dus-fv-052.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1305113"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "287120"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "278030"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "274700"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "271652"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "264346"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "277728"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "253396"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "243286"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "258322"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "284336"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "284748"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "246640"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "230094"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "64400"
+    },
+    {
+      "path": "/media/dus/dus-fv-053-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "55196"
+    },
+    {
+      "path": "/media/dus/dus-fv-053.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1138503"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "348916"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "341074"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "360832"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "345498"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "336406"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "345154"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "344020"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "340204"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "340758"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "346440"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "356286"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "355462"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "377688"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "50056"
+    },
+    {
+      "path": "/media/dus/dus-fv-054-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "65094"
+    },
+    {
+      "path": "/media/dus/dus-fv-054.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1626274"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "318090"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "308924"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "314066"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "309022"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "314442"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "303418"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "313442"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "321274"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "329300"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "310112"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "312194"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "312600"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "330222"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "94786"
+    },
+    {
+      "path": "/media/dus/dus-gs-019-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "63604"
+    },
+    {
+      "path": "/media/dus/dus-gs-019.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1492358"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "142252"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "126302"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133728"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "142772"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132272"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "127084"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "131216"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "45062"
+    },
+    {
+      "path": "/media/dus/dus-gs-020-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28700"
+    },
+    {
+      "path": "/media/dus/dus-gs-020.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "266301"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "110016"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "103898"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "108788"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "105308"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "99196"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "111020"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "111876"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "104008"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "95840"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30024"
+    },
+    {
+      "path": "/media/dus/dus-gs-021-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24106"
+    },
+    {
+      "path": "/media/dus/dus-gs-021.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "259625"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "137622"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "131072"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124944"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128844"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "131458"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128164"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132358"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133120"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128160"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "106182"
+    },
+    {
+      "path": "/media/dus/dus-gs-022-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "29940"
+    },
+    {
+      "path": "/media/dus/dus-gs-022.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "350941"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "130190"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "125356"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129260"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132122"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129398"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "125072"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124206"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "119796"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "111562"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "101548"
+    },
+    {
+      "path": "/media/dus/dus-gs-023-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "31302"
+    },
+    {
+      "path": "/media/dus/dus-gs-023.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "301134"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133508"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "122210"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "128378"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133856"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "122334"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124502"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132746"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132482"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "134262"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "115292"
+    },
+    {
+      "path": "/media/dus/dus-gs-024-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "31980"
+    },
+    {
+      "path": "/media/dus/dus-gs-024.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "269416"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "136884"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132446"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124948"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "132046"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "139736"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "126352"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123672"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "127984"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "136858"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "138920"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "138450"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "143174"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "57138"
+    },
+    {
+      "path": "/media/dus/dus-gs-025-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "29280"
+    },
+    {
+      "path": "/media/dus/dus-gs-025.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "297268"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129622"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "121264"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118658"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "119340"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "122552"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124860"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123262"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "125036"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "122622"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "121736"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "96352"
+    },
+    {
+      "path": "/media/dus/dus-gs-026-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "26640"
+    },
+    {
+      "path": "/media/dus/dus-gs-026.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "257523"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "121664"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "103168"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "99630"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "95940"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "99254"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "97416"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "97704"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "107378"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "107206"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "98164"
+    },
+    {
+      "path": "/media/dus/dus-gs-027-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "22482"
+    },
+    {
+      "path": "/media/dus/dus-gs-027.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "253594"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "237046"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "197144"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "191586"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "186602"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "194764"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "192252"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "199312"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "214076"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "209540"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "211758"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "219562"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "213210"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "215466"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "64530"
+    },
+    {
+      "path": "/media/dus/dus-gs-028-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "45972"
+    },
+    {
+      "path": "/media/dus/dus-gs-028.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1032448"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "329172"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "340876"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "344426"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "382990"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "317310"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "313900"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "315344"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "314464"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "321220"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "341506"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "365746"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "395586"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "376240"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "42990"
+    },
+    {
+      "path": "/media/dus/dus-gs-029-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "66758"
+    },
+    {
+      "path": "/media/dus/dus-gs-029.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1940339"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "289988"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "294772"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "295530"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "298376"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "309868"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "307786"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "311606"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "300350"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "304204"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "316036"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "308380"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "278234"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "298528"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "89558"
+    },
+    {
+      "path": "/media/dus/dus-gs-030-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "66382"
+    },
+    {
+      "path": "/media/dus/dus-gs-030.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1184275"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "253168"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "286290"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "286236"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "275846"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "283744"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "291404"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "289642"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "290478"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "278186"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "280880"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "294092"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "266944"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "278492"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "79082"
+    },
+    {
+      "path": "/media/dus/dus-gs-031-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "63400"
+    },
+    {
+      "path": "/media/dus/dus-gs-031.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1431827"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "221842"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "220520"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "218054"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "216918"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "219686"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "251856"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "258908"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "231416"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "228106"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "244318"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "252466"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "244042"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "246820"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "75646"
+    },
+    {
+      "path": "/media/dus/dus-gs-032-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "48850"
+    },
+    {
+      "path": "/media/dus/dus-gs-032.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1346163"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "237152"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "250088"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "254190"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "235900"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "229670"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "217744"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "223774"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "229014"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "228692"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "241412"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "228216"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "231070"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "233102"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "65654"
+    },
+    {
+      "path": "/media/dus/dus-gs-033-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "50120"
+    },
+    {
+      "path": "/media/dus/dus-gs-033.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1238341"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "373818"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "355952"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "355724"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "369434"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "359230"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "326864"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "345436"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "347992"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "351768"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "368680"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "380676"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "337286"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "323786"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "103550"
+    },
+    {
+      "path": "/media/dus/dus-gs-034-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "73452"
+    },
+    {
+      "path": "/media/dus/dus-gs-034.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1973045"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "271860"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "272650"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "264614"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "262900"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "260508"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "255370"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "269878"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "269142"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "261632"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "265288"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "267974"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "267256"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "263706"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "77292"
+    },
+    {
+      "path": "/media/dus/dus-gs-035-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "61540"
+    },
+    {
+      "path": "/media/dus/dus-gs-035.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1506934"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "301146"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "332890"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "336142"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "335378"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "341180"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "341092"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "321170"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "327866"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "317302"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "327794"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "343364"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "347552"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "349632"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "44612"
+    },
+    {
+      "path": "/media/dus/dus-gs-036-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "74402"
+    },
+    {
+      "path": "/media/dus/dus-gs-036.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1122483"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "140882"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "126178"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "129704"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "136854"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "131636"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123648"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "135062"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "144412"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "145488"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "121862"
+    },
+    {
+      "path": "/media/dus/dus-pv-055-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30624"
+    },
+    {
+      "path": "/media/dus/dus-pv-055.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "299346"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124420"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123744"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "113300"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "115362"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "116692"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "116480"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "112278"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118560"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123722"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "102472"
+    },
+    {
+      "path": "/media/dus/dus-pv-056-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28182"
+    },
+    {
+      "path": "/media/dus/dus-pv-056.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "294174"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "119406"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "117142"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "115894"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "112632"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "117234"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118880"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "121140"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123240"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "112488"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "97364"
+    },
+    {
+      "path": "/media/dus/dus-pv-057-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "29216"
+    },
+    {
+      "path": "/media/dus/dus-pv-057.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "298121"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "113416"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "103772"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "108118"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "109966"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "105594"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "100886"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "107392"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "108388"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "110030"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "107336"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "92710"
+    },
+    {
+      "path": "/media/dus/dus-pv-058-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24458"
+    },
+    {
+      "path": "/media/dus/dus-pv-058.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "251958"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "125036"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "116650"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "114650"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "121258"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "125720"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "123386"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "119532"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "41376"
+    },
+    {
+      "path": "/media/dus/dus-pv-059-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30474"
+    },
+    {
+      "path": "/media/dus/dus-pv-059.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "214292"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "134488"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118632"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124302"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "127986"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "126436"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "115904"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "118748"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "125108"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "124314"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "109348"
+    },
+    {
+      "path": "/media/dus/dus-pv-060-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "31494"
+    },
+    {
+      "path": "/media/dus/dus-pv-060.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "299575"
+    },
+    {
+      "path": "/media/dus/dus-pv-061-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "172244"
+    },
+    {
+      "path": "/media/dus/dus-pv-061-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "189226"
+    },
+    {
+      "path": "/media/dus/dus-pv-061-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "171180"
+    },
+    {
+      "path": "/media/dus/dus-pv-061-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "82250"
+    },
+    {
+      "path": "/media/dus/dus-pv-061-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "38550"
+    },
+    {
+      "path": "/media/dus/dus-pv-061.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "405278"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "162734"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "162480"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "164726"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "164880"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "166640"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "154066"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "157238"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "164220"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "165678"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "154466"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "147950"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "161682"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "135644"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "119068"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/014.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "120144"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/015.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "134268"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/016.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "104222"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/017.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "133696"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-atlas/018.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "119874"
+    },
+    {
+      "path": "/media/dus/dus-pv-062-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "32900"
+    },
+    {
+      "path": "/media/dus/dus-pv-062.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "590849"
+    },
+    {
+      "path": "/media/dus/dus-pv-063-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "100006"
+    },
+    {
+      "path": "/media/dus/dus-pv-063-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "104206"
+    },
+    {
+      "path": "/media/dus/dus-pv-063-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "99210"
+    },
+    {
+      "path": "/media/dus/dus-pv-063-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "101768"
+    },
+    {
+      "path": "/media/dus/dus-pv-063-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "109546"
+    },
+    {
+      "path": "/media/dus/dus-pv-063-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "96468"
+    },
+    {
+      "path": "/media/dus/dus-pv-063-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "23710"
+    },
+    {
+      "path": "/media/dus/dus-pv-063.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "249113"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "287136"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "284820"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "295312"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "291300"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "305816"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "301534"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "292718"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "276530"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "290156"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "284506"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "296564"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "295366"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "321408"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "44908"
+    },
+    {
+      "path": "/media/dus/dus-pv-064-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "64270"
+    },
+    {
+      "path": "/media/dus/dus-pv-064.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1400743"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "258258"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "250488"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "270938"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "298676"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "294316"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "253864"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "289316"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "306250"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "266006"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "288982"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "311136"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "271462"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "274540"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "40262"
+    },
+    {
+      "path": "/media/dus/dus-pv-065-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "63912"
+    },
+    {
+      "path": "/media/dus/dus-pv-065.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1442539"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "306544"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "292430"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "300470"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "306910"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "292506"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "294676"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "292242"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "303640"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "294834"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "294172"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "307182"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "25632"
+    },
+    {
+      "path": "/media/dus/dus-pv-066-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "62892"
+    },
+    {
+      "path": "/media/dus/dus-pv-066.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1401373"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "352026"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "326594"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "292932"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "278568"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "308148"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "347314"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "290810"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "282236"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "334398"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "335196"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "258092"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "246248"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "254362"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "40538"
+    },
+    {
+      "path": "/media/dus/dus-pv-067-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "64170"
+    },
+    {
+      "path": "/media/dus/dus-pv-067.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1765976"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "342354"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "338744"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "347318"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "364172"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "334188"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "339342"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "340290"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "349018"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "352618"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "359566"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "343340"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "247602"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "356848"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "50900"
+    },
+    {
+      "path": "/media/dus/dus-pv-068-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "63686"
+    },
+    {
+      "path": "/media/dus/dus-pv-068.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1778427"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "273228"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "264852"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "249888"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "264088"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "270836"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "230436"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "222596"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "247414"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "304186"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "341204"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "306910"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "293822"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "72074"
+    },
+    {
+      "path": "/media/dus/dus-pv-069-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "54754"
+    },
+    {
+      "path": "/media/dus/dus-pv-069.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1279935"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "327574"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "340204"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "354330"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "356344"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "335600"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "338412"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "328988"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "340786"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "337798"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "353648"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "347542"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "330766"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "354212"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "102598"
+    },
+    {
+      "path": "/media/dus/dus-pv-070-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "66658"
+    },
+    {
+      "path": "/media/dus/dus-pv-070.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1666800"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "281574"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "281528"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "297948"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "301556"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "305262"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "310676"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "325964"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "323228"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "324008"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "325546"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "319206"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "272070"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "272294"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "37868"
+    },
+    {
+      "path": "/media/dus/dus-pv-071-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "61804"
+    },
+    {
+      "path": "/media/dus/dus-pv-071.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1340140"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/000.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "277324"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/001.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "271156"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/002.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "256590"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/003.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "242204"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/004.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "258626"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/005.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "268488"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/006.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "268176"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/007.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "265352"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/008.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "267438"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/009.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "274298"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/010.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "267730"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/011.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "265852"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/012.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "276906"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-atlas/013.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "85436"
+    },
+    {
+      "path": "/media/dus/dus-pv-072-poster.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "53566"
+    },
+    {
+      "path": "/media/dus/dus-pv-072.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "1479874"
+    },
+    {
+      "path": "/media/illustrations/deep-venous-system.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "70148"
+    },
+    {
+      "path": "/media/illustrations/edema-formation.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "171704"
+    },
+    {
+      "path": "/media/illustrations/edema.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "46076"
+    },
+    {
+      "path": "/media/illustrations/foot-pump.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "37032"
+    },
+    {
+      "path": "/media/illustrations/superficial-venous-system.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "49222"
+    },
+    {
+      "path": "/media/illustrations/vascular-wall.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "85935"
+    },
+    {
+      "path": "/media/illustrations/venous-disease.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "26518"
+    },
+    {
+      "path": "/media/illustrations/venous-return.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "89038"
+    },
+    {
+      "path": "/media/illustrations/venous-thrombosis.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "88878"
+    },
+    {
+      "path": "/media/illustrations/venous-valve.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "23378"
+    },
+    {
+      "path": "/media/plates/pl01.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "3078"
+    },
+    {
+      "path": "/media/plates/pl02.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2786"
+    },
+    {
+      "path": "/media/plates/pl03.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "3128"
+    },
+    {
+      "path": "/media/plates/pl04.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "3244"
+    },
+    {
+      "path": "/media/plates/pl05.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2796"
+    },
+    {
+      "path": "/media/plates/pl06.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2642"
+    },
+    {
+      "path": "/media/plates/pl07.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2442"
+    },
+    {
+      "path": "/media/plates/pl08.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2249"
+    },
+    {
+      "path": "/media/plates/pl09.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2260"
+    },
+    {
+      "path": "/media/plates/pl10.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2176"
+    },
+    {
+      "path": "/media/plates/pl11.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2348"
+    },
+    {
+      "path": "/media/plates/pl12.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "5595"
+    },
+    {
+      "path": "/media/plates/pl13.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "5802"
+    },
+    {
+      "path": "/media/plates/pl14.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2802"
+    },
+    {
+      "path": "/media/plates/pl15.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "14570"
+    },
+    {
+      "path": "/media/plates/pl16.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "5695"
+    },
+    {
+      "path": "/media/plates/pl17.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "4725"
+    },
+    {
+      "path": "/media/plates/pl18.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": "2462"
+    },
+    {
+      "path": "/media/vision/vision-c0-001-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "22886"
+    },
+    {
+      "path": "/media/vision/vision-c0-001-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11518"
+    },
+    {
+      "path": "/media/vision/vision-c0-001-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30250"
+    },
+    {
+      "path": "/media/vision/vision-c0-002-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "31376"
+    },
+    {
+      "path": "/media/vision/vision-c0-002-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "16148"
+    },
+    {
+      "path": "/media/vision/vision-c0-002-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "40226"
+    },
+    {
+      "path": "/media/vision/vision-c0-003-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12832"
+    },
+    {
+      "path": "/media/vision/vision-c0-003-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34512"
+    },
+    {
+      "path": "/media/vision/vision-c0-004-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13610"
+    },
+    {
+      "path": "/media/vision/vision-c0-004-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "36698"
+    },
+    {
+      "path": "/media/vision/vision-c0-005-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "17378"
+    },
+    {
+      "path": "/media/vision/vision-c0-005-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "45164"
+    },
+    {
+      "path": "/media/vision/vision-c0-006-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "15020"
+    },
+    {
+      "path": "/media/vision/vision-c0-006-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "40146"
+    },
+    {
+      "path": "/media/vision/vision-c0-007-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12574"
+    },
+    {
+      "path": "/media/vision/vision-c0-007-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "36718"
+    },
+    {
+      "path": "/media/vision/vision-c0-008-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11964"
+    },
+    {
+      "path": "/media/vision/vision-c0-008-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34370"
+    },
+    {
+      "path": "/media/vision/vision-c0-009-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12320"
+    },
+    {
+      "path": "/media/vision/vision-c0-009-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "32906"
+    },
+    {
+      "path": "/media/vision/vision-c0-010-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11616"
+    },
+    {
+      "path": "/media/vision/vision-c0-010-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "33078"
+    },
+    {
+      "path": "/media/vision/vision-c0-011-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13068"
+    },
+    {
+      "path": "/media/vision/vision-c0-011-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34184"
+    },
+    {
+      "path": "/media/vision/vision-c0-012-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12386"
+    },
+    {
+      "path": "/media/vision/vision-c0-012-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34398"
+    },
+    {
+      "path": "/media/vision/vision-c0-013-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11602"
+    },
+    {
+      "path": "/media/vision/vision-c0-013-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "33722"
+    },
+    {
+      "path": "/media/vision/vision-c0-014-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13646"
+    },
+    {
+      "path": "/media/vision/vision-c0-014-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "35920"
+    },
+    {
+      "path": "/media/vision/vision-c0-015-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13526"
+    },
+    {
+      "path": "/media/vision/vision-c0-015-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "35810"
+    },
+    {
+      "path": "/media/vision/vision-c0-016-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12320"
+    },
+    {
+      "path": "/media/vision/vision-c0-016-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "35438"
+    },
+    {
+      "path": "/media/vision/vision-c0-017-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13392"
+    },
+    {
+      "path": "/media/vision/vision-c0-017-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "37556"
+    },
+    {
+      "path": "/media/vision/vision-c0-018-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13618"
+    },
+    {
+      "path": "/media/vision/vision-c0-018-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "38032"
+    },
+    {
+      "path": "/media/vision/vision-c0-019-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "14024"
+    },
+    {
+      "path": "/media/vision/vision-c0-019-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "35884"
+    },
+    {
+      "path": "/media/vision/vision-c0-020-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13356"
+    },
+    {
+      "path": "/media/vision/vision-c0-020-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "38128"
+    },
+    {
+      "path": "/media/vision/vision-c0-021-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13320"
+    },
+    {
+      "path": "/media/vision/vision-c0-021-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "37364"
+    },
+    {
+      "path": "/media/vision/vision-c1-001-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "21954"
+    },
+    {
+      "path": "/media/vision/vision-c1-001-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9270"
+    },
+    {
+      "path": "/media/vision/vision-c1-001-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28114"
+    },
+    {
+      "path": "/media/vision/vision-c1-001-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "10842"
+    },
+    {
+      "path": "/media/vision/vision-c1-001-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "32586"
+    },
+    {
+      "path": "/media/vision/vision-c1-002-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "21184"
+    },
+    {
+      "path": "/media/vision/vision-c1-002-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "7034"
+    },
+    {
+      "path": "/media/vision/vision-c1-002-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "19404"
+    },
+    {
+      "path": "/media/vision/vision-c1-002-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8688"
+    },
+    {
+      "path": "/media/vision/vision-c1-002-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "23464"
+    },
+    {
+      "path": "/media/vision/vision-c1-003-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8556"
+    },
+    {
+      "path": "/media/vision/vision-c1-003-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24378"
+    },
+    {
+      "path": "/media/vision/vision-c1-003-v4-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9278"
+    },
+    {
+      "path": "/media/vision/vision-c1-003-v4.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "26472"
+    },
+    {
+      "path": "/media/vision/vision-c1-004-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8362"
+    },
+    {
+      "path": "/media/vision/vision-c1-004-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24654"
+    },
+    {
+      "path": "/media/vision/vision-c1-004-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8448"
+    },
+    {
+      "path": "/media/vision/vision-c1-004-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "22600"
+    },
+    {
+      "path": "/media/vision/vision-c2-001-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "22450"
+    },
+    {
+      "path": "/media/vision/vision-c2-001-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8712"
+    },
+    {
+      "path": "/media/vision/vision-c2-001-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28018"
+    },
+    {
+      "path": "/media/vision/vision-c2-001-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11616"
+    },
+    {
+      "path": "/media/vision/vision-c2-001-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "33966"
+    },
+    {
+      "path": "/media/vision/vision-c2-002-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "25844"
+    },
+    {
+      "path": "/media/vision/vision-c2-002-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11050"
+    },
+    {
+      "path": "/media/vision/vision-c2-002-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "32546"
+    },
+    {
+      "path": "/media/vision/vision-c2-002-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9960"
+    },
+    {
+      "path": "/media/vision/vision-c2-002-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30312"
+    },
+    {
+      "path": "/media/vision/vision-c2-003-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "10084"
+    },
+    {
+      "path": "/media/vision/vision-c2-003-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30016"
+    },
+    {
+      "path": "/media/vision/vision-c2-003-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11988"
+    },
+    {
+      "path": "/media/vision/vision-c2-003-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34916"
+    },
+    {
+      "path": "/media/vision/vision-c2-004-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9812"
+    },
+    {
+      "path": "/media/vision/vision-c2-004-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "27956"
+    },
+    {
+      "path": "/media/vision/vision-c2-004-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8574"
+    },
+    {
+      "path": "/media/vision/vision-c2-004-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "26236"
+    },
+    {
+      "path": "/media/vision/vision-c2-005-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9344"
+    },
+    {
+      "path": "/media/vision/vision-c2-005-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28628"
+    },
+    {
+      "path": "/media/vision/vision-c2-005-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "10042"
+    },
+    {
+      "path": "/media/vision/vision-c2-005-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30590"
+    },
+    {
+      "path": "/media/vision/vision-c2-006-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9422"
+    },
+    {
+      "path": "/media/vision/vision-c2-006-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "27584"
+    },
+    {
+      "path": "/media/vision/vision-c2-006-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9876"
+    },
+    {
+      "path": "/media/vision/vision-c2-006-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28962"
+    },
+    {
+      "path": "/media/vision/vision-c2-007-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8342"
+    },
+    {
+      "path": "/media/vision/vision-c2-007-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "23940"
+    },
+    {
+      "path": "/media/vision/vision-c2-007-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9388"
+    },
+    {
+      "path": "/media/vision/vision-c2-007-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "26858"
+    },
+    {
+      "path": "/media/vision/vision-c2-008-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13414"
+    },
+    {
+      "path": "/media/vision/vision-c2-008-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "38580"
+    },
+    {
+      "path": "/media/vision/vision-c2-008-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12400"
+    },
+    {
+      "path": "/media/vision/vision-c2-008-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "36150"
+    },
+    {
+      "path": "/media/vision/vision-c2-009-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12020"
+    },
+    {
+      "path": "/media/vision/vision-c2-009-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "33752"
+    },
+    {
+      "path": "/media/vision/vision-c2-009-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13096"
+    },
+    {
+      "path": "/media/vision/vision-c2-009-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "38178"
+    },
+    {
+      "path": "/media/vision/vision-c2-010-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11584"
+    },
+    {
+      "path": "/media/vision/vision-c2-010-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "32416"
+    },
+    {
+      "path": "/media/vision/vision-c2-010-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11744"
+    },
+    {
+      "path": "/media/vision/vision-c2-010-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "33744"
+    },
+    {
+      "path": "/media/vision/vision-c2-011-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11444"
+    },
+    {
+      "path": "/media/vision/vision-c2-011-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34038"
+    },
+    {
+      "path": "/media/vision/vision-c2-011-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13118"
+    },
+    {
+      "path": "/media/vision/vision-c2-011-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "37936"
+    },
+    {
+      "path": "/media/vision/vision-c2-012-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "14384"
+    },
+    {
+      "path": "/media/vision/vision-c2-012-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "38580"
+    },
+    {
+      "path": "/media/vision/vision-c2-012-v3-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "14330"
+    },
+    {
+      "path": "/media/vision/vision-c2-012-v3.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "37334"
+    },
+    {
+      "path": "/media/vision/vision-c2-013-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8694"
+    },
+    {
+      "path": "/media/vision/vision-c2-013-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "25784"
+    },
+    {
+      "path": "/media/vision/vision-c2-014-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13676"
+    },
+    {
+      "path": "/media/vision/vision-c2-014-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "39036"
+    },
+    {
+      "path": "/media/vision/vision-c2-015-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11564"
+    },
+    {
+      "path": "/media/vision/vision-c2-015-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "32730"
+    },
+    {
+      "path": "/media/vision/vision-c2-016-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "7808"
+    },
+    {
+      "path": "/media/vision/vision-c2-016-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24632"
+    },
+    {
+      "path": "/media/vision/vision-c2-017-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "15096"
+    },
+    {
+      "path": "/media/vision/vision-c2-017-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "40076"
+    },
+    {
+      "path": "/media/vision/vision-c2-018-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "10462"
+    },
+    {
+      "path": "/media/vision/vision-c2-018-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30662"
+    },
+    {
+      "path": "/media/vision/vision-c2-019-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "7390"
+    },
+    {
+      "path": "/media/vision/vision-c2-019-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "22184"
+    },
+    {
+      "path": "/media/vision/vision-c2-020-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "6944"
+    },
+    {
+      "path": "/media/vision/vision-c2-020-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "22938"
+    },
+    {
+      "path": "/media/vision/vision-c2-021-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "7574"
+    },
+    {
+      "path": "/media/vision/vision-c2-021-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24964"
+    },
+    {
+      "path": "/media/vision/vision-c3-001-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "25058"
+    },
+    {
+      "path": "/media/vision/vision-c3-001-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11860"
+    },
+    {
+      "path": "/media/vision/vision-c3-001-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34168"
+    },
+    {
+      "path": "/media/vision/vision-c3-002-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "27572"
+    },
+    {
+      "path": "/media/vision/vision-c3-002-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12482"
+    },
+    {
+      "path": "/media/vision/vision-c3-002-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "35106"
+    },
+    {
+      "path": "/media/vision/vision-c3-003-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9108"
+    },
+    {
+      "path": "/media/vision/vision-c3-003-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "28076"
+    },
+    {
+      "path": "/media/vision/vision-c3-004-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11222"
+    },
+    {
+      "path": "/media/vision/vision-c3-004-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "33182"
+    },
+    {
+      "path": "/media/vision/vision-c3-005-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "15046"
+    },
+    {
+      "path": "/media/vision/vision-c3-005-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "39334"
+    },
+    {
+      "path": "/media/vision/vision-c3-006-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11814"
+    },
+    {
+      "path": "/media/vision/vision-c3-006-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "33162"
+    },
+    {
+      "path": "/media/vision/vision-c3-007-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "10814"
+    },
+    {
+      "path": "/media/vision/vision-c3-007-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "30020"
+    },
+    {
+      "path": "/media/vision/vision-c3-008-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "14520"
+    },
+    {
+      "path": "/media/vision/vision-c3-008-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "38066"
+    },
+    {
+      "path": "/media/vision/vision-c3-009-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13882"
+    },
+    {
+      "path": "/media/vision/vision-c3-009-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "40218"
+    },
+    {
+      "path": "/media/vision/vision-c3-010-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12020"
+    },
+    {
+      "path": "/media/vision/vision-c3-010-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34394"
+    },
+    {
+      "path": "/media/vision/vision-c3-011-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13104"
+    },
+    {
+      "path": "/media/vision/vision-c3-011-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "37520"
+    },
+    {
+      "path": "/media/vision/vision-c3-012-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9514"
+    },
+    {
+      "path": "/media/vision/vision-c3-012-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "27374"
+    },
+    {
+      "path": "/media/vision/vision-c3-013-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "7120"
+    },
+    {
+      "path": "/media/vision/vision-c3-013-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "20546"
+    },
+    {
+      "path": "/media/vision/vision-c3-014-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "19680"
+    },
+    {
+      "path": "/media/vision/vision-c3-014-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "51270"
+    },
+    {
+      "path": "/media/vision/vision-c3-015-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9638"
+    },
+    {
+      "path": "/media/vision/vision-c3-015-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "29174"
+    },
+    {
+      "path": "/media/vision/vision-c3-016-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8348"
+    },
+    {
+      "path": "/media/vision/vision-c3-016-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "27036"
+    },
+    {
+      "path": "/media/vision/vision-c4-001-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24990"
+    },
+    {
+      "path": "/media/vision/vision-c4-001-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8782"
+    },
+    {
+      "path": "/media/vision/vision-c4-001-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24958"
+    },
+    {
+      "path": "/media/vision/vision-c4-001-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "9392"
+    },
+    {
+      "path": "/media/vision/vision-c4-001-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "26250"
+    },
+    {
+      "path": "/media/vision/vision-c4-002-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "25214"
+    },
+    {
+      "path": "/media/vision/vision-c4-002-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "11572"
+    },
+    {
+      "path": "/media/vision/vision-c4-002-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "31450"
+    },
+    {
+      "path": "/media/vision/vision-c4-002-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "12602"
+    },
+    {
+      "path": "/media/vision/vision-c4-002-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "34568"
+    },
+    {
+      "path": "/media/vision/vision-c4-003-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "14318"
+    },
+    {
+      "path": "/media/vision/vision-c4-003-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "39944"
+    },
+    {
+      "path": "/media/vision/vision-c4-003-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13140"
+    },
+    {
+      "path": "/media/vision/vision-c4-003-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "37152"
+    },
+    {
+      "path": "/media/vision/vision-c4-004-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8542"
+    },
+    {
+      "path": "/media/vision/vision-c4-004-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "25032"
+    },
+    {
+      "path": "/media/vision/vision-c4-004-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "7826"
+    },
+    {
+      "path": "/media/vision/vision-c4-004-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "23264"
+    },
+    {
+      "path": "/media/vision/vision-c5-001-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "27112"
+    },
+    {
+      "path": "/media/vision/vision-c5-001-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "10818"
+    },
+    {
+      "path": "/media/vision/vision-c5-001-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "31868"
+    },
+    {
+      "path": "/media/vision/vision-c5-001-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "13498"
+    },
+    {
+      "path": "/media/vision/vision-c5-001-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "37228"
+    },
+    {
+      "path": "/media/vision/vision-c5-002-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "6532"
+    },
+    {
+      "path": "/media/vision/vision-c5-002-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "21756"
+    },
+    {
+      "path": "/media/vision/vision-c5-002-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "7474"
+    },
+    {
+      "path": "/media/vision/vision-c5-002-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "23518"
+    },
+    {
+      "path": "/media/vision/vision-c6-001-v1-thermal.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "25724"
+    },
+    {
+      "path": "/media/vision/vision-c6-001-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8326"
+    },
+    {
+      "path": "/media/vision/vision-c6-001-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "22574"
+    },
+    {
+      "path": "/media/vision/vision-c6-001-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8886"
+    },
+    {
+      "path": "/media/vision/vision-c6-001-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24356"
+    },
+    {
+      "path": "/media/vision/vision-c6-002-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "8856"
+    },
+    {
+      "path": "/media/vision/vision-c6-002-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "24824"
+    },
+    {
+      "path": "/media/vision/vision-c6-002-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "7776"
+    },
+    {
+      "path": "/media/vision/vision-c6-002-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "22000"
+    },
+    {
+      "path": "/media/vision/vision-c6-003-v1-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "14960"
+    },
+    {
+      "path": "/media/vision/vision-c6-003-v1.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "41600"
+    },
+    {
+      "path": "/media/vision/vision-c6-003-v5-thumb.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "17390"
+    },
+    {
+      "path": "/media/vision/vision-c6-003-v5.webp",
+      "status": 200,
+      "type": "image/webp",
+      "bytes": "45240"
+    },
+    {
+      "path": "/media/waterloo/LICENSE-CC-BY-4.0.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "bytes": "18657"
+    },
+    {
+      "path": "/media/waterloo/uw-femvein-acq0-poster.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "280559"
+    },
+    {
+      "path": "/media/waterloo/uw-femvein-acq0.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": "4683689"
+    },
+    {
+      "path": "/media/waterloo/uw-femvein-reconstruction.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "351975"
+    },
+    {
+      "path": "/references/flebolab-vancouver.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "bytes": "14349"
+    },
+    {
+      "path": "/references/flebolab.bib",
+      "status": 200,
+      "type": "application/octet-stream",
+      "bytes": "12049"
+    }
+  ]
+}

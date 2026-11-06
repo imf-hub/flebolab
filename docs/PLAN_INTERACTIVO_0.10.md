@@ -17,7 +17,7 @@ Una web de laboratorio en la que el objeto, el cine y la fotografía ocupan el c
 | 5 · Medios | Se conserva lote verificado de 72 cines/96 fotos/12 parejas térmicas; controles, anotaciones y rutas corregidos | Ejecutada |
 | 6 · Evidencia | Bibliografía UIP/flebología primero; seis controversias; distinción entre esquema y adquisición, origen y calibración | Conservada y revisada en integración |
 | 7 · Calidad | 59 pruebas, catálogo íntegro, producción con base /flebolab/, pruebas de navegador y móvil | Ejecutada; evidencia en auditoría |
-| 8 · Publicación | Actions construye y publica Pages desde main; revisión de rutas y medios públicos | Workflow preparado; resultado final en acta de auditoría |
+| 8 · Publicación | Actions construye y publica Pages desde main; revisión de rutas y medios públicos | Publicación y verificación remota correctas; 1.240 URLs disponibles; acta en auditoría |
 | 9 · Consolidación 1.0 | Revisión médica externa, dispositivos, accesibilidad, perfilado, más datos calibrados y DNS | Pendiente documentado |
 
 ## Stack y decisiones
