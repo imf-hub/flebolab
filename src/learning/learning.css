@@ -1236,6 +1236,14 @@
   text-align: center;
   white-space: nowrap;
 }
+.anatomy-resource-loading {
+  position: absolute;
+  inset: 40px 8px 8px;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  z-index: 1;
+}
 .learning-entry {
   margin: 35px 0 0;
   padding: 28px;

@@ -1,7 +1,15 @@
 import { assetUrl } from "../../shared/assets";
-import { Suspense, useMemo, useRef, useState, useEffect, useId } from "react";
+import {
+  Suspense,
+  useMemo,
+  useRef,
+  useState,
+  useEffect,
+  useId,
+  useCallback,
+} from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { OrbitControls, useGLTF, Line, Html } from "@react-three/drei";
+import { OrbitControls, useGLTF, Line } from "@react-three/drei";
 import * as THREE from "three";
 import type { Solution } from "./model";
 import { integratedFlow, phaseAt, type FlowKey } from "./transport";
@@ -141,6 +149,11 @@ export default function ReferenceAnatomy({
   const controls = useRef<any>(null),
     sceneId = useId();
   const [isolate, setIsolate] = useState(false);
+  const [modelReady, setModelReady] = useState(false);
+  const modelAvailable = useCallback(() => {
+    setModelReady(true);
+    onReady?.();
+  }, [onReady]);
   const [tissues, setTissues] = useState(["bone", "muscle", "vein"]),
     [selected, setSelected] = useState(""),
     [cut, setCut] = useState(false),
@@ -155,7 +168,7 @@ export default function ReferenceAnatomy({
     onTissuesChange?.(tissues);
   }, [tissues, onTissuesChange]);
   return (
-    <div className="scene-wrap">
+    <div className="scene-wrap" data-model-ready={modelReady}>
       <Canvas
         dpr={[1, 1.5]}
         key={reset}
@@ -170,15 +183,7 @@ export default function ReferenceAnatomy({
           intensity={1.8}
           color="#a1c1e6"
         />
-        <Suspense
-          fallback={
-            <Html center>
-              <div className="model-resource-loading" role="status">
-                Cargando anatomía 3D…
-              </div>
-            </Html>
-          }
-        >
+        <Suspense fallback={null}>
           <Anatomy
             tissues={tissues}
             selected={selected}
@@ -188,7 +193,7 @@ export default function ReferenceAnatomy({
             }}
             cut={cut}
             isolate={isolate}
-            onReady={onReady}
+            onReady={modelAvailable}
           />
         </Suspense>
         <OrbitControls
@@ -210,6 +215,11 @@ export default function ReferenceAnatomy({
           <CameraSync pose={cameraPose} id={sceneId} controls={controls} />
         )}
       </Canvas>
+      {!modelReady && (
+        <div className="anatomy-resource-loading" role="status">
+          <span className="model-resource-loading">Cargando anatomía 3D…</span>
+        </div>
+      )}
       <div className="scene-top">
         <span className="nature-badge">
           {mode === "anatomy"
@@ -221,6 +231,7 @@ export default function ReferenceAnatomy({
         <button
           onClick={() => {
             onCameraInput?.();
+            setModelReady(false);
             if (cameraPose) {
               cameraPose.current.owner = "reset";
               cameraPose.current.position = [0, 0.3, 9];
